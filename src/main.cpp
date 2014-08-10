@@ -2950,7 +2950,6 @@ bool LoadBlockIndex()
     return true;
 }
 
-
 bool InitBlockIndex() {
     LOCK(cs_main);
     // Check whether we're already initialized
