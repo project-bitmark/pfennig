@@ -207,7 +207,7 @@ From a directory containing bitmark source, gitian.sigs and gitian zips
 
 - Announce the release:
 
-  - Add the release to bitmark.org: https://github.com/project-SWAPFORB/bitmark.org/tree/master/_releases
+  - Add the release to bitmark.org: https://github.com/project-bitmark/bitmark.org/tree/master/_releases
 
   - Release sticky on bitcointalk: https://bitcointalk.org/index.php?board=1.0
 

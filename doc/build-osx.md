@@ -56,7 +56,7 @@ Optional: install Qt4
 
 1. Clone the github tree to get the source code and go into the directory.
 
-        git clone git@github.com:project-SWAPFORB/bitmark.git bitmark
+        git clone git@github.com:project-bitmark/bitmark.git bitmark
         cd bitmark
 
 2.  Build pfennigd (and Pfennig-Qt, if configured):
@@ -94,7 +94,7 @@ PATH.
 
 1. Clone the github tree to get the source code and go into the directory.
 
-        git clone https://github.com/project-SWAPFORB/bitmark.git
+        git clone https://github.com/project-bitmark/bitmark.git
         cd bitmark
 
 2.  Build pfennigd:
