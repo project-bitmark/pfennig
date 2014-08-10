@@ -3,11 +3,11 @@ include Makefile.include
 AM_CPPFLAGS += -I$(builddir)
 
 noinst_LIBRARIES = \
-  libbitmark_server.a \
-  libbitmark_common.a \
-  libbitmark_cli.a
+  libpfennig_server.a \
+  libpfennig_common.a \
+  libpfennig_cli.a
 if ENABLE_WALLET
-noinst_LIBRARIES += libbitmark_wallet.a
+noinst_LIBRARIES += libpfennig_wallet.a
 endif
 
 bin_PROGRAMS =
@@ -88,7 +88,7 @@ obj/build.h: FORCE
 	  $(abs_top_srcdir)
 version.o: obj/build.h
 
-libbitmark_server_a_SOURCES = \
+libpfennig_server_a_SOURCES = \
   addrman.cpp \
   alert.cpp \
   bloom.cpp \
@@ -112,7 +112,7 @@ libbitmark_server_a_SOURCES = \
   $(JSON_H) \
   $(BITMARK_CORE_H)
 
-libbitmark_wallet_a_SOURCES = \
+libpfennig_wallet_a_SOURCES = \
   db.cpp \
   crypter.cpp \
   rpcdump.cpp \
@@ -121,7 +121,7 @@ libbitmark_wallet_a_SOURCES = \
   walletdb.cpp \
   $(BITMARK_CORE_H)
 
-libbitmark_common_a_SOURCES = \
+libpfennig_common_a_SOURCES = \
   base58.cpp \
   allocators.cpp \
   chainparams.cpp \
@@ -139,26 +139,26 @@ libbitmark_common_a_SOURCES = \
   $(BITMARK_CORE_H)
 
 if GLIBC_BACK_COMPAT
-libbitmark_common_a_SOURCES += compat/glibc_compat.cpp
-libbitmark_common_a_SOURCES += compat/glibcxx_compat.cpp
+libpfennig_common_a_SOURCES += compat/glibc_compat.cpp
+libpfennig_common_a_SOURCES += compat/glibcxx_compat.cpp
 endif
 
-libbitmark_cli_a_SOURCES = \
+libpfennig_cli_a_SOURCES = \
   rpcclient.cpp \
   $(BITMARK_CORE_H)
 
-nodist_libbitmark_common_a_SOURCES = $(top_srcdir)/src/obj/build.h
+nodist_libpfennig_common_a_SOURCES = $(top_srcdir)/src/obj/build.h
 #
 
 # pfennigd binary #
 pfennigd_LDADD = \
-  libbitmark_server.a \
-  libbitmark_cli.a \
-  libbitmark_common.a \
+  libpfennig_server.a \
+  libpfennig_cli.a \
+  libpfennig_common.a \
   $(LIBLEVELDB) \
   $(LIBMEMENV)
 if ENABLE_WALLET
-pfennigd_LDADD += libbitmark_wallet.a
+pfennigd_LDADD += libpfennig_wallet.a
 endif
 pfennigd_SOURCES = pfennigd.cpp
 #
@@ -171,15 +171,15 @@ AM_CPPFLAGS += $(BDB_CPPFLAGS)
 pfennigd_LDADD += $(BOOST_LIBS) $(BDB_LIBS)
 
 # pfennig-cli binary #
-bitmark_cli_LDADD = \
-  libbitmark_cli.a \
-  libbitmark_common.a \
+pfennig_cli_LDADD = \
+  libpfennig_cli.a \
+  libpfennig_common.a \
   $(BOOST_LIBS)
-bitmark_cli_SOURCES = pfennig-cli.cpp
+pfennig_cli_SOURCES = pfennig-cli.cpp
 #
 
 if TARGET_WINDOWS
-bitmark_cli_SOURCES += pfennig-cli-res.rc
+pfennig_cli_SOURCES += pfennig-cli-res.rc
 endif
 
 # NOTE: This dependency is not strictly necessary, but without it make may try to build both in parallel, which breaks the LevelDB build system in a race
@@ -190,7 +190,7 @@ leveldb/%.a:
 	  CC="$(CC)" PLATFORM=$(TARGET_OS) AR="$(AR)" $(LEVELDB_TARGET_FLAGS) \
 	  OPT="$(CXXFLAGS) $(CPPFLAGS)"
 
-qt/bitmarkstrings.cpp: $(libbitmark_server_a_SOURCES) $(libbitmark_common_a_SOURCES) $(libbitmark_cli_a_SOURCES)
+qt/bitmarkstrings.cpp: $(libpfennig_server_a_SOURCES) $(libpfennig_common_a_SOURCES) $(libpfennig_cli_a_SOURCES)
 	@test -n $(XGETTEXT) || echo "xgettext is required for updating translations"
 	@cd $(top_srcdir); XGETTEXT=$(XGETTEXT) share/qt/extract_strings_qt.py
 

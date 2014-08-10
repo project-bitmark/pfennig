@@ -12,77 +12,77 @@ DIST_SUBDIRS = . test
 
 # bitmark qt core #
 QT_TS = \
-  locale/bitmark_ach.ts \
-  locale/bitmark_af_ZA.ts \
-  locale/bitmark_ar.ts \
-  locale/bitmark_be_BY.ts \
-  locale/bitmark_bg.ts \
-  locale/bitmark_bs.ts \
-  locale/bitmark_ca_ES.ts \
-  locale/bitmark_ca.ts \
-  locale/bitmark_ca@valencia.ts \
-  locale/bitmark_cmn.ts \
-  locale/bitmark_cs.ts \
-  locale/bitmark_cy.ts \
-  locale/bitmark_da.ts \
-  locale/bitmark_de.ts \
-  locale/bitmark_el_GR.ts \
-  locale/bitmark_en.ts \
-  locale/bitmark_eo.ts \
-  locale/bitmark_es_CL.ts \
-  locale/bitmark_es_DO.ts \
-  locale/bitmark_es_MX.ts \
-  locale/bitmark_es.ts \
-  locale/bitmark_es_UY.ts \
-  locale/bitmark_et.ts \
-  locale/bitmark_eu_ES.ts \
-  locale/bitmark_fa_IR.ts \
-  locale/bitmark_fa.ts \
-  locale/bitmark_fi.ts \
-  locale/bitmark_fr_CA.ts \
-  locale/bitmark_fr.ts \
-  locale/bitmark_gl.ts \
-  locale/bitmark_gu_IN.ts \
-  locale/bitmark_he.ts \
-  locale/bitmark_hi_IN.ts \
-  locale/bitmark_hr.ts \
-  locale/bitmark_hu.ts \
-  locale/bitmark_id_ID.ts \
-  locale/bitmark_it.ts \
-  locale/bitmark_ja.ts \
-  locale/bitmark_ka.ts \
-  locale/bitmark_kk_KZ.ts \
-  locale/bitmark_ko_KR.ts \
-  locale/bitmark_ky.ts \
-  locale/bitmark_la.ts \
-  locale/bitmark_lt.ts \
-  locale/bitmark_lv_LV.ts \
-  locale/bitmark_mn.ts \
-  locale/bitmark_ms_MY.ts \
-  locale/bitmark_nb.ts \
-  locale/bitmark_nl.ts \
-  locale/bitmark_pam.ts \
-  locale/bitmark_pl.ts \
-  locale/bitmark_pt_BR.ts \
-  locale/bitmark_pt_PT.ts \
-  locale/bitmark_ro_RO.ts \
-  locale/bitmark_ru.ts \
-  locale/bitmark_sah.ts \
-  locale/bitmark_sk.ts \
-  locale/bitmark_sl_SI.ts \
-  locale/bitmark_sq.ts \
-  locale/bitmark_sr.ts \
-  locale/bitmark_sv.ts \
-  locale/bitmark_th_TH.ts \
-  locale/bitmark_tr.ts \
-  locale/bitmark_uk.ts \
-  locale/bitmark_ur_PK.ts \
-  locale/bitmark_uz@Cyrl.ts \
-  locale/bitmark_vi.ts \
-  locale/bitmark_vi_VN.ts \
-  locale/bitmark_zh_CN.ts \
-  locale/bitmark_zh_HK.ts \
-  locale/bitmark_zh_TW.ts
+  locale/pfennig_ach.ts \
+  locale/pfennig_af_ZA.ts \
+  locale/pfennig_ar.ts \
+  locale/pfennig_be_BY.ts \
+  locale/pfennig_bg.ts \
+  locale/pfennig_bs.ts \
+  locale/pfennig_ca_ES.ts \
+  locale/pfennig_ca.ts \
+  locale/pfennig_ca@valencia.ts \
+  locale/pfennig_cmn.ts \
+  locale/pfennig_cs.ts \
+  locale/pfennig_cy.ts \
+  locale/pfennig_da.ts \
+  locale/pfennig_de.ts \
+  locale/pfennig_el_GR.ts \
+  locale/pfennig_en.ts \
+  locale/pfennig_eo.ts \
+  locale/pfennig_es_CL.ts \
+  locale/pfennig_es_DO.ts \
+  locale/pfennig_es_MX.ts \
+  locale/pfennig_es.ts \
+  locale/pfennig_es_UY.ts \
+  locale/pfennig_et.ts \
+  locale/pfennig_eu_ES.ts \
+  locale/pfennig_fa_IR.ts \
+  locale/pfennig_fa.ts \
+  locale/pfennig_fi.ts \
+  locale/pfennig_fr_CA.ts \
+  locale/pfennig_fr.ts \
+  locale/pfennig_gl.ts \
+  locale/pfennig_gu_IN.ts \
+  locale/pfennig_he.ts \
+  locale/pfennig_hi_IN.ts \
+  locale/pfennig_hr.ts \
+  locale/pfennig_hu.ts \
+  locale/pfennig_id_ID.ts \
+  locale/pfennig_it.ts \
+  locale/pfennig_ja.ts \
+  locale/pfennig_ka.ts \
+  locale/pfennig_kk_KZ.ts \
+  locale/pfennig_ko_KR.ts \
+  locale/pfennig_ky.ts \
+  locale/pfennig_la.ts \
+  locale/pfennig_lt.ts \
+  locale/pfennig_lv_LV.ts \
+  locale/pfennig_mn.ts \
+  locale/pfennig_ms_MY.ts \
+  locale/pfennig_nb.ts \
+  locale/pfennig_nl.ts \
+  locale/pfennig_pam.ts \
+  locale/pfennig_pl.ts \
+  locale/pfennig_pt_BR.ts \
+  locale/pfennig_pt_PT.ts \
+  locale/pfennig_ro_RO.ts \
+  locale/pfennig_ru.ts \
+  locale/pfennig_sah.ts \
+  locale/pfennig_sk.ts \
+  locale/pfennig_sl_SI.ts \
+  locale/pfennig_sq.ts \
+  locale/pfennig_sr.ts \
+  locale/pfennig_sv.ts \
+  locale/pfennig_th_TH.ts \
+  locale/pfennig_tr.ts \
+  locale/pfennig_uk.ts \
+  locale/pfennig_ur_PK.ts \
+  locale/pfennig_uz@Cyrl.ts \
+  locale/pfennig_vi.ts \
+  locale/pfennig_vi_VN.ts \
+  locale/pfennig_zh_CN.ts \
+  locale/pfennig_zh_HK.ts \
+  locale/pfennig_zh_TW.ts
 
 QT_FORMS_UI = \
   forms/aboutdialog.ui \
@@ -220,8 +220,8 @@ RES_ICONS = \
   res/icons/address-book.png \
   res/icons/bitmark.ico \
   res/icons/bitmark.png \
-  res/icons/bitmark_testnet.ico \
-  res/icons/bitmark_testnet.png \
+  res/icons/pfennig_testnet.ico \
+  res/icons/pfennig_testnet.png \
   res/icons/clock1.png \
   res/icons/clock2.png \
   res/icons/clock3.png \
@@ -337,22 +337,22 @@ $(QT_MOC): $(PROTOBUF_H)
 $(QT_MOC_CPP): $(PROTOBUF_H)
 
 # pfennig-qt binary #
-bitmark_qt_CPPFLAGS = $(AM_CPPFLAGS) $(QT_INCLUDES) \
+pfennig_qt_CPPFLAGS = $(AM_CPPFLAGS) $(QT_INCLUDES) \
   -I$(top_srcdir)/src/qt/forms
-bitmark_qt_SOURCES = bitmark.cpp
+pfennig_qt_SOURCES = bitmark.cpp
 if TARGET_DARWIN
-  bitmark_qt_SOURCES += $(BITMARK_MM)
+  pfennig_qt_SOURCES += $(BITMARK_MM)
 endif
 if TARGET_WINDOWS
-  bitmark_qt_SOURCES += $(BITMARK_RC)
+  pfennig_qt_SOURCES += $(BITMARK_RC)
 endif
-bitmark_qt_LDADD = libbitmarkqt.a $(LIBBITMARK_SERVER)
+pfennig_qt_LDADD = libbitmarkqt.a $(LIBBITMARK_SERVER)
 if ENABLE_WALLET
-bitmark_qt_LDADD += $(LIBBITMARK_WALLET)
+pfennig_qt_LDADD += $(LIBBITMARK_WALLET)
 endif
-bitmark_qt_LDADD += $(LIBBITMARK_CLI) $(LIBBITMARK_COMMON) $(LIBLEVELDB) $(LIBMEMENV) \
+pfennig_qt_LDADD += $(LIBBITMARK_CLI) $(LIBBITMARK_COMMON) $(LIBLEVELDB) $(LIBMEMENV) \
   $(BOOST_LIBS) $(QT_LIBS) $(QT_DBUS_LIBS) $(QR_LIBS) $(PROTOBUF_LIBS) $(BDB_LIBS)
-bitmark_qt_LDFLAGS = $(QT_LDFLAGS)
+pfennig_qt_LDFLAGS = $(QT_LDFLAGS)
 
 # forms/foo.h -> forms/ui_foo.h
 QT_FORMS_H=$(join $(dir $(QT_FORMS_UI)),$(addprefix ui_, $(notdir $(QT_FORMS_UI:.ui=.h))))
@@ -368,7 +368,7 @@ bitmarkstrings.cpp: FORCE
 
 translate: bitmarkstrings.cpp $(QT_FORMS_UI) $(QT_FORMS_UI) $(BITMARK_QT_CPP) $(BITMARK_QT_H) $(BITMARK_MM)
 	@test -n $(LUPDATE) || echo "lupdate is required for updating translations"
-	@QT_SELECT=$(QT_SELECT) $(LUPDATE) $^ -locations relative -no-obsolete -ts locale/bitmark_en.ts
+	@QT_SELECT=$(QT_SELECT) $(LUPDATE) $^ -locations relative -no-obsolete -ts locale/pfennig_en.ts
 
 $(QT_QRC_CPP): $(QT_QRC) $(QT_QM) $(QT_FORMS_H) $(RES_ICONS) $(RES_IMAGES) $(RES_MOVIES) $(PROTOBUF_H)
 	@cd $(abs_srcdir); test -f $(RCC) && QT_SELECT=$(QT_SELECT) $(RCC) -name bitmark -o $(abs_builddir)/$@ $< || \
