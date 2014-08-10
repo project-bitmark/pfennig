@@ -11,8 +11,8 @@ if [ $# -lt 1 ]; then
   echo "usage: $0 [bitmark srcroot] build-test arguments..."
 fi
 
-killall -q bitmark-cli
-killall -q bitmarkd
+killall -q pfennig-cli
+killall -q pfennigd
 
 cd $1
 shift

@@ -2615,8 +2615,8 @@ Adres: %4
 </translation>
     </message>
     <message>
-        <source>Specify pid file (default: bitmarkd.pid)</source>
-        <translation>Specificeer pid-bestand (standaard: bitmarkd.pid)
+        <source>Specify pid file (default: pfennigd.pid)</source>
+        <translation>Specificeer pid-bestand (standaard: pfennigd.pid)
 </translation>
     </message>
     <message>
@@ -3022,7 +3022,7 @@ bijvoorbeeld: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo
         <translation>Dit is bedoeld voor regressie test toepassingen en applicatie onwikkeling.</translation>
     </message>
     <message>
-        <source>Usage (deprecated, use bitmark-cli):</source>
+        <source>Usage (deprecated, use pfennig-cli):</source>
         <translation>Gebruik (vervangen; gebruik Bitmark-cli);</translation>
     </message>
     <message>

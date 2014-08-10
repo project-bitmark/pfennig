@@ -1,5 +1,5 @@
 // Original Code: Copyright (c) 2011-2014 The Bitcoin Core Developers
-// Modified Code: Copyright (c) 2014 Project Bitmark
+// Modified Code: Copyright (c) 2014 SWAPBACKTOPB
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -70,7 +70,7 @@ void PaymentServer::freeCertStore()
 //
 static QString ipcServerName()
 {
-    QString name("BitmarkQt");
+    QString name("PfennigQt");
 
     // Append a simple hash of the datadir
     // Note that GetDataDir(true) returns a different path
@@ -415,7 +415,7 @@ void PaymentServer::handleURIOrFile(const QString& s)
                 emit receivedPaymentRequest(recipient);
             else
                 emit message(tr("URI handling"),
-                    tr("URI can not be parsed! This can be caused by an invalid Bitmark address or malformed URI parameters."),
+                    tr("URI can not be parsed! This can be caused by an invalid Pfennig address or malformed URI parameters."),
                     CClientUIInterface::ICON_WARNING);
 
             return;

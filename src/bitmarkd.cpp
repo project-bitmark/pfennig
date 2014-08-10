@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Original Code: Copyright (c) 2009-2014 The Bitcoin Core Developers
-// Modified Code: Copyright (c) 2014 Project Bitmark
+// Modified Code: Copyright (c) 2014 SWAPBACKTOPB
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -86,14 +86,14 @@ bool AppInit(int argc, char* argv[])
 
         if (mapArgs.count("-?") || mapArgs.count("--help"))
         {
-            // First part of help message is specific to bitmarkd / RPC client
-            std::string strUsage = _("Bitmark Core Daemon") + " " + _("version") + " " + FormatFullVersion() + "\n\n" +
+            // First part of help message is specific to pfennigd / RPC client
+            std::string strUsage = _("Pfennig Core Daemon") + " " + _("version") + " " + FormatFullVersion() + "\n\n" +
                 _("Usage:") + "\n" +
-                  "  bitmarkd [options]                     " + _("Start Bitmark Core Daemon") + "\n" +
-                _("Usage (deprecated, use bitmark-cli):") + "\n" +
-                  "  bitmarkd [options] <command> [params]  " + _("Send command to Bitmark Core") + "\n" +
-                  "  bitmarkd [options] help                " + _("List commands") + "\n" +
-                  "  bitmarkd [options] help <command>      " + _("Get help for a command") + "\n";
+                  "  pfennigd [options]                     " + _("Start Pfennig Core Daemon") + "\n" +
+                _("Usage (deprecated, use pfennig-cli):") + "\n" +
+                  "  pfennigd [options] <command> [params]  " + _("Send command to Pfennig Core") + "\n" +
+                  "  pfennigd [options] help                " + _("List commands") + "\n" +
+                  "  pfennigd [options] help <command>      " + _("Get help for a command") + "\n";
 
             strUsage += "\n" + HelpMessage(HMM_BITMARKD);
             strUsage += "\n" + HelpMessageCli(false);
@@ -117,7 +117,7 @@ bool AppInit(int argc, char* argv[])
         fDaemon = GetBoolArg("-daemon", false);
         if (fDaemon)
         {
-            fprintf(stdout, "Bitmark server starting\n");
+            fprintf(stdout, "Pfennig server starting\n");
 
             // Daemonize
             pid_t pid = fork();
@@ -177,7 +177,7 @@ int main(int argc, char* argv[])
 
     bool fRet = false;
 
-    // Connect bitmarkd signal handlers
+    // Connect pfennigd signal handlers
     noui_connect();
 
     fRet = AppInit(argc, argv);

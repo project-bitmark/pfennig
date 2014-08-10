@@ -1,5 +1,5 @@
 // Original Code: Copyright (c) 2011-2014 The Bitcoin Core Developers
-// Modified Code: Copyright (c) 2014 Project Bitmark
+// Modified Code: Copyright (c) 2014 SWAPBACKTOPB
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -99,7 +99,7 @@ void SendCoinsEntry::clear()
     ui->memoTextLabel_s->clear();
     ui->payAmount_s->clear();
 
-    // update the display unit, to not use the default ("BTM")
+    // update the display unit, to not use the default ("PFG")
     updateDisplayUnit();
 }
 

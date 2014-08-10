@@ -2614,7 +2614,7 @@ Osoite: %4</translation>
         <translation>Määritä asetustiedosto (oletus: bitmark.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: bitmarkd.pid)</source>
+        <source>Specify pid file (default: pfennigd.pid)</source>
         <translation>Määritä pid-tiedosto (oletus: bitmark.pid)</translation>
     </message>
     <message>
@@ -3022,8 +3022,8 @@ esimerkiksi: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.
         <translation>Tämä on tarkoitettu regression testityökaluille ja ohjelman kehittämiseen.</translation>
     </message>
     <message>
-        <source>Usage (deprecated, use bitmark-cli):</source>
-        <translation>Käyttö (vanhentunut, käytä bitmark-cli):</translation>
+        <source>Usage (deprecated, use pfennig-cli):</source>
+        <translation>Käyttö (vanhentunut, käytä pfennig-cli):</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>

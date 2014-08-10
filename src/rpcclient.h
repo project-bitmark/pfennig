@@ -1,6 +1,6 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Original Code: Copyright (c) 2009-2014 The Bitcoin Core Developers
-// Modified Code: Copyright (c) 2014 Project Bitmark
+// Modified Code: Copyright (c) 2014 SWAPBACKTOPB
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -15,11 +15,11 @@ int CommandLineRPC(int argc, char *argv[]);
 
 json_spirit::Array RPCConvertValues(const std::string &strMethod, const std::vector<std::string> &strParams);
 
-/** Show help message for bitmark-cli.
+/** Show help message for pfennig-cli.
  * The mainProgram argument is used to determine whether to show this message as main program
  * (and include some common options) or as sub-header of another help message.
  *
- * @note the argument can be removed once bitmark-cli functionality is removed from bitmarkd
+ * @note the argument can be removed once pfennig-cli functionality is removed from pfennigd
  */
 std::string HelpMessageCli(bool mainProgram);
 

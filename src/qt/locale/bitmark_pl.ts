@@ -2614,7 +2614,7 @@ Adres: %4
         <translation>Wskaż plik konfiguracyjny (domyślnie: bitmark.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: bitmarkd.pid)</source>
+        <source>Specify pid file (default: pfennigd.pid)</source>
         <translation>Wskaż plik pid (domyślnie: bitmark.pid)</translation>
     </message>
     <message>
@@ -3021,8 +3021,8 @@ na przykład: alertnotify=echo %%s | mail -s &quot;Alarm Bitmark&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Usage (deprecated, use bitmark-cli):</source>
-        <translation>Użycie (przestarzałe, użyj bitmark-cli):</translation>
+        <source>Usage (deprecated, use pfennig-cli):</source>
+        <translation>Użycie (przestarzałe, użyj pfennig-cli):</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>

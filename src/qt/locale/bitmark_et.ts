@@ -2613,7 +2613,7 @@ Aadress: %4⏎</translation>
         <translation>Täpsusta sätete fail (vaikimisi: bitmark.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: bitmarkd.pid)</source>
+        <source>Specify pid file (default: pfennigd.pid)</source>
         <translation>Täpsusta PID fail (vaikimisi: bitmark.pid)</translation>
     </message>
     <message>
@@ -3021,7 +3021,7 @@ nt: alertnotify=echo %%s | email -s &quot;Bitmark Alert&quot; admin@foo.com
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Usage (deprecated, use bitmark-cli):</source>
+        <source>Usage (deprecated, use pfennig-cli):</source>
         <translation type="unfinished"/>
     </message>
     <message>

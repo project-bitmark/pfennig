@@ -2614,8 +2614,8 @@ Adres: %4
         <translation>Yapılandırma dosyası belirt (varsayılan: bitmark.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: bitmarkd.pid)</source>
-        <translation>Pid dosyası belirt (varsayılan: bitmarkd.pid)</translation>
+        <source>Specify pid file (default: pfennigd.pid)</source>
+        <translation>Pid dosyası belirt (varsayılan: pfennigd.pid)</translation>
     </message>
     <message>
         <source>Specify data directory</source>
@@ -3022,8 +3022,8 @@ mesela: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.com
         <translation>Bu, regresyon deneme araçları ve uygulama geliştirmesi için tasarlanmıştır. </translation>
     </message>
     <message>
-        <source>Usage (deprecated, use bitmark-cli):</source>
-        <translation>Kullanım (önerilmemektedir, bitmark-cli kullanın):</translation>
+        <source>Usage (deprecated, use pfennig-cli):</source>
+        <translation>Kullanım (önerilmemektedir, pfennig-cli kullanın):</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>

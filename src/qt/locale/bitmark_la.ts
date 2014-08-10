@@ -2613,7 +2613,7 @@ Inscriptio: %4
         <translation>Specifica configurationis plicam (praedefinitum: bitmark.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: bitmarkd.pid)</source>
+        <source>Specify pid file (default: pfennigd.pid)</source>
         <translation>Specifica pid plicam (praedefinitum: bitmark.pid)</translation>
     </message>
     <message>
@@ -3021,7 +3021,7 @@ exempli gratia: alertnotify=echo %%s | mail -s &quot;Bitmark Notificatio&quot; a
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Usage (deprecated, use bitmark-cli):</source>
+        <source>Usage (deprecated, use pfennig-cli):</source>
         <translation type="unfinished"/>
     </message>
     <message>

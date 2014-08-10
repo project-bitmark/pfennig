@@ -39,8 +39,8 @@ if [ $# -lt 1 ]; then
         exit 1
 fi
 
-BITMARKD=${1}/bitmarkd
-CLI=${1}/bitmark-cli
+BITMARKD=${1}/pfennigd
+CLI=${1}/pfennig-cli
 
 DIR="${BASH_SOURCE%/*}"
 SENDANDWAIT="${DIR}/send.sh"

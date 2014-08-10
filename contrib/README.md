@@ -25,7 +25,7 @@ This is a 'getwork' CPU mining client for Bitmark. It is pure-python, and theref
 
 ### [Qos](/contrib/qos) ###
 
-A Linux bash script that will set up tc to limit the outgoing bandwidth for connections to the Bitmark network. This means one can have an always-on bitmarkd instance running, and another local bitmarkd/bitmark-qt instance which connects to this node and receives blocks from it.
+A Linux bash script that will set up tc to limit the outgoing bandwidth for connections to the Bitmark network. This means one can have an always-on pfennigd instance running, and another local pfennigd/pfennig-qt instance which connects to this node and receives blocks from it.
 
 ### [Seeds](/contrib/seeds) ###
 Utility to generate the pnSeed[] array that is compiled into the client.
@@ -34,8 +34,8 @@ Build Tools and Keys
 ---------------------
 
 ### [Debian](/contrib/debian) ###
-Contains files used to package bitmarkd/bitmark-qt
-for Debian-based Linux systems. If you compile bitmarkd/bitmark-qt yourself, there are some useful files here.
+Contains files used to package pfennigd/pfennig-qt
+for Debian-based Linux systems. If you compile pfennigd/pfennig-qt yourself, there are some useful files here.
 
 ### [Gitian-descriptors](/contrib/gitian-descriptors) ###
 Gavin's notes on getting gitian builds up and running using KVM.

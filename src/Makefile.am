@@ -13,11 +13,11 @@ endif
 bin_PROGRAMS =
 
 if BUILD_BITMARKD
-  bin_PROGRAMS += bitmarkd
+  bin_PROGRAMS += pfennigd
 endif
 
 if BUILD_BITMARK_CLI
-  bin_PROGRAMS += bitmark-cli
+  bin_PROGRAMS += pfennig-cli
 endif
 
 SUBDIRS = . $(BUILD_QT) $(BUILD_TEST)
@@ -150,36 +150,36 @@ libbitmark_cli_a_SOURCES = \
 nodist_libbitmark_common_a_SOURCES = $(top_srcdir)/src/obj/build.h
 #
 
-# bitmarkd binary #
-bitmarkd_LDADD = \
+# pfennigd binary #
+pfennigd_LDADD = \
   libbitmark_server.a \
   libbitmark_cli.a \
   libbitmark_common.a \
   $(LIBLEVELDB) \
   $(LIBMEMENV)
 if ENABLE_WALLET
-bitmarkd_LDADD += libbitmark_wallet.a
+pfennigd_LDADD += libbitmark_wallet.a
 endif
-bitmarkd_SOURCES = bitmarkd.cpp
+pfennigd_SOURCES = pfennigd.cpp
 #
 
 if TARGET_WINDOWS
-bitmarkd_SOURCES += bitmarkd-res.rc
+pfennigd_SOURCES += pfennigd-res.rc
 endif
 
 AM_CPPFLAGS += $(BDB_CPPFLAGS)
-bitmarkd_LDADD += $(BOOST_LIBS) $(BDB_LIBS)
+pfennigd_LDADD += $(BOOST_LIBS) $(BDB_LIBS)
 
-# bitmark-cli binary #
+# pfennig-cli binary #
 bitmark_cli_LDADD = \
   libbitmark_cli.a \
   libbitmark_common.a \
   $(BOOST_LIBS)
-bitmark_cli_SOURCES = bitmark-cli.cpp
+bitmark_cli_SOURCES = pfennig-cli.cpp
 #
 
 if TARGET_WINDOWS
-bitmark_cli_SOURCES += bitmark-cli-res.rc
+bitmark_cli_SOURCES += pfennig-cli-res.rc
 endif
 
 # NOTE: This dependency is not strictly necessary, but without it make may try to build both in parallel, which breaks the LevelDB build system in a race

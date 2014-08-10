@@ -58,13 +58,13 @@ make -j$JOBS
 if [ -d "$OUT_DIR" -a -w "$OUT_DIR" ]; then
   set +e
   # Windows:
-  cp @abs_top_srcdir@/win32-build/src/bitmarkd.exe $OUT_DIR/bitmarkd.exe
+  cp @abs_top_srcdir@/win32-build/src/pfennigd.exe $OUT_DIR/pfennigd.exe
   cp @abs_top_srcdir@/win32-build/src/test/test_bitmark.exe $OUT_DIR/test_bitmark.exe
-  cp @abs_top_srcdir@/win32-build/src/qt/bitmarkd-qt.exe $OUT_DIR/bitmark-qt.exe
+  cp @abs_top_srcdir@/win32-build/src/qt/pfennigd-qt.exe $OUT_DIR/pfennig-qt.exe
   # Linux:
-  cp @abs_top_srcdir@/linux-build/src/bitmarkd $OUT_DIR/bitmarkd
+  cp @abs_top_srcdir@/linux-build/src/pfennigd $OUT_DIR/pfennigd
   cp @abs_top_srcdir@/linux-build/src/test/test_bitmark $OUT_DIR/test_bitmark
-  cp @abs_top_srcdir@/linux-build/src/qt/bitmarkd-qt $OUT_DIR/bitmark-qt
+  cp @abs_top_srcdir@/linux-build/src/qt/pfennigd-qt $OUT_DIR/pfennig-qt
   set -e
 fi
 

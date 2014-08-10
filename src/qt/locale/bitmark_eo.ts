@@ -2614,8 +2614,8 @@ Adreso: %4
         <translation>Specifi konfiguran dosieron (defaŭlte: bitmark.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: bitmarkd.pid)</source>
-        <translation>Specifi pid-dosieron (defaŭlte: bitmarkd.pid)</translation>
+        <source>Specify pid file (default: pfennigd.pid)</source>
+        <translation>Specifi pid-dosieron (defaŭlte: pfennigd.pid)</translation>
     </message>
     <message>
         <source>Specify data directory</source>
@@ -3022,8 +3022,8 @@ ekzemple: alertnotify=echo %%s | mail -s &quot;Averto de Bitmono&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Usage (deprecated, use bitmark-cli):</source>
-        <translation>Uzado (malaktuala, uzu anstataŭe bitmark-cli):</translation>
+        <source>Usage (deprecated, use pfennig-cli):</source>
+        <translation>Uzado (malaktuala, uzu anstataŭe pfennig-cli):</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>

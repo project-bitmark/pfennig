@@ -5,8 +5,8 @@ AM_CPPFLAGS += -I$(top_srcdir)/src \
   -I$(top_builddir)/src/qt \
   $(PROTOBUF_CFLAGS) \
     $(QR_CFLAGS)
-bin_PROGRAMS = test_bitmark-qt
-TESTS = test_bitmark-qt
+bin_PROGRAMS = test_pfennig-qt
+TESTS = test_pfennig-qt
 
 TEST_QT_MOC_CPP = moc_uritests.cpp
 

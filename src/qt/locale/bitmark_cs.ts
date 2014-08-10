@@ -2614,8 +2614,8 @@ Adresa: %4
         <translation>Konfigurační soubor (výchozí: bitmark.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: bitmarkd.pid)</source>
-        <translation>PID soubor (výchozí: bitmarkd.pid)</translation>
+        <source>Specify pid file (default: pfennigd.pid)</source>
+        <translation>PID soubor (výchozí: pfennigd.pid)</translation>
     </message>
     <message>
         <source>Specify data directory</source>
@@ -3022,7 +3022,7 @@ například: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.
         <translation>Tohle je určeno pro nástroje na regresní testování a vyvíjení aplikací.</translation>
     </message>
     <message>
-        <source>Usage (deprecated, use bitmark-cli):</source>
+        <source>Usage (deprecated, use pfennig-cli):</source>
         <translation type="unfinished"/>
     </message>
     <message>

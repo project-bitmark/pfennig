@@ -2609,7 +2609,7 @@ Naslov: %4
         <translation>Določi datoteko z nastavitvami (privzeta: bitmark.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: bitmarkd.pid)</source>
+        <source>Specify pid file (default: pfennigd.pid)</source>
         <translation>Določi pid datoteko (privzeta: bitmark.pid)</translation>
     </message>
     <message>
@@ -3007,7 +3007,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Usage (deprecated, use bitmark-cli):</source>
+        <source>Usage (deprecated, use pfennig-cli):</source>
         <translation type="unfinished"/>
     </message>
     <message>

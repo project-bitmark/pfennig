@@ -2615,8 +2615,8 @@ Address: %4
         <translation>設定ファイルの指定 (初期値: bitmark.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: bitmarkd.pid)</source>
-        <translation>pid ファイルの指定 (初期値: bitmarkd.pid)</translation>
+        <source>Specify pid file (default: pfennigd.pid)</source>
+        <translation>pid ファイルの指定 (初期値: pfennigd.pid)</translation>
     </message>
     <message>
         <source>Specify data directory</source>
@@ -3023,7 +3023,7 @@ rpcpassword=%s
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Usage (deprecated, use bitmark-cli):</source>
+        <source>Usage (deprecated, use pfennig-cli):</source>
         <translation type="unfinished"/>
     </message>
     <message>

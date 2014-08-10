@@ -2614,8 +2614,8 @@ Adresse: %4
         <translation>Angiv konfigurationsfil (standard: bitmark.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: bitmarkd.pid)</source>
-        <translation>Angiv pid-fil (default: bitmarkd.pid)</translation>
+        <source>Specify pid file (default: pfennigd.pid)</source>
+        <translation>Angiv pid-fil (default: pfennigd.pid)</translation>
     </message>
     <message>
         <source>Specify data directory</source>
@@ -3022,8 +3022,8 @@ fx: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.com
         <translation>This is intended for regression testing tools and app development.</translation>
     </message>
     <message>
-        <source>Usage (deprecated, use bitmark-cli):</source>
-        <translation>Brug (forældet, brug bitmark-cli):</translation>
+        <source>Usage (deprecated, use pfennig-cli):</source>
+        <translation>Brug (forældet, brug pfennig-cli):</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>

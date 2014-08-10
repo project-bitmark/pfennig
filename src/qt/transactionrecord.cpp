@@ -1,5 +1,5 @@
 // Original Code: Copyright (c) 2011-2014 The Bitcoin Core Developers
-// Modified Code: Copyright (c) 2014 Project Bitmark
+// Modified Code: Copyright (c) 2014 SWAPBACKTOPB
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -53,7 +53,7 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet *
                 sub.credit = txout.nValue;
                 if (ExtractDestination(txout.scriptPubKey, address) && IsMine(*wallet, address))
                 {
-                    // Received by Bitmark Address
+                    // Received by Pfennig Address
                     sub.type = TransactionRecord::RecvWithAddress;
                     sub.address = CBitmarkAddress(address).ToString();
                 }
@@ -114,7 +114,7 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet *
                 CTxDestination address;
                 if (ExtractDestination(txout.scriptPubKey, address))
                 {
-                    // Sent to Bitmark Address
+                    // Sent to Pfennig Address
                     sub.type = TransactionRecord::SendToAddress;
                     sub.address = CBitmarkAddress(address).ToString();
                 }

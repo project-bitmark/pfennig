@@ -33,9 +33,9 @@ def main():
 
     parser = optparse.OptionParser(usage="%prog [options]")
     parser.add_option("--nocleanup", dest="nocleanup", default=False, action="store_true",
-                      help="Leave bitmarkds and test.* datadir on exit or error")
+                      help="Leave pfennigds and test.* datadir on exit or error")
     parser.add_option("--srcdir", dest="srcdir", default="../../src",
-                      help="Source directory containing bitmarkd/bitmark-cli (default: %default%)")
+                      help="Source directory containing pfennigd/pfennig-cli (default: %default%)")
     parser.add_option("--tmpdir", dest="tmpdir", default=tempfile.mkdtemp(prefix="test"),
                       help="Root directory for datadirs")
     (options, args) = parser.parse_args()
@@ -69,7 +69,7 @@ def main():
     if not options.nocleanup:
         print("Cleaning up")
         stop_nodes(nodes)
-        wait_bitmarkds()
+        wait_pfennigds()
         shutil.rmtree(options.tmpdir)
 
     if success:

@@ -2615,7 +2615,7 @@ Address: %4
         <translation>Указать конфигурационный файл (по умолчанию: bitmark.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: bitmarkd.pid)</source>
+        <source>Specify pid file (default: pfennigd.pid)</source>
         <translation>Задать pid-файл (по умолчанию: bitmark.pid)</translation>
     </message>
     <message>
@@ -3023,8 +3023,8 @@ rpcpassword=%s
         <translation>Это рассчитано на инструменты регрессионного тестирования и разработку приложений.</translation>
     </message>
     <message>
-        <source>Usage (deprecated, use bitmark-cli):</source>
-        <translation>Использование (устарело, используйте bitmark-cli):</translation>
+        <source>Usage (deprecated, use pfennig-cli):</source>
+        <translation>Использование (устарело, используйте pfennig-cli):</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>

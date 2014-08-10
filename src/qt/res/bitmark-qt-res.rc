@@ -20,14 +20,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Bitmark"
-            VALUE "FileDescription",    "Bitmark Core (OSS GUI client for Bitmark)"
+            VALUE "CompanyName",        "Pfennig"
+            VALUE "FileDescription",    "Pfennig Core (OSS GUI client for Pfennig)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "bitmark-qt"
+            VALUE "InternalName",       "pfennig-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "bitmark-qt.exe"
-            VALUE "ProductName",        "Bitmark Core"
+            VALUE "OriginalFilename",   "pfennig-qt.exe"
+            VALUE "ProductName",        "Pfennig Core"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

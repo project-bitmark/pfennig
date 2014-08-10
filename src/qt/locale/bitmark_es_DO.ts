@@ -942,11 +942,11 @@ Dirección: %4
     </message>
     <message>
         <source>As this is the first time the program is launched, you can choose where Bitmark Core will store its data.</source>
-        <translation>Al ser la primera vez que se ejecuta el programa, puede elegir dónde almacenará sus datos Bitmark-Qt.</translation>
+        <translation>Al ser la primera vez que se ejecuta el programa, puede elegir dónde almacenará sus datos Pfennig-Qt.</translation>
     </message>
     <message>
         <source>Bitmark Core will download and store a copy of the Bitmark block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Bitmark-Qt va a descargar y guardar una copia de la cadena de bloques de Bitmark. Se almacenará al menos %1GB de datos en este directorio, que irá creciendo con el tiempo. El monedero se guardará también en este directorio.</translation>
+        <translation>Pfennig-Qt va a descargar y guardar una copia de la cadena de bloques de Bitmark. Se almacenará al menos %1GB de datos en este directorio, que irá creciendo con el tiempo. El monedero se guardará también en este directorio.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -2621,7 +2621,7 @@ Dirección: %4
 </translation>
     </message>
     <message>
-        <source>Specify pid file (default: bitmarkd.pid)</source>
+        <source>Specify pid file (default: pfennigd.pid)</source>
         <translation>Especificar archivo pid (predeterminado: bitmark.pid)
 </translation>
     </message>
@@ -3033,8 +3033,8 @@ Por ejemplo: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Usage (deprecated, use bitmark-cli):</source>
-        <translation>Uso (desaconsejado, usar bitmark-cli)</translation>
+        <source>Usage (deprecated, use pfennig-cli):</source>
+        <translation>Uso (desaconsejado, usar pfennig-cli)</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>

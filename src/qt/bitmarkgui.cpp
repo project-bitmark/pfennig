@@ -1,5 +1,5 @@
 // Original Code: Copyright (c) 2011-2014 The Bitcoin Core Developers
-// Modified Code: Copyright (c) 2014 Project Bitmark
+// Modified Code: Copyright (c) 2014 SWAPBACKTOPB
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -73,7 +73,7 @@ BitmarkGUI::BitmarkGUI(bool fIsTestnet, QWidget *parent) :
 {
     GUIUtil::restoreWindowGeometry("nWindow", QSize(850, 550), this);
 
-    QString windowTitle = tr("Bitmark Core") + " - ";
+    QString windowTitle = tr("Pfennig Core") + " - ";
 #ifdef ENABLE_WALLET
     /* if compiled with wallet support, -disablewallet can still disable the wallet */
     bool enableWallet = !GetBoolArg("-disablewallet", false);
@@ -228,7 +228,7 @@ void BitmarkGUI::createActions(bool fIsTestnet)
     tabGroup->addAction(overviewAction);
 
     sendCoinsAction = new QAction(QIcon(":/icons/send"), tr("&Send"), this);
-    sendCoinsAction->setStatusTip(tr("Send coins to a Bitmark address"));
+    sendCoinsAction->setStatusTip(tr("Send coins to a Pfennig address"));
     sendCoinsAction->setToolTip(sendCoinsAction->statusTip());
     sendCoinsAction->setCheckable(true);
     sendCoinsAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_2));
@@ -264,10 +264,10 @@ void BitmarkGUI::createActions(bool fIsTestnet)
     quitAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_Q));
     quitAction->setMenuRole(QAction::QuitRole);
     if (!fIsTestnet)
-        aboutAction = new QAction(QIcon(":/icons/bitmark"), tr("&About Bitmark Core"), this);
+        aboutAction = new QAction(QIcon(":/icons/bitmark"), tr("&About Pfennig Core"), this);
     else
-        aboutAction = new QAction(QIcon(":/icons/bitmark_testnet"), tr("&About Bitmark Core"), this);
-    aboutAction->setStatusTip(tr("Show information about Bitmark"));
+        aboutAction = new QAction(QIcon(":/icons/bitmark_testnet"), tr("&About Pfennig Core"), this);
+    aboutAction->setStatusTip(tr("Show information about Pfennig"));
     aboutAction->setMenuRole(QAction::AboutRole);
 #if QT_VERSION < 0x050000
     aboutQtAction = new QAction(QIcon(":/trolltech/qmessagebox/images/qtlogo-64.png"), tr("About &Qt"), this);
@@ -277,7 +277,7 @@ void BitmarkGUI::createActions(bool fIsTestnet)
     aboutQtAction->setStatusTip(tr("Show information about Qt"));
     aboutQtAction->setMenuRole(QAction::AboutQtRole);
     optionsAction = new QAction(QIcon(":/icons/options"), tr("&Options..."), this);
-    optionsAction->setStatusTip(tr("Modify configuration options for Bitmark"));
+    optionsAction->setStatusTip(tr("Modify configuration options for Pfennig"));
     optionsAction->setMenuRole(QAction::PreferencesRole);
     if (!fIsTestnet)
         toggleHideAction = new QAction(QIcon(":/icons/bitmark"), tr("&Show / Hide"), this);
@@ -293,9 +293,9 @@ void BitmarkGUI::createActions(bool fIsTestnet)
     changePassphraseAction = new QAction(QIcon(":/icons/key"), tr("&Change Passphrase..."), this);
     changePassphraseAction->setStatusTip(tr("Change the passphrase used for wallet encryption"));
     signMessageAction = new QAction(QIcon(":/icons/edit"), tr("Sign &message..."), this);
-    signMessageAction->setStatusTip(tr("Sign messages with your Bitmark addresses to prove you own them"));
+    signMessageAction->setStatusTip(tr("Sign messages with your Pfennig addresses to prove you own them"));
     verifyMessageAction = new QAction(QIcon(":/icons/transaction_0"), tr("&Verify message..."), this);
-    verifyMessageAction->setStatusTip(tr("Verify messages to ensure they were signed with specified Bitmark addresses"));
+    verifyMessageAction->setStatusTip(tr("Verify messages to ensure they were signed with specified Pfennig addresses"));
 
     openRPCConsoleAction = new QAction(QIcon(":/icons/debugwindow"), tr("&Debug window"), this);
     openRPCConsoleAction->setStatusTip(tr("Open debugging and diagnostic console"));
@@ -309,7 +309,7 @@ void BitmarkGUI::createActions(bool fIsTestnet)
     openAction->setStatusTip(tr("Open a bitmark: URI or payment request"));
 
     showHelpMessageAction = new QAction(QApplication::style()->standardIcon(QStyle::SP_MessageBoxInformation), tr("&Command-line options"), this);
-    showHelpMessageAction->setStatusTip(tr("Show the Bitmark Core help message to get a list with possible Bitmark command-line options"));
+    showHelpMessageAction->setStatusTip(tr("Show the Pfennig Core help message to get a list with possible Bitmark command-line options"));
 
     connect(quitAction, SIGNAL(triggered()), qApp, SLOT(quit()));
     connect(aboutAction, SIGNAL(triggered()), this, SLOT(aboutClicked()));
@@ -468,12 +468,12 @@ void BitmarkGUI::createTrayIcon(bool fIsTestnet)
 
     if (!fIsTestnet)
     {
-        trayIcon->setToolTip(tr("Bitmark client"));
+        trayIcon->setToolTip(tr("Pfennig client"));
         trayIcon->setIcon(QIcon(":/icons/toolbar"));
     }
     else
     {
-        trayIcon->setToolTip(tr("Bitmark client") + " " + tr("[testnet]"));
+        trayIcon->setToolTip(tr("Pfennig client") + " " + tr("[testnet]"));
         trayIcon->setIcon(QIcon(":/icons/toolbar_testnet"));
     }
 
@@ -615,7 +615,7 @@ void BitmarkGUI::setNumConnections(int count)
     default: icon = ":/icons/connect_4"; break;
     }
     labelConnectionsIcon->setPixmap(QIcon(icon).pixmap(STATUSBAR_ICONSIZE,STATUSBAR_ICONSIZE));
-    labelConnectionsIcon->setToolTip(tr("%n active connection(s) to Bitmark network", "", count));
+    labelConnectionsIcon->setToolTip(tr("%n active connection(s) to Pfennig network", "", count));
 }
 
 void BitmarkGUI::setNumBlocks(int count, int nTotalBlocks)
@@ -734,7 +734,7 @@ void BitmarkGUI::setNumBlocks(int count, int nTotalBlocks)
 
 void BitmarkGUI::message(const QString &title, const QString &message, unsigned int style, bool *ret)
 {
-    QString strTitle = tr("Bitmark"); // default title
+    QString strTitle = tr("Pfennig"); // default title
     // Default to information icon
     int nMBoxIcon = QMessageBox::Information;
     int nNotifyIcon = Notificator::Information;
@@ -760,7 +760,7 @@ void BitmarkGUI::message(const QString &title, const QString &message, unsigned 
             break;
         }
     }
-    // Append title to "Bitmark - "
+    // Append title to "Pfennig - "
     if (!msgType.isEmpty())
         strTitle += " - " + msgType;
 

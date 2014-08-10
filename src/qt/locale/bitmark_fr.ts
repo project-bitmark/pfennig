@@ -2614,8 +2614,8 @@ Adresse : %4
         <translation>Spécifier le fichier de configuration (par défaut : bitmark.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: bitmarkd.pid)</source>
-        <translation>Spécifier le fichier PID (par défaut : bitmarkd.pid)</translation>
+        <source>Specify pid file (default: pfennigd.pid)</source>
+        <translation>Spécifier le fichier PID (par défaut : pfennigd.pid)</translation>
     </message>
     <message>
         <source>Specify data directory</source>
@@ -3022,8 +3022,8 @@ par exemple : alertnotify=echo %%s | mail -s &quot;Alerte Bitmark&quot; admin@fo
         <translation>Ceci est à l&apos;intention des outils de test de régression et du développement applicatif.</translation>
     </message>
     <message>
-        <source>Usage (deprecated, use bitmark-cli):</source>
-        <translation>Utilisation (obsolète, utiliser bitmark-cli) :</translation>
+        <source>Usage (deprecated, use pfennig-cli):</source>
+        <translation>Utilisation (obsolète, utiliser pfennig-cli) :</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>

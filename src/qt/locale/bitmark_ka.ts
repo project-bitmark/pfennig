@@ -2614,8 +2614,8 @@ Address: %4
         <translation>მიუთითეთ საკონფიგურაციო ფაილი (ნაგულისხმევია: bitmark.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: bitmarkd.pid)</source>
-        <translation>მიუთითეთ pid ფაილი (ნაგულისხმევია: bitmarkd.pid)</translation>
+        <source>Specify pid file (default: pfennigd.pid)</source>
+        <translation>მიუთითეთ pid ფაილი (ნაგულისხმევია: pfennigd.pid)</translation>
     </message>
     <message>
         <source>Specify data directory</source>
@@ -3022,8 +3022,8 @@ rpcpassword=%s
         <translation>გამოიყენება რეგრესული ტესტირების ინსტრუმენტებისა და პროგრამების შემუშავებისას.</translation>
     </message>
     <message>
-        <source>Usage (deprecated, use bitmark-cli):</source>
-        <translation>გამოყენება (მოძველებულია, გამოიყენეთ bitmark-cli):</translation>
+        <source>Usage (deprecated, use pfennig-cli):</source>
+        <translation>გამოყენება (მოძველებულია, გამოიყენეთ pfennig-cli):</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>

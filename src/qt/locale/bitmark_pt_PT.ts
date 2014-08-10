@@ -2613,8 +2613,8 @@ Endereço: %4</translation>
         <translation>Especificar ficheiro de configuração (por defeito: bitmark.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: bitmarkd.pid)</source>
-        <translation>Especificar ficheiro pid (por defeito: bitmarkd.pid)</translation>
+        <source>Specify pid file (default: pfennigd.pid)</source>
+        <translation>Especificar ficheiro pid (por defeito: pfennigd.pid)</translation>
     </message>
     <message>
         <source>Specify data directory</source>
@@ -3020,8 +3020,8 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;Alerta Bitmark&quot; admin@foo
         <translation>Isto têm como fim a realização de testes de regressão para pools e desenvolvimento de aplicações.</translation>
     </message>
     <message>
-        <source>Usage (deprecated, use bitmark-cli):</source>
-        <translation>Utilização (obsoleto, usar bitmark-cli):</translation>
+        <source>Usage (deprecated, use pfennig-cli):</source>
+        <translation>Utilização (obsoleto, usar pfennig-cli):</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>

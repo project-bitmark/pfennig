@@ -14,7 +14,7 @@ packages:
 
 reference_datetime: "2013-06-01 00:00:00"
 remotes:
-- "url": "https://github.com/project-bitmark/bitmark.git"
+- "url": "https://github.com/project-SWAPFORB/bitmark.git"
   "dir": "bitmark"
 files:
 - "osx-native-depends-r3.tar.gz"
@@ -57,4 +57,4 @@ script: |
   export FAKETIME=$REFERENCE_DATETIME
   export TZ=UTC
   make deploy
-  dmg dmg Bitmark-Qt.dmg $OUTDIR/Bitmark-Qt.dmg
+  dmg dmg Pfennig-Qt.dmg $OUTDIR/Pfennig-Qt.dmg

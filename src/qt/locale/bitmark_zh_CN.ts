@@ -2619,8 +2619,8 @@ Address: %4
 </translation>
     </message>
     <message>
-        <source>Specify pid file (default: bitmarkd.pid)</source>
-        <translation>指定 pid 文件 (默认为 bitmarkd.pid)
+        <source>Specify pid file (default: pfennigd.pid)</source>
+        <translation>指定 pid 文件 (默认为 pfennigd.pid)
 </translation>
     </message>
     <message>
@@ -3033,8 +3033,8 @@ rpcpassword=%s
         <translation>这是用于回归测试和应用开发目的。</translation>
     </message>
     <message>
-        <source>Usage (deprecated, use bitmark-cli):</source>
-        <translation>用法（不推荐，请使用 bitmark-cli）：</translation>
+        <source>Usage (deprecated, use pfennig-cli):</source>
+        <translation>用法（不推荐，请使用 pfennig-cli）：</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>

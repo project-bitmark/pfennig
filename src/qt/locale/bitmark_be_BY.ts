@@ -2609,8 +2609,8 @@ Address: %4
         <translation>Вызначыць канфігурацыйны файл (зыходна: bitmark.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: bitmarkd.pid)</source>
-        <translation>Вызначыць pid-файл (зыходна: bitmarkd.pid)</translation>
+        <source>Specify pid file (default: pfennigd.pid)</source>
+        <translation>Вызначыць pid-файл (зыходна: pfennigd.pid)</translation>
     </message>
     <message>
         <source>Specify data directory</source>
@@ -3007,7 +3007,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Usage (deprecated, use bitmark-cli):</source>
+        <source>Usage (deprecated, use pfennig-cli):</source>
         <translation type="unfinished"/>
     </message>
     <message>

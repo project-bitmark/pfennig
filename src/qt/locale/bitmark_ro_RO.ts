@@ -2614,8 +2614,8 @@ Adresa: %4
         <translation>Specifică fișierul de configurare (implicit: bitmark.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: bitmarkd.pid)</source>
-        <translation>Specifică fișierul pid (implicit bitmarkd.pid)</translation>
+        <source>Specify pid file (default: pfennigd.pid)</source>
+        <translation>Specifică fișierul pid (implicit pfennigd.pid)</translation>
     </message>
     <message>
         <source>Specify data directory</source>
@@ -3023,8 +3023,8 @@ spre exemplu: alertnotify=echo %%s | mail -s &quot;Alerta Bitmark&quot; admin@fo
         <translation>Este folosita pentru programe de testare a regresiei in algoritmi si  dezvoltare de alte aplicatii. </translation>
     </message>
     <message>
-        <source>Usage (deprecated, use bitmark-cli):</source>
-        <translation>Utilizare (învechită, folositi bitmark-cli):</translation>
+        <source>Usage (deprecated, use pfennig-cli):</source>
+        <translation>Utilizare (învechită, folositi pfennig-cli):</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>

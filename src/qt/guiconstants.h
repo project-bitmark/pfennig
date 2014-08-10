@@ -1,5 +1,5 @@
 // Original Code: Copyright (c) 2011-2014 The Bitcoin Core Developers
-// Modified Code: Copyright (c) 2014 Project Bitmark
+// Modified Code: Copyright (c) 2014 SWAPBACKTOPB
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -42,9 +42,9 @@ static const int MAX_PAYMENT_REQUEST_SIZE = 50000; // bytes
 /* Number of frames in spinner animation */
 #define SPINNER_FRAMES 35
 
-#define QAPP_ORG_NAME "Bitmark"
+#define QAPP_ORG_NAME "Pfennig"
 #define QAPP_ORG_DOMAIN "bitmark.org"
-#define QAPP_APP_NAME_DEFAULT "Bitmark-Qt"
-#define QAPP_APP_NAME_TESTNET "Bitmark-Qt-testnet"
+#define QAPP_APP_NAME_DEFAULT "Pfennig-Qt"
+#define QAPP_APP_NAME_TESTNET "Pfennig-Qt-testnet"
 
 #endif // GUICONSTANTS_H

@@ -5,7 +5,7 @@ AM_CPPFLAGS += -I$(top_srcdir)/src \
   -I$(top_builddir)/src/qt/forms \
   $(PROTOBUF_CFLAGS) \
   $(QR_CFLAGS)
-bin_PROGRAMS = bitmark-qt
+bin_PROGRAMS = pfennig-qt
 noinst_LIBRARIES = libbitmarkqt.a
 SUBDIRS = . $(BUILD_TEST_QT)
 DIST_SUBDIRS = . test
@@ -319,7 +319,7 @@ RES_IMAGES = \
 
 RES_MOVIES = $(wildcard res/movies/spinner-*.png)
 
-BITMARK_RC = res/bitmark-qt-res.rc
+BITMARK_RC = res/pfennig-qt-res.rc
 
 libbitmarkqt_a_CPPFLAGS = $(AM_CPPFLAGS) $(QT_INCLUDES) \
   -I$(top_srcdir)/src/qt/forms $(QT_DBUS_INCLUDES)
@@ -336,7 +336,7 @@ BUILT_SOURCES = $(nodist_libbitmarkqt_a_SOURCES)
 $(QT_MOC): $(PROTOBUF_H)
 $(QT_MOC_CPP): $(PROTOBUF_H)
 
-# bitmark-qt binary #
+# pfennig-qt binary #
 bitmark_qt_CPPFLAGS = $(AM_CPPFLAGS) $(QT_INCLUDES) \
   -I$(top_srcdir)/src/qt/forms
 bitmark_qt_SOURCES = bitmark.cpp

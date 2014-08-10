@@ -2614,8 +2614,8 @@ Address: %4
         <translation>설정파일 지정 (기본값: bitmark.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: bitmarkd.pid)</source>
-        <translation>pid 파일 지정 (기본값: bitmarkd.pid)</translation>
+        <source>Specify pid file (default: pfennigd.pid)</source>
+        <translation>pid 파일 지정 (기본값: pfennigd.pid)</translation>
     </message>
     <message>
         <source>Specify data directory</source>
@@ -3014,8 +3014,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Usage (deprecated, use bitmark-cli):</source>
-        <translation>사용법 (오래되었습니다. bitmark-cli를 사용하십시오):</translation>
+        <source>Usage (deprecated, use pfennig-cli):</source>
+        <translation>사용법 (오래되었습니다. pfennig-cli를 사용하십시오):</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>

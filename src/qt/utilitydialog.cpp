@@ -1,5 +1,5 @@
 // Original Code: Copyright (c) 2011-2014 The Bitcoin Core Developers
-// Modified Code: Copyright (c) 2014 Project Bitmark
+// Modified Code: Copyright (c) 2014 SWAPBACKTOPB
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -27,7 +27,7 @@ AboutDialog::AboutDialog(QWidget *parent) :
     ui->setupUi(this);
 
     // Set current copyright year
-    ui->copyrightLabel->setText(tr("Copyright") + QString(" &copy; %1 ").arg(COPYRIGHT_YEAR) + tr("Project Bitmark"));
+    ui->copyrightLabel->setText(tr("Copyright") + QString(" &copy; %1 ").arg(COPYRIGHT_YEAR) + tr("SWAPBACKTOPB"));
     ui->copyrightLabelTwo->setText(tr("Copyright") + QString(" &copy; 2009-%1 ").arg(COPYRIGHT_YEAR) + tr("The Bitcoin Core Developers"));
 }
 
@@ -66,10 +66,10 @@ HelpMessageDialog::HelpMessageDialog(QWidget *parent) :
     ui->setupUi(this);
     GUIUtil::restoreWindowGeometry("nHelpMessageDialogWindow", this->size(), this);
 
-    header = tr("Bitmark Core") + " " + tr("version") + " " +
+    header = tr("Pfennig Core") + " " + tr("version") + " " +
         QString::fromStdString(FormatFullVersion()) + "\n\n" +
         tr("Usage:") + "\n" +
-        "  bitmark-qt [" + tr("command-line options") + "]                     " + "\n";
+        "  pfennig-qt [" + tr("command-line options") + "]                     " + "\n";
 
     coreOptions = QString::fromStdString(HelpMessage(HMM_BITMARK_QT));
 
@@ -126,7 +126,7 @@ void ShutdownWindow::showShutdownWindow(BitmarkGUI *window)
     QWidget *shutdownWindow = new QWidget();
     QVBoxLayout *layout = new QVBoxLayout();
     layout->addWidget(new QLabel(
-        tr("Bitmark Core is shutting down...") + "<br /><br />" +
+        tr("Pfennig Core is shutting down...") + "<br /><br />" +
         tr("Do not shut down the computer until this window disappears.")));
     shutdownWindow->setLayout(layout);
 

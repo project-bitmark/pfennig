@@ -14,24 +14,24 @@ The following are some helpful notes on how to run Bitmark on your native platfo
 
 ### Unix
 
-You need the Qt4 run-time libraries to run Bitmark-Qt. On Debian or Ubuntu:
+You need the Qt4 run-time libraries to run Pfennig-Qt. On Debian or Ubuntu:
 
 	sudo apt-get install libqtgui4
 
 Unpack the files into a directory and run:
 
-- bin/32/bitmark-qt (GUI, 32-bit) or bin/32/bitmarkd (headless, 32-bit)
-- bin/64/bitmark-qt (GUI, 64-bit) or bin/64/bitmarkd (headless, 64-bit)
+- bin/32/pfennig-qt (GUI, 32-bit) or bin/32/pfennigd (headless, 32-bit)
+- bin/64/pfennig-qt (GUI, 64-bit) or bin/64/pfennigd (headless, 64-bit)
 
 
 
 ### Windows
 
-Unpack the files into a directory, and then run bitmark-qt.exe.
+Unpack the files into a directory, and then run pfennig-qt.exe.
 
 ### OSX
 
-Drag Bitmark-Qt to your applications folder, and then run Bitmark-Qt.
+Drag Pfennig-Qt to your applications folder, and then run Pfennig-Qt.
 
 ### Need Help?
 
@@ -50,7 +50,7 @@ The following are developer notes on how to build Bitmark on your native platfor
 
 Development
 ---------------------
-The Bitmark repo's [root README](https://github.com/project-bitmark/bitmark/blob/master/README.md) contains relevant information on the development process and automated testing.
+The Bitmark repo's [root README](https://github.com/project-SWAPFORB/bitmark/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Coding Guidelines](coding.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)

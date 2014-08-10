@@ -20,7 +20,7 @@ QT_TRANSLATE_NOOP("bitmark-core", ""
 "If the file does not exist, create it with owner-readable-only file "
 "permissions.\n"
 "It is also recommended to set alertnotify so you are notified of problems;\n"
-"for example: alertnotify=echo %%s | mail -s \"Bitmark Alert\" admin@foo.com\n"),
+"for example: alertnotify=echo %%s | mail -s \"Pfennig Alert\" admin@foo.com\n"),
 QT_TRANSLATE_NOOP("bitmark-core", ""
 "Acceptable ciphers (default: TLSv1.2+HIGH:TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!"
 "3DES:@STRENGTH)"),
@@ -33,7 +33,7 @@ QT_TRANSLATE_NOOP("bitmark-core", ""
 "Bind to given address and always listen on it. Use [host]:port notation for "
 "IPv6"),
 QT_TRANSLATE_NOOP("bitmark-core", ""
-"Cannot obtain a lock on data directory %s. Bitmark Core is probably already "
+"Cannot obtain a lock on data directory %s. Pfennig Core is probably already "
 "running."),
 QT_TRANSLATE_NOOP("bitmark-core", ""
 "Continuously rate-limit free transactions to <n>*1000 bytes per minute "
@@ -93,7 +93,7 @@ QT_TRANSLATE_NOOP("bitmark-core", ""
 "This is a pre-release test build - use at your own risk - do not use for "
 "mining or merchant applications"),
 QT_TRANSLATE_NOOP("bitmark-core", ""
-"Unable to bind to %s on this computer. Bitmark Core is probably already "
+"Unable to bind to %s on this computer. Pfennig Core is probably already "
 "running."),
 QT_TRANSLATE_NOOP("bitmark-core", ""
 "Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: -"
@@ -103,7 +103,7 @@ QT_TRANSLATE_NOOP("bitmark-core", ""
 "pay if you send a transaction."),
 QT_TRANSLATE_NOOP("bitmark-core", ""
 "Warning: Please check that your computer's date and time are correct! If "
-"your clock is wrong Bitmark will not work properly."),
+"your clock is wrong Pfennig will not work properly."),
 QT_TRANSLATE_NOOP("bitmark-core", ""
 "Warning: The network does not appear to fully agree! Some miners appear to "
 "be experiencing issues."),
@@ -131,8 +131,8 @@ QT_TRANSLATE_NOOP("bitmark-core", "Add a node to connect to and attempt to keep 
 QT_TRANSLATE_NOOP("bitmark-core", "Allow DNS lookups for -addnode, -seednode and -connect"),
 QT_TRANSLATE_NOOP("bitmark-core", "Allow JSON-RPC connections from specified IP address"),
 QT_TRANSLATE_NOOP("bitmark-core", "Attempt to recover private keys from a corrupt wallet.dat"),
-QT_TRANSLATE_NOOP("bitmark-core", "Bitmark Core Daemon"),
-QT_TRANSLATE_NOOP("bitmark-core", "Bitmark Core RPC client version"),
+QT_TRANSLATE_NOOP("bitmark-core", "Pfennig Core Daemon"),
+QT_TRANSLATE_NOOP("bitmark-core", "Pfennig Core RPC client version"),
 QT_TRANSLATE_NOOP("bitmark-core", "Block creation options:"),
 QT_TRANSLATE_NOOP("bitmark-core", "Cannot downgrade wallet"),
 QT_TRANSLATE_NOOP("bitmark-core", "Cannot resolve -bind address: '%s'"),
@@ -156,7 +156,7 @@ QT_TRANSLATE_NOOP("bitmark-core", "Error initializing wallet database environmen
 QT_TRANSLATE_NOOP("bitmark-core", "Error loading block database"),
 QT_TRANSLATE_NOOP("bitmark-core", "Error loading wallet.dat"),
 QT_TRANSLATE_NOOP("bitmark-core", "Error loading wallet.dat: Wallet corrupted"),
-QT_TRANSLATE_NOOP("bitmark-core", "Error loading wallet.dat: Wallet requires newer version of Bitmark"),
+QT_TRANSLATE_NOOP("bitmark-core", "Error loading wallet.dat: Wallet requires newer version of Pfennig"),
 QT_TRANSLATE_NOOP("bitmark-core", "Error opening block database"),
 QT_TRANSLATE_NOOP("bitmark-core", "Error"),
 QT_TRANSLATE_NOOP("bitmark-core", "Error: Disk space is low!"),
@@ -223,7 +223,7 @@ QT_TRANSLATE_NOOP("bitmark-core", "Run a thread to flush wallet periodically (de
 QT_TRANSLATE_NOOP("bitmark-core", "Run in the background as a daemon and accept commands"),
 QT_TRANSLATE_NOOP("bitmark-core", "SSL options: (see the Bitmark Wiki for SSL setup instructions)"),
 QT_TRANSLATE_NOOP("bitmark-core", "Select SOCKS version for -proxy (4 or 5, default: 5)"),
-QT_TRANSLATE_NOOP("bitmark-core", "Send command to Bitmark Core"),
+QT_TRANSLATE_NOOP("bitmark-core", "Send command to Pfennig Core"),
 QT_TRANSLATE_NOOP("bitmark-core", "Send commands to node running on <ip> (default: 127.0.0.1)"),
 QT_TRANSLATE_NOOP("bitmark-core", "Send trace/debug info to console instead of debug.log file"),
 QT_TRANSLATE_NOOP("bitmark-core", "Server certificate file (default: server.cert)"),
@@ -241,11 +241,11 @@ QT_TRANSLATE_NOOP("bitmark-core", "Signing transaction failed"),
 QT_TRANSLATE_NOOP("bitmark-core", "Specify configuration file (default: bitmark.conf)"),
 QT_TRANSLATE_NOOP("bitmark-core", "Specify connection timeout in milliseconds (default: 5000)"),
 QT_TRANSLATE_NOOP("bitmark-core", "Specify data directory"),
-QT_TRANSLATE_NOOP("bitmark-core", "Specify pid file (default: bitmarkd.pid)"),
+QT_TRANSLATE_NOOP("bitmark-core", "Specify pid file (default: pfennigd.pid)"),
 QT_TRANSLATE_NOOP("bitmark-core", "Specify wallet file (within data directory)"),
 QT_TRANSLATE_NOOP("bitmark-core", "Specify your own public address"),
 QT_TRANSLATE_NOOP("bitmark-core", "Spend unconfirmed change when sending transactions (default: 1)"),
-QT_TRANSLATE_NOOP("bitmark-core", "Start Bitmark Core Daemon"),
+QT_TRANSLATE_NOOP("bitmark-core", "Start Pfennig Core Daemon"),
 QT_TRANSLATE_NOOP("bitmark-core", "System error: "),
 QT_TRANSLATE_NOOP("bitmark-core", "This help message"),
 QT_TRANSLATE_NOOP("bitmark-core", "This is intended for regression testing tools and app development."),
@@ -258,7 +258,7 @@ QT_TRANSLATE_NOOP("bitmark-core", "Unable to bind to %s on this computer (bind r
 QT_TRANSLATE_NOOP("bitmark-core", "Unknown -socks proxy version requested: %i"),
 QT_TRANSLATE_NOOP("bitmark-core", "Unknown network specified in -onlynet: '%s'"),
 QT_TRANSLATE_NOOP("bitmark-core", "Upgrade wallet to latest format"),
-QT_TRANSLATE_NOOP("bitmark-core", "Usage (deprecated, use bitmark-cli):"),
+QT_TRANSLATE_NOOP("bitmark-core", "Usage (deprecated, use pfennig-cli):"),
 QT_TRANSLATE_NOOP("bitmark-core", "Usage:"),
 QT_TRANSLATE_NOOP("bitmark-core", "Use OpenSSL (https) for JSON-RPC connections"),
 QT_TRANSLATE_NOOP("bitmark-core", "Use UPnP to map the listening port (default: 0)"),
@@ -269,7 +269,7 @@ QT_TRANSLATE_NOOP("bitmark-core", "Verifying blocks..."),
 QT_TRANSLATE_NOOP("bitmark-core", "Verifying wallet..."),
 QT_TRANSLATE_NOOP("bitmark-core", "Wait for RPC server to start"),
 QT_TRANSLATE_NOOP("bitmark-core", "Wallet %s resides outside data directory %s"),
-QT_TRANSLATE_NOOP("bitmark-core", "Wallet needed to be rewritten: restart Bitmark to complete"),
+QT_TRANSLATE_NOOP("bitmark-core", "Wallet needed to be rewritten: restart Pfennig to complete"),
 QT_TRANSLATE_NOOP("bitmark-core", "Wallet options:"),
 QT_TRANSLATE_NOOP("bitmark-core", "Warning"),
 QT_TRANSLATE_NOOP("bitmark-core", "Warning: Deprecated argument -debugnet ignored, use -debug=net"),

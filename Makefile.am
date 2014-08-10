@@ -4,13 +4,13 @@ SUBDIRS = src
 
 GZIP_ENV="-9n"
 
-BITMARKD_BIN=$(top_builddir)/src/bitmarkd$(EXEEXT)
-BITMARK_QT_BIN=$(top_builddir)/src/qt/bitmark-qt$(EXEEXT)
-BITMARK_CLI_BIN=$(top_builddir)/src/bitmark-cli$(EXEEXT)
+BITMARKD_BIN=$(top_builddir)/src/pfennigd$(EXEEXT)
+BITMARK_QT_BIN=$(top_builddir)/src/qt/pfennig-qt$(EXEEXT)
+BITMARK_CLI_BIN=$(top_builddir)/src/pfennig-cli$(EXEEXT)
 BITMARK_WIN_INSTALLER=$(PACKAGE)-$(PACKAGE_VERSION)-win$(WINDOWS_BITS)-setup$(EXEEXT)
 
-OSX_APP=Bitmark-Qt.app
-OSX_DMG=Bitmark-Qt.dmg
+OSX_APP=Pfennig-Qt.app
+OSX_DMG=Pfennig-Qt.dmg
 OSX_DEPLOY_SCRIPT=$(top_srcdir)/contrib/macdeploy/macdeployqtplus
 OSX_FANCY_PLIST=$(top_srcdir)/contrib/macdeploy/fancy.plist
 OSX_INSTALLER_ICONS=$(top_srcdir)/src/qt/res/icons/bitmark.icns
@@ -72,13 +72,13 @@ $(OSX_APP)/Contents/Resources/bitmark.icns: $(OSX_INSTALLER_ICONS)
 	$(MKDIR_P) $(@D)
 	$(INSTALL_DATA) $< $@
 
-$(OSX_APP)/Contents/MacOS/Bitmark-Qt: $(BITMARK_QT_BIN)
+$(OSX_APP)/Contents/MacOS/Pfennig-Qt: $(BITMARK_QT_BIN)
 	$(MKDIR_P) $(@D)
 	STRIPPROG="$(STRIP)" $(INSTALL_STRIP_PROGRAM)  $< $@
 
 OSX_APP_BUILT=$(OSX_APP)/Contents/PkgInfo $(OSX_APP)/Contents/Resources/empty.lproj \
   $(OSX_APP)/Contents/Resources/bitmark.icns $(OSX_APP)/Contents/Info.plist \
-  $(OSX_APP)/Contents/MacOS/Bitmark-Qt
+  $(OSX_APP)/Contents/MacOS/Pfennig-Qt
 
 if BUILD_DARWIN
 $(OSX_DMG): $(OSX_APP_BUILT) $(OSX_PACKAGING)
@@ -91,7 +91,7 @@ $(OSX_DMG): $(OSX_APP_BUILT) $(OSX_PACKAGING)
 	$(INSTALL) contrib/macdeploy/background.png dist/.background
 	$(INSTALL) contrib/macdeploy/DS_Store dist/.DS_Store
 	cd dist; $(LN_S) /Applications Applications
-	$(GENISOIMAGE) -no-cache-inodes -l -probe -V "Bitmark-Qt" -no-pad -r -apple -o $@ dist
+	$(GENISOIMAGE) -no-cache-inodes -l -probe -V "Pfennig-Qt" -no-pad -r -apple -o $@ dist
 endif
 
 if TARGET_DARWIN
@@ -130,7 +130,7 @@ test_bitmark_filtered.info: test_bitmark.info
 
 block_test.info: test_bitmark_filtered.info
 	$(MKDIR_P) qa/tmp
-	-@TIMEOUT=15 qa/pull-tester/run-bitmarkd-for-test.sh $(JAVA) -jar $(JAVA_COMPARISON_TOOL) qa/tmp/compTool 0
+	-@TIMEOUT=15 qa/pull-tester/run-pfennigd-for-test.sh $(JAVA) -jar $(JAVA_COMPARISON_TOOL) qa/tmp/compTool 0
 	$(LCOV) -c -d $(abs_builddir)/src --t BitmarkJBlockTest -o $@
 	$(LCOV) -z -d $(abs_builddir)/src
 	$(LCOV) -z -d $(abs_builddir)/src/leveldb
@@ -159,7 +159,7 @@ endif
 if USE_COMPARISON_TOOL
 check-local:
 	$(MKDIR_P) qa/tmp
-	@qa/pull-tester/run-bitmarkd-for-test.sh $(JAVA) -jar $(JAVA_COMPARISON_TOOL) qa/tmp/compTool $(COMPARISON_TOOL_REORG_TESTS)
+	@qa/pull-tester/run-pfennigd-for-test.sh $(JAVA) -jar $(JAVA_COMPARISON_TOOL) qa/tmp/compTool $(COMPARISON_TOOL_REORG_TESTS)
 endif
 
 EXTRA_DIST = $(top_srcdir)/share/genbuild.sh qa/pull-tester/pull-tester.sh qa/rpc-tests $(DIST_DOCS) $(WINDOWS_PACKAGING) $(OSX_PACKAGING)

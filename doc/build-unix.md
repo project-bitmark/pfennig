@@ -9,7 +9,7 @@ To Build
 	./configure
 	make
 
-This will build bitmark-qt as well if the dependencies are met.
+This will build pfennig-qt as well if the dependencies are met.
 
 Dependencies
 ---------------------
@@ -95,7 +95,7 @@ Optional:
 Dependencies for the GUI: Ubuntu & Debian
 -----------------------------------------
 
-If you want to build Bitmark-Qt, make sure that the required packages for Qt development
+If you want to build Pfennig-Qt, make sure that the required packages for Qt development
 are installed. Either Qt 4 or Qt 5 are necessary to build the GUI.
 If both Qt 4 and Qt 5 are installed, Qt 4 will be used. Pass `--with-gui=qt5` to configure to choose Qt5.
 To build without GUI pass `--without-gui`.
@@ -112,12 +112,12 @@ libqrencode (optional) can be installed with:
 
     sudo apt-get install libqrencode-dev
 
-Once these are installed, they will be found by configure and a bitmark-qt executable will be
+Once these are installed, they will be found by configure and a pfennig-qt executable will be
 built by default.
 
 Notes
 -----
-The release is built with GCC and then "strip bitmarkd" to strip the debug
+The release is built with GCC and then "strip pfennigd" to strip the debug
 symbols, which reduces the executable size by about 90%.
 
 

@@ -2616,8 +2616,8 @@ Address: %4
         <translation>指定設定檔(預設值: bitmark.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: bitmarkd.pid)</source>
-        <translation>指定行程識別碼(PID)檔(預設值:  bitmarkd.pid)</translation>
+        <source>Specify pid file (default: pfennigd.pid)</source>
+        <translation>指定行程識別碼(PID)檔(預設值:  pfennigd.pid)</translation>
     </message>
     <message>
         <source>Specify data directory</source>
@@ -3025,8 +3025,8 @@ alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.com</translat
         <translation>這是設計用來給回歸測試工具和應用程式開發用的。</translation>
     </message>
     <message>
-        <source>Usage (deprecated, use bitmark-cli):</source>
-        <translation>用法(已過時，請改用 bitmark-cli):</translation>
+        <source>Usage (deprecated, use pfennig-cli):</source>
+        <translation>用法(已過時，請改用 pfennig-cli):</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>

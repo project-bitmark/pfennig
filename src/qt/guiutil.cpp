@@ -1,5 +1,5 @@
 // Original Code: Copyright (c) 2011-2014 The Bitcoin Core Developers
-// Modified Code: Copyright (c) 2014 Project Bitmark
+// Modified Code: Copyright (c) 2014 SWAPBACKTOPB
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -91,7 +91,7 @@ void setupAddressWidget(QValidatedLineEdit *widget, QWidget *parent)
 
     widget->setFont(bitmarkAddressFont());
 #if QT_VERSION >= 0x040700
-    widget->setPlaceholderText(QObject::tr("Enter a Bitmark address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)"));
+    widget->setPlaceholderText(QObject::tr("Enter a Pfennig address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)"));
 #endif
     widget->setValidator(new BitmarkAddressEntryValidator(parent));
     widget->setCheckValidator(new BitmarkAddressCheckValidator(parent));
@@ -145,7 +145,7 @@ bool parseBitmarkURI(const QUrl &uri, SendCoinsRecipient *out)
         {
             if(!i->second.isEmpty())
             {
-                if(!BitmarkUnits::parse(BitmarkUnits::BTM, i->second, &rv.amount))
+                if(!BitmarkUnits::parse(BitmarkUnits::PFG, i->second, &rv.amount))
                 {
                     return false;
                 }
@@ -184,7 +184,7 @@ QString formatBitmarkURI(const SendCoinsRecipient &info)
 
     if (info.amount)
     {
-        ret += QString("?amount=%1").arg(BitmarkUnits::format(BitmarkUnits::BTM, info.amount));
+        ret += QString("?amount=%1").arg(BitmarkUnits::format(BitmarkUnits::PFG, info.amount));
         paramCount++;
     }
 
@@ -511,12 +511,12 @@ TableViewLastColumnResizingFixer::TableViewLastColumnResizingFixer(QTableView* t
 #ifdef WIN32
 boost::filesystem::path static StartupShortcutPath()
 {
-    return GetSpecialFolderPath(CSIDL_STARTUP) / "Bitmark.lnk";
+    return GetSpecialFolderPath(CSIDL_STARTUP) / "Pfennig.lnk";
 }
 
 bool GetStartOnSystemStartup()
 {
-    // check for Bitmark.lnk
+    // check for Pfennig.lnk
     return boost::filesystem::exists(StartupShortcutPath());
 }
 
@@ -634,7 +634,7 @@ bool SetStartOnSystemStartup(bool fAutoStart)
         // Write a bitmark.desktop file to the autostart directory:
         optionFile << "[Desktop Entry]\n";
         optionFile << "Type=Application\n";
-        optionFile << "Name=Bitmark\n";
+        optionFile << "Name=Pfennig\n";
         optionFile << "Exec=" << pszExePath << " -min\n";
         optionFile << "Terminal=false\n";
         optionFile << "Hidden=false\n";

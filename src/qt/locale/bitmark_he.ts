@@ -2613,8 +2613,8 @@ Address: %4
         <translation>ציין קובץ הגדרות (ברירת מחדל: bitmark.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: bitmarkd.pid)</source>
-        <translation>ציין קובץ pid (ברירת מחדל: bitmarkd.pid)</translation>
+        <source>Specify pid file (default: pfennigd.pid)</source>
+        <translation>ציין קובץ pid (ברירת מחדל: pfennigd.pid)</translation>
     </message>
     <message>
         <source>Specify data directory</source>
@@ -3021,8 +3021,8 @@ rpcpassword=%s
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Usage (deprecated, use bitmark-cli):</source>
-        <translation>שימוש (מיושן, השתמש ב bitmark-cli):</translation>
+        <source>Usage (deprecated, use pfennig-cli):</source>
+        <translation>שימוש (מיושן, השתמש ב pfennig-cli):</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>

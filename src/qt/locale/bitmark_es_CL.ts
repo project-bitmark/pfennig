@@ -2621,7 +2621,7 @@ Dirección: %4</translation>
 </translation>
     </message>
     <message>
-        <source>Specify pid file (default: bitmarkd.pid)</source>
+        <source>Specify pid file (default: pfennigd.pid)</source>
         <translation>Especifica archivo pid (predeterminado: bitmark.pid)
 </translation>
     </message>
@@ -3025,7 +3025,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Usage (deprecated, use bitmark-cli):</source>
+        <source>Usage (deprecated, use pfennig-cli):</source>
         <translation type="unfinished"/>
     </message>
     <message>

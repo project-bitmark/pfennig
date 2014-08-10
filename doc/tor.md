@@ -51,7 +51,7 @@ config file):
 	HiddenServicePort 19265 127.0.0.1:19265
 
 The directory can be different of course, but (both) port numbers should be equal to
-your bitmarkd's P2P listen port (9265 by default).
+your pfennigd's P2P listen port (9265 by default).
 
 	-externalip=X   You can tell bitmark about its publicly reachable address using
 	                this option, and this can be a .onion address. Given the above
@@ -73,13 +73,13 @@ your bitmarkd's P2P listen port (9265 by default).
 
 In a typical situation, where you're only reachable via Tor, this should suffice:
 
-	./bitmarkd -proxy=127.0.0.1:9050 -externalip=57qr3yd1nyntf5k.onion -listen
+	./pfennigd -proxy=127.0.0.1:9050 -externalip=57qr3yd1nyntf5k.onion -listen
 
 (obviously, replace the Onion address with your own). If you don't care too much
 about hiding your node, and want to be reachable on IPv4 as well, additionally
 specify:
 
-	./bitmarkd ... -discover
+	./pfennigd ... -discover
 
 and open port 9265 on your firewall (or use -upnp).
 

@@ -2613,8 +2613,8 @@ Adresa: %4</translation>
         <translation>Určiť súbor s nastaveniami (predvolené: bitmark.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: bitmarkd.pid)</source>
-        <translation>Určiť súbor pid (predvolené: bitmarkd.pid)</translation>
+        <source>Specify pid file (default: pfennigd.pid)</source>
+        <translation>Určiť súbor pid (predvolené: pfennigd.pid)</translation>
     </message>
     <message>
         <source>Specify data directory</source>
@@ -3023,8 +3023,8 @@ The network does not appear to fully agree! Some miners appear to be experiencin
         <translation>Toto je mienené nástrojom pre regresné testovania a vývoj programu.</translation>
     </message>
     <message>
-        <source>Usage (deprecated, use bitmark-cli):</source>
-        <translation>Použitie (neodporúča sa, použite bitmark-cli):</translation>
+        <source>Usage (deprecated, use pfennig-cli):</source>
+        <translation>Použitie (neodporúča sa, použite pfennig-cli):</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>

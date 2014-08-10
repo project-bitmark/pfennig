@@ -2616,8 +2616,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Specifica il file di configurazione (predefinito: bitmark.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: bitmarkd.pid)</source>
-        <translation>Specifica il file pid (predefinito: bitmarkd.pid)</translation>
+        <source>Specify pid file (default: pfennigd.pid)</source>
+        <translation>Specifica il file pid (predefinito: pfennigd.pid)</translation>
     </message>
     <message>
         <source>Specify data directory</source>
@@ -3024,8 +3024,8 @@ ad esempio: alertnotify=echo %%s | mail -s &quot;Allarme Bitmark&quot; admin@foo
         <translation>Questo è previsto per l&apos;uso con test di regressione e per lo sviluppo di applicazioni.</translation>
     </message>
     <message>
-        <source>Usage (deprecated, use bitmark-cli):</source>
-        <translation>Usage (deprecato, usare bitmark-cli):</translation>
+        <source>Usage (deprecated, use pfennig-cli):</source>
+        <translation>Usage (deprecato, usare pfennig-cli):</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>

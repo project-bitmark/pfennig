@@ -2614,8 +2614,8 @@ Adrese: %4
         <translation>Norādiet konfigurācijas failu (pēc noklusēšanas: bitmark.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: bitmarkd.pid)</source>
-        <translation>Norādiet pid failu (pēc noklusēšanas: bitmarkd.pid)</translation>
+        <source>Specify pid file (default: pfennigd.pid)</source>
+        <translation>Norādiet pid failu (pēc noklusēšanas: pfennigd.pid)</translation>
     </message>
     <message>
         <source>Specify data directory</source>
@@ -3012,7 +3012,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Usage (deprecated, use bitmark-cli):</source>
+        <source>Usage (deprecated, use pfennig-cli):</source>
         <translation type="unfinished"/>
     </message>
     <message>

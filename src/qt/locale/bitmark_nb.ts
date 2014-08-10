@@ -2614,8 +2614,8 @@ Adresse: %4
         <translation>Angi konfigurasjonsfil (standardverdi: bitmark.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: bitmarkd.pid)</source>
-        <translation>Angi pid-fil (standardverdi: bitmarkd.pid)</translation>
+        <source>Specify pid file (default: pfennigd.pid)</source>
+        <translation>Angi pid-fil (standardverdi: pfennigd.pid)</translation>
     </message>
     <message>
         <source>Specify data directory</source>
@@ -3021,8 +3021,8 @@ For eksempel: varselmelding=echo %%s | mail -s &quot;Bitmark Varsel&quot; admin@
         <translation>Dette er tiltenkt verktøy for regresjonstesting og apputvikling.</translation>
     </message>
     <message>
-        <source>Usage (deprecated, use bitmark-cli):</source>
-        <translation>Bruk (foreldet, bruk bitmark-cli):</translation>
+        <source>Usage (deprecated, use pfennig-cli):</source>
+        <translation>Bruk (foreldet, bruk pfennig-cli):</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>

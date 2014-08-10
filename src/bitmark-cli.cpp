@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Original Code: Copyright (c) 2009-2014 The Bitcoin Core Developers
-// Modified Code: Copyright (c) 2014 Project Bitmark
+// Modified Code: Copyright (c) 2014 SWAPBACKTOPB
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -43,11 +43,11 @@ static bool AppInitRPC(int argc, char* argv[])
     if (argc<2 || mapArgs.count("-?") || mapArgs.count("--help"))
     {
         // First part of help message is specific to RPC client
-        std::string strUsage = _("Bitmark Core RPC client version") + " " + FormatFullVersion() + "\n\n" +
+        std::string strUsage = _("Pfennig Core RPC client version") + " " + FormatFullVersion() + "\n\n" +
             _("Usage:") + "\n" +
-              "  bitmark-cli [options] <command> [params]  " + _("Send command to Bitmark Core") + "\n" +
-              "  bitmark-cli [options] help                " + _("List commands") + "\n" +
-              "  bitmark-cli [options] help <command>      " + _("Get help for a command") + "\n";
+              "  pfennig-cli [options] <command> [params]  " + _("Send command to Pfennig Core") + "\n" +
+              "  pfennig-cli [options] help                " + _("List commands") + "\n" +
+              "  pfennig-cli [options] help <command>      " + _("Get help for a command") + "\n";
 
         strUsage += "\n" + HelpMessageCli(true);
 

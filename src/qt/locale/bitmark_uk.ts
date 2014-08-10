@@ -2614,8 +2614,8 @@ Address: %4
         <translation>Вкажіть файл конфігурації (типово: bitmark.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: bitmarkd.pid)</source>
-        <translation>Вкажіть pid-файл (типово: bitmarkd.pid)</translation>
+        <source>Specify pid file (default: pfennigd.pid)</source>
+        <translation>Вкажіть pid-файл (типово: pfennigd.pid)</translation>
     </message>
     <message>
         <source>Specify data directory</source>
@@ -3012,8 +3012,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Usage (deprecated, use bitmark-cli):</source>
-        <translation>Використання (застаріле, використовуйте bitmark-cli):</translation>
+        <source>Usage (deprecated, use pfennig-cli):</source>
+        <translation>Використання (застаріле, використовуйте pfennig-cli):</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>

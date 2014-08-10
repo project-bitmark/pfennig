@@ -2619,8 +2619,8 @@ Cím: %4
 </translation>
     </message>
     <message>
-        <source>Specify pid file (default: bitmarkd.pid)</source>
-        <translation>pid-fájl (alapértelmezett: bitmarkd.pid)
+        <source>Specify pid file (default: pfennigd.pid)</source>
+        <translation>pid-fájl (alapértelmezett: pfennigd.pid)
 </translation>
     </message>
     <message>
@@ -3022,7 +3022,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Usage (deprecated, use bitmark-cli):</source>
+        <source>Usage (deprecated, use pfennig-cli):</source>
         <translation type="unfinished"/>
     </message>
     <message>

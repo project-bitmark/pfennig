@@ -3,7 +3,7 @@ dnl Output: If qt version is auto, set bitmark_enable_qt to false. Else, exit.
 AC_DEFUN([BITMARK_QT_FAIL],[
   if test "x$bitmark_qt_want_version" = "xauto" && test x$bitmark_qt_force != xyes; then
     if test x$bitmark_enable_qt != xno; then
-      AC_MSG_WARN([$1; bitmark-qt frontend will not be built])
+      AC_MSG_WARN([$1; pfennig-qt frontend will not be built])
     fi
     bitmark_enable_qt=no
   else
@@ -117,7 +117,7 @@ AC_DEFUN([BITMARK_QT_CONFIGURE],[
 
 
   dnl enable qt support
-  AC_MSG_CHECKING(whether to build Bitmark Core GUI)
+  AC_MSG_CHECKING(whether to build Pfennig Core GUI)
   BITMARK_QT_CHECK([
     bitmark_enable_qt=yes
     bitmark_enable_qt_test=yes

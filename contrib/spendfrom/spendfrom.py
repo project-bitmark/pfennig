@@ -7,7 +7,7 @@
 #  spendfrom.py  # Lists available funds
 #  spendfrom.py --from=ADDRESS --to=ADDRESS --amount=11.00
 #
-# Assumes it will talk to a bitmarkd or Bitmark-Qt running
+# Assumes it will talk to a pfennigd or Pfennig-Qt running
 # on localhost.
 #
 # Depends on jsonrpc
@@ -72,7 +72,7 @@ def connect_JSON(config):
     try:
         result = ServiceProxy(connect)
         # ServiceProxy is lazy-connect, so send an RPC command mostly to catch connection errors,
-        # but also make sure the bitmarkd we're talking to is/isn't testnet:
+        # but also make sure the pfennigd we're talking to is/isn't testnet:
         if result.getmininginfo()['testnet'] != testnet:
             sys.stderr.write("RPC server at "+connect+" testnet setting mismatch\n")
             sys.exit(1)
@@ -81,32 +81,32 @@ def connect_JSON(config):
         sys.stderr.write("Error connecting to RPC server at "+connect+"\n")
         sys.exit(1)
 
-def unlock_wallet(bitmarkd):
-    info = bitmarkd.getinfo()
+def unlock_wallet(pfennigd):
+    info = pfennigd.getinfo()
     if 'unlocked_until' not in info:
         return True # wallet is not encrypted
     t = int(info['unlocked_until'])
     if t <= time.time():
         try:
             passphrase = getpass.getpass("Wallet is locked; enter passphrase: ")
-            bitmarkd.walletpassphrase(passphrase, 5)
+            pfennigd.walletpassphrase(passphrase, 5)
         except:
             sys.stderr.write("Wrong passphrase\n")
 
-    info = bitmarkd.getinfo()
+    info = pfennigd.getinfo()
     return int(info['unlocked_until']) > time.time()
 
-def list_available(bitmarkd):
+def list_available(pfennigd):
     address_summary = dict()
 
     address_to_account = dict()
-    for info in bitmarkd.listreceivedbyaddress(0):
+    for info in pfennigd.listreceivedbyaddress(0):
         address_to_account[info["address"]] = info["account"]
 
-    unspent = bitmarkd.listunspent(0)
+    unspent = pfennigd.listunspent(0)
     for output in unspent:
         # listunspent doesn't give addresses, so:
-        rawtx = bitmarkd.getrawtransaction(output['txid'], 1)
+        rawtx = pfennigd.getrawtransaction(output['txid'], 1)
         vout = rawtx["vout"][output['vout']]
         pk = vout["scriptPubKey"]
 
@@ -139,8 +139,8 @@ def select_coins(needed, inputs):
         n += 1
     return (outputs, have-needed)
 
-def create_tx(bitmarkd, fromaddresses, toaddress, amount, fee):
-    all_coins = list_available(bitmarkd)
+def create_tx(pfennigd, fromaddresses, toaddress, amount, fee):
+    all_coins = list_available(pfennigd)
 
     total_available = Decimal("0.0")
     needed = amount+fee
@@ -159,7 +159,7 @@ def create_tx(bitmarkd, fromaddresses, toaddress, amount, fee):
     # Note:
     # Python's json/jsonrpc modules have inconsistent support for Decimal numbers.
     # Instead of wrestling with getting json.dumps() (used by jsonrpc) to encode
-    # Decimals, I'm casting amounts to float before sending them to bitmarkd.
+    # Decimals, I'm casting amounts to float before sending them to pfennigd.
     #  
     outputs = { toaddress : float(amount) }
     (inputs, change_amount) = select_coins(needed, potential_inputs)
@@ -170,8 +170,8 @@ def create_tx(bitmarkd, fromaddresses, toaddress, amount, fee):
         else:
             outputs[change_address] = float(change_amount)
 
-    rawtx = bitmarkd.createrawtransaction(inputs, outputs)
-    signed_rawtx = bitmarkd.signrawtransaction(rawtx)
+    rawtx = pfennigd.createrawtransaction(inputs, outputs)
+    signed_rawtx = pfennigd.signrawtransaction(rawtx)
     if not signed_rawtx["complete"]:
         sys.stderr.write("signrawtransaction failed\n")
         sys.exit(1)
@@ -179,10 +179,10 @@ def create_tx(bitmarkd, fromaddresses, toaddress, amount, fee):
 
     return txdata
 
-def compute_amount_in(bitmarkd, txinfo):
+def compute_amount_in(pfennigd, txinfo):
     result = Decimal("0.0")
     for vin in txinfo['vin']:
-        in_info = bitmarkd.getrawtransaction(vin['txid'], 1)
+        in_info = pfennigd.getrawtransaction(vin['txid'], 1)
         vout = in_info['vout'][vin['vout']]
         result = result + vout['value']
     return result
@@ -193,12 +193,12 @@ def compute_amount_out(txinfo):
         result = result + vout['value']
     return result
 
-def sanity_test_fee(bitmarkd, txdata_hex, max_fee):
+def sanity_test_fee(pfennigd, txdata_hex, max_fee):
     class FeeError(RuntimeError):
         pass
     try:
-        txinfo = bitmarkd.decoderawtransaction(txdata_hex)
-        total_in = compute_amount_in(bitmarkd, txinfo)
+        txinfo = pfennigd.decoderawtransaction(txdata_hex)
+        total_in = compute_amount_in(pfennigd, txinfo)
         total_out = compute_amount_out(txinfo)
         if total_in-total_out > max_fee:
             raise FeeError("Rejecting transaction, unreasonable fee of "+str(total_in-total_out))
@@ -240,10 +240,10 @@ def main():
     check_json_precision()
     config = read_bitmark_config(options.datadir)
     if options.testnet: config['testnet'] = True
-    bitmarkd = connect_JSON(config)
+    pfennigd = connect_JSON(config)
 
     if options.amount is None:
-        address_summary = list_available(bitmarkd)
+        address_summary = list_available(pfennigd)
         for address,info in address_summary.iteritems():
             n_transactions = len(info['outputs'])
             if n_transactions > 1:
@@ -253,14 +253,14 @@ def main():
     else:
         fee = Decimal(options.fee)
         amount = Decimal(options.amount)
-        while unlock_wallet(bitmarkd) == False:
+        while unlock_wallet(pfennigd) == False:
             pass # Keep asking for passphrase until they get it right
-        txdata = create_tx(bitmarkd, options.fromaddresses.split(","), options.to, amount, fee)
-        sanity_test_fee(bitmarkd, txdata, amount*Decimal("0.01"))
+        txdata = create_tx(pfennigd, options.fromaddresses.split(","), options.to, amount, fee)
+        sanity_test_fee(pfennigd, txdata, amount*Decimal("0.01"))
         if options.dry_run:
             print(txdata)
         else:
-            txid = bitmarkd.sendrawtransaction(txdata)
+            txid = pfennigd.sendrawtransaction(txdata)
             print(txid)
 
 if __name__ == '__main__':
