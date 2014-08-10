@@ -2950,6 +2950,66 @@ bool LoadBlockIndex()
     return true;
 }
 
+void static BitmarkGenesisMiner(CBlock block, int start, int threads)
+{
+    LogPrintf("BitmarkMiner started\n");
+    SetThreadPriority(THREAD_PRIORITY_LOWEST);
+    RenameThread("bitmark-miner");
+    block.nTime += start;
+    try { while (true) {
+		printf("Searching for genesis block...\n");
+		uint256 hashTarget = Params().ProofOfWorkLimit().getuint256();
+		uint256 thash;
+		char scratchpad[SCRYPT_SCRATCHPAD_SIZE];
+
+		while(true)
+		{
+			scrypt_1024_1_1_256_sp(BEGIN(block.nVersion), BEGIN(thash), scratchpad);
+			if (thash <= hashTarget)
+				break;
+			if ((block.nNonce & 0xFFF) == 0)
+			{
+				printf("nonce %08X: hash = %s (target = %s)\n", block.nNonce, thash.ToString().c_str(), hashTarget.ToString().c_str());
+			}
+			++block.nNonce;
+			if (block.nNonce == 0)
+			{
+				printf("NONCE WRAPPED, incrementing time\n");
+				block.nTime+=threads;
+			}
+		}
+		printf("block.nTime = %u \n", block.nTime);
+		printf("block.nNonce = %u \n", block.nNonce);
+		printf("block.GetHash = %s\n", block.GetHash().ToString().c_str());
+    } }
+    catch (boost::thread_interrupted)
+    {
+        LogPrintf("BitmarkMiner terminated\n");
+        throw;
+    }
+}
+
+void GenesisBitmark(CBlock block)
+{
+    static boost::thread_group* minerThreads = NULL;
+
+    int nThreads = boost::thread::hardware_concurrency();
+
+    if (minerThreads != NULL)
+    {
+        minerThreads->interrupt_all();
+        delete minerThreads;
+        minerThreads = NULL;
+    }
+
+    if (nThreads == 0)
+        return;
+
+    minerThreads = new boost::thread_group();
+    for (int i = 0; i < nThreads; i++)
+        minerThreads->create_thread(boost::bind(&BitmarkGenesisMiner, block, i, nThreads));
+}
+
 bool InitBlockIndex() {
     LOCK(cs_main);
     // Check whether we're already initialized
@@ -2963,6 +3023,14 @@ bool InitBlockIndex() {
 
     // Only add the genesis block if not reindexing (in which case we reuse the one already on disk)
     if (!fReindex) {
+        // Generate a new Genesis block
+		if (true)
+		{
+			CBlock &block = const_cast<CBlock&>(Params().GenesisBlock());
+			GenesisBitmark(block);
+	        block.print();
+	        while(true) {}
+		}
         try {
             CBlock &block = const_cast<CBlock&>(Params().GenesisBlock());
             // Start new block file
