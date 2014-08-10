@@ -2622,8 +2622,8 @@ Dirección: %4
         <translation>Especificar directorio de datos</translation>
     </message>
     <message>
-        <source>Listen for connections on &lt;port&gt; (default: 9265 or testnet: 19265)</source>
-        <translation>Escoitar conexións no &lt;porto&gt; (por defecto: 9265 ou testnet: 19265)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: P2PPORT or testnet: 1P2PPORT)</source>
+        <translation>Escoitar conexións no &lt;porto&gt; (por defecto: P2PPORT ou testnet: 1P2PPORT)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
@@ -2650,8 +2650,8 @@ Dirección: %4
         <translation>Ocorreu un erro mentres se establecía o porto RPC %u para escoitar sobre IPv4: %s</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9266 or testnet: 19266)</source>
-        <translation>Escoitar conexións JSON-RPC no &lt;porto&gt; (por defecto: 9266 ou testnet: 19266)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: RPCPORT or testnet: 1RPCPORT)</source>
+        <translation>Escoitar conexións JSON-RPC no &lt;porto&gt; (por defecto: RPCPORT ou testnet: 1RPCPORT)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -2834,8 +2834,8 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Connect to JSON-RPC on &lt;port&gt; (default: 9266 or testnet: 19266)</source>
-        <translation>Conectar a JSON-RPC no &lt;porto&gt; (por defecto: 9266 ou testnet: 19266)</translation>
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: RPCPORT or testnet: 1RPCPORT)</source>
+        <translation>Conectar a JSON-RPC no &lt;porto&gt; (por defecto: RPCPORT ou testnet: 1RPCPORT)</translation>
     </message>
     <message>
         <source>Connection options:</source>

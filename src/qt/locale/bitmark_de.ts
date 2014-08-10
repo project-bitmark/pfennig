@@ -2621,8 +2621,8 @@ Adresse: %4</translation>
         <translation>Datenverzeichnis festlegen</translation>
     </message>
     <message>
-        <source>Listen for connections on &lt;port&gt; (default: 9265 or testnet: 19265)</source>
-        <translation>&lt;port&gt; nach Verbindungen abhören (Standard: 9265 oder Testnetz: 19265)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: P2PPORT or testnet: 1P2PPORT)</source>
+        <translation>&lt;port&gt; nach Verbindungen abhören (Standard: P2PPORT oder Testnetz: 1P2PPORT)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
@@ -2649,8 +2649,8 @@ Adresse: %4</translation>
         <translation>Beim Einrichten des RPC-Ports %u zum Abhören von IPv4 ist ein Fehler aufgetreten: %s</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9266 or testnet: 19266)</source>
-        <translation>&lt;port&gt; nach JSON-RPC-Verbindungen abhören (Standard: 9266 oder Testnetz: 19266)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: RPCPORT or testnet: 1RPCPORT)</source>
+        <translation>&lt;port&gt; nach JSON-RPC-Verbindungen abhören (Standard: RPCPORT oder Testnetz: 1RPCPORT)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -2833,8 +2833,8 @@ zum Beispiel: alertnotify=echo %%s | mail -s \&quot;Bitmark Alert\&quot; admin@f
         <translation>Über einen SOCKS-Proxy verbinden</translation>
     </message>
     <message>
-        <source>Connect to JSON-RPC on &lt;port&gt; (default: 9266 or testnet: 19266)</source>
-        <translation>Mit JSON-RPC auf &lt;port&gt; verbinden (Standard: 9266 oder Testnetz: 19266)</translation>
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: RPCPORT or testnet: 1RPCPORT)</source>
+        <translation>Mit JSON-RPC auf &lt;port&gt; verbinden (Standard: RPCPORT oder Testnetz: 1RPCPORT)</translation>
     </message>
     <message>
         <source>Connection options:</source>

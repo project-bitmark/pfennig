@@ -2622,8 +2622,8 @@ Adres: %4
         <translation>Wskaż folder danych</translation>
     </message>
     <message>
-        <source>Listen for connections on &lt;port&gt; (default: 9265 or testnet: 19265)</source>
-        <translation>Nasłuchuj połączeń na &lt;port&gt; (domyślnie: 9265 lub testnet: 19265)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: P2PPORT or testnet: 1P2PPORT)</source>
+        <translation>Nasłuchuj połączeń na &lt;port&gt; (domyślnie: P2PPORT lub testnet: 1P2PPORT)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
@@ -2650,8 +2650,8 @@ Adres: %4
         <translation>Wystąpił błąd podczas ustawiania portu RPC %u w tryb nasłuchu: %s</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9266 or testnet: 19266)</source>
-        <translation>Nasłuchuj połączeń JSON-RPC na &lt;port&gt; (domyślnie: 9266 or testnet: 19266)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: RPCPORT or testnet: 1RPCPORT)</source>
+        <translation>Nasłuchuj połączeń JSON-RPC na &lt;port&gt; (domyślnie: RPCPORT or testnet: 1RPCPORT)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -2833,8 +2833,8 @@ na przykład: alertnotify=echo %%s | mail -s &quot;Alarm Bitmark&quot; admin@foo
         <translation>Połącz przez SOCKS proxy</translation>
     </message>
     <message>
-        <source>Connect to JSON-RPC on &lt;port&gt; (default: 9266 or testnet: 19266)</source>
-        <translation>podłącz do JSON-RPC na &lt;port&gt; (domyślnie: 9266 lub sieć testowa: 19266)</translation>
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: RPCPORT or testnet: 1RPCPORT)</source>
+        <translation>podłącz do JSON-RPC na &lt;port&gt; (domyślnie: RPCPORT lub sieć testowa: 1RPCPORT)</translation>
     </message>
     <message>
         <source>Connection options:</source>

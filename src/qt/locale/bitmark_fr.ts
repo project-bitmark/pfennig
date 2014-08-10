@@ -2622,8 +2622,8 @@ Adresse : %4
         <translation>Spécifier le répertoire de données</translation>
     </message>
     <message>
-        <source>Listen for connections on &lt;port&gt; (default: 9265 or testnet: 19265)</source>
-        <translation>Écouter les connexions sur le &lt;port&gt; (par défaut : 9265 ou testnet : 19265)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: P2PPORT or testnet: 1P2PPORT)</source>
+        <translation>Écouter les connexions sur le &lt;port&gt; (par défaut : P2PPORT ou testnet : 1P2PPORT)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
@@ -2650,8 +2650,8 @@ Adresse : %4
         <translation>Une erreur est survenue lors du réglage du port RPC %u pour écouter sur IPv4 : %s</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9266 or testnet: 19266)</source>
-        <translation>Écouter les connexions JSON-RPC sur le &lt;port&gt; (par défaut : 9266 ou tesnet : 19266)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: RPCPORT or testnet: 1RPCPORT)</source>
+        <translation>Écouter les connexions JSON-RPC sur le &lt;port&gt; (par défaut : RPCPORT ou tesnet : 1RPCPORT)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -2834,8 +2834,8 @@ par exemple : alertnotify=echo %%s | mail -s &quot;Alerte Bitmark&quot; admin@fo
         <translation>Connexion à travers un serveur mandataire SOCKS</translation>
     </message>
     <message>
-        <source>Connect to JSON-RPC on &lt;port&gt; (default: 9266 or testnet: 19266)</source>
-        <translation>Se connecter à JSON-RPC sur le &lt;port&gt; (par défaut : 9266 ou testnet : 19266)</translation>
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: RPCPORT or testnet: 1RPCPORT)</source>
+        <translation>Se connecter à JSON-RPC sur le &lt;port&gt; (par défaut : RPCPORT ou testnet : 1RPCPORT)</translation>
     </message>
     <message>
         <source>Connection options:</source>

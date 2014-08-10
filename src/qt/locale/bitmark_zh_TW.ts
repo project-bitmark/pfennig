@@ -2624,8 +2624,8 @@ Address: %4
         <translation>指定資料目錄</translation>
     </message>
     <message>
-        <source>Listen for connections on &lt;port&gt; (default: 9265 or testnet: 19265)</source>
-        <translation>在通訊埠 &lt;port&gt; 聽候連線(預設值: 9265, 或若是測試網路: 19265)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: P2PPORT or testnet: 1P2PPORT)</source>
+        <translation>在通訊埠 &lt;port&gt; 聽候連線(預設值: P2PPORT, 或若是測試網路: 1P2PPORT)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
@@ -2652,8 +2652,8 @@ Address: %4
         <translation>設定在 IPv4 網路上以通訊埠 %u 聽取 RPC 連線時發生錯誤: %s</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9266 or testnet: 19266)</source>
-        <translation>在通訊埠 &lt;port&gt; 聽候 JSON-RPC 連線(預設值: 9266, 或若是測試網路: 19266)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: RPCPORT or testnet: 1RPCPORT)</source>
+        <translation>在通訊埠 &lt;port&gt; 聽候 JSON-RPC 連線(預設值: RPCPORT, 或若是測試網路: 1RPCPORT)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -2837,8 +2837,8 @@ alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.com</translat
         <translation>透過 SOCKS 代理伺服器來連線</translation>
     </message>
     <message>
-        <source>Connect to JSON-RPC on &lt;port&gt; (default: 9266 or testnet: 19266)</source>
-        <translation>連線到埠號 &lt;port&gt; 上的 JSON-RPC 伺服器(預設值: 9266，或若是測試網路: 19266)</translation>
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: RPCPORT or testnet: 1RPCPORT)</source>
+        <translation>連線到埠號 &lt;port&gt; 上的 JSON-RPC 伺服器(預設值: RPCPORT，或若是測試網路: 1RPCPORT)</translation>
     </message>
     <message>
         <source>Connection options:</source>

@@ -2623,8 +2623,8 @@ Address: %4
         <translation>Задать каталог данных</translation>
     </message>
     <message>
-        <source>Listen for connections on &lt;port&gt; (default: 9265 or testnet: 19265)</source>
-        <translation>Принимать входящие подключения на &lt;port&gt; (по умолчанию: 9265 или 19265 в тестовой сети)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: P2PPORT or testnet: 1P2PPORT)</source>
+        <translation>Принимать входящие подключения на &lt;port&gt; (по умолчанию: P2PPORT или 1P2PPORT в тестовой сети)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
@@ -2651,8 +2651,8 @@ Address: %4
         <translation>Произошла ошибка при открытии RPC-порта %u для прослушивания на IPv4: %s</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9266 or testnet: 19266)</source>
-        <translation>Прослушивать подключения JSON-RPC на &lt;порту&gt; (по умолчанию: 9266 или для testnet: 19266)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: RPCPORT or testnet: 1RPCPORT)</source>
+        <translation>Прослушивать подключения JSON-RPC на &lt;порту&gt; (по умолчанию: RPCPORT или для testnet: 1RPCPORT)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -2835,8 +2835,8 @@ rpcpassword=%s
         <translation>Подключаться через SOCKS прокси</translation>
     </message>
     <message>
-        <source>Connect to JSON-RPC on &lt;port&gt; (default: 9266 or testnet: 19266)</source>
-        <translation>Подключаться к JSON-RPC на &lt;порт&gt; (по умолчанию: 9266 или testnet: 19266)</translation>
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: RPCPORT or testnet: 1RPCPORT)</source>
+        <translation>Подключаться к JSON-RPC на &lt;порт&gt; (по умолчанию: RPCPORT или testnet: 1RPCPORT)</translation>
     </message>
     <message>
         <source>Connection options:</source>

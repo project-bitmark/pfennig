@@ -61,15 +61,15 @@ BOOST_AUTO_TEST_CASE(netbase_splithost)
     BOOST_CHECK(TestSplitHost("www.bitmark.org:80", "www.bitmark.org", 80));
     BOOST_CHECK(TestSplitHost("[www.bitmark.org]:80", "www.bitmark.org", 80));
     BOOST_CHECK(TestSplitHost("127.0.0.1", "127.0.0.1", -1));
-    BOOST_CHECK(TestSplitHost("127.0.0.1:9265", "127.0.0.1", 9265));
+    BOOST_CHECK(TestSplitHost("127.0.0.1:P2PPORT", "127.0.0.1", P2PPORT));
     BOOST_CHECK(TestSplitHost("[127.0.0.1]", "127.0.0.1", -1));
-    BOOST_CHECK(TestSplitHost("[127.0.0.1]:9265", "127.0.0.1", 9265));
+    BOOST_CHECK(TestSplitHost("[127.0.0.1]:P2PPORT", "127.0.0.1", P2PPORT));
     BOOST_CHECK(TestSplitHost("::ffff:127.0.0.1", "::ffff:127.0.0.1", -1));
-    BOOST_CHECK(TestSplitHost("[::ffff:127.0.0.1]:9265", "::ffff:127.0.0.1", 9265));
-    BOOST_CHECK(TestSplitHost("[::]:9265", "::", 9265));
-    BOOST_CHECK(TestSplitHost("::9265", "::9265", -1));
-    BOOST_CHECK(TestSplitHost(":9265", "", 9265));
-    BOOST_CHECK(TestSplitHost("[]:9265", "", 9265));
+    BOOST_CHECK(TestSplitHost("[::ffff:127.0.0.1]:P2PPORT", "::ffff:127.0.0.1", P2PPORT));
+    BOOST_CHECK(TestSplitHost("[::]:P2PPORT", "::", P2PPORT));
+    BOOST_CHECK(TestSplitHost("::P2PPORT", "::P2PPORT", -1));
+    BOOST_CHECK(TestSplitHost(":P2PPORT", "", P2PPORT));
+    BOOST_CHECK(TestSplitHost("[]:P2PPORT", "", P2PPORT));
     BOOST_CHECK(TestSplitHost("", "", -1));
 }
 
@@ -84,10 +84,10 @@ bool static TestParse(string src, string canon)
 BOOST_AUTO_TEST_CASE(netbase_lookupnumeric)
 {
     BOOST_CHECK(TestParse("127.0.0.1", "127.0.0.1:65535"));
-    BOOST_CHECK(TestParse("127.0.0.1:9265", "127.0.0.1:9265"));
+    BOOST_CHECK(TestParse("127.0.0.1:P2PPORT", "127.0.0.1:P2PPORT"));
     BOOST_CHECK(TestParse("::ffff:127.0.0.1", "127.0.0.1:65535"));
     BOOST_CHECK(TestParse("::", "[::]:65535"));
-    BOOST_CHECK(TestParse("[::]:9265", "[::]:9265"));
+    BOOST_CHECK(TestParse("[::]:P2PPORT", "[::]:P2PPORT"));
     BOOST_CHECK(TestParse("[127.0.0.1]", "127.0.0.1:65535"));
     BOOST_CHECK(TestParse(":::", ""));
 }

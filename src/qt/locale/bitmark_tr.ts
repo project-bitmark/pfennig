@@ -2622,8 +2622,8 @@ Adres: %4
         <translation>Veri dizinini belirt</translation>
     </message>
     <message>
-        <source>Listen for connections on &lt;port&gt; (default: 9265 or testnet: 19265)</source>
-        <translation>Bağlantılar için dinlenecek &lt;port&gt; (varsayılan: 9265 ya da testnet: 19265)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: P2PPORT or testnet: 1P2PPORT)</source>
+        <translation>Bağlantılar için dinlenecek &lt;port&gt; (varsayılan: P2PPORT ya da testnet: 1P2PPORT)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
@@ -2650,8 +2650,8 @@ Adres: %4
         <translation>IPv4 üzerinde dinlemek için %u numaralı RPC portunun kurulumu sırasında hata meydana geldi: %s</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9266 or testnet: 19266)</source>
-        <translation>JSON-RPC bağlantılarını &lt;port&gt; üzerinde dinle (varsayılan: 9266 veya tesnet: 19266)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: RPCPORT or testnet: 1RPCPORT)</source>
+        <translation>JSON-RPC bağlantılarını &lt;port&gt; üzerinde dinle (varsayılan: RPCPORT veya tesnet: 1RPCPORT)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -2834,8 +2834,8 @@ mesela: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.com
         <translation>SOCKS vekil sunucusuyla bağlan</translation>
     </message>
     <message>
-        <source>Connect to JSON-RPC on &lt;port&gt; (default: 9266 or testnet: 19266)</source>
-        <translation>&lt;port&gt; numarasında JSON-RPC&apos;ye bağlan (varsayılan: 9266 veya testnet: 19266)</translation>
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: RPCPORT or testnet: 1RPCPORT)</source>
+        <translation>&lt;port&gt; numarasında JSON-RPC&apos;ye bağlan (varsayılan: RPCPORT veya testnet: 1RPCPORT)</translation>
     </message>
     <message>
         <source>Connection options:</source>

@@ -35,13 +35,13 @@ public:
         pchMessageStart[2] = 0xb4;
         pchMessageStart[3] = 0xd9;
         vAlertPubKey = ParseHex("04fc9702847840aaf195de8442ebecedf5b095cdbb9bc716bda9110971b28a49e0ead8564ff0db22209e0374782c093bb899692d524e9d6a6956e7c5ecbcd68284");
-        nDefaultPort = 9265;
-        nRPCPort = 9266;
+        nDefaultPort = P2PPORT;
+        nRPCPort = RPCPORT;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 32);
         nSubsidyHalvingInterval = 788000;
 
         // Build the genesis block.
-        const char* pszTimestamp = "13/July/2014, with memory of the past, we look to the future. TDR";
+        const char* pszTimestamp = "NEW PFENNIG GENESIS";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -62,7 +62,7 @@ public:
         assert(genesis.hashMerkleRoot == uint256("0xd4715adf41222fae3d4bf41af30c675bc27228233d0f3cfd4ae0ae1d3e760ba8"));
 
         // todo add more dns seeders
-        vSeeds.push_back(CDNSSeedData("bitmark.co", "seed.bitmark.co"));
+        vSeeds.push_back(CDNSSeedData("pfennig.co", "seed.pgennif.co"));
 
         base58Prefixes[PUBKEY_ADDRESS] = list_of(85); // b
         base58Prefixes[SCRIPT_ADDRESS] = list_of(5);
@@ -115,8 +115,8 @@ public:
         pchMessageStart[2] = 0x09;
         pchMessageStart[3] = 0x07;
         vAlertPubKey = ParseHex("04302390343f91cc401d56d68b123028bf52e5fca1939df127f63c6467cdf9c8e2c14b61104cf817d0b780da337893ecc4aaff1309e536162dabbdb45200ca2b0a");
-        nDefaultPort = 19265;
-        nRPCPort = 19266;
+        nDefaultPort = 1P2PPORT;
+        nRPCPort = 1RPCPORT;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 20);
         strDataDir = "testnet3";
 
@@ -128,7 +128,7 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("bitmark.co", "test.bitmark.co"));
+        vSeeds.push_back(CDNSSeedData("pfennig.co", "test.pfennig.co"));
 
         base58Prefixes[PUBKEY_ADDRESS] = list_of(130); // u
         base58Prefixes[SCRIPT_ADDRESS] = list_of(196);

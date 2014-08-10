@@ -2621,8 +2621,8 @@ Endereço: %4</translation>
         <translation>Especificar pasta de dados</translation>
     </message>
     <message>
-        <source>Listen for connections on &lt;port&gt; (default: 9265 or testnet: 19265)</source>
-        <translation>Escute ligações na porta &lt;n&gt; (por defeito: 9265 ou testnet: 19265)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: P2PPORT or testnet: 1P2PPORT)</source>
+        <translation>Escute ligações na porta &lt;n&gt; (por defeito: P2PPORT ou testnet: 1P2PPORT)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
@@ -2649,8 +2649,8 @@ Endereço: %4</translation>
         <translation>Ocorreu um erro ao definir a porta %u do serviço RPC a escutar em IPv4: %s</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9266 or testnet: 19266)</source>
-        <translation>Escutar por ligações JSON-RPC na porta &lt;n&gt; (por defeito: 9266 ou rede de testes: 19266)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: RPCPORT or testnet: 1RPCPORT)</source>
+        <translation>Escutar por ligações JSON-RPC na porta &lt;n&gt; (por defeito: RPCPORT ou rede de testes: 1RPCPORT)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -2832,8 +2832,8 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;Alerta Bitmark&quot; admin@foo
         <translation>Ligar através de proxy SOCKS:</translation>
     </message>
     <message>
-        <source>Connect to JSON-RPC on &lt;port&gt; (default: 9266 or testnet: 19266)</source>
-        <translation>Ligar ao JSON-RPC na porta &lt;n&gt; (por defeito: 9266 ou rede de testes: 19266)</translation>
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: RPCPORT or testnet: 1RPCPORT)</source>
+        <translation>Ligar ao JSON-RPC na porta &lt;n&gt; (por defeito: RPCPORT ou rede de testes: 1RPCPORT)</translation>
     </message>
     <message>
         <source>Connection options:</source>

@@ -158,8 +158,8 @@ Value addnode(const Array& params, bool fHelp)
             "1. \"node\"     (string, required) The node (see getpeerinfo for nodes)\n"
             "2. \"command\"  (string, required) 'add' to add a node to the list, 'remove' to remove a node from the list, 'onetry' to try a connection to the node once\n"
             "\nExamples:\n"
-            + HelpExampleCli("addnode", "\"192.168.0.6:9265\" \"onetry\"")
-            + HelpExampleRpc("addnode", "\"192.168.0.6:9265\", \"onetry\"")
+            + HelpExampleCli("addnode", "\"192.168.0.6:P2PPORT\" \"onetry\"")
+            + HelpExampleRpc("addnode", "\"192.168.0.6:P2PPORT\", \"onetry\"")
         );
 
     string strNode = params[0].get_str();
@@ -212,7 +212,7 @@ Value getaddednodeinfo(const Array& params, bool fHelp)
             "    \"connected\" : true|false,          (boolean) If connected\n"
             "    \"addresses\" : [\n"
             "       {\n"
-            "         \"address\" : \"192.168.0.201:9265\",  (string) The bitmark server host and port\n"
+            "         \"address\" : \"192.168.0.201:P2PPORT\",  (string) The bitmark server host and port\n"
             "         \"connected\" : \"outbound\"           (string) connection, inbound or outbound\n"
             "       }\n"
             "       ,...\n"
