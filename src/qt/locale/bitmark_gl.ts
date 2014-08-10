@@ -2,12 +2,12 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Bitmark Core</source>
-        <translation>Sobre Bitmark core</translation>
+        <source>About Pfennig Core</source>
+        <translation>Sobre Pfennig core</translation>
     </message>
     <message>
-        <source>&lt;b&gt;Bitmark Core&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Bitmark core&lt;/b&gt; versión</translation>
+        <source>&lt;b&gt;Pfennig Core&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Pfennig core&lt;/b&gt; versión</translation>
     </message>
     <message>
         <source>
@@ -29,7 +29,7 @@ Este produto inclúe software desenvolvido polo OpenSSL Project para o uso no Op
     </message>
     <message>
         <source>The Bitcoin Core Developers</source>
-        <translation>Os desarrolladores de Bitmark Core</translation>
+        <translation>Os desarrolladores de Pfennig Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -103,12 +103,12 @@ Este produto inclúe software desenvolvido polo OpenSSL Project para o uso no Op
         <translation>Direccións para recibir</translation>
     </message>
     <message>
-        <source>These are your Bitmark addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estas son as túas direccións Bitmark para enviar pagos. Revisa sempre a cantidade e a dirección receptora antes de enviar moedas.</translation>
+        <source>These are your Pfennig addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estas son as túas direccións Pfennig para enviar pagos. Revisa sempre a cantidade e a dirección receptora antes de enviar moedas.</translation>
     </message>
     <message>
-        <source>These are your Bitmark addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Estas son as túas direccións Bitmark para recibir pagos. Recoméndase empregar unha nova dirección de recepción por cada transacción.</translation>
+        <source>These are your Pfennig addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Estas son as túas direccións Pfennig para recibir pagos. Recoméndase empregar unha nova dirección de recepción por cada transacción.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -205,8 +205,8 @@ Este produto inclúe software desenvolvido polo OpenSSL Project para o uso no Op
         <translation>Confirmar encriptación de moedeiro</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITMARKS&lt;/b&gt;!</source>
-        <translation>Precaución: Se encriptas o teu moedeiro e perdes o teu contrasinal, ti &lt;b&gt;PERDERÁS TÓDOLOS TEUS BITMARKS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PfennigS&lt;/b&gt;!</source>
+        <translation>Precaución: Se encriptas o teu moedeiro e perdes o teu contrasinal, ti &lt;b&gt;PERDERÁS TÓDOLOS TEUS PfennigS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -225,8 +225,8 @@ Este produto inclúe software desenvolvido polo OpenSSL Project para o uso no Op
         <translation>Moedeiro encriptado</translation>
     </message>
     <message>
-        <source>Bitmark will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitmarks from being stolen by malware infecting your computer.</source>
-        <translation>Bitmark se pechará agora para rematar o proceso de encriptación. Lembra que encriptar o teu moedeiro non protexe totalmente os teus bitmarks de ser robados por malware que infecte o teu ordenador.</translation>
+        <source>Pfennig will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your pfennigs from being stolen by malware infecting your computer.</source>
+        <translation>Pfennig se pechará agora para rematar o proceso de encriptación. Lembra que encriptar o teu moedeiro non protexe totalmente os teus pfennigs de ser robados por malware que infecte o teu ordenador.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -258,7 +258,7 @@ Este produto inclúe software desenvolvido polo OpenSSL Project para o uso no Op
     </message>
 </context>
 <context>
-    <name>BitmarkGUI</name>
+    <name>PfennigGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>&amp;Asinar mensaxe...</translation>
@@ -296,8 +296,8 @@ Este produto inclúe software desenvolvido polo OpenSSL Project para o uso no Op
         <translation>Saír da aplicación</translation>
     </message>
     <message>
-        <source>Show information about Bitmark</source>
-        <translation>Amosar información sobre Bitmark</translation>
+        <source>Show information about Pfennig</source>
+        <translation>Amosar información sobre Pfennig</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -344,12 +344,12 @@ Este produto inclúe software desenvolvido polo OpenSSL Project para o uso no Op
         <translation>Reindexando bloques no disco...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitmark address</source>
-        <translation>Enviar moedas a unha dirección Bitmark</translation>
+        <source>Send coins to a Pfennig address</source>
+        <translation>Enviar moedas a unha dirección Pfennig</translation>
     </message>
     <message>
-        <source>Modify configuration options for Bitmark</source>
-        <translation>Modificar opcións de configuración para Bitmark</translation>
+        <source>Modify configuration options for Pfennig</source>
+        <translation>Modificar opcións de configuración para Pfennig</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -372,8 +372,8 @@ Este produto inclúe software desenvolvido polo OpenSSL Project para o uso no Op
         <translation>&amp;Verificar mensaxe...</translation>
     </message>
     <message>
-        <source>Bitmark</source>
-        <translation>Bitmark</translation>
+        <source>Pfennig</source>
+        <translation>Pfennig</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -400,12 +400,12 @@ Este produto inclúe software desenvolvido polo OpenSSL Project para o uso no Op
         <translation>Encriptar as claves privadas que pertencen ao teu moedeiro</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitmark addresses to prove you own them</source>
-        <translation>Asina mensaxes coas túas direccións Bitmark para probar que te pertencen</translation>
+        <source>Sign messages with your Pfennig addresses to prove you own them</source>
+        <translation>Asina mensaxes coas túas direccións Pfennig para probar que te pertencen</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitmark addresses</source>
-        <translation>Verificar mensaxes para asegurar que foron asinados con direccións Bitmark dadas.</translation>
+        <source>Verify messages to ensure they were signed with specified Pfennig addresses</source>
+        <translation>Verificar mensaxes para asegurar que foron asinados con direccións Pfennig dadas.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -428,16 +428,16 @@ Este produto inclúe software desenvolvido polo OpenSSL Project para o uso no Op
         <translation>[testnet]</translation>
     </message>
     <message>
-        <source>Bitmark Core</source>
-        <translation>Core de Bitmark</translation>
+        <source>Pfennig Core</source>
+        <translation>Core de Pfennig</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitmark: URIs)</source>
-        <translation>Solicitar pagos (xenera códigos QR e bitmark: URIs)</translation>
+        <source>Request payments (generates QR codes and pfennig: URIs)</source>
+        <translation>Solicitar pagos (xenera códigos QR e pfennig: URIs)</translation>
     </message>
     <message>
-        <source>&amp;About Bitmark Core</source>
-        <translation>&amp;Sobre Bitmark Core</translation>
+        <source>&amp;About Pfennig Core</source>
+        <translation>&amp;Sobre Pfennig Core</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -448,24 +448,24 @@ Este produto inclúe software desenvolvido polo OpenSSL Project para o uso no Op
         <translation>Amosar a listaxe de etiquetas e direccións para recibir empregadas</translation>
     </message>
     <message>
-        <source>Open a bitmark: URI or payment request</source>
-        <translation>Abrir un bitmark: URI ou solicitude de pago</translation>
+        <source>Open a pfennig: URI or payment request</source>
+        <translation>Abrir un pfennig: URI ou solicitude de pago</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Show the Bitmark Core help message to get a list with possible Bitmark command-line options</source>
+        <source>Show the Pfennig Core help message to get a list with possible Pfennig command-line options</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Bitmark client</source>
-        <translation>Cliente Bitmark</translation>
+        <source>Pfennig client</source>
+        <translation>Cliente Pfennig</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitmark network</source>
-        <translation><numerusform>%n conexión activa coa rede Bitmark</numerusform><numerusform>%n conexións activas coa rede Bitmark</numerusform></translation>
+        <source>%n active connection(s) to Pfennig network</source>
+        <translation><numerusform>%n conexión activa coa rede Pfennig</numerusform><numerusform>%n conexións activas coa rede Pfennig</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -560,8 +560,8 @@ Dirección: %4
         <translation>O moedeiro está &lt;b&gt;encriptado&lt;/b&gt; e actualmente &lt;b&gt;bloqueado&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Bitmark can no longer continue safely and will quit.</source>
-        <translation>Ocorriu un erro fatal. Bitmark non pode continuar en condicións de seguridade e pecharáse.</translation>
+        <source>A fatal error occurred. Pfennig can no longer continue safely and will quit.</source>
+        <translation>Ocorriu un erro fatal. Pfennig non pode continuar en condicións de seguridade e pecharáse.</translation>
     </message>
 </context>
 <context>
@@ -845,8 +845,8 @@ Dirección: %4
         <translation>A dirección introducida &quot;%1&quot; xa está no libro de direccións.</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid Bitmark address.</source>
-        <translation>A dirección introducida &apos;%1&apos; non é unha dirección Bitmark válida.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Pfennig address.</source>
+        <translation>A dirección introducida &apos;%1&apos; non é unha dirección Pfennig válida.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -883,12 +883,12 @@ Dirección: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Bitmark Core - Command-line options</source>
+        <source>Pfennig Core - Command-line options</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Bitmark Core</source>
-        <translation>Core de Bitmark</translation>
+        <source>Pfennig Core</source>
+        <translation>Core de Pfennig</translation>
     </message>
     <message>
         <source>version</source>
@@ -934,15 +934,15 @@ Dirección: %4
         <translation>Benvido</translation>
     </message>
     <message>
-        <source>Welcome to Bitmark Core.</source>
+        <source>Welcome to Pfennig Core.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Bitmark Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where Pfennig Core will store its data.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Bitmark Core will download and store a copy of the Bitmark block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>Pfennig Core will download and store a copy of the Pfennig block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -954,8 +954,8 @@ Dirección: %4
         <translation>Empregar un directorio de datos personalizado</translation>
     </message>
     <message>
-        <source>Bitmark</source>
-        <translation>Bitmark</translation>
+        <source>Pfennig</source>
+        <translation>Pfennig</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; can not be created.</source>
@@ -1016,12 +1016,12 @@ Dirección: %4
         <translation>Pagar &amp;tarifa da transacción</translation>
     </message>
     <message>
-        <source>Automatically start Bitmark after logging in to the system.</source>
-        <translation>Comezar Bitmark automáticamente despois de loguearse no sistema.</translation>
+        <source>Automatically start Pfennig after logging in to the system.</source>
+        <translation>Comezar Pfennig automáticamente despois de loguearse no sistema.</translation>
     </message>
     <message>
-        <source>&amp;Start Bitmark on system login</source>
-        <translation>&amp;Comezar Bitmark ao facer login no sistema</translation>
+        <source>&amp;Start Pfennig on system login</source>
+        <translation>&amp;Comezar Pfennig ao facer login no sistema</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1036,7 +1036,7 @@ Dirección: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Connect to the Bitmark network through a SOCKS proxy.</source>
+        <source>Connect to the Pfennig network through a SOCKS proxy.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1096,8 +1096,8 @@ Dirección: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Automatically open the Bitmark client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automáticamente o porto do cliente Bitmark no router. Esto so funciona se o teu router soporta UPnP e está habilitado.</translation>
+        <source>Automatically open the Pfennig client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automáticamente o porto do cliente Pfennig no router. Esto so funciona se o teu router soporta UPnP e está habilitado.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1152,8 +1152,8 @@ Dirección: %4
         <translation>&amp;Linguaxe de interface de usuario:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Bitmark.</source>
-        <translation>A linguaxe de interface de usuario pode fixarse aquí. Esta configuración terá efecto tras reiniciar Bitmark.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Pfennig.</source>
+        <translation>A linguaxe de interface de usuario pode fixarse aquí. Esta configuración terá efecto tras reiniciar Pfennig.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1164,8 +1164,8 @@ Dirección: %4
         <translation>Escolle a unidade de subdivisión por defecto para amosar na interface e ao enviar moedas.</translation>
     </message>
     <message>
-        <source>Whether to show Bitmark addresses in the transaction list or not.</source>
-        <translation>Se se amosan ou non as direccións Bitmark na listaxe de transaccións.</translation>
+        <source>Whether to show Pfennig addresses in the transaction list or not.</source>
+        <translation>Se se amosan ou non as direccións Pfennig na listaxe de transaccións.</translation>
     </message>
     <message>
         <source>&amp;Display addresses in transaction list</source>
@@ -1219,8 +1219,8 @@ Dirección: %4
         <translation>Formulario</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitmark network after a connection is established, but this process has not completed yet.</source>
-        <translation>A información amosada por estar desactualizada. O teu moedeiro sincronízase automáticamente coa rede Bitmark despois de que se estableza unha conexión, pero este proceso non está todavía rematado.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Pfennig network after a connection is established, but this process has not completed yet.</source>
+        <translation>A información amosada por estar desactualizada. O teu moedeiro sincronízase automáticamente coa rede Pfennig despois de que se estableza unha conexión, pero este proceso non está todavía rematado.</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -1274,8 +1274,8 @@ Dirección: %4
         <translation>Manexo de URI</translation>
     </message>
     <message>
-        <source>URI can not be parsed! This can be caused by an invalid Bitmark address or malformed URI parameters.</source>
-        <translation>Non se pode parsear a URI! Esto pode ser causado por unha dirección Bitmark inválida ou parámetros da URI malformados.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Pfennig address or malformed URI parameters.</source>
+        <translation>Non se pode parsear a URI! Esto pode ser causado por unha dirección Pfennig inválida ou parámetros da URI malformados.</translation>
     </message>
     <message>
         <source>Requested payment amount of %1 is too small (considered dust).</source>
@@ -1286,7 +1286,7 @@ Dirección: %4
         <translation>Erro na petición de pago</translation>
     </message>
     <message>
-        <source>Cannot start bitmark: click-to-pay handler</source>
+        <source>Cannot start pfennig: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1341,8 +1341,8 @@ Dirección: %4
 <context>
     <name>QObject</name>
     <message>
-        <source>Bitmark</source>
-        <translation>Bitmark</translation>
+        <source>Pfennig</source>
+        <translation>Pfennig</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
@@ -1357,12 +1357,12 @@ Dirección: %4
         <translation>Erro: combinación inválida de -regtest e -testnet.</translation>
     </message>
     <message>
-        <source>Bitmark Core didn&apos;t yet exit safely...</source>
+        <source>Pfennig Core didn&apos;t yet exit safely...</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Enter a Bitmark address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
-        <translation>Introduce unha dirección Bitmark (exemplo: bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
+        <source>Enter a Pfennig address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
+        <translation>Introduce unha dirección Pfennig (exemplo: bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
     </message>
 </context>
 <context>
@@ -1483,16 +1483,16 @@ Dirección: %4
         <translation>Arquivo de log de depuración</translation>
     </message>
     <message>
-        <source>Open the Bitmark debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Abrir o arquivo de log de depuración de Bitmark dende o directorio actual de datos. Esto pode levar uns cantos segundos para grandes arquivos de log.</translation>
+        <source>Open the Pfennig debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Abrir o arquivo de log de depuración de Pfennig dende o directorio actual de datos. Esto pode levar uns cantos segundos para grandes arquivos de log.</translation>
     </message>
     <message>
         <source>Clear console</source>
         <translation>Limpar consola</translation>
     </message>
     <message>
-        <source>Welcome to the Bitmark RPC console.</source>
-        <translation>Benvido á consola RPC de Bitmark</translation>
+        <source>Welcome to the Pfennig RPC console.</source>
+        <translation>Benvido á consola RPC de Pfennig</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1554,7 +1554,7 @@ Dirección: %4
         <translation>R&amp;eutilizar unha dirección para recibir existente (non recomendado)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitmark network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Pfennig network.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1867,8 +1867,8 @@ Dirección: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Warning: Invalid Bitmark address</source>
-        <translation>Atención:  Enderezo Bitmark non válido</translation>
+        <source>Warning: Invalid Pfennig address</source>
+        <translation>Atención:  Enderezo Pfennig non válido</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1954,7 +1954,7 @@ Dirección: %4
         <translation>Introduce unha etiqueta para esta dirección para engadila á listaxe de direccións empregadas</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitmark: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitmark network.</source>
+        <source>A message that was attached to the pfennig: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Pfennig network.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1973,7 +1973,7 @@ Dirección: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Bitmark Core is shutting down...</source>
+        <source>Pfennig Core is shutting down...</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2028,8 +2028,8 @@ Dirección: %4
         <translation>Copiar a sinatura actual ao portapapeis do sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitmark address</source>
-        <translation>Asina a mensaxe para probar que posees esta dirección Bitmark</translation>
+        <source>Sign the message to prove you own this Pfennig address</source>
+        <translation>Asina a mensaxe para probar que posees esta dirección Pfennig</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2056,8 +2056,8 @@ Dirección: %4
         <translation>A dirección coa que foi firmada a mensaxe (exemplo: bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitmark address</source>
-        <translation>Verificar a mensaxe para asegurar que foi asinada coa dirección Bitmark especificada</translation>
+        <source>Verify the message to ensure it was signed with the specified Pfennig address</source>
+        <translation>Verificar a mensaxe para asegurar que foi asinada coa dirección Pfennig especificada</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2068,8 +2068,8 @@ Dirección: %4
         <translation>Restaurar todos os campos de verificación de mensaxe</translation>
     </message>
     <message>
-        <source>Enter a Bitmark address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
-        <translation>Introduza unha dirección Bitmark (exemplo: bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
+        <source>Enter a Pfennig address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
+        <translation>Introduza unha dirección Pfennig (exemplo: bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
     </message>
     <message>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
@@ -2127,12 +2127,12 @@ Dirección: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitmark Core</source>
-        <translation>Core de Bitmark</translation>
+        <source>Pfennig Core</source>
+        <translation>Core de Pfennig</translation>
     </message>
     <message>
         <source>The Bitcoin Core Developers</source>
-        <translation>Os desarrolladores de Bitmark Core</translation>
+        <translation>Os desarrolladores de Pfennig Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2592,7 +2592,7 @@ Dirección: %4
     </message>
 </context>
 <context>
-    <name>bitmark-core</name>
+    <name>pfennig-core</name>
     <message>
         <source>Usage:</source>
         <translation>Emprego:</translation>
@@ -2610,8 +2610,8 @@ Dirección: %4
         <translation>Opcións:</translation>
     </message>
     <message>
-        <source>Specify configuration file (default: bitmark.conf)</source>
-        <translation>Especificar arquivo de configuración (por defecto: bitmark.conf)</translation>
+        <source>Specify configuration file (default: pfennig.conf)</source>
+        <translation>Especificar arquivo de configuración (por defecto: pfennig.conf)</translation>
     </message>
     <message>
         <source>Specify pid file (default: pfennigd.pid)</source>
@@ -2658,7 +2658,7 @@ Dirección: %4
         <translation>Aceptar liña de comandos e comandos JSON-RPC</translation>
     </message>
     <message>
-        <source>Bitmark Core RPC client version</source>
+        <source>Pfennig Core RPC client version</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2677,24 +2677,24 @@ Dirección: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=bitmarkrpc
+rpcuser=pfennigrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.com
 </source>
         <translation>%s, debes fixar unha rpcpassword no arquivo de configuración:
 %s
 Reoméndase usar o seguinte contrasinal aleatorio:
-rpcuser=bitmarkrpc
+rpcuser=pfennigrpc
 rpcpassword=%s
 (non precisas lembrar este contrasinal)
 O nome do usuario e o contrasinal DEBEN NON ser o mesmo.
 Se o arquivo non existe, debes crealo con permisos de so lectura para o propietario.
 Tamén é recomendable fixar alertnotify de modo que recibas notificación dos problemas;
-por exemplo: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.com
+por exemplo: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2766,7 +2766,7 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.
         <translation>Esta é unha build de test pre-lanzamento - emprégaa baixo o teu propio risco - non empregar para minado ou aplicacións de comerciantes</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Bitmark Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. Pfennig Core is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2778,8 +2778,8 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.
         <translation>Precaución: -paytxfee está posto moi algo! Esta é a tarifa de transacción que ti pagarás se envías unha transacción.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Bitmark will not work properly.</source>
-        <translation>Precaución; Por favor revisa que a data e hora do teu ordenador son correctas! Se o teu reloxo está equivocato Bitmark non funcionará adecuadamente.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Pfennig will not work properly.</source>
+        <translation>Precaución; Por favor revisa que a data e hora do teu ordenador son correctas! Se o teu reloxo está equivocato Pfennig non funcionará adecuadamente.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -2814,7 +2814,7 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.
         <translation>Tentar recuperar claves privadas dende un wallet.dat corrupto</translation>
     </message>
     <message>
-        <source>Bitmark Core Daemon</source>
+        <source>Pfennig Core Daemon</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3058,7 +3058,7 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.
         <translation>Importa bloques dende arquivos blk000??.dat externos</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Bitmark Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Pfennig Core is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3122,7 +3122,7 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>RPC SSL options: (see the Bitmark Wiki for SSL setup instructions)</source>
+        <source>RPC SSL options: (see the Pfennig Wiki for SSL setup instructions)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3142,11 +3142,11 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>SSL options: (see the Bitmark Wiki for SSL setup instructions)</source>
-        <translation>Opcións SSL: (ver ńa Wiki Bitmark as instrucción de configuración de SSL)</translation>
+        <source>SSL options: (see the Pfennig Wiki for SSL setup instructions)</source>
+        <translation>Opcións SSL: (ver ńa Wiki Pfennig as instrucción de configuración de SSL)</translation>
     </message>
     <message>
-        <source>Send command to Bitmark Core</source>
+        <source>Send command to Pfennig Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3182,7 +3182,7 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.
         <translation>Especificar tempo límite da conexión en milisegundos (por defecto: 5000)</translation>
     </message>
     <message>
-        <source>Start Bitmark Core Daemon</source>
+        <source>Start Pfennig Core Daemon</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3298,12 +3298,12 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.
         <translation>Erro cargando wallet.dat: Moedeiro corrupto</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitmark</source>
-        <translation>Erro cargando wallet.dat: O moedeiro precisa unha versión máis nova de Bitmark</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Pfennig</source>
+        <translation>Erro cargando wallet.dat: O moedeiro precisa unha versión máis nova de Pfennig</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Bitmark to complete</source>
-        <translation>Precísase rescribir o moedeiro: reinicie Bitmark para completar</translation>
+        <source>Wallet needed to be rewritten: restart Pfennig to complete</source>
+        <translation>Precísase rescribir o moedeiro: reinicie Pfennig para completar</translation>
     </message>
     <message>
         <source>Error loading wallet.dat</source>

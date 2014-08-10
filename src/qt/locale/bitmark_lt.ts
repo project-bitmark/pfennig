@@ -2,11 +2,11 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Bitmark Core</source>
+        <source>About Pfennig Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>&lt;b&gt;Bitmark Core&lt;/b&gt; version</source>
+        <source>&lt;b&gt;Pfennig Core&lt;/b&gt; version</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -102,11 +102,11 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>These are your Bitmark addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Pfennig addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>These are your Bitmark addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your Pfennig addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -204,8 +204,8 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
         <translation>Patvirtinkite piniginės užšifravimą</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITMARKS&lt;/b&gt;!</source>
-        <translation>Dėmesio: jei užšifruosite savo piniginę ir pamesite slaptafrazę, jūs&lt;b&gt;PRARASITE VISUS SAVO BITMARKUS&lt;/b&gt;! </translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PfennigS&lt;/b&gt;!</source>
+        <translation>Dėmesio: jei užšifruosite savo piniginę ir pamesite slaptafrazę, jūs&lt;b&gt;PRARASITE VISUS SAVO PfennigUS&lt;/b&gt;! </translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -224,8 +224,8 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
         <translation>Piniginė užšifruota</translation>
     </message>
     <message>
-        <source>Bitmark will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitmarks from being stolen by malware infecting your computer.</source>
-        <translation>Bitmark dabar užsidarys šifravimo proceso pabaigai. Atminkite, kad piniginės šifravimas negali pilnai apsaugoti bitmarkų vagysčių kai tinkle esančios kenkėjiškos programos patenka į jūsų kompiuterį.</translation>
+        <source>Pfennig will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your pfennigs from being stolen by malware infecting your computer.</source>
+        <translation>Pfennig dabar užsidarys šifravimo proceso pabaigai. Atminkite, kad piniginės šifravimas negali pilnai apsaugoti pfennigų vagysčių kai tinkle esančios kenkėjiškos programos patenka į jūsų kompiuterį.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -257,7 +257,7 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
 </context>
 <context>
-    <name>BitmarkGUI</name>
+    <name>PfennigGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Pasirašyti ži&amp;nutę...</translation>
@@ -295,8 +295,8 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
         <translation>Išjungti programą</translation>
     </message>
     <message>
-        <source>Show information about Bitmark</source>
-        <translation>Rodyti informaciją apie Bitmark</translation>
+        <source>Show information about Pfennig</source>
+        <translation>Rodyti informaciją apie Pfennig</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -343,12 +343,12 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
         <translation>Blokai iš naujo indeksuojami...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitmark address</source>
-        <translation>Siųsti monetas Bitmark adresui</translation>
+        <source>Send coins to a Pfennig address</source>
+        <translation>Siųsti monetas Pfennig adresui</translation>
     </message>
     <message>
-        <source>Modify configuration options for Bitmark</source>
-        <translation>Keisti bitmark konfigūracijos galimybes</translation>
+        <source>Modify configuration options for Pfennig</source>
+        <translation>Keisti pfennig konfigūracijos galimybes</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -371,8 +371,8 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
         <translation>&amp;Tikrinti žinutę...</translation>
     </message>
     <message>
-        <source>Bitmark</source>
-        <translation>Bitmark</translation>
+        <source>Pfennig</source>
+        <translation>Pfennig</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -399,11 +399,11 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Sign messages with your Bitmark addresses to prove you own them</source>
+        <source>Sign messages with your Pfennig addresses to prove you own them</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitmark addresses</source>
+        <source>Verify messages to ensure they were signed with specified Pfennig addresses</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -427,15 +427,15 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
         <translation>[testavimotinklas]</translation>
     </message>
     <message>
-        <source>Bitmark Core</source>
-        <translation>Bitmark branduolys</translation>
+        <source>Pfennig Core</source>
+        <translation>Pfennig branduolys</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitmark: URIs)</source>
+        <source>Request payments (generates QR codes and pfennig: URIs)</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>&amp;About Bitmark Core</source>
+        <source>&amp;About Pfennig Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -447,7 +447,7 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Open a bitmark: URI or payment request</source>
+        <source>Open a pfennig: URI or payment request</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -455,16 +455,16 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Show the Bitmark Core help message to get a list with possible Bitmark command-line options</source>
+        <source>Show the Pfennig Core help message to get a list with possible Pfennig command-line options</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Bitmark client</source>
-        <translation>Bitmark klientas</translation>
+        <source>Pfennig client</source>
+        <translation>Pfennig klientas</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitmark network</source>
-        <translation><numerusform>%n Bitmark tinklo aktyvus ryšys</numerusform><numerusform>%n Bitmark tinklo aktyvūs ryšiai</numerusform><numerusform>%n Bitmark tinklo aktyvūs ryšiai</numerusform></translation>
+        <source>%n active connection(s) to Pfennig network</source>
+        <translation><numerusform>%n Pfennig tinklo aktyvus ryšys</numerusform><numerusform>%n Pfennig tinklo aktyvūs ryšiai</numerusform><numerusform>%n Pfennig tinklo aktyvūs ryšiai</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -558,7 +558,7 @@ Adresas: %4</translation>
         <translation>Piniginė &lt;b&gt;užšifruota&lt;/b&gt; ir šiuo metu &lt;b&gt;užrakinta&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Bitmark can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. Pfennig can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -843,8 +843,8 @@ Adresas: %4</translation>
         <translation>Įvestas adresas „%1“ jau yra adresų knygelėje.</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid Bitmark address.</source>
-        <translation>Įvestas adresas „%1“ nėra galiojantis Bitmark adresas.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Pfennig address.</source>
+        <translation>Įvestas adresas „%1“ nėra galiojantis Pfennig adresas.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -881,12 +881,12 @@ Adresas: %4</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Bitmark Core - Command-line options</source>
+        <source>Pfennig Core - Command-line options</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Bitmark Core</source>
-        <translation>Bitmark branduolys</translation>
+        <source>Pfennig Core</source>
+        <translation>Pfennig branduolys</translation>
     </message>
     <message>
         <source>version</source>
@@ -932,15 +932,15 @@ Adresas: %4</translation>
         <translation>Sveiki</translation>
     </message>
     <message>
-        <source>Welcome to Bitmark Core.</source>
+        <source>Welcome to Pfennig Core.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Bitmark Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where Pfennig Core will store its data.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Bitmark Core will download and store a copy of the Bitmark block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>Pfennig Core will download and store a copy of the Pfennig block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -952,8 +952,8 @@ Adresas: %4</translation>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Bitmark</source>
-        <translation>Bitmark</translation>
+        <source>Pfennig</source>
+        <translation>Pfennig</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; can not be created.</source>
@@ -1014,12 +1014,12 @@ Adresas: %4</translation>
         <translation>&amp;Mokėti sandorio mokestį</translation>
     </message>
     <message>
-        <source>Automatically start Bitmark after logging in to the system.</source>
+        <source>Automatically start Pfennig after logging in to the system.</source>
         <translation>Automatiškai paleisti Bitkoin programą įjungus sistemą.</translation>
     </message>
     <message>
-        <source>&amp;Start Bitmark on system login</source>
-        <translation>&amp;Paleisti Bitmark programą su window sistemos paleidimu</translation>
+        <source>&amp;Start Pfennig on system login</source>
+        <translation>&amp;Paleisti Pfennig programą su window sistemos paleidimu</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1034,7 +1034,7 @@ Adresas: %4</translation>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Connect to the Bitmark network through a SOCKS proxy.</source>
+        <source>Connect to the Pfennig network through a SOCKS proxy.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1094,8 +1094,8 @@ Adresas: %4</translation>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Automatically open the Bitmark client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatiškai atidaryti Bitmark kliento prievadą maršrutizatoriuje. Tai veikia tik tada, kai jūsų maršrutizatorius palaiko UPnP ir ji įjungta.</translation>
+        <source>Automatically open the Pfennig client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatiškai atidaryti Pfennig kliento prievadą maršrutizatoriuje. Tai veikia tik tada, kai jūsų maršrutizatorius palaiko UPnP ir ji įjungta.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1150,8 +1150,8 @@ Adresas: %4</translation>
         <translation>Naudotojo sąsajos &amp;kalba:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Bitmark.</source>
-        <translation>Čia gali būti nustatyta naudotojo sąsajos kalba. Šis nustatymas įsigalios iš naujo paleidus Bitmark.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Pfennig.</source>
+        <translation>Čia gali būti nustatyta naudotojo sąsajos kalba. Šis nustatymas įsigalios iš naujo paleidus Pfennig.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1162,7 +1162,7 @@ Adresas: %4</translation>
         <translation>Rodomų ir siunčiamų monetų kiekio matavimo vienetai</translation>
     </message>
     <message>
-        <source>Whether to show Bitmark addresses in the transaction list or not.</source>
+        <source>Whether to show Pfennig addresses in the transaction list or not.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1217,7 +1217,7 @@ Adresas: %4</translation>
         <translation>Forma</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitmark network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Pfennig network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1272,7 +1272,7 @@ Adresas: %4</translation>
         <translation>URI apdorojimas</translation>
     </message>
     <message>
-        <source>URI can not be parsed! This can be caused by an invalid Bitmark address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid Pfennig address or malformed URI parameters.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1284,7 +1284,7 @@ Adresas: %4</translation>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Cannot start bitmark: click-to-pay handler</source>
+        <source>Cannot start pfennig: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1339,8 +1339,8 @@ Adresas: %4</translation>
 <context>
     <name>QObject</name>
     <message>
-        <source>Bitmark</source>
-        <translation>Bitmark</translation>
+        <source>Pfennig</source>
+        <translation>Pfennig</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
@@ -1355,11 +1355,11 @@ Adresas: %4</translation>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Bitmark Core didn&apos;t yet exit safely...</source>
+        <source>Pfennig Core didn&apos;t yet exit safely...</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Enter a Bitmark address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
+        <source>Enter a Pfennig address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
         <translation>Įveskite bitkoinų adresą (pvz. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
     </message>
 </context>
@@ -1481,7 +1481,7 @@ Adresas: %4</translation>
         <translation>Derinimo žurnalo failas</translation>
     </message>
     <message>
-        <source>Open the Bitmark debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Pfennig debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1489,8 +1489,8 @@ Adresas: %4</translation>
         <translation>Išvalyti konsolę</translation>
     </message>
     <message>
-        <source>Welcome to the Bitmark RPC console.</source>
-        <translation>Sveiki atvykę į Bitmark RPC konsolę.</translation>
+        <source>Welcome to the Pfennig RPC console.</source>
+        <translation>Sveiki atvykę į Pfennig RPC konsolę.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1552,7 +1552,7 @@ Adresas: %4</translation>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitmark network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Pfennig network.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1865,7 +1865,7 @@ Adresas: %4</translation>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Warning: Invalid Bitmark address</source>
+        <source>Warning: Invalid Pfennig address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1952,7 +1952,7 @@ Adresas: %4</translation>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>A message that was attached to the bitmark: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitmark network.</source>
+        <source>A message that was attached to the pfennig: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Pfennig network.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1971,7 +1971,7 @@ Adresas: %4</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Bitmark Core is shutting down...</source>
+        <source>Pfennig Core is shutting down...</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2026,7 +2026,7 @@ Adresas: %4</translation>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitmark address</source>
+        <source>Sign the message to prove you own this Pfennig address</source>
         <translation>Registruotis žinute įrodymuii, kad turite šį adresą</translation>
     </message>
     <message>
@@ -2054,8 +2054,8 @@ Adresas: %4</translation>
         <translation>Įveskite bitkoinų adresą (pvz. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitmark address</source>
-        <translation>Patikrinkite žinutę, jog įsitikintumėte, kad ją pasirašė nurodytas Bitmark adresas</translation>
+        <source>Verify the message to ensure it was signed with the specified Pfennig address</source>
+        <translation>Patikrinkite žinutę, jog įsitikintumėte, kad ją pasirašė nurodytas Pfennig adresas</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2066,7 +2066,7 @@ Adresas: %4</translation>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Enter a Bitmark address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
+        <source>Enter a Pfennig address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
         <translation>Įveskite bitkoinų adresą (pvz. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
     </message>
     <message>
@@ -2125,8 +2125,8 @@ Adresas: %4</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitmark Core</source>
-        <translation>Bitmark branduolys</translation>
+        <source>Pfennig Core</source>
+        <translation>Pfennig branduolys</translation>
     </message>
     <message>
         <source>The Bitcoin Core Developers</source>
@@ -2590,7 +2590,7 @@ Adresas: %4</translation>
     </message>
 </context>
 <context>
-    <name>bitmark-core</name>
+    <name>pfennig-core</name>
     <message>
         <source>Usage:</source>
         <translation>Naudojimas:</translation>
@@ -2608,8 +2608,8 @@ Adresas: %4</translation>
         <translation>Parinktys:</translation>
     </message>
     <message>
-        <source>Specify configuration file (default: bitmark.conf)</source>
-        <translation>Nurodyti konfigūracijos failą (pagal nutylėjimąt: bitmark.conf)</translation>
+        <source>Specify configuration file (default: pfennig.conf)</source>
+        <translation>Nurodyti konfigūracijos failą (pagal nutylėjimąt: pfennig.conf)</translation>
     </message>
     <message>
         <source>Specify pid file (default: pfennigd.pid)</source>
@@ -2656,7 +2656,7 @@ Adresas: %4</translation>
         <translation>Priimti komandinę eilutę ir JSON-RPC komandas</translation>
     </message>
     <message>
-        <source>Bitmark Core RPC client version</source>
+        <source>Pfennig Core RPC client version</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2675,13 +2675,13 @@ Adresas: %4</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=bitmarkrpc
+rpcuser=pfennigrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2754,7 +2754,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Bitmark Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. Pfennig Core is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2766,8 +2766,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.
         <translation>Įspėjimas: -paytxfee yra nustatytas per didelis. Tai sandorio mokestis, kurį turėsite mokėti, jei siųsite sandorį.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Bitmark will not work properly.</source>
-        <translation>Įspėjimas: Patikrinkite, kad kompiuterio data ir laikas yra teisingi.Jei Jūsų laikrodis neteisingai nustatytas Bitmark, veiks netinkamai.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Pfennig will not work properly.</source>
+        <translation>Įspėjimas: Patikrinkite, kad kompiuterio data ir laikas yra teisingi.Jei Jūsų laikrodis neteisingai nustatytas Pfennig, veiks netinkamai.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -2802,7 +2802,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Bitmark Core Daemon</source>
+        <source>Pfennig Core Daemon</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3046,7 +3046,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Bitmark Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Pfennig Core is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3110,7 +3110,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>RPC SSL options: (see the Bitmark Wiki for SSL setup instructions)</source>
+        <source>RPC SSL options: (see the Pfennig Wiki for SSL setup instructions)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3130,11 +3130,11 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>SSL options: (see the Bitmark Wiki for SSL setup instructions)</source>
-        <translation>SSL opcijos (žr.e Bitmark Wiki for SSL setup instructions)</translation>
+        <source>SSL options: (see the Pfennig Wiki for SSL setup instructions)</source>
+        <translation>SSL opcijos (žr.e Pfennig Wiki for SSL setup instructions)</translation>
     </message>
     <message>
-        <source>Send command to Bitmark Core</source>
+        <source>Send command to Pfennig Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3170,7 +3170,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.
         <translation>Nustatyti sujungimo trukmę milisekundėmis (pagal nutylėjimą: 5000)</translation>
     </message>
     <message>
-        <source>Start Bitmark Core Daemon</source>
+        <source>Start Pfennig Core Daemon</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3286,12 +3286,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.
         <translation> wallet.dat pakrovimo klaida,  wallet.dat sugadintas</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitmark</source>
-        <translation> wallet.dat pakrovimo klaida,  wallet.dat reikalauja naujasnės Bitmark versijos</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Pfennig</source>
+        <translation> wallet.dat pakrovimo klaida,  wallet.dat reikalauja naujasnės Pfennig versijos</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Bitmark to complete</source>
-        <translation>Piniginė turi būti prrašyta: įvykdymui perkraukite Bitmark</translation>
+        <source>Wallet needed to be rewritten: restart Pfennig to complete</source>
+        <translation>Piniginė turi būti prrašyta: įvykdymui perkraukite Pfennig</translation>
     </message>
     <message>
         <source>Error loading wallet.dat</source>

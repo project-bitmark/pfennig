@@ -2,11 +2,11 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Bitmark Core</source>
+        <source>About Pfennig Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>&lt;b&gt;Bitmark Core&lt;/b&gt; version</source>
+        <source>&lt;b&gt;Pfennig Core&lt;/b&gt; version</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -98,11 +98,11 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>These are your Bitmark addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Pfennig addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>این‌ها نشانی‌های بیت‌کوین شما برای ارسال وجود هستند. همیشه قبل از ارسال سکه‌ها، نشانی دریافت‌کننده و مقدار ارسالی را بررسی کنید.</translation>
     </message>
     <message>
-        <source>These are your Bitmark addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your Pfennig addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -200,7 +200,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>تأیید رمزنگاری کیف پول</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITMARKS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PfennigS&lt;/b&gt;!</source>
         <translation>هشدار: اگر کیف پول خود را رمزنگاری کنید و گذرواژه را فراموش کنید، &lt;b&gt;تمام دارایی بیت‌کوین خود را از دست خواهید داد&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -220,7 +220,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>کیف پول رمزنگاری شد</translation>
     </message>
     <message>
-        <source>Bitmark will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitmarks from being stolen by malware infecting your computer.</source>
+        <source>Pfennig will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your pfennigs from being stolen by malware infecting your computer.</source>
         <translation>بیت‌کوین هم اکنون بسته می‌شود تا فرایند رمزگذاری را تمام کند. به خاطر داشته باشید که رمزگذاری کردن کیف پول‌تان نمی‌تواند به طور کامل بیت‌کوین‌های شما را در برابر دزدیده شدن توسط بدافزارهایی که احتمالاً رایانهٔ شما را آلوده می‌کنند، محافظت نماید.</translation>
     </message>
     <message>
@@ -253,7 +253,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
 </context>
 <context>
-    <name>BitmarkGUI</name>
+    <name>PfennigGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>&amp;امضای پیام...</translation>
@@ -291,7 +291,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>خروج از برنامه</translation>
     </message>
     <message>
-        <source>Show information about Bitmark</source>
+        <source>Show information about Pfennig</source>
         <translation>نمایش اطلاعات در مورد بیت‌کوین</translation>
     </message>
     <message>
@@ -339,11 +339,11 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>بازنشانی بلوک‌ها روی دیسک...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitmark address</source>
+        <source>Send coins to a Pfennig address</source>
         <translation>ارسال وجه به نشانی بیت‌کوین</translation>
     </message>
     <message>
-        <source>Modify configuration options for Bitmark</source>
+        <source>Modify configuration options for Pfennig</source>
         <translation>تغییر و اصلاح تنظیمات پیکربندی بیت‌کوین</translation>
     </message>
     <message>
@@ -367,7 +367,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>با&amp;زبینی پیام...</translation>
     </message>
     <message>
-        <source>Bitmark</source>
+        <source>Pfennig</source>
         <translation>بیت‌کوین</translation>
     </message>
     <message>
@@ -395,11 +395,11 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>رمزنگاری کلیدهای خصوصی متعلق به کیف پول شما</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitmark addresses to prove you own them</source>
+        <source>Sign messages with your Pfennig addresses to prove you own them</source>
         <translation>برای اثبات اینکه پیام‌ها به شما تعلق دارند، آن‌ها را با نشانی بیت‌کوین خود امضا کنید</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitmark addresses</source>
+        <source>Verify messages to ensure they were signed with specified Pfennig addresses</source>
         <translation>برای حصول اطمینان از اینکه پیام با نشانی بیت‌کوین مشخص شده امضا است یا خیر، پیام را شناسایی کنید</translation>
     </message>
     <message>
@@ -423,15 +423,15 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>[شبکهٔ آزمایش]</translation>
     </message>
     <message>
-        <source>Bitmark Core</source>
-        <translation> هسته Bitmark </translation>
+        <source>Pfennig Core</source>
+        <translation> هسته Pfennig </translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitmark: URIs)</source>
+        <source>Request payments (generates QR codes and pfennig: URIs)</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>&amp;About Bitmark Core</source>
+        <source>&amp;About Pfennig Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -443,7 +443,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Open a bitmark: URI or payment request</source>
+        <source>Open a pfennig: URI or payment request</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -451,15 +451,15 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Show the Bitmark Core help message to get a list with possible Bitmark command-line options</source>
+        <source>Show the Pfennig Core help message to get a list with possible Pfennig command-line options</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Bitmark client</source>
+        <source>Pfennig client</source>
         <translation>کلاینت بیت‌کوین</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitmark network</source>
+        <source>%n active connection(s) to Pfennig network</source>
         <translation><numerusform>%n ارتباط فعال با شبکهٔ بیت‌کوین</numerusform></translation>
     </message>
     <message>
@@ -555,7 +555,7 @@ Address: %4
         <translation>کیف پول &lt;b&gt;رمزنگاری شده&lt;/b&gt; است و هم‌اکنون &lt;b&gt;قفل&lt;/b&gt; است</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Bitmark can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. Pfennig can no longer continue safely and will quit.</source>
         <translation>یک خطای مهلک اتفاق افتاده است. بیت‌کوین نمی‌تواند بدون مشکل به کار خود ادامه دهد و بسته خواهد شد.</translation>
     </message>
 </context>
@@ -840,7 +840,7 @@ Address: %4
         <translation>نشانی وارد شده «%1» در حال حاضر در دفترچه وجود دارد.</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid Bitmark address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid Pfennig address.</source>
         <translation>نشانی وارد شده «%1» یک نشانی معتبر بیت‌کوین نیست.</translation>
     </message>
     <message>
@@ -878,12 +878,12 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Bitmark Core - Command-line options</source>
+        <source>Pfennig Core - Command-line options</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Bitmark Core</source>
-        <translation> هسته Bitmark </translation>
+        <source>Pfennig Core</source>
+        <translation> هسته Pfennig </translation>
     </message>
     <message>
         <source>version</source>
@@ -929,15 +929,15 @@ Address: %4
         <translation>خوش‌آمدید</translation>
     </message>
     <message>
-        <source>Welcome to Bitmark Core.</source>
+        <source>Welcome to Pfennig Core.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Bitmark Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where Pfennig Core will store its data.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Bitmark Core will download and store a copy of the Bitmark block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>Pfennig Core will download and store a copy of the Pfennig block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -949,7 +949,7 @@ Address: %4
         <translation>استفاده از یک مسیر سفارشی:</translation>
     </message>
     <message>
-        <source>Bitmark</source>
+        <source>Pfennig</source>
         <translation>بیت‌کوین</translation>
     </message>
     <message>
@@ -1011,11 +1011,11 @@ Address: %4
         <translation>پرداخت &amp;کارمزد تراکنش</translation>
     </message>
     <message>
-        <source>Automatically start Bitmark after logging in to the system.</source>
+        <source>Automatically start Pfennig after logging in to the system.</source>
         <translation>اجرای خودکار بیت‌کوین در زمان ورود به سیستم.</translation>
     </message>
     <message>
-        <source>&amp;Start Bitmark on system login</source>
+        <source>&amp;Start Pfennig on system login</source>
         <translation>&amp;اجرای بیت‌کوین با ورود به سیستم</translation>
     </message>
     <message>
@@ -1031,7 +1031,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Connect to the Bitmark network through a SOCKS proxy.</source>
+        <source>Connect to the Pfennig network through a SOCKS proxy.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1091,7 +1091,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Automatically open the Bitmark client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Pfennig client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>باز کردن خودکار درگاه شبکهٔ بیت‌کوین روی روترها. تنها زمانی کار می‌کند که روتر از پروتکل UPnP پشتیبانی کند و این پروتکل فعال باشد.</translation>
     </message>
     <message>
@@ -1147,7 +1147,7 @@ Address: %4
         <translation>زبان &amp;رابط کاربری:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Bitmark.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting Pfennig.</source>
         <translation>زبان رابط کاربر می‌تواند در این‌جا تنظیم شود. تنظیمات بعد از ظروع مجدد بیت‌کوین اعمال خواهد شد.</translation>
     </message>
     <message>
@@ -1159,7 +1159,7 @@ Address: %4
         <translation>انتخاب واحد پول مورد استفاده برای نمایش در پنجره‌ها و برای ارسال سکه.</translation>
     </message>
     <message>
-        <source>Whether to show Bitmark addresses in the transaction list or not.</source>
+        <source>Whether to show Pfennig addresses in the transaction list or not.</source>
         <translation>نمایش یا عدم نمایش نشانی‌های بیت‌کوین در لیست تراکنش‌ها.</translation>
     </message>
     <message>
@@ -1214,7 +1214,7 @@ Address: %4
         <translation>فرم</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitmark network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Pfennig network after a connection is established, but this process has not completed yet.</source>
         <translation>اطلاعات نمایش‌داده شده ممکن است قدیمی باشند. بعد از این که یک اتصال با شبکه برقرار شد، کیف پول شما به‌صورت خودکار با شبکهٔ بیت‌کوین همگام‌سازی می‌شود. اما این روند هنوز کامل نشده است.</translation>
     </message>
     <message>
@@ -1269,7 +1269,7 @@ Address: %4
         <translation>مدیریت URI</translation>
     </message>
     <message>
-        <source>URI can not be parsed! This can be caused by an invalid Bitmark address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid Pfennig address or malformed URI parameters.</source>
         <translation>نشانی اینترنتی قابل تجزیه و تحلیل نیست! دلیل این وضعیت ممکن است یک نشانی نامعتبر بیت‌کوین و یا پارامترهای ناهنجار در URI بوده باشد.</translation>
     </message>
     <message>
@@ -1281,7 +1281,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Cannot start bitmark: click-to-pay handler</source>
+        <source>Cannot start pfennig: click-to-pay handler</source>
         <translation>نمی‌توان بیت‌کوین را اجرا کرد: کنترل‌کنندهٔ کلیک-و-پرداخت</translation>
     </message>
     <message>
@@ -1336,7 +1336,7 @@ Address: %4
 <context>
     <name>QObject</name>
     <message>
-        <source>Bitmark</source>
+        <source>Pfennig</source>
         <translation>بیت‌کوین</translation>
     </message>
     <message>
@@ -1352,11 +1352,11 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Bitmark Core didn&apos;t yet exit safely...</source>
+        <source>Pfennig Core didn&apos;t yet exit safely...</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Enter a Bitmark address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
+        <source>Enter a Pfennig address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
         <translation>یک آدرس بیت‌کوین وارد کنید (مثلاً bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
     </message>
 </context>
@@ -1478,15 +1478,15 @@ Address: %4
         <translation>فایلِ لاگِ اشکال زدایی</translation>
     </message>
     <message>
-        <source>Open the Bitmark debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>فایلِ لاگِ اشکال زدایی Bitmark  را از دایرکتوری جاری داده ها باز کنید. این عملیات ممکن است برای فایلهای لاگِ حجیم طولانی شود.</translation>
+        <source>Open the Pfennig debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>فایلِ لاگِ اشکال زدایی Pfennig  را از دایرکتوری جاری داده ها باز کنید. این عملیات ممکن است برای فایلهای لاگِ حجیم طولانی شود.</translation>
     </message>
     <message>
         <source>Clear console</source>
         <translation>پاکسازی کنسول</translation>
     </message>
     <message>
-        <source>Welcome to the Bitmark RPC console.</source>
+        <source>Welcome to the Pfennig RPC console.</source>
         <translation>به کنسور RPC بیت‌کوین خوش آمدید.</translation>
     </message>
     <message>
@@ -1549,7 +1549,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitmark network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Pfennig network.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1862,7 +1862,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Warning: Invalid Bitmark address</source>
+        <source>Warning: Invalid Pfennig address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1949,7 +1949,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>A message that was attached to the bitmark: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitmark network.</source>
+        <source>A message that was attached to the pfennig: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Pfennig network.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1968,7 +1968,7 @@ Address: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Bitmark Core is shutting down...</source>
+        <source>Pfennig Core is shutting down...</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2023,7 +2023,7 @@ Address: %4
         <translation>امضای فعلی را به حافظهٔ سیستم کپی کن</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitmark address</source>
+        <source>Sign the message to prove you own this Pfennig address</source>
         <translation>برای اثبات تعلق این نشانی به شما، پیام را امضا کنید</translation>
     </message>
     <message>
@@ -2051,7 +2051,7 @@ Address: %4
         <translation>نشانی مورد استفاده برای امضا کردن پیام (برای مثال bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitmark address</source>
+        <source>Verify the message to ensure it was signed with the specified Pfennig address</source>
         <translation>برای حصول اطمینان از اینکه پیام با نشانی بیت‌کوین مشخص شده امضا است یا خیر، پیام را شناسایی کنید</translation>
     </message>
     <message>
@@ -2063,7 +2063,7 @@ Address: %4
         <translation>بازنشانی تمام فیلدهای پیام</translation>
     </message>
     <message>
-        <source>Enter a Bitmark address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
+        <source>Enter a Pfennig address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
         <translation>یک نشانی بیت‌کوین وارد کنید (مثلاً bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
     </message>
     <message>
@@ -2122,8 +2122,8 @@ Address: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitmark Core</source>
-        <translation> هسته Bitmark </translation>
+        <source>Pfennig Core</source>
+        <translation> هسته Pfennig </translation>
     </message>
     <message>
         <source>The Bitcoin Core Developers</source>
@@ -2587,7 +2587,7 @@ Address: %4
     </message>
 </context>
 <context>
-    <name>bitmark-core</name>
+    <name>pfennig-core</name>
     <message>
         <source>Usage:</source>
         <translation>استفاده:</translation>
@@ -2605,12 +2605,12 @@ Address: %4
         <translation>گزینه‌ها:</translation>
     </message>
     <message>
-        <source>Specify configuration file (default: bitmark.conf)</source>
-        <translation>مشخص کردن فایل پیکربندی (پیش‌فرض: bitmark.conf)</translation>
+        <source>Specify configuration file (default: pfennig.conf)</source>
+        <translation>مشخص کردن فایل پیکربندی (پیش‌فرض: pfennig.conf)</translation>
     </message>
     <message>
         <source>Specify pid file (default: pfennigd.pid)</source>
-        <translation>مشخص کردن فایل شناسهٔ پردازش - pid - (پیش‌فرض: bitmark.pid)</translation>
+        <translation>مشخص کردن فایل شناسهٔ پردازش - pid - (پیش‌فرض: pfennig.pid)</translation>
     </message>
     <message>
         <source>Specify data directory</source>
@@ -2653,7 +2653,7 @@ Address: %4
         <translation>پذیرش دستورات خط فرمان و دستورات JSON-RPC</translation>
     </message>
     <message>
-        <source>Bitmark Core RPC client version</source>
+        <source>Pfennig Core RPC client version</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2672,13 +2672,13 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=bitmarkrpc
+rpcuser=pfennigrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2751,7 +2751,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.
         <translation>این یک نسخه ی آزمایشی است - با مسئولیت خودتان از آن استفاده کنید -  آن را در معدن و بازرگانی بکار نگیرید.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Bitmark Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. Pfennig Core is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2763,8 +2763,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.
         <translation>هشدار: مبلغ paytxfee بسیار بالایی تنظیم شده است! این مبلغ هزینه‌ای است که شما برای تراکنش‌ها پرداخت می‌کنید.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Bitmark will not work properly.</source>
-        <translation>هشدار: لطفا زمان و تاریخ رایانه خود را تصحیح نمایید! اگر ساعت رایانه شما اشتباه باشد bitmark ممکن است صحیح کار نکند</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Pfennig will not work properly.</source>
+        <translation>هشدار: لطفا زمان و تاریخ رایانه خود را تصحیح نمایید! اگر ساعت رایانه شما اشتباه باشد pfennig ممکن است صحیح کار نکند</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -2799,7 +2799,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Bitmark Core Daemon</source>
+        <source>Pfennig Core Daemon</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3043,7 +3043,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Bitmark Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Pfennig Core is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3107,7 +3107,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>RPC SSL options: (see the Bitmark Wiki for SSL setup instructions)</source>
+        <source>RPC SSL options: (see the Pfennig Wiki for SSL setup instructions)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3127,11 +3127,11 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>SSL options: (see the Bitmark Wiki for SSL setup instructions)</source>
-        <translation>گزینه ssl (به ویکیbitmark برای راهنمای راه اندازی ssl مراجعه شود)</translation>
+        <source>SSL options: (see the Pfennig Wiki for SSL setup instructions)</source>
+        <translation>گزینه ssl (به ویکیpfennig برای راهنمای راه اندازی ssl مراجعه شود)</translation>
     </message>
     <message>
-        <source>Send command to Bitmark Core</source>
+        <source>Send command to Pfennig Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3167,7 +3167,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.
         <translation>(میلی ثانیه )فاصله ارتباط خاص</translation>
     </message>
     <message>
-        <source>Start Bitmark Core Daemon</source>
+        <source>Start Pfennig Core Daemon</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3283,11 +3283,11 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.
         <translation>خطا در بارگیری wallet.dat: کیف پول خراب شده است</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitmark</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of Pfennig</source>
         <translation>خطا در بارگیری wallet.dat: کیف پول به ویرایش جدیدتری از Biticon نیاز دارد</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Bitmark to complete</source>
+        <source>Wallet needed to be rewritten: restart Pfennig to complete</source>
         <translation>سلام</translation>
     </message>
     <message>

@@ -2,12 +2,12 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Bitmark Core</source>
-        <translation>Over Bitmark Core</translation>
+        <source>About Pfennig Core</source>
+        <translation>Over Pfennig Core</translation>
     </message>
     <message>
-        <source>&lt;b&gt;Bitmark Core&lt;/b&gt; version</source>
-        <translation>&lt;b&gt; Bitmark Core&lt;/b&gt; versie</translation>
+        <source>&lt;b&gt;Pfennig Core&lt;/b&gt; version</source>
+        <translation>&lt;b&gt; Pfennig Core&lt;/b&gt; versie</translation>
     </message>
     <message>
         <source>
@@ -29,7 +29,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <source>The Bitcoin Core Developers</source>
-        <translation>De Bitmark Core ontwikkelaars</translation>
+        <translation>De Pfennig Core ontwikkelaars</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -103,12 +103,12 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
         <translation>Adressen ontvangen</translation>
     </message>
     <message>
-        <source>These are your Bitmark addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dit zijn uw Bitmarkadressen om betalingen mee te verzenden. Check altijd het bedrag en het ontvangende adres voordat u uw bitmarks verzendt.</translation>
+        <source>These are your Pfennig addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dit zijn uw Pfennigadressen om betalingen mee te verzenden. Check altijd het bedrag en het ontvangende adres voordat u uw pfennigs verzendt.</translation>
     </message>
     <message>
-        <source>These are your Bitmark addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dit zijn uw Bitmark-adressen waarmee u kunt betalen. We raden u aan om een nieuw ontvangstadres voor elke transactie te gebruiken.</translation>
+        <source>These are your Pfennig addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dit zijn uw Pfennig-adressen waarmee u kunt betalen. We raden u aan om een nieuw ontvangstadres voor elke transactie te gebruiken.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -205,8 +205,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
         <translation>Bevestig versleuteling van de portemonnee</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITMARKS&lt;/b&gt;!</source>
-        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW BITMARKS VERLIEZEN&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PfennigS&lt;/b&gt;!</source>
+        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW PfennigS VERLIEZEN&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -225,8 +225,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
         <translation>Portemonnee versleuteld</translation>
     </message>
     <message>
-        <source>Bitmark will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitmarks from being stolen by malware infecting your computer.</source>
-        <translation>Bitmark zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw bitmarks stelen.</translation>
+        <source>Pfennig will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your pfennigs from being stolen by malware infecting your computer.</source>
+        <translation>Pfennig zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw pfennigs stelen.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -258,7 +258,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
 </context>
 <context>
-    <name>BitmarkGUI</name>
+    <name>PfennigGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>&amp;Onderteken bericht...</translation>
@@ -296,8 +296,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
         <translation>Programma afsluiten</translation>
     </message>
     <message>
-        <source>Show information about Bitmark</source>
-        <translation>Laat informatie zien over Bitmark</translation>
+        <source>Show information about Pfennig</source>
+        <translation>Laat informatie zien over Pfennig</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -344,12 +344,12 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
         <translation>Bezig met herindexeren van blokken op harde schijf...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitmark address</source>
-        <translation>Verstuur munten naar een Bitmarkadres</translation>
+        <source>Send coins to a Pfennig address</source>
+        <translation>Verstuur munten naar een Pfennigadres</translation>
     </message>
     <message>
-        <source>Modify configuration options for Bitmark</source>
-        <translation>Wijzig instellingen van Bitmark</translation>
+        <source>Modify configuration options for Pfennig</source>
+        <translation>Wijzig instellingen van Pfennig</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -372,8 +372,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
         <translation>&amp;Verifiëer bericht...</translation>
     </message>
     <message>
-        <source>Bitmark</source>
-        <translation>Bitmark</translation>
+        <source>Pfennig</source>
+        <translation>Pfennig</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -400,12 +400,12 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
         <translation>Versleutel de geheime sleutels die bij uw portemonnee horen</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitmark addresses to prove you own them</source>
-        <translation>Onderteken berichten met uw Bitmarkadressen om te bewijzen dat u deze adressen bezit</translation>
+        <source>Sign messages with your Pfennig addresses to prove you own them</source>
+        <translation>Onderteken berichten met uw Pfennigadressen om te bewijzen dat u deze adressen bezit</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitmark addresses</source>
-        <translation>Verifiëer handtekeningen om zeker te zijn dat de berichten zijn ondertekend met de gespecificeerde Bitmarkadressen</translation>
+        <source>Verify messages to ensure they were signed with specified Pfennig addresses</source>
+        <translation>Verifiëer handtekeningen om zeker te zijn dat de berichten zijn ondertekend met de gespecificeerde Pfennigadressen</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -428,16 +428,16 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
         <translation>[testnetwerk]</translation>
     </message>
     <message>
-        <source>Bitmark Core</source>
-        <translation>Bitmark Kern</translation>
+        <source>Pfennig Core</source>
+        <translation>Pfennig Kern</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitmark: URIs)</source>
-        <translation>Vraag betaling aan (genereert QR codes en bitmark: URIs)</translation>
+        <source>Request payments (generates QR codes and pfennig: URIs)</source>
+        <translation>Vraag betaling aan (genereert QR codes en pfennig: URIs)</translation>
     </message>
     <message>
-        <source>&amp;About Bitmark Core</source>
-        <translation>&amp;Over Bitmark Core</translation>
+        <source>&amp;About Pfennig Core</source>
+        <translation>&amp;Over Pfennig Core</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -448,24 +448,24 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
         <translation>Toon de lijst met gebruikte ontvangst adressen en labels</translation>
     </message>
     <message>
-        <source>Open a bitmark: URI or payment request</source>
-        <translation>Open een bitmark: URI of betalingsverzoek</translation>
+        <source>Open a pfennig: URI or payment request</source>
+        <translation>Open een pfennig: URI of betalingsverzoek</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Commandoregel-opties</translation>
     </message>
     <message>
-        <source>Show the Bitmark Core help message to get a list with possible Bitmark command-line options</source>
-        <translation>Toon het Bitmark Core hulpbericht om een lijst te krijgen met mogelijke Bitmark commandoregelopties</translation>
+        <source>Show the Pfennig Core help message to get a list with possible Pfennig command-line options</source>
+        <translation>Toon het Pfennig Core hulpbericht om een lijst te krijgen met mogelijke Pfennig commandoregelopties</translation>
     </message>
     <message>
-        <source>Bitmark client</source>
-        <translation>Bitmark client</translation>
+        <source>Pfennig client</source>
+        <translation>Pfennig client</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitmark network</source>
-        <translation><numerusform>%n actieve connectie naar Bitmarknetwerk</numerusform><numerusform>%n actieve connecties naar Bitmarknetwerk</numerusform></translation>
+        <source>%n active connection(s) to Pfennig network</source>
+        <translation><numerusform>%n actieve connectie naar Pfennignetwerk</numerusform><numerusform>%n actieve connecties naar Pfennignetwerk</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -560,8 +560,8 @@ Adres: %4
         <translation>Portemonnee is &lt;b&gt;versleuteld&lt;/b&gt; en momenteel &lt;b&gt;gesloten&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Bitmark can no longer continue safely and will quit.</source>
-        <translation>Er is een fatale fout opgetreden. Bitmark kan niet meer veilig doorgaan en zal nu afgesloten worden.</translation>
+        <source>A fatal error occurred. Pfennig can no longer continue safely and will quit.</source>
+        <translation>Er is een fatale fout opgetreden. Pfennig kan niet meer veilig doorgaan en zal nu afgesloten worden.</translation>
     </message>
 </context>
 <context>
@@ -845,8 +845,8 @@ Adres: %4
         <translation>Het opgegeven adres &quot;%1&quot; bestaat al in uw adresboek.</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid Bitmark address.</source>
-        <translation>Het opgegeven adres &quot;%1&quot; is een ongeldig Bitmarkadres</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Pfennig address.</source>
+        <translation>Het opgegeven adres &quot;%1&quot; is een ongeldig Pfennigadres</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -883,12 +883,12 @@ Adres: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Bitmark Core - Command-line options</source>
-        <translation>Bitmark Core - Commandoregel-opties</translation>
+        <source>Pfennig Core - Command-line options</source>
+        <translation>Pfennig Core - Commandoregel-opties</translation>
     </message>
     <message>
-        <source>Bitmark Core</source>
-        <translation>Bitmark Kern</translation>
+        <source>Pfennig Core</source>
+        <translation>Pfennig Kern</translation>
     </message>
     <message>
         <source>version</source>
@@ -934,16 +934,16 @@ Adres: %4
         <translation>Welkom</translation>
     </message>
     <message>
-        <source>Welcome to Bitmark Core.</source>
-        <translation>Welkom bij Bitmark Core</translation>
+        <source>Welcome to Pfennig Core.</source>
+        <translation>Welkom bij Pfennig Core</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Bitmark Core will store its data.</source>
-        <translation>Omdat dit de eerste keer is dat het programma gestart is, kunt u nu kiezen waar Bitmark Core de data moet opslaan.</translation>
+        <source>As this is the first time the program is launched, you can choose where Pfennig Core will store its data.</source>
+        <translation>Omdat dit de eerste keer is dat het programma gestart is, kunt u nu kiezen waar Pfennig Core de data moet opslaan.</translation>
     </message>
     <message>
-        <source>Bitmark Core will download and store a copy of the Bitmark block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Bitmark Core zal een kopie van de Bitmark blokketen downloaden en opslaan. Tenminste %1 GB aan data wordt opgeslagen in deze map en het zal groeien in de tijd. De portemonnee wordt ook in deze map opgeslagen.</translation>
+        <source>Pfennig Core will download and store a copy of the Pfennig block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Pfennig Core zal een kopie van de Pfennig blokketen downloaden en opslaan. Tenminste %1 GB aan data wordt opgeslagen in deze map en het zal groeien in de tijd. De portemonnee wordt ook in deze map opgeslagen.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -954,8 +954,8 @@ Adres: %4
         <translation>Gebruik een persoonlijke gegevensmap:</translation>
     </message>
     <message>
-        <source>Bitmark</source>
-        <translation>Bitmark</translation>
+        <source>Pfennig</source>
+        <translation>Pfennig</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; can not be created.</source>
@@ -1016,12 +1016,12 @@ Adres: %4
         <translation>Betaal &amp;transactiekosten</translation>
     </message>
     <message>
-        <source>Automatically start Bitmark after logging in to the system.</source>
-        <translation>Start Bitmark automatisch na inloggen in het systeem</translation>
+        <source>Automatically start Pfennig after logging in to the system.</source>
+        <translation>Start Pfennig automatisch na inloggen in het systeem</translation>
     </message>
     <message>
-        <source>&amp;Start Bitmark on system login</source>
-        <translation>Start &amp;Bitmark bij het inloggen in het systeem</translation>
+        <source>&amp;Start Pfennig on system login</source>
+        <translation>Start &amp;Pfennig bij het inloggen in het systeem</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1036,8 +1036,8 @@ Adres: %4
         <translation>Aantal threads voor &amp;scriptverificatie</translation>
     </message>
     <message>
-        <source>Connect to the Bitmark network through a SOCKS proxy.</source>
-        <translation>Verbind met het Bitmark-netwerk via een SOCKS-proxy.</translation>
+        <source>Connect to the Pfennig network through a SOCKS proxy.</source>
+        <translation>Verbind met het Pfennig-netwerk via een SOCKS-proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS proxy (default proxy):</source>
@@ -1096,8 +1096,8 @@ Adres: %4
         <translation>&amp;Spendeer onbevestigd wisselgeld</translation>
     </message>
     <message>
-        <source>Automatically open the Bitmark client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Open de Bitmark-poort automatisch op de router. Dit werkt alleen als de router UPnP ondersteunt en het aanstaat.</translation>
+        <source>Automatically open the Pfennig client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Open de Pfennig-poort automatisch op de router. Dit werkt alleen als de router UPnP ondersteunt en het aanstaat.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1152,8 +1152,8 @@ Adres: %4
         <translation>Taal &amp;Gebruikersinterface:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Bitmark.</source>
-        <translation>De taal van de gebruikersinterface kan hier ingesteld worden. Deze instelling zal pas van kracht worden nadat Bitmark herstart wordt.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Pfennig.</source>
+        <translation>De taal van de gebruikersinterface kan hier ingesteld worden. Deze instelling zal pas van kracht worden nadat Pfennig herstart wordt.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1164,8 +1164,8 @@ Adres: %4
         <translation>Kies de standaard onderverdelingseenheid om weer te geven in uw programma, en voor het versturen van munten</translation>
     </message>
     <message>
-        <source>Whether to show Bitmark addresses in the transaction list or not.</source>
-        <translation>Of Bitmarkadressen getoond worden in de transactielijst</translation>
+        <source>Whether to show Pfennig addresses in the transaction list or not.</source>
+        <translation>Of Pfennigadressen getoond worden in de transactielijst</translation>
     </message>
     <message>
         <source>&amp;Display addresses in transaction list</source>
@@ -1219,8 +1219,8 @@ Adres: %4
         <translation>Vorm</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitmark network after a connection is established, but this process has not completed yet.</source>
-        <translation>De weergegeven informatie kan verouderd zijn. Uw portemonnee synchroniseert automaticsh met het Bitmarknetwerk nadat een verbinding is gelegd, maar dit proces is nog niet voltooid.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Pfennig network after a connection is established, but this process has not completed yet.</source>
+        <translation>De weergegeven informatie kan verouderd zijn. Uw portemonnee synchroniseert automaticsh met het Pfennignetwerk nadat een verbinding is gelegd, maar dit proces is nog niet voltooid.</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -1274,8 +1274,8 @@ Adres: %4
         <translation>URI-behandeling</translation>
     </message>
     <message>
-        <source>URI can not be parsed! This can be caused by an invalid Bitmark address or malformed URI parameters.</source>
-        <translation>URI kan niet worden geïnterpreteerd. Dit kan komen door een ongeldig Bitmarkadres of misvormde URI-parameters.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Pfennig address or malformed URI parameters.</source>
+        <translation>URI kan niet worden geïnterpreteerd. Dit kan komen door een ongeldig Pfennigadres of misvormde URI-parameters.</translation>
     </message>
     <message>
         <source>Requested payment amount of %1 is too small (considered dust).</source>
@@ -1286,8 +1286,8 @@ Adres: %4
         <translation>Fout bij betalingsverzoek</translation>
     </message>
     <message>
-        <source>Cannot start bitmark: click-to-pay handler</source>
-        <translation>Kan bitmark niet starten: click-to-pay handler</translation>
+        <source>Cannot start pfennig: click-to-pay handler</source>
+        <translation>Kan pfennig niet starten: click-to-pay handler</translation>
     </message>
     <message>
         <source>Net manager warning</source>
@@ -1341,8 +1341,8 @@ Adres: %4
 <context>
     <name>QObject</name>
     <message>
-        <source>Bitmark</source>
-        <translation>Bitmark</translation>
+        <source>Pfennig</source>
+        <translation>Pfennig</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
@@ -1357,12 +1357,12 @@ Adres: %4
         <translation>Fout: Ongeldige combinatie van -regtest en -testnet</translation>
     </message>
     <message>
-        <source>Bitmark Core didn&apos;t yet exit safely...</source>
-        <translation>Bitmark Core is nog niet veilig uitgeschakeld...</translation>
+        <source>Pfennig Core didn&apos;t yet exit safely...</source>
+        <translation>Pfennig Core is nog niet veilig uitgeschakeld...</translation>
     </message>
     <message>
-        <source>Enter a Bitmark address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
-        <translation>Vul een Bitmarkadres in (bijv. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
+        <source>Enter a Pfennig address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
+        <translation>Vul een Pfennigadres in (bijv. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
     </message>
 </context>
 <context>
@@ -1483,16 +1483,16 @@ Adres: %4
         <translation>Debug-logbestand</translation>
     </message>
     <message>
-        <source>Open the Bitmark debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open het Bitmarkdebug-logbestand van de huidige datamap. Dit kan een aantal seconden duren voor grote logbestanden.</translation>
+        <source>Open the Pfennig debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open het Pfennigdebug-logbestand van de huidige datamap. Dit kan een aantal seconden duren voor grote logbestanden.</translation>
     </message>
     <message>
         <source>Clear console</source>
         <translation>Maak console leeg</translation>
     </message>
     <message>
-        <source>Welcome to the Bitmark RPC console.</source>
-        <translation>Welkom bij de Bitmark RPC-console.</translation>
+        <source>Welcome to the Pfennig RPC console.</source>
+        <translation>Welkom bij de Pfennig RPC-console.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1554,8 +1554,8 @@ Adres: %4
         <translation>H&amp;ergebruik en bestaand ontvangstadres (niet aanbevolen)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitmark network.</source>
-        <translation>Een optioneel bericht om bij te voegen aan het betalingsverzoek, dewelke zal getoond worden wanneer het verzoek is geopend. Opermerking: Het bericht zal niet worden verzonden met de betaling over het Bitmark netwerk.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Pfennig network.</source>
+        <translation>Een optioneel bericht om bij te voegen aan het betalingsverzoek, dewelke zal getoond worden wanneer het verzoek is geopend. Opermerking: Het bericht zal niet worden verzonden met de betaling over het Pfennig netwerk.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1867,8 +1867,8 @@ Adres: %4
         <translation>De transactie was afgewezen. Dit kan gebeuren als u eerder uitgegeven munten opnieuw wilt versturen, zoals wanneer u een kopie van uw wallet.dat heeft gebruikt en in de kopie deze munten zijn gemarkeerd als uitgegeven, maar in de huidige nog niet.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitmark address</source>
-        <translation>Waarschuwing: Ongeldig Bitmark adres</translation>
+        <source>Warning: Invalid Pfennig address</source>
+        <translation>Waarschuwing: Ongeldig Pfennig adres</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1954,8 +1954,8 @@ Adres: %4
         <translation>Vul een label voor dit adres in om het aan de lijst met gebruikte adressen toe te voegen</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitmark: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitmark network.</source>
-        <translation>Een bericht dat werd toegevoegd aan de bitmark: URI dewelke wordt opgeslagen met de transactie ter referentie. Opmerking: Dit bericht zal niet worden verzonden over het Bitmark netwerk.</translation>
+        <source>A message that was attached to the pfennig: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Pfennig network.</source>
+        <translation>Een bericht dat werd toegevoegd aan de pfennig: URI dewelke wordt opgeslagen met de transactie ter referentie. Opmerking: Dit bericht zal niet worden verzonden over het Pfennig netwerk.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -1973,8 +1973,8 @@ Adres: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Bitmark Core is shutting down...</source>
-        <translation>Bitmark Core is aan het afsluiten...</translation>
+        <source>Pfennig Core is shutting down...</source>
+        <translation>Pfennig Core is aan het afsluiten...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2028,8 +2028,8 @@ Adres: %4
         <translation>Kopieer de huidige handtekening naar het systeemklembord</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitmark address</source>
-        <translation>Onderteken een bericht om te bewijzen dat u een bepaald Bitmarkadres bezit</translation>
+        <source>Sign the message to prove you own this Pfennig address</source>
+        <translation>Onderteken een bericht om te bewijzen dat u een bepaald Pfennigadres bezit</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2056,8 +2056,8 @@ Adres: %4
         <translation>Het adres waarmee bet bericht was ondertekend (Vb.: bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR).</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitmark address</source>
-        <translation>Controleer een bericht om te verifiëren dat het gespecificeerde Bitmarkadres het bericht heeft ondertekend.</translation>
+        <source>Verify the message to ensure it was signed with the specified Pfennig address</source>
+        <translation>Controleer een bericht om te verifiëren dat het gespecificeerde Pfennigadres het bericht heeft ondertekend.</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2068,8 +2068,8 @@ Adres: %4
         <translation>Verwijder alles in de invulvelden</translation>
     </message>
     <message>
-        <source>Enter a Bitmark address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
-        <translation>Vul een Bitmarkadres in (bijv. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
+        <source>Enter a Pfennig address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
+        <translation>Vul een Pfennigadres in (bijv. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
     </message>
     <message>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
@@ -2127,12 +2127,12 @@ Adres: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitmark Core</source>
-        <translation>Bitmark Kern</translation>
+        <source>Pfennig Core</source>
+        <translation>Pfennig Kern</translation>
     </message>
     <message>
         <source>The Bitcoin Core Developers</source>
-        <translation>De Bitmark Core ontwikkelaars</translation>
+        <translation>De Pfennig Core ontwikkelaars</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2592,7 +2592,7 @@ Adres: %4
     </message>
 </context>
 <context>
-    <name>bitmark-core</name>
+    <name>pfennig-core</name>
     <message>
         <source>Usage:</source>
         <translation>Gebruik:</translation>
@@ -2610,8 +2610,8 @@ Adres: %4
         <translation>Opties:</translation>
     </message>
     <message>
-        <source>Specify configuration file (default: bitmark.conf)</source>
-        <translation>Specificeer configuratiebestand (standaard: bitmark.conf)
+        <source>Specify configuration file (default: pfennig.conf)</source>
+        <translation>Specificeer configuratiebestand (standaard: pfennig.conf)
 </translation>
     </message>
     <message>
@@ -2660,8 +2660,8 @@ Adres: %4
         <translation>Aanvaard commandoregel- en JSON-RPC-commando&apos;s</translation>
     </message>
     <message>
-        <source>Bitmark Core RPC client version</source>
-        <translation>Bitmark Core RPC-client versie</translation>
+        <source>Pfennig Core RPC client version</source>
+        <translation>Pfennig Core RPC-client versie</translation>
     </message>
     <message>
         <source>Run in the background as a daemon and accept commands</source>
@@ -2679,23 +2679,23 @@ Adres: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=bitmarkrpc
+rpcuser=pfennigrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.com
 </source>
         <translation>%s, u moet een RPC-wachtwoord instellen in het configuratiebestand: %s
 U wordt aangeraden het volgende willekeurige wachtwoord te gebruiken:
-rpcuser=bitmarkrpc
+rpcuser=pfennigrpc
 rpcpassword=%s
 (u hoeft dit wachtwoord niet te onthouden)
 De gebruikersnaam en wachtwoord mogen niet hetzelfde zijn.
 Als het bestand niet bestaat, make hem dan aan met leesrechten voor enkel de eigenaar.
 Het is ook aan te bevelen &quot;alertnotify&quot; in te stellen zodat u op de hoogte gesteld wordt van problemen;
-bijvoorbeeld: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.com</translation>
+bijvoorbeeld: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.com</translation>
     </message>
     <message>
         <source>Acceptable ciphers (default: TLSv1.2+HIGH:TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!3DES:@STRENGTH)</source>
@@ -2766,8 +2766,8 @@ bijvoorbeeld: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo
         <translation>Dit is een pre-release testversie - gebruik op eigen risico! Gebruik deze niet voor het delven van munten of handelsdoeleinden</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Bitmark Core is probably already running.</source>
-        <translation>Niet in staat om %s te verbinden op deze computer. Bitmark Core draait waarschijnlijk al.</translation>
+        <source>Unable to bind to %s on this computer. Pfennig Core is probably already running.</source>
+        <translation>Niet in staat om %s te verbinden op deze computer. Pfennig Core draait waarschijnlijk al.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: -proxy)</source>
@@ -2778,8 +2778,8 @@ bijvoorbeeld: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo
         <translation>Waarschuwing: -paytxfee is zeer hoog ingesteld.  Dit zijn de transactiekosten die u betaalt bij het versturen van een transactie.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Bitmark will not work properly.</source>
-        <translation>Waarschuwing: Controleer dat de datum en tijd op uw computer correct zijn ingesteld. Als uw klok fout staat zal Bitmark niet correct werken.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Pfennig will not work properly.</source>
+        <translation>Waarschuwing: Controleer dat de datum en tijd op uw computer correct zijn ingesteld. Als uw klok fout staat zal Pfennig niet correct werken.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -2814,8 +2814,8 @@ bijvoorbeeld: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo
         <translation>Poog de geheime sleutels uit een corrupt wallet.dat bestand terug te halen</translation>
     </message>
     <message>
-        <source>Bitmark Core Daemon</source>
-        <translation>Bitmark Core Daemon</translation>
+        <source>Pfennig Core Daemon</source>
+        <translation>Pfennig Core Daemon</translation>
     </message>
     <message>
         <source>Block creation options:</source>
@@ -3023,7 +3023,7 @@ bijvoorbeeld: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo
     </message>
     <message>
         <source>Usage (deprecated, use pfennig-cli):</source>
-        <translation>Gebruik (vervangen; gebruik Bitmark-cli);</translation>
+        <translation>Gebruik (vervangen; gebruik Pfennig-cli);</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
@@ -3058,8 +3058,8 @@ bijvoorbeeld: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo
         <translation>Importeert blokken van extern blk000??.dat bestand</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Bitmark Core is probably already running.</source>
-        <translation>Kan geen lock verkrijgen op gegevensmap %s. Bitmark Core draait waarschijnlijk al.</translation>
+        <source>Cannot obtain a lock on data directory %s. Pfennig Core is probably already running.</source>
+        <translation>Kan geen lock verkrijgen op gegevensmap %s. Pfennig Core draait waarschijnlijk al.</translation>
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
@@ -3122,8 +3122,8 @@ bijvoorbeeld: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo
         <translation>Toon block structuur bij opstarten (default: 0)</translation>
     </message>
     <message>
-        <source>RPC SSL options: (see the Bitmark Wiki for SSL setup instructions)</source>
-        <translation>RPC SSL opties: (zie de Bitmark Wiki voor SSL installatie-instructies)</translation>
+        <source>RPC SSL options: (see the Pfennig Wiki for SSL setup instructions)</source>
+        <translation>RPC SSL opties: (zie de Pfennig Wiki voor SSL installatie-instructies)</translation>
     </message>
     <message>
         <source>RPC server options:</source>
@@ -3142,12 +3142,12 @@ bijvoorbeeld: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo
         <translation>Draai een proces om de wallet periodiek te flushen (default: 1)</translation>
     </message>
     <message>
-        <source>SSL options: (see the Bitmark Wiki for SSL setup instructions)</source>
-        <translation>SSL-opties: (zie de Bitmark wiki voor SSL-instructies)</translation>
+        <source>SSL options: (see the Pfennig Wiki for SSL setup instructions)</source>
+        <translation>SSL-opties: (zie de Pfennig wiki voor SSL-instructies)</translation>
     </message>
     <message>
-        <source>Send command to Bitmark Core</source>
-        <translation>Stuur commando naar Bitmark Core</translation>
+        <source>Send command to Pfennig Core</source>
+        <translation>Stuur commando naar Pfennig Core</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
@@ -3182,8 +3182,8 @@ bijvoorbeeld: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo
         <translation>Specificeer de time-outtijd in milliseconden (standaard: 5000)</translation>
     </message>
     <message>
-        <source>Start Bitmark Core Daemon</source>
-        <translation>Start Bitmark Core Daemon</translation>
+        <source>Start Pfennig Core Daemon</source>
+        <translation>Start Pfennig Core Daemon</translation>
     </message>
     <message>
         <source>System error: </source>
@@ -3298,12 +3298,12 @@ bijvoorbeeld: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo
         <translation>Fout bij laden wallet.dat: Portemonnee corrupt</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitmark</source>
-        <translation>Fout bij laden wallet.dat: Portemonnee vereist een nieuwere versie van Bitmark</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Pfennig</source>
+        <translation>Fout bij laden wallet.dat: Portemonnee vereist een nieuwere versie van Pfennig</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Bitmark to complete</source>
-        <translation>Portemonnee moest herschreven worden: Herstart Bitmark om te voltooien</translation>
+        <source>Wallet needed to be rewritten: restart Pfennig to complete</source>
+        <translation>Portemonnee moest herschreven worden: Herstart Pfennig om te voltooien</translation>
     </message>
     <message>
         <source>Error loading wallet.dat</source>

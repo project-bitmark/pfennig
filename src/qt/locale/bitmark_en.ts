@@ -5,12 +5,12 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Bitmark Core</source>
+        <source>About Pfennig Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Bitmark Core&lt;/b&gt; version</source>
+        <source>&lt;b&gt;Pfennig Core&lt;/b&gt; version</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -129,12 +129,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>These are your Bitmark addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>These are your Bitmark addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
+        <source>These are your Pfennig addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>These are your Pfennig addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>These are your Bitmark addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your Pfennig addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -255,8 +255,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITMARKS&lt;/b&gt;!</source>
-        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITMARKS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PfennigS&lt;/b&gt;!</source>
+        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PfennigS&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -282,8 +282,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>Bitmark will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitmarks from being stolen by malware infecting your computer.</source>
-        <translation>Bitmark will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitmarks from being stolen by malware infecting your computer.</translation>
+        <source>Pfennig will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your pfennigs from being stolen by malware infecting your computer.</source>
+        <translation>Pfennig will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your pfennigs from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -328,9 +328,9 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
 </context>
 <context>
-    <name>BitmarkGUI</name>
+    <name>PfennigGUI</name>
     <message>
-        <location filename="../bitmarkgui.cpp" line="+294"/>
+        <location filename="../pfenniggui.cpp" line="+294"/>
         <source>Sign &amp;message...</source>
         <translation>Sign &amp;message...</translation>
     </message>
@@ -376,8 +376,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Show information about Bitmark</source>
-        <translation>Show information about Bitmark</translation>
+        <source>Show information about Pfennig</source>
+        <translation>Show information about Pfennig</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -437,13 +437,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-405"/>
-        <source>Send coins to a Bitmark address</source>
-        <translation>Send coins to a Bitmark address</translation>
+        <source>Send coins to a Pfennig address</source>
+        <translation>Send coins to a Pfennig address</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for Bitmark</source>
-        <translation>Modify configuration options for Bitmark</translation>
+        <source>Modify configuration options for Pfennig</source>
+        <translation>Modify configuration options for Pfennig</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -472,8 +472,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+440"/>
-        <source>Bitmark</source>
-        <translation>Bitmark</translation>
+        <source>Pfennig</source>
+        <translation>Pfennig</translation>
     </message>
     <message>
         <location line="-652"/>
@@ -508,13 +508,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Bitmark addresses to prove you own them</source>
-        <translation>Sign messages with your Bitmark addresses to prove you own them</translation>
+        <source>Sign messages with your Pfennig addresses to prove you own them</source>
+        <translation>Sign messages with your Pfennig addresses to prove you own them</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Bitmark addresses</source>
-        <translation>Verify messages to ensure they were signed with specified Bitmark addresses</translation>
+        <source>Verify messages to ensure they were signed with specified Pfennig addresses</source>
+        <translation>Verify messages to ensure they were signed with specified Pfennig addresses</translation>
     </message>
     <message>
         <location line="+48"/>
@@ -544,18 +544,18 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-400"/>
-        <source>Bitmark Core</source>
-        <translation type="unfinished">Bitmark Core</translation>
+        <source>Pfennig Core</source>
+        <translation type="unfinished">Pfennig Core</translation>
     </message>
     <message>
         <location line="+162"/>
-        <source>Request payments (generates QR codes and bitmark: URIs)</source>
+        <source>Request payments (generates QR codes and pfennig: URIs)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+29"/>
         <location line="+2"/>
-        <source>&amp;About Bitmark Core</source>
+        <source>&amp;About Pfennig Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -570,7 +570,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+3"/>
-        <source>Open a bitmark: URI or payment request</source>
+        <source>Open a pfennig: URI or payment request</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -580,21 +580,21 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
-        <source>Show the Bitmark Core help message to get a list with possible Bitmark command-line options</source>
+        <source>Show the Pfennig Core help message to get a list with possible Pfennig command-line options</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+159"/>
         <location line="+5"/>
-        <source>Bitmark client</source>
-        <translation>Bitmark client</translation>
+        <source>Pfennig client</source>
+        <translation>Pfennig client</translation>
     </message>
     <message numerus="yes">
         <location line="+142"/>
-        <source>%n active connection(s) to Bitmark network</source>
+        <source>%n active connection(s) to Pfennig network</source>
         <translation>
-            <numerusform>%n active connection to Bitmark network</numerusform>
-            <numerusform>%n active connections to Bitmark network</numerusform>
+            <numerusform>%n active connection to Pfennig network</numerusform>
+            <numerusform>%n active connections to Pfennig network</numerusform>
         </translation>
     </message>
     <message>
@@ -724,9 +724,9 @@ Address: %4
         <translation>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../bitmark.cpp" line="+447"/>
-        <source>A fatal error occurred. Bitmark can no longer continue safely and will quit.</source>
-        <translation>A fatal error occurred. Bitmark can no longer continue safely and will quit.</translation>
+        <location filename="../pfennig.cpp" line="+447"/>
+        <source>A fatal error occurred. Pfennig can no longer continue safely and will quit.</source>
+        <translation>A fatal error occurred. Pfennig can no longer continue safely and will quit.</translation>
     </message>
 </context>
 <context>
@@ -1083,8 +1083,8 @@ Address: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Bitmark address.</source>
-        <translation>The entered address &quot;%1&quot; is not a valid Bitmark address.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Pfennig address.</source>
+        <translation>The entered address &quot;%1&quot; is not a valid Pfennig address.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1129,13 +1129,13 @@ Address: %4
     <name>HelpMessageDialog</name>
     <message>
         <location filename="../forms/helpmessagedialog.ui" line="+19"/>
-        <source>Bitmark Core - Command-line options</source>
+        <source>Pfennig Core - Command-line options</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../utilitydialog.cpp" line="+24"/>
-        <source>Bitmark Core</source>
-        <translation type="unfinished">Bitmark Core</translation>
+        <source>Pfennig Core</source>
+        <translation type="unfinished">Pfennig Core</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1192,17 +1192,17 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Welcome to Bitmark Core.</source>
+        <source>Welcome to Pfennig Core.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>As this is the first time the program is launched, you can choose where Bitmark Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where Pfennig Core will store its data.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Bitmark Core will download and store a copy of the Bitmark block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>Pfennig Core will download and store a copy of the Pfennig block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1217,8 +1217,8 @@ Address: %4
     </message>
     <message>
         <location filename="../intro.cpp" line="+82"/>
-        <source>Bitmark</source>
-        <translation type="unfinished">Bitmark</translation>
+        <source>Pfennig</source>
+        <translation type="unfinished">Pfennig</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1293,13 +1293,13 @@ Address: %4
     </message>
     <message>
         <location line="-125"/>
-        <source>Automatically start Bitmark after logging in to the system.</source>
-        <translation>Automatically start Bitmark after logging in to the system.</translation>
+        <source>Automatically start Pfennig after logging in to the system.</source>
+        <translation>Automatically start Pfennig after logging in to the system.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Bitmark on system login</source>
-        <translation>&amp;Start Bitmark on system login</translation>
+        <source>&amp;Start Pfennig on system login</source>
+        <translation>&amp;Start Pfennig on system login</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -1318,7 +1318,7 @@ Address: %4
     </message>
     <message>
         <location line="+160"/>
-        <source>Connect to the Bitmark network through a SOCKS proxy.</source>
+        <source>Connect to the Pfennig network through a SOCKS proxy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1394,8 +1394,8 @@ Address: %4
     </message>
     <message>
         <location line="+17"/>
-        <source>Automatically open the Bitmark client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the Bitmark client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <source>Automatically open the Pfennig client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the Pfennig client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1464,8 +1464,8 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Bitmark.</source>
-        <translation>The user interface language can be set here. This setting will take effect after restarting Bitmark.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Pfennig.</source>
+        <translation>The user interface language can be set here. This setting will take effect after restarting Pfennig.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1479,8 +1479,8 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Bitmark addresses in the transaction list or not.</source>
-        <translation>Whether to show Bitmark addresses in the transaction list or not.</translation>
+        <source>Whether to show Pfennig addresses in the transaction list or not.</source>
+        <translation>Whether to show Pfennig addresses in the transaction list or not.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1549,8 +1549,8 @@ Address: %4
     <message>
         <location line="+50"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitmark network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitmark network after a connection is established, but this process has not completed yet.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Pfennig network after a connection is established, but this process has not completed yet.</source>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Pfennig network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <location line="-238"/>
@@ -1619,8 +1619,8 @@ Address: %4
     </message>
     <message>
         <location line="+1"/>
-        <source>URI can not be parsed! This can be caused by an invalid Bitmark address or malformed URI parameters.</source>
-        <translation type="unfinished">URI can not be parsed! This can be caused by an invalid Bitmark address or malformed URI parameters.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Pfennig address or malformed URI parameters.</source>
+        <translation type="unfinished">URI can not be parsed! This can be caused by an invalid Pfennig address or malformed URI parameters.</translation>
     </message>
     <message>
         <location line="+96"/>
@@ -1639,7 +1639,7 @@ Address: %4
     </message>
     <message>
         <location line="-353"/>
-        <source>Cannot start bitmark: click-to-pay handler</source>
+        <source>Cannot start pfennig: click-to-pay handler</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1706,11 +1706,11 @@ Address: %4
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../bitmark.cpp" line="+71"/>
+        <location filename="../pfennig.cpp" line="+71"/>
         <location line="+7"/>
         <location line="+13"/>
-        <source>Bitmark</source>
-        <translation>Bitmark</translation>
+        <source>Pfennig</source>
+        <translation>Pfennig</translation>
     </message>
     <message>
         <location line="-19"/>
@@ -1729,13 +1729,13 @@ Address: %4
     </message>
     <message>
         <location line="+60"/>
-        <source>Bitmark Core didn&apos;t yet exit safely...</source>
+        <source>Pfennig Core didn&apos;t yet exit safely...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../guiutil.cpp" line="+89"/>
-        <source>Enter a Bitmark address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
-        <translation type="unfinished">Enter a Bitmark address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
+        <source>Enter a Pfennig address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
+        <translation type="unfinished">Enter a Pfennig address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
     </message>
 </context>
 <context>
@@ -1897,8 +1897,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Bitmark debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open the Bitmark debug log file from the current data directory. This can take a few seconds for large log files.</translation>
+        <source>Open the Pfennig debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open the Pfennig debug log file from the current data directory. This can take a few seconds for large log files.</translation>
     </message>
     <message>
         <location line="+76"/>
@@ -1907,8 +1907,8 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-35"/>
-        <source>Welcome to the Bitmark RPC console.</source>
-        <translation>Welcome to the Bitmark RPC console.</translation>
+        <source>Welcome to the Pfennig RPC console.</source>
+        <translation>Welcome to the Pfennig RPC console.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1986,7 +1986,7 @@ Address: %4
     <message>
         <location line="+14"/>
         <location line="+23"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitmark network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Pfennig network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2382,7 +2382,7 @@ Address: %4
     </message>
     <message>
         <location line="+113"/>
-        <source>Warning: Invalid Bitmark address</source>
+        <source>Warning: Invalid Pfennig address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2494,7 +2494,7 @@ Address: %4
     </message>
     <message>
         <location line="+33"/>
-        <source>A message that was attached to the bitmark: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitmark network.</source>
+        <source>A message that was attached to the pfennig: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Pfennig network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2519,7 +2519,7 @@ Address: %4
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+52"/>
-        <source>Bitmark Core is shutting down...</source>
+        <source>Pfennig Core is shutting down...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2589,8 +2589,8 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Bitmark address</source>
-        <translation>Sign the message to prove you own this Bitmark address</translation>
+        <source>Sign the message to prove you own this Pfennig address</source>
+        <translation>Sign the message to prove you own this Pfennig address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2625,8 +2625,8 @@ Address: %4
     </message>
     <message>
         <location line="+37"/>
-        <source>Verify the message to ensure it was signed with the specified Bitmark address</source>
-        <translation>Verify the message to ensure it was signed with the specified Bitmark address</translation>
+        <source>Verify the message to ensure it was signed with the specified Pfennig address</source>
+        <translation>Verify the message to ensure it was signed with the specified Pfennig address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2640,8 +2640,8 @@ Address: %4
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+30"/>
-        <source>Enter a Bitmark address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
-        <translation>Enter a Bitmark address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
+        <source>Enter a Pfennig address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
+        <translation>Enter a Pfennig address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2719,8 +2719,8 @@ Address: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+32"/>
-        <source>Bitmark Core</source>
-        <translation type="unfinished">Bitmark Core</translation>
+        <source>Pfennig Core</source>
+        <translation type="unfinished">Pfennig Core</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -3318,9 +3318,9 @@ Address: %4
     </message>
 </context>
 <context>
-    <name>bitmark-core</name>
+    <name>pfennig-core</name>
     <message>
-        <location filename="../bitmarkstrings.cpp" line="+262"/>
+        <location filename="../pfennigstrings.cpp" line="+262"/>
         <source>Usage:</source>
         <translation>Usage:</translation>
     </message>
@@ -3341,8 +3341,8 @@ Address: %4
     </message>
     <message>
         <location line="+32"/>
-        <source>Specify configuration file (default: bitmark.conf)</source>
-        <translation>Specify configuration file (default: bitmark.conf)</translation>
+        <source>Specify configuration file (default: pfennig.conf)</source>
+        <translation>Specify configuration file (default: pfennig.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3401,7 +3401,7 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Bitmark Core RPC client version</source>
+        <source>Pfennig Core RPC client version</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3424,24 +3424,24 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=bitmarkrpc
+rpcuser=pfennigrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.com
 </source>
         <translation>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=bitmarkrpc
+rpcuser=pfennigrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -3531,7 +3531,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+3"/>
-        <source>Unable to bind to %s on this computer. Bitmark Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. Pfennig Core is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3546,8 +3546,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Bitmark will not work properly.</source>
-        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Bitmark will not work properly.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Pfennig will not work properly.</source>
+        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Pfennig will not work properly.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3591,7 +3591,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-        <source>Bitmark Core Daemon</source>
+        <source>Pfennig Core Daemon</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3896,7 +3896,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.
     </message>
     <message>
         <location line="-150"/>
-        <source>Cannot obtain a lock on data directory %s. Bitmark Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Pfennig Core is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3976,7 +3976,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-        <source>RPC SSL options: (see the Bitmark Wiki for SSL setup instructions)</source>
+        <source>RPC SSL options: (see the Pfennig Wiki for SSL setup instructions)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4001,12 +4001,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+2"/>
-        <source>SSL options: (see the Bitmark Wiki for SSL setup instructions)</source>
-        <translation>SSL options: (see the Bitmark Wiki for SSL setup instructions)</translation>
+        <source>SSL options: (see the Pfennig Wiki for SSL setup instructions)</source>
+        <translation>SSL options: (see the Pfennig Wiki for SSL setup instructions)</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Send command to Bitmark Core</source>
+        <source>Send command to Pfennig Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4051,7 +4051,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+6"/>
-        <source>Start Bitmark Core Daemon</source>
+        <source>Start Pfennig Core Daemon</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4196,13 +4196,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitmark</source>
-        <translation>Error loading wallet.dat: Wallet requires newer version of Bitmark</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Pfennig</source>
+        <translation>Error loading wallet.dat: Wallet requires newer version of Pfennig</translation>
     </message>
     <message>
         <location line="+113"/>
-        <source>Wallet needed to be rewritten: restart Bitmark to complete</source>
-        <translation>Wallet needed to be rewritten: restart Bitmark to complete</translation>
+        <source>Wallet needed to be rewritten: restart Pfennig to complete</source>
+        <translation>Wallet needed to be rewritten: restart Pfennig to complete</translation>
     </message>
     <message>
         <location line="-115"/>

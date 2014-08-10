@@ -2,12 +2,12 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Bitmark Core</source>
-        <translation>O jadre Bitmark</translation>
+        <source>About Pfennig Core</source>
+        <translation>O jadre Pfennig</translation>
     </message>
     <message>
-        <source>&lt;b&gt;Bitmark Core&lt;/b&gt; version</source>
-        <translation>Verzia &lt;b&gt;Bitmark jadra&lt;/b&gt;</translation>
+        <source>&lt;b&gt;Pfennig Core&lt;/b&gt; version</source>
+        <translation>Verzia &lt;b&gt;Pfennig jadra&lt;/b&gt;</translation>
     </message>
     <message>
         <source>
@@ -29,7 +29,7 @@ Tento výrobok obsahuje sofvér, ktorý vyvynul OpenSSL Project pre použitie v 
     </message>
     <message>
         <source>The Bitcoin Core Developers</source>
-        <translation>Vývojári jadra Bitmark</translation>
+        <translation>Vývojári jadra Pfennig</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -103,12 +103,12 @@ Tento výrobok obsahuje sofvér, ktorý vyvynul OpenSSL Project pre použitie v 
         <translation>Adresa prijatia</translation>
     </message>
     <message>
-        <source>These are your Bitmark addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto sú Vaše Bitmark adresy pre posielanie platieb. Vždy skontrolujte množstvo a prijímaciu adresu pred poslaním coins.</translation>
+        <source>These are your Pfennig addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto sú Vaše Pfennig adresy pre posielanie platieb. Vždy skontrolujte množstvo a prijímaciu adresu pred poslaním coins.</translation>
     </message>
     <message>
-        <source>These are your Bitmark addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto sú vaše Bitmark adresy pre prijímanie platieb. Odporúča sa použiť novú prijímaciu adresu pre každú transakciu.</translation>
+        <source>These are your Pfennig addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto sú vaše Pfennig adresy pre prijímanie platieb. Odporúča sa použiť novú prijímaciu adresu pre každú transakciu.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -205,8 +205,8 @@ Tento výrobok obsahuje sofvér, ktorý vyvynul OpenSSL Project pre použitie v 
         <translation>Potvrďte šifrovanie peňaženky</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITMARKS&lt;/b&gt;!</source>
-        <translation>Varovanie: Ak zašifrujete peňaženku a stratíte heslo, &lt;b&gt;STRATÍTE VŠETKY VAŠE BITMARKY&lt;/b&gt;!⏎</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PfennigS&lt;/b&gt;!</source>
+        <translation>Varovanie: Ak zašifrujete peňaženku a stratíte heslo, &lt;b&gt;STRATÍTE VŠETKY VAŠE PfennigY&lt;/b&gt;!⏎</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -225,8 +225,8 @@ Tento výrobok obsahuje sofvér, ktorý vyvynul OpenSSL Project pre použitie v 
         <translation>Peňaženka zašifrovaná</translation>
     </message>
     <message>
-        <source>Bitmark will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitmarks from being stolen by malware infecting your computer.</source>
-        <translation>Bitmark sa teraz ukončí pre dokončenie procesu šifrovania. Pamätaj že šifrovanie peňaženky Ťa nemôže úplne ochrániť pred kráďežou bitmarkov pomocou škodlivého software.</translation>
+        <source>Pfennig will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your pfennigs from being stolen by malware infecting your computer.</source>
+        <translation>Pfennig sa teraz ukončí pre dokončenie procesu šifrovania. Pamätaj že šifrovanie peňaženky Ťa nemôže úplne ochrániť pred kráďežou pfennigov pomocou škodlivého software.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -258,7 +258,7 @@ Tento výrobok obsahuje sofvér, ktorý vyvynul OpenSSL Project pre použitie v 
     </message>
 </context>
 <context>
-    <name>BitmarkGUI</name>
+    <name>PfennigGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Podpísať &amp;správu...</translation>
@@ -296,8 +296,8 @@ Tento výrobok obsahuje sofvér, ktorý vyvynul OpenSSL Project pre použitie v 
         <translation>Ukončiť program</translation>
     </message>
     <message>
-        <source>Show information about Bitmark</source>
-        <translation>Zobraziť informácie o Bitmark</translation>
+        <source>Show information about Pfennig</source>
+        <translation>Zobraziť informácie o Pfennig</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -344,12 +344,12 @@ Tento výrobok obsahuje sofvér, ktorý vyvynul OpenSSL Project pre použitie v 
         <translation>Preindexúvam bloky na disku...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitmark address</source>
-        <translation>Poslať bitmarks na adresu</translation>
+        <source>Send coins to a Pfennig address</source>
+        <translation>Poslať pfennigs na adresu</translation>
     </message>
     <message>
-        <source>Modify configuration options for Bitmark</source>
-        <translation>Upraviť možnosti nastavenia pre bitmark</translation>
+        <source>Modify configuration options for Pfennig</source>
+        <translation>Upraviť možnosti nastavenia pre pfennig</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -372,8 +372,8 @@ Tento výrobok obsahuje sofvér, ktorý vyvynul OpenSSL Project pre použitie v 
         <translation>Overiť správu</translation>
     </message>
     <message>
-        <source>Bitmark</source>
-        <translation>Bitmark</translation>
+        <source>Pfennig</source>
+        <translation>Pfennig</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -400,12 +400,12 @@ Tento výrobok obsahuje sofvér, ktorý vyvynul OpenSSL Project pre použitie v 
         <translation>Zašifruj súkromné kľúče ktoré patria do vašej peňaženky</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitmark addresses to prove you own them</source>
-        <translation>Podpísať správu s vašou adresou Bitmark aby ste preukázali že ju vlastníte</translation>
+        <source>Sign messages with your Pfennig addresses to prove you own them</source>
+        <translation>Podpísať správu s vašou adresou Pfennig aby ste preukázali že ju vlastníte</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitmark addresses</source>
-        <translation>Overiť či správa bola podpísaná uvedenou Bitmark adresou</translation>
+        <source>Verify messages to ensure they were signed with specified Pfennig addresses</source>
+        <translation>Overiť či správa bola podpísaná uvedenou Pfennig adresou</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -428,16 +428,16 @@ Tento výrobok obsahuje sofvér, ktorý vyvynul OpenSSL Project pre použitie v 
         <translation>[testovacia sieť]</translation>
     </message>
     <message>
-        <source>Bitmark Core</source>
-        <translation>Jadro Bitmark</translation>
+        <source>Pfennig Core</source>
+        <translation>Jadro Pfennig</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitmark: URIs)</source>
-        <translation>Vyžiadať platbu (vygeneruje QR kód a bitmark: URI)</translation>
+        <source>Request payments (generates QR codes and pfennig: URIs)</source>
+        <translation>Vyžiadať platbu (vygeneruje QR kód a pfennig: URI)</translation>
     </message>
     <message>
-        <source>&amp;About Bitmark Core</source>
-        <translation>O jadre Bitmark</translation>
+        <source>&amp;About Pfennig Core</source>
+        <translation>O jadre Pfennig</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -448,24 +448,24 @@ Tento výrobok obsahuje sofvér, ktorý vyvynul OpenSSL Project pre použitie v 
         <translation>Zobraziť zoznam použitých prijímacích adries a ich popisov</translation>
     </message>
     <message>
-        <source>Open a bitmark: URI or payment request</source>
-        <translation>Otvoriť bitmark URI alebo výzvu k platbe</translation>
+        <source>Open a pfennig: URI or payment request</source>
+        <translation>Otvoriť pfennig URI alebo výzvu k platbe</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Možnosti príkazového riadku</translation>
     </message>
     <message>
-        <source>Show the Bitmark Core help message to get a list with possible Bitmark command-line options</source>
-        <translation>Zobraziť pomocnú správu od Bitmark Jadra pre získanie zoznamu dostupných možností príkazového riadku</translation>
+        <source>Show the Pfennig Core help message to get a list with possible Pfennig command-line options</source>
+        <translation>Zobraziť pomocnú správu od Pfennig Jadra pre získanie zoznamu dostupných možností príkazového riadku</translation>
     </message>
     <message>
-        <source>Bitmark client</source>
-        <translation>Bitmark klient</translation>
+        <source>Pfennig client</source>
+        <translation>Pfennig klient</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitmark network</source>
-        <translation><numerusform>%n aktívne spojenie v Bitmark sieti</numerusform><numerusform>%n aktívne spojenia v Bitmark sieti</numerusform><numerusform>%n aktívnych spojení v Bitconi sieti</numerusform></translation>
+        <source>%n active connection(s) to Pfennig network</source>
+        <translation><numerusform>%n aktívne spojenie v Pfennig sieti</numerusform><numerusform>%n aktívne spojenia v Pfennig sieti</numerusform><numerusform>%n aktívnych spojení v Bitconi sieti</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -559,8 +559,8 @@ Adresa: %4</translation>
         <translation>Peňaženka je &lt;b&gt;zašifrovaná&lt;/b&gt; a momentálne &lt;b&gt;zamknutá&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Bitmark can no longer continue safely and will quit.</source>
-        <translation>Vyskytla sa neblahá chyba. Bitmark nemôže daľej bezpečne pokračovať a vypne sa.</translation>
+        <source>A fatal error occurred. Pfennig can no longer continue safely and will quit.</source>
+        <translation>Vyskytla sa neblahá chyba. Pfennig nemôže daľej bezpečne pokračovať a vypne sa.</translation>
     </message>
 </context>
 <context>
@@ -844,8 +844,8 @@ Adresa: %4</translation>
         <translation>Vložená adresa &quot;%1&quot; sa už nachádza v adresári.</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid Bitmark address.</source>
-        <translation>Vložená adresa &quot;%1&quot; nieje platnou adresou bitmark.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Pfennig address.</source>
+        <translation>Vložená adresa &quot;%1&quot; nieje platnou adresou pfennig.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -882,12 +882,12 @@ Adresa: %4</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Bitmark Core - Command-line options</source>
-        <translation>Jadro Bitmark - možnosti príkazového riadku</translation>
+        <source>Pfennig Core - Command-line options</source>
+        <translation>Jadro Pfennig - možnosti príkazového riadku</translation>
     </message>
     <message>
-        <source>Bitmark Core</source>
-        <translation>Jadro Bitmark</translation>
+        <source>Pfennig Core</source>
+        <translation>Jadro Pfennig</translation>
     </message>
     <message>
         <source>version</source>
@@ -933,16 +933,16 @@ Adresa: %4</translation>
         <translation>Vitajte</translation>
     </message>
     <message>
-        <source>Welcome to Bitmark Core.</source>
-        <translation>Vitajte v jadre Bitmark.</translation>
+        <source>Welcome to Pfennig Core.</source>
+        <translation>Vitajte v jadre Pfennig.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Bitmark Core will store its data.</source>
-        <translation>Keďže spúštate program prvý krát, môžte si vybrať kde bude Bitmark Jadro ukladať svoje dáta.</translation>
+        <source>As this is the first time the program is launched, you can choose where Pfennig Core will store its data.</source>
+        <translation>Keďže spúštate program prvý krát, môžte si vybrať kde bude Pfennig Jadro ukladať svoje dáta.</translation>
     </message>
     <message>
-        <source>Bitmark Core will download and store a copy of the Bitmark block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Jadro Bitmark stiahne zo siete a uloží kópiu Bitmark blockchain. Aspoň %1GB dát bude uložených v tomto priečinku a časom porastie. Peňaženka bude tiež uložená v tomto priečinku.</translation>
+        <source>Pfennig Core will download and store a copy of the Pfennig block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Jadro Pfennig stiahne zo siete a uloží kópiu Pfennig blockchain. Aspoň %1GB dát bude uložených v tomto priečinku a časom porastie. Peňaženka bude tiež uložená v tomto priečinku.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -953,8 +953,8 @@ Adresa: %4</translation>
         <translation>Použiť vlastný dátový adresár:</translation>
     </message>
     <message>
-        <source>Bitmark</source>
-        <translation>Bitmark</translation>
+        <source>Pfennig</source>
+        <translation>Pfennig</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; can not be created.</source>
@@ -1015,12 +1015,12 @@ Adresa: %4</translation>
         <translation>Zaplatiť transakčné &amp;poplatky</translation>
     </message>
     <message>
-        <source>Automatically start Bitmark after logging in to the system.</source>
-        <translation>Automaticky spustiť Bitmark po zapnutí počítača</translation>
+        <source>Automatically start Pfennig after logging in to the system.</source>
+        <translation>Automaticky spustiť Pfennig po zapnutí počítača</translation>
     </message>
     <message>
-        <source>&amp;Start Bitmark on system login</source>
-        <translation>&amp;Spustiť Bitmark pri spustení systému správy okien</translation>
+        <source>&amp;Start Pfennig on system login</source>
+        <translation>&amp;Spustiť Pfennig pri spustení systému správy okien</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1035,8 +1035,8 @@ Adresa: %4</translation>
         <translation>Počet skript overujucich vlákien</translation>
     </message>
     <message>
-        <source>Connect to the Bitmark network through a SOCKS proxy.</source>
-        <translation>Pripojiť k Bitmark sieti cez SOCKS proxy.</translation>
+        <source>Connect to the Pfennig network through a SOCKS proxy.</source>
+        <translation>Pripojiť k Pfennig sieti cez SOCKS proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS proxy (default proxy):</source>
@@ -1095,8 +1095,8 @@ Adresa: %4</translation>
         <translation>Minúť nepotvrdený výdavok</translation>
     </message>
     <message>
-        <source>Automatically open the Bitmark client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automaticky otvorit port pre Bitmark na routeri. Toto funguje len ak router podporuje UPnP a je táto podpora aktivovaná.</translation>
+        <source>Automatically open the Pfennig client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automaticky otvorit port pre Pfennig na routeri. Toto funguje len ak router podporuje UPnP a je táto podpora aktivovaná.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1151,8 +1151,8 @@ Adresa: %4</translation>
         <translation>Jazyk užívateľského rozhrania:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Bitmark.</source>
-        <translation>Tu sa dá nastaviť jazyk užívateľského rozhrania. Toto nastavenie bude účinné po reštartovaní Bitmark.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Pfennig.</source>
+        <translation>Tu sa dá nastaviť jazyk užívateľského rozhrania. Toto nastavenie bude účinné po reštartovaní Pfennig.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1160,11 +1160,11 @@ Adresa: %4</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Zvoľte ako deliť bitmark pri zobrazovaní pri platbách a užívateľskom rozhraní.</translation>
+        <translation>Zvoľte ako deliť pfennig pri zobrazovaní pri platbách a užívateľskom rozhraní.</translation>
     </message>
     <message>
-        <source>Whether to show Bitmark addresses in the transaction list or not.</source>
-        <translation>Či ukazovať Bitmark adresy v zozname transakcií alebo nie.</translation>
+        <source>Whether to show Pfennig addresses in the transaction list or not.</source>
+        <translation>Či ukazovať Pfennig adresy v zozname transakcií alebo nie.</translation>
     </message>
     <message>
         <source>&amp;Display addresses in transaction list</source>
@@ -1218,8 +1218,8 @@ Adresa: %4</translation>
         <translation>Forma</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitmark network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informácie môžu byť neaktuápne. Vaša peňaženka sa automaticky synchronizuje so sieťou Bitmark po nadviazaní spojenia ale tento proces ešte nieje ukončený.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Pfennig network after a connection is established, but this process has not completed yet.</source>
+        <translation>Zobrazené informácie môžu byť neaktuápne. Vaša peňaženka sa automaticky synchronizuje so sieťou Pfennig po nadviazaní spojenia ale tento proces ešte nieje ukončený.</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -1273,8 +1273,8 @@ Adresa: %4</translation>
         <translation>Spracovanie URI</translation>
     </message>
     <message>
-        <source>URI can not be parsed! This can be caused by an invalid Bitmark address or malformed URI parameters.</source>
-        <translation>URI sa nedá rozložiť! To môže byť spôsobené neplatou Bitmark adresou alebo zle upravenými vlastnosťami URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Pfennig address or malformed URI parameters.</source>
+        <translation>URI sa nedá rozložiť! To môže byť spôsobené neplatou Pfennig adresou alebo zle upravenými vlastnosťami URI.</translation>
     </message>
     <message>
         <source>Requested payment amount of %1 is too small (considered dust).</source>
@@ -1285,8 +1285,8 @@ Adresa: %4</translation>
         <translation>Chyba pri vyžiadaní platby</translation>
     </message>
     <message>
-        <source>Cannot start bitmark: click-to-pay handler</source>
-        <translation>Nedá sa spustiť obslužný program bitmark: click-to-pay zaplatiť kliknutím</translation>
+        <source>Cannot start pfennig: click-to-pay handler</source>
+        <translation>Nedá sa spustiť obslužný program pfennig: click-to-pay zaplatiť kliknutím</translation>
     </message>
     <message>
         <source>Net manager warning</source>
@@ -1340,8 +1340,8 @@ Adresa: %4</translation>
 <context>
     <name>QObject</name>
     <message>
-        <source>Bitmark</source>
-        <translation>Bitmark</translation>
+        <source>Pfennig</source>
+        <translation>Pfennig</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
@@ -1356,12 +1356,12 @@ Adresa: %4</translation>
         <translation>Chyba: Nesprávna kombinácia -regtest a -testnet.</translation>
     </message>
     <message>
-        <source>Bitmark Core didn&apos;t yet exit safely...</source>
-        <translation>Jadro Bitmark sa ešte úspešne nevyplo ...</translation>
+        <source>Pfennig Core didn&apos;t yet exit safely...</source>
+        <translation>Jadro Pfennig sa ešte úspešne nevyplo ...</translation>
     </message>
     <message>
-        <source>Enter a Bitmark address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
-        <translation>Zadajte Bitmark adresu (napr. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
+        <source>Enter a Pfennig address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
+        <translation>Zadajte Pfennig adresu (napr. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
     </message>
 </context>
 <context>
@@ -1482,16 +1482,16 @@ Adresa: %4</translation>
         <translation>Súbor záznamu ladenia</translation>
     </message>
     <message>
-        <source>Open the Bitmark debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otvoriť Bitmark log súbor pre ladenie z aktuálneho dátového adresára. Toto môže trvať niekoľko sekúnd pre veľké súbory.</translation>
+        <source>Open the Pfennig debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Otvoriť Pfennig log súbor pre ladenie z aktuálneho dátového adresára. Toto môže trvať niekoľko sekúnd pre veľké súbory.</translation>
     </message>
     <message>
         <source>Clear console</source>
         <translation>Vymazať konzolu</translation>
     </message>
     <message>
-        <source>Welcome to the Bitmark RPC console.</source>
-        <translation>Vitajte v Bitmark RPC konzole. Baník, pyčo!</translation>
+        <source>Welcome to the Pfennig RPC console.</source>
+        <translation>Vitajte v Pfennig RPC konzole. Baník, pyčo!</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1553,8 +1553,8 @@ Adresa: %4</translation>
         <translation>Znovu použiť jestvujúcu prijímaciu adresu (neodporúča sa)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitmark network.</source>
-        <translation>Pridať voliteľnú správu k výzve na zaplatenie, ktorá sa zobrazí keď bude výzva otvorená. Poznámka: Správa nebude poslaná s platbou cez sieť Bitmark.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Pfennig network.</source>
+        <translation>Pridať voliteľnú správu k výzve na zaplatenie, ktorá sa zobrazí keď bude výzva otvorená. Poznámka: Správa nebude poslaná s platbou cez sieť Pfennig.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1703,7 +1703,7 @@ Adresa: %4</translation>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Poslať Bitmarks</translation>
+        <translation>Poslať Pfennigs</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -1791,7 +1791,7 @@ Adresa: %4</translation>
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation>Potvrdiť odoslanie bitmarks</translation>
+        <translation>Potvrdiť odoslanie pfennigs</translation>
     </message>
     <message>
         <source>%1 to %2</source>
@@ -1866,8 +1866,8 @@ Adresa: %4</translation>
         <translation>Transakcia bola zamietnutá! Toto sa môže stať ak niektoré coins vo vašej peňaženke už boli minuté, ako keď použijete kópiu wallet.dat a coins boli minuté z kópie ale neoznačené ako minuté tu.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitmark address</source>
-        <translation>Varovanie: Nesprávna Bitmark adresa</translation>
+        <source>Warning: Invalid Pfennig address</source>
+        <translation>Varovanie: Nesprávna Pfennig adresa</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1953,8 +1953,8 @@ Adresa: %4</translation>
         <translation>Vložte popis pre túto adresu aby sa uložila do zoznamu použitých adries</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitmark: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitmark network.</source>
-        <translation>Správa ktorá bola pripojená k bitmark: URI a ktorá bude uložená s transakcou pre Vaše potreby. Poznámka: Táto správa nebude poslaná cez sieť Bitmark.</translation>
+        <source>A message that was attached to the pfennig: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Pfennig network.</source>
+        <translation>Správa ktorá bola pripojená k pfennig: URI a ktorá bude uložená s transakcou pre Vaše potreby. Poznámka: Táto správa nebude poslaná cez sieť Pfennig.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -1972,8 +1972,8 @@ Adresa: %4</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Bitmark Core is shutting down...</source>
-        <translation>Jadro Bitmark sa ukončuje...</translation>
+        <source>Pfennig Core is shutting down...</source>
+        <translation>Jadro Pfennig sa ukončuje...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -1996,7 +1996,7 @@ Adresa: %4</translation>
     </message>
     <message>
         <source>The address to sign the message with (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
-        <translation>Zadajte Bitmark adresu (napr. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
+        <translation>Zadajte Pfennig adresu (napr. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2027,7 +2027,7 @@ Adresa: %4</translation>
         <translation>Kopírovať práve zvolenú adresu do systémového klipbordu</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitmark address</source>
+        <source>Sign the message to prove you own this Pfennig address</source>
         <translation>Podpíšte správu aby ste dokázali že vlastníte túto adresu</translation>
     </message>
     <message>
@@ -2052,11 +2052,11 @@ Adresa: %4</translation>
     </message>
     <message>
         <source>The address the message was signed with (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
-        <translation>Zadajte Bitmark adresu (napr. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
+        <translation>Zadajte Pfennig adresu (napr. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitmark address</source>
-        <translation>Overím správy sa uistiť že bola podpísaná označenou Bitmark adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified Pfennig address</source>
+        <translation>Overím správy sa uistiť že bola podpísaná označenou Pfennig adresou</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2067,8 +2067,8 @@ Adresa: %4</translation>
         <translation>Obnoviť všetky polia v overiť správu</translation>
     </message>
     <message>
-        <source>Enter a Bitmark address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
-        <translation>Zadajte Bitmark adresu (napr. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
+        <source>Enter a Pfennig address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
+        <translation>Zadajte Pfennig adresu (napr. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
     </message>
     <message>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
@@ -2126,12 +2126,12 @@ Adresa: %4</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitmark Core</source>
-        <translation>Jadro Bitmark</translation>
+        <source>Pfennig Core</source>
+        <translation>Jadro Pfennig</translation>
     </message>
     <message>
         <source>The Bitcoin Core Developers</source>
-        <translation>Vývojári jadra Bitmark</translation>
+        <translation>Vývojári jadra Pfennig</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2552,7 +2552,7 @@ Adresa: %4</translation>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Poslať Bitmarks</translation>
+        <translation>Poslať Pfennigs</translation>
     </message>
 </context>
 <context>
@@ -2591,7 +2591,7 @@ Adresa: %4</translation>
     </message>
 </context>
 <context>
-    <name>bitmark-core</name>
+    <name>pfennig-core</name>
     <message>
         <source>Usage:</source>
         <translation>Použitie:</translation>
@@ -2609,8 +2609,8 @@ Adresa: %4</translation>
         <translation>Možnosti:</translation>
     </message>
     <message>
-        <source>Specify configuration file (default: bitmark.conf)</source>
-        <translation>Určiť súbor s nastaveniami (predvolené: bitmark.conf)</translation>
+        <source>Specify configuration file (default: pfennig.conf)</source>
+        <translation>Určiť súbor s nastaveniami (predvolené: pfennig.conf)</translation>
     </message>
     <message>
         <source>Specify pid file (default: pfennigd.pid)</source>
@@ -2657,8 +2657,8 @@ Adresa: %4</translation>
         <translation>Prijímať príkazy z príkazového riadku a JSON-RPC</translation>
     </message>
     <message>
-        <source>Bitmark Core RPC client version</source>
-        <translation>Verzia RPC klienta Jadra Bitmark</translation>
+        <source>Pfennig Core RPC client version</source>
+        <translation>Verzia RPC klienta Jadra Pfennig</translation>
     </message>
     <message>
         <source>Run in the background as a daemon and accept commands</source>
@@ -2676,24 +2676,24 @@ Adresa: %4</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=bitmarkrpc
+rpcuser=pfennigrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Bitmark Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.com
 </source>
         <translation>%s, musíte nastaviť rpcpassword heslo v súbore nastavení:
 %s
 Odporúča sa používať nasledujúce náhodné heslo:
-rpcuser=bitmarkrpc
+rpcuser=pfennigrpc
 rpcpassword=%s
 (nemusíte si pamätať toto heslo)
 Užívateľské meno a heslo NESMÚ byť rovnaké.
 Ak súbor neexistuje, vytvorte ho s prístupovým právom owner-readable-only čitateľné len pre majiteľa.
 Tiež sa odporúča nastaviť alertnotify aby ste boli upozorňovaní na problémy;
-napríklad: alertnotify=echo %%s | mail -s &quot;Bitmark Výstraha&quot; admin@foo.com
+napríklad: alertnotify=echo %%s | mail -s &quot;Pfennig Výstraha&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2762,11 +2762,11 @@ napríklad: alertnotify=echo %%s | mail -s &quot;Bitmark Výstraha&quot; admin@f
     </message>
     <message>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>Toto je pred-testovacia verzia - použitie je na vlastné riziko - nepoužívajte na tvorbu bitmark ani obchodovanie.</translation>
+        <translation>Toto je pred-testovacia verzia - použitie je na vlastné riziko - nepoužívajte na tvorbu pfennig ani obchodovanie.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Bitmark Core is probably already running.</source>
-        <translation>Nepodarilo sa pripojiť na %s na tomto počítači. Bitmark Jadro je už pravdepodobne spustené.</translation>
+        <source>Unable to bind to %s on this computer. Pfennig Core is probably already running.</source>
+        <translation>Nepodarilo sa pripojiť na %s na tomto počítači. Pfennig Jadro je už pravdepodobne spustené.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: -proxy)</source>
@@ -2777,8 +2777,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;Bitmark Výstraha&quot; admin@f
         <translation>Varovanie: -paytxfee je nastavené veľmi vysoko. Toto sú transakčné poplatky ktoré zaplatíte ak odošlete transakciu.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Bitmark will not work properly.</source>
-        <translation>Varovanie: Skontroluj či je na počítači nastavený správny čas a dátum. Ak sú hodiny nastavené nesprávne, Bitmark nebude správne pracovať.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Pfennig will not work properly.</source>
+        <translation>Varovanie: Skontroluj či je na počítači nastavený správny čas a dátum. Ak sú hodiny nastavené nesprávne, Pfennig nebude správne pracovať.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -2815,8 +2815,8 @@ The network does not appear to fully agree! Some miners appear to be experiencin
         <translation>Pokus zachrániť súkromné kľúče z poškodeného wallet.dat</translation>
     </message>
     <message>
-        <source>Bitmark Core Daemon</source>
-        <translation>Démon Jadro Bitmark</translation>
+        <source>Pfennig Core Daemon</source>
+        <translation>Démon Jadro Pfennig</translation>
     </message>
     <message>
         <source>Block creation options:</source>
@@ -2948,7 +2948,7 @@ The network does not appear to fully agree! Some miners appear to be experiencin
     </message>
     <message>
         <source>Find peers using DNS lookup (default: 1 unless -connect)</source>
-        <translation>Nájsť počítače v bitmark sieti použitím DNS vyhľadávania (predvolené: 1 okrem -connect)</translation>
+        <translation>Nájsť počítače v pfennig sieti použitím DNS vyhľadávania (predvolené: 1 okrem -connect)</translation>
     </message>
     <message>
         <source>Force safe mode (default: 0)</source>
@@ -3059,8 +3059,8 @@ The network does not appear to fully agree! Some miners appear to be experiencin
         <translation>Importuje bloky z externého súboru blk000??.dat</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Bitmark Core is probably already running.</source>
-        <translation>Neviem uzamknúť data adresár %s. Jadro Bitmark je pravdepodobne už spustené.</translation>
+        <source>Cannot obtain a lock on data directory %s. Pfennig Core is probably already running.</source>
+        <translation>Neviem uzamknúť data adresár %s. Jadro Pfennig je pravdepodobne už spustené.</translation>
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
@@ -3123,8 +3123,8 @@ The network does not appear to fully agree! Some miners appear to be experiencin
         <translation>Vytlačiť strom blokov pri spustení (prednastavené: 0)</translation>
     </message>
     <message>
-        <source>RPC SSL options: (see the Bitmark Wiki for SSL setup instructions)</source>
-        <translation>Možnosti RPC SSL: (Pozri v Bitmark Wiki pokyny pre SSL nastavenie)</translation>
+        <source>RPC SSL options: (see the Pfennig Wiki for SSL setup instructions)</source>
+        <translation>Možnosti RPC SSL: (Pozri v Pfennig Wiki pokyny pre SSL nastavenie)</translation>
     </message>
     <message>
         <source>RPC server options:</source>
@@ -3143,12 +3143,12 @@ The network does not appear to fully agree! Some miners appear to be experiencin
         <translation>Mať spustené vlákno pravidelného čístenia peňaženky (predvolené: 1)</translation>
     </message>
     <message>
-        <source>SSL options: (see the Bitmark Wiki for SSL setup instructions)</source>
-        <translation>SSL možnosť: (pozrite Bitmark Wiki pre návod na nastavenie SSL)</translation>
+        <source>SSL options: (see the Pfennig Wiki for SSL setup instructions)</source>
+        <translation>SSL možnosť: (pozrite Pfennig Wiki pre návod na nastavenie SSL)</translation>
     </message>
     <message>
-        <source>Send command to Bitmark Core</source>
-        <translation>Poslať príkaz Jadru Bitmark</translation>
+        <source>Send command to Pfennig Core</source>
+        <translation>Poslať príkaz Jadru Pfennig</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
@@ -3183,8 +3183,8 @@ The network does not appear to fully agree! Some miners appear to be experiencin
         <translation>Určiť aut spojenia v milisekundách (predvolené: 5000)</translation>
     </message>
     <message>
-        <source>Start Bitmark Core Daemon</source>
-        <translation>Štart služby Jadro Bitmark</translation>
+        <source>Start Pfennig Core Daemon</source>
+        <translation>Štart služby Jadro Pfennig</translation>
     </message>
     <message>
         <source>System error: </source>
@@ -3299,12 +3299,12 @@ The network does not appear to fully agree! Some miners appear to be experiencin
         <translation>Chyba načítania wallet.dat: Peňaženka je poškodená</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitmark</source>
-        <translation>Chyba načítania wallet.dat: Peňaženka vyžaduje novšiu verziu Bitmark</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Pfennig</source>
+        <translation>Chyba načítania wallet.dat: Peňaženka vyžaduje novšiu verziu Pfennig</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Bitmark to complete</source>
-        <translation>Bolo potrebné prepísať peňaženku: dokončite reštartovaním Bitmark</translation>
+        <source>Wallet needed to be rewritten: restart Pfennig to complete</source>
+        <translation>Bolo potrebné prepísať peňaženku: dokončite reštartovaním Pfennig</translation>
     </message>
     <message>
         <source>Error loading wallet.dat</source>
