@@ -58,8 +58,7 @@ public:
 
         hashGenesisBlock = genesis.GetHash();
 
-        assert(hashGenesisBlock == uint256("0xc1fb746e87e89ae75bdec2ef0639a1f6786744639ce3d0ece1dcf979b79137cb"));
-        assert(genesis.hashMerkleRoot == uint256("0xd4715adf41222fae3d4bf41af30c675bc27228233d0f3cfd4ae0ae1d3e760ba8"));
+        //assert(hashGenesisBlock == uint256("0xc1fb746e87e89ae75bdec2ef0639a1f6786744639ce3d0ece1dcf979b79137cb"));
 
         // todo add more dns seeders
         vSeeds.push_back(CDNSSeedData("pfennig.co", "seed.pgennif.co"));
@@ -124,7 +123,7 @@ public:
         genesis.nBits = 0x1e0ffff0;
         genesis.nNonce = 16687;
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x1d6329aeff3ff6786635afd5d6715b24667329cfda199bd7a1d6626d81a4573c"));
+        //assert(hashGenesisBlock == uint256("0x1d6329aeff3ff6786635afd5d6715b24667329cfda199bd7a1d6626d81a4573c"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
