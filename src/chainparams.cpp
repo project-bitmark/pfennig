@@ -21,7 +21,7 @@ using namespace boost::assign;
 
 unsigned int pnSeed[] =
 {
-	0xac1f1f0a, 0xae240982, 0x253b1359
+	0xac1f1f2a // replace this with your own networks fixed seed nodes
 };
 
 class CMainParams : public CChainParams {
@@ -54,7 +54,7 @@ public:
         genesis.nVersion = 1;
         genesis.nTime    = 1405274442;
         genesis.nBits    = bnProofOfWorkLimit.GetCompact();
-        genesis.nNonce   = 14385103;
+        genesis.nNonce   = 0;
 
         hashGenesisBlock = genesis.GetHash();
 
@@ -120,8 +120,8 @@ public:
         strDataDir = "testnet3";
 
         genesis.nTime = 1405274408;
-        genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 16687;
+        genesis.nBits = bnProofOfWorkLimit.GetCompact();
+        genesis.nNonce = 0;
         hashGenesisBlock = genesis.GetHash();
         //assert(hashGenesisBlock == uint256("0x1d6329aeff3ff6786635afd5d6715b24667329cfda199bd7a1d6626d81a4573c"));
 
@@ -153,7 +153,7 @@ public:
         nSubsidyHalvingInterval = 150;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 1);
         genesis.nTime = 1405274400;
-        genesis.nBits = 0x207fffff;
+        genesis.nBits = bnProofOfWorkLimit.GetCompact();
         genesis.nNonce = 0;
         hashGenesisBlock = genesis.GetHash();
         nDefaultPort = 18444;
