@@ -337,7 +337,7 @@ extern map<uint256, CAlert> mapAlerts;
 // ThreadRPCServer: holds cs_main and acquiring cs_vSend in alert.RelayTo()/PushMessage()/BeginMessage()
 Value sendalert(const Array& params, bool fHelp)
 {
-    if (fHelp || params.size() < 6)
+    if (fHelp || params.size() < 8)
     throw runtime_error(
             "sendalert <message> <privatekey> <minver> <maxver> <priority> <id> [cancelupto]\n"
             "<message> is the alert text message\n"
@@ -346,6 +346,8 @@ Value sendalert(const Array& params, bool fHelp)
             "<maxver> is the maximum applicable internal client version\n"
             "<priority> is integer priority number\n"
             "<id> is the alert id\n"
+            "<relay> when should this message be relayed until\n"
+            "<expiration> when does this alert expire\n"
             "[cancelupto] cancels all alert id's up to this number\n"
             "Returns true or false.");
 
@@ -357,11 +359,11 @@ Value sendalert(const Array& params, bool fHelp)
     alert.nMaxVer = params[3].get_int();
     alert.nPriority = params[4].get_int();
     alert.nID = params[5].get_int();
-    if (params.size() > 6)
-        alert.nCancel = params[6].get_int();
+    if (params.size() > 8)
+        alert.nCancel = params[8].get_int();
     alert.nVersion = PROTOCOL_VERSION;
-    alert.nRelayUntil = GetAdjustedTime() + 365*24*60*60;
-    alert.nExpiration = GetAdjustedTime() + 365*24*60*60;
+    alert.nRelayUntil = GetAdjustedTime() + params[6].get_int();
+    alert.nExpiration = GetAdjustedTime() + params[7].get_int();
 
     CDataStream sMsg(SER_NETWORK, PROTOCOL_VERSION);
     sMsg << (CUnsignedAlert)alert;
