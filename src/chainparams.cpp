@@ -61,7 +61,7 @@ public:
         //assert(hashGenesisBlock == uint256("0xc1fb746e87e89ae75bdec2ef0639a1f6786744639ce3d0ece1dcf979b79137cb"));
 
         // todo add more dns seeders
-        vSeeds.push_back(CDNSSeedData("pfennig.co", "seed.pgennif.co"));
+        vSeeds.push_back(CDNSSeedData("pfennig.co", "seed.pfennig.co"));
 
         base58Prefixes[PUBKEY_ADDRESS] = list_of(85); // b
         base58Prefixes[SCRIPT_ADDRESS] = list_of(5);
