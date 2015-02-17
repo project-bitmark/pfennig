@@ -440,7 +440,7 @@ bool AddOrphanTx(const CTransaction& tx, NodeId peer)
         mapOrphanTransactionsByPrev[txin.prevout.hash].insert(hash);
 
     LogPrint("mempool", "stored orphan tx %s (mapsz %u prevsz %u)\n", hash.ToString(),
-    		mapOrphanTransactions.size(), mapOrphanTransactionsByPrev.size());
+            mapOrphanTransactions.size(), mapOrphanTransactionsByPrev.size());
     return true;
 }
 
@@ -1188,7 +1188,7 @@ uint256 static GetOrphanRoot(const uint256& hash)
 // Remove a random orphan block (which does not have any dependent orphans).
 void static PruneOrphanBlocks()
 {
-	if (mapOrphanBlocksByPrev.size() <= (size_t)std::max((int64_t)0, GetArg("-maxorphanblocks", DEFAULT_MAX_ORPHAN_BLOCKS)))
+    if (mapOrphanBlocksByPrev.size() <= (size_t)std::max((int64_t)0, GetArg("-maxorphanblocks", DEFAULT_MAX_ORPHAN_BLOCKS)))
         return;
 
     // Pick a random orphan block.
@@ -1231,82 +1231,80 @@ static const int64_t nTargetTimespan = 24*60*60; // one day
 static const int64_t nTargetSpacing = 2*60; // two minutes
 
 unsigned int static KimotoGravityWell(const CBlockIndex* pindexLast, const CBlockHeader *pblock, uint64 TargetBlocksSpacingSeconds, uint64 PastBlocksMin, uint64 PastBlocksMax) {
-	/* current difficulty formula, megacoin - kimoto gravity well */
-	const CBlockIndex *BlockLastSolved = pindexLast;
-	const CBlockIndex *BlockReading = pindexLast;
-	const CBlockHeader *BlockCreating = pblock;
+    /* current difficulty formula, megacoin - kimoto gravity well */
+    const CBlockIndex *BlockLastSolved = pindexLast;
+    const CBlockIndex *BlockReading = pindexLast;
+    const CBlockHeader *BlockCreating = pblock;
 
-	uint64 PastBlocksMass = 0;
-	int64 PastRateActualSeconds = 0;
-	int64 PastRateTargetSeconds = 0;
-	double PastRateAdjustmentRatio = double(1);
-	CBigNum PastDifficultyAverage;
-	CBigNum PastDifficultyAveragePrev;
-	double EventHorizonDeviation;
-	double EventHorizonDeviationFast;
-	double EventHorizonDeviationSlow;
+    uint64 PastBlocksMass = 0;
+    int64 PastRateActualSeconds = 0;
+    int64 PastRateTargetSeconds = 0;
+    double PastRateAdjustmentRatio = double(1);
+    CBigNum PastDifficultyAverage;
+    CBigNum PastDifficultyAveragePrev;
+    double EventHorizonDeviation;
+    double EventHorizonDeviationFast;
+    double EventHorizonDeviationSlow;
 
-	if (BlockLastSolved == NULL || BlockLastSolved->nHeight == 0 || (uint64) BlockLastSolved->nHeight < PastBlocksMin) {
-		return bnProofOfWorkLimit.GetCompact();
-	}
+    if (BlockLastSolved == NULL || BlockLastSolved->nHeight == 0 || (uint64) BlockLastSolved->nHeight < PastBlocksMin) {
+        return bnProofOfWorkLimit.GetCompact();
+    }
 
-	int64 LatestBlockTime = BlockLastSolved->GetBlockTime();
+    int64 LatestBlockTime = BlockLastSolved->GetBlockTime();
 
-	for (unsigned int i = 1; BlockReading && BlockReading->nHeight > 0; i++) {
-		if (PastBlocksMax > 0 && i > PastBlocksMax) break;
-		PastBlocksMass++;
+    for (unsigned int i = 1; BlockReading && BlockReading->nHeight > 0; i++) {
+        if (PastBlocksMax > 0 && i > PastBlocksMax) break;
+        PastBlocksMass++;
 
-		if (i == 1) {
-			PastDifficultyAverage.SetCompact(BlockReading->nBits);
-		} else {
-			PastDifficultyAverage = ((CBigNum().SetCompact(BlockReading->nBits) - PastDifficultyAveragePrev) / i) + PastDifficultyAveragePrev;
-		}
+        if (i == 1) {
+            PastDifficultyAverage.SetCompact(BlockReading->nBits);
+        } else {
+            PastDifficultyAverage = ((CBigNum().SetCompact(BlockReading->nBits) - PastDifficultyAveragePrev) / i) + PastDifficultyAveragePrev;
+        }
 
-		PastDifficultyAveragePrev = PastDifficultyAverage;
-		BlockLastSolved->GetBlockTime() - BlockReading->GetBlockTime();
-		PastRateTargetSeconds = TargetBlocksSpacingSeconds * PastBlocksMass;
-		PastRateAdjustmentRatio = double(1);
+        PastDifficultyAveragePrev = PastDifficultyAverage;
+        BlockLastSolved->GetBlockTime() - BlockReading->GetBlockTime();
+        PastRateTargetSeconds = TargetBlocksSpacingSeconds * PastBlocksMass;
+        PastRateAdjustmentRatio = double(1);
 
-		if (PastRateActualSeconds < 0) { PastRateActualSeconds = 0; }
-		if (PastRateActualSeconds != 0 && PastRateTargetSeconds != 0) {
-		    PastRateAdjustmentRatio = double(PastRateTargetSeconds) / double(PastRateActualSeconds);
-		}
-		EventHorizonDeviation = 1 + (0.7084 * pow((double(PastBlocksMass) / double(28.2)), -1.228));
-		EventHorizonDeviationFast = EventHorizonDeviation;
-		EventHorizonDeviationSlow = 1 / EventHorizonDeviation;
+        if (PastRateActualSeconds < 0) { PastRateActualSeconds = 0; }
+        if (PastRateActualSeconds != 0 && PastRateTargetSeconds != 0) {
+            PastRateAdjustmentRatio = double(PastRateTargetSeconds) / double(PastRateActualSeconds);
+        }
+        EventHorizonDeviation = 1 + (0.7084 * pow((double(PastBlocksMass) / double(28.2)), -1.228));
+        EventHorizonDeviationFast = EventHorizonDeviation;
+        EventHorizonDeviationSlow = 1 / EventHorizonDeviation;
 
-		if (PastBlocksMass >= PastBlocksMin) {
-			if ((PastRateAdjustmentRatio <= EventHorizonDeviationSlow) || (PastRateAdjustmentRatio >= EventHorizonDeviationFast)) {
-				assert(BlockReading);
-				break;
-			}
-		}
-		if (BlockReading->pprev == NULL) {
-			assert(BlockReading);
-			break;
-		}
-		BlockReading = BlockReading->pprev;
-	}
+        if (PastBlocksMass >= PastBlocksMin) {
+            if ((PastRateAdjustmentRatio <= EventHorizonDeviationSlow) || (PastRateAdjustmentRatio >= EventHorizonDeviationFast)) {
+                assert(BlockReading);
+                break;
+            }
+        }
+        if (BlockReading->pprev == NULL) {
+            assert(BlockReading);
+            break;
+        }
+        BlockReading = BlockReading->pprev;
+    }
 
-	CBigNum bnNew(PastDifficultyAverage);
-	if (PastRateActualSeconds != 0 && PastRateTargetSeconds != 0) {
-		bnNew *= PastRateActualSeconds;
-		bnNew /= PastRateTargetSeconds;
-	}
+    CBigNum bnNew(PastDifficultyAverage);
+    if (PastRateActualSeconds != 0 && PastRateTargetSeconds != 0) {
+        bnNew *= PastRateActualSeconds;
+        bnNew /= PastRateTargetSeconds;
+    }
 
-	if (bnNew > bnProofOfWorkLimit) {
-		bnNew = bnProofOfWorkLimit;
-	}
+    if (bnNew > bnProofOfWorkLimit) {
+        bnNew = bnProofOfWorkLimit;
+    }
 
-	/// debug print
-	printf("Difficulty Retarget - Kimoto Gravity Well\n");
-	printf("PastRateAdjustmentRatio = %g\n", PastRateAdjustmentRatio);
-	printf("Before: %08x %s\n", BlockLastSolved->nBits,
-			CBigNum().SetCompact(BlockLastSolved->nBits).getuint256().ToString().c_str());
-	printf("After: %08x %s\n", bnNew.GetCompact(),
-			bnNew.getuint256().ToString().c_str());
+    /// debug print
+    printf("Difficulty Retarget - Kimoto Gravity Well\n");
+    printf("PastRateAdjustmentRatio = %g\n", PastRateAdjustmentRatio);
+    printf("Before: %08x %s\n", BlockLastSolved->nBits, CBigNum().SetCompact(BlockLastSolved->nBits).getuint256().ToString().c_str());
+    printf("After: %08x %s\n", bnNew.GetCompact(), bnNew.getuint256().ToString().c_str());
 
-	return bnNew.GetCompact();
+    return bnNew.GetCompact();
 }
 
 unsigned int static GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHeader *pblock)
@@ -1401,9 +1399,9 @@ void CheckForkWarningConditions()
     {
         if (!fLargeWorkForkFound)
         {
-        	std::string warning = std::string("'Warning: Large-work fork detected, forking after block ") +
-        			pindexBestForkBase->phashBlock->ToString() + std::string("'");
-        	CAlert::Notify(warning, true);
+            std::string warning = std::string("'Warning: Large-work fork detected, forking after block ") +
+                    pindexBestForkBase->phashBlock->ToString() + std::string("'");
+            CAlert::Notify(warning, true);
         }
         if (pindexBestForkTip)
         {
@@ -1809,12 +1807,12 @@ bool ConnectBlock(CBlock& block, CValidationState& state, CBlockIndex* pindex, C
     // two in the chain that violate it. This prevents exploiting the issue against nodes in their
     // initial block download.
 
-	for (unsigned int i = 0; i < block.vtx.size(); i++) {
-		uint256 hash = block.GetTxHash(i);
-		if (view.HaveCoins(hash) && !view.GetCoins(hash).IsPruned())
-			return state.DoS(100, error("ConnectBlock() : tried to overwrite transaction"),
-							 REJECT_INVALID, "bad-txns-BIP30");
-	}
+    for (unsigned int i = 0; i < block.vtx.size(); i++) {
+        uint256 hash = block.GetTxHash(i);
+        if (view.HaveCoins(hash) && !view.GetCoins(hash).IsPruned())
+            return state.DoS(100, error("ConnectBlock() : tried to overwrite transaction"),
+                             REJECT_INVALID, "bad-txns-BIP30");
+    }
 
     // BIP16
     unsigned int flags = SCRIPT_VERIFY_NOCACHE | SCRIPT_VERIFY_P2SH;
@@ -1846,13 +1844,13 @@ bool ConnectBlock(CBlock& block, CValidationState& state, CBlockIndex* pindex, C
                 return state.DoS(100, error("ConnectBlock() : inputs missing/spent"),
                                  REJECT_INVALID, "bad-txns-inputs-missingorspent");
 
-			// Add in sigops done by pay-to-script-hash inputs;
-			// this is to prevent a "rogue miner" from creating
-			// an incredibly-expensive-to-validate block.
-			nSigOps += GetP2SHSigOpCount(tx, view);
-			if (nSigOps > MAX_BLOCK_SIGOPS)
-				return state.DoS(100, error("ConnectBlock() : too many sigops"),
-								 REJECT_INVALID, "bad-blk-sigops");
+            // Add in sigops done by pay-to-script-hash inputs;
+            // this is to prevent a "rogue miner" from creating
+            // an incredibly-expensive-to-validate block.
+            nSigOps += GetP2SHSigOpCount(tx, view);
+            if (nSigOps > MAX_BLOCK_SIGOPS)
+                return state.DoS(100, error("ConnectBlock() : too many sigops"),
+                                 REJECT_INVALID, "bad-blk-sigops");
 
             nFees += view.GetValueIn(tx)-tx.GetValueOut();
 
@@ -2441,18 +2439,18 @@ bool AcceptBlock(CBlock& block, CValidationState& state, CDiskBlockPos* dbp)
         // Reject block.nVersion=1 blocks
         if (block.nVersion < 2)
         {
-			return state.Invalid(error("AcceptBlock() : rejected nVersion=1 block"),
-								 REJECT_OBSOLETE, "bad-version");
+            return state.Invalid(error("AcceptBlock() : rejected nVersion=1 block"),
+                                 REJECT_OBSOLETE, "bad-version");
         }
 
         // Enforce block.nVersion=2 rule that the coinbase starts with serialized block height
         if (block.nVersion >= 2)
         {
-			CScript expect = CScript() << nHeight;
-			if (block.vtx[0].vin[0].scriptSig.size() < expect.size() ||
-				!std::equal(expect.begin(), expect.end(), block.vtx[0].vin[0].scriptSig.begin()))
-				return state.DoS(100, error("AcceptBlock() : block height mismatch in coinbase"),
-								 REJECT_INVALID, "bad-cb-height");
+            CScript expect = CScript() << nHeight;
+            if (block.vtx[0].vin[0].scriptSig.size() < expect.size() ||
+                !std::equal(expect.begin(), expect.end(), block.vtx[0].vin[0].scriptSig.begin()))
+                return state.DoS(100, error("AcceptBlock() : block height mismatch in coinbase"),
+                                 REJECT_INVALID, "bad-cb-height");
         }
     }
 
@@ -3001,30 +2999,30 @@ void static BitmarkGenesisMiner(CBlock block, int start, int threads)
     RenameThread("bitmark-miner");
     block.nTime += start;
     try { while (true) {
-		printf("Searching for genesis block...\n");
-		uint256 hashTarget = Params().ProofOfWorkLimit().getuint256();
-		uint256 thash;
-		char scratchpad[SCRYPT_SCRATCHPAD_SIZE];
+        printf("Searching for genesis block...\n");
+        uint256 hashTarget = Params().ProofOfWorkLimit().getuint256();
+        uint256 thash;
+        char scratchpad[SCRYPT_SCRATCHPAD_SIZE];
 
-		while(true)
-		{
-			scrypt_1024_1_1_256_sp(BEGIN(block.nVersion), BEGIN(thash), scratchpad);
-			if (thash <= hashTarget)
-				break;
-			if ((block.nNonce & 0xFFF) == 0)
-			{
-				printf("nonce %08X: hash = %s (target = %s)\n", block.nNonce, thash.ToString().c_str(), hashTarget.ToString().c_str());
-			}
-			++block.nNonce;
-			if (block.nNonce == 0)
-			{
-				printf("NONCE WRAPPED, incrementing time\n");
-				block.nTime+=threads;
-			}
-		}
-		printf("block.nTime = %u \n", block.nTime);
-		printf("block.nNonce = %u \n", block.nNonce);
-		printf("block.GetHash = %s\n", block.GetHash().ToString().c_str());
+        while(true)
+        {
+            scrypt_1024_1_1_256_sp(BEGIN(block.nVersion), BEGIN(thash), scratchpad);
+            if (thash <= hashTarget)
+                break;
+            if ((block.nNonce & 0xFFF) == 0)
+            {
+                printf("nonce %08X: hash = %s (target = %s)\n", block.nNonce, thash.ToString().c_str(), hashTarget.ToString().c_str());
+            }
+            ++block.nNonce;
+            if (block.nNonce == 0)
+            {
+                printf("NONCE WRAPPED, incrementing time\n");
+                block.nTime+=threads;
+            }
+        }
+        printf("block.nTime = %u \n", block.nTime);
+        printf("block.nNonce = %u \n", block.nNonce);
+        printf("block.GetHash = %s\n", block.GetHash().ToString().c_str());
     } }
     catch (boost::thread_interrupted)
     {
@@ -3068,13 +3066,13 @@ bool InitBlockIndex() {
     // Only add the genesis block if not reindexing (in which case we reuse the one already on disk)
     if (!fReindex) {
         // Generate a new Genesis block
-		if (true)
-		{
-			CBlock &block = const_cast<CBlock&>(Params().GenesisBlock());
-			GenesisBitmark(block);
-	        block.print();
-	        while(true) {}
-		}
+        if (true)
+        {
+            CBlock &block = const_cast<CBlock&>(Params().GenesisBlock());
+            GenesisBitmark(block);
+            block.print();
+            while(true) {}
+        }
         try {
             CBlock &block = const_cast<CBlock&>(Params().GenesisBlock());
             // Start new block file
@@ -3860,8 +3858,8 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv)
                     CValidationState stateDummy;
                     vEraseQueue.push_back(orphanHash);
 
-					if (setMisbehaving.count(fromPeer))
-						continue;
+                    if (setMisbehaving.count(fromPeer))
+                        continue;
 
                     if (AcceptToMemoryPool(mempool, stateDummy, orphanTx, true, &fMissingInputs2))
                     {
@@ -3872,15 +3870,15 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv)
                     }
                     else if (!fMissingInputs2)
                     {
-                    	int nDos = 0;
-                    	if (stateDummy.IsInvalid(nDos) && nDos > 0)
-						{
-							// Punish peer that gave us an invalid orphan tx
-							Misbehaving(fromPeer, nDos);
-							setMisbehaving.insert(fromPeer);
-							LogPrint("mempool", "   invalid orphan tx %s\n", orphanHash.ToString());
-						}
-						// too-little-fee orphan
+                        int nDos = 0;
+                        if (stateDummy.IsInvalid(nDos) && nDos > 0)
+                        {
+                            // Punish peer that gave us an invalid orphan tx
+                            Misbehaving(fromPeer, nDos);
+                            setMisbehaving.insert(fromPeer);
+                            LogPrint("mempool", "   invalid orphan tx %s\n", orphanHash.ToString());
+                        }
+                        // too-little-fee orphan
                         LogPrint("mempool", "   removed orphan tx %s\n", orphanHash.ToString());
                     }
                     mempool.check(pcoinsTip);
@@ -3892,11 +3890,11 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv)
         }
         else if (fMissingInputs)
         {
-        	AddOrphanTx(tx, pfrom->GetId());
+            AddOrphanTx(tx, pfrom->GetId());
 
             // DoS prevention: do not allow mapOrphanTransactions to grow unbounded
             unsigned int nMaxOrphanTx = (unsigned int)std::max((int64_t)0, GetArg("-maxorphantx", DEFAULT_MAX_ORPHAN_TRANSACTIONS));
-        	unsigned int nEvicted = LimitOrphanTxSize(nMaxOrphanTx);
+            unsigned int nEvicted = LimitOrphanTxSize(nMaxOrphanTx);
             if (nEvicted > 0)
                 LogPrint("mempool", "mapOrphan overflow, removed %u tx\n", nEvicted);
         }
@@ -3971,21 +3969,21 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv)
 
     else if (strCommand == "ping")
     {
-    	// BIP0031
-		uint64_t nonce = 0;
-		vRecv >> nonce;
-		// Echo the message back with the nonce. This allows for two useful features:
-		//
-		// 1) A remote node can quickly check if the connection is operational
-		// 2) Remote nodes can measure the latency of the network thread. If this node
-		//    is overloaded it won't respond to pings quickly and the remote node can
-		//    avoid sending us more work, like chain download requests.
-		//
-		// The nonce stops the remote getting confused between different pings: without
-		// it, if the remote node sends a ping once per second and this node takes 5
-		// seconds to respond to each, the 5th ping the remote sends would appear to
-		// return very quickly.
-		pfrom->PushMessage("pong", nonce);
+        // BIP0031
+        uint64_t nonce = 0;
+        vRecv >> nonce;
+        // Echo the message back with the nonce. This allows for two useful features:
+        //
+        // 1) A remote node can quickly check if the connection is operational
+        // 2) Remote nodes can measure the latency of the network thread. If this node
+        //    is overloaded it won't respond to pings quickly and the remote node can
+        //    avoid sending us more work, like chain download requests.
+        //
+        // The nonce stops the remote getting confused between different pings: without
+        // it, if the remote node sends a ping once per second and this node takes 5
+        // seconds to respond to each, the 5th ping the remote sends would appear to
+        // return very quickly.
+        pfrom->PushMessage("pong", nonce);
     }
 
 
@@ -4308,9 +4306,9 @@ bool SendMessages(CNode* pto, bool fSendTrickle)
             }
             pto->nPingNonceSent = nonce;
             pto->fPingQueued = false;
-			// Take timestamp as close as possible before transmitting ping
-			pto->nPingUsecStart = GetTimeMicros();
-			pto->PushMessage("ping", nonce);
+            // Take timestamp as close as possible before transmitting ping
+            pto->nPingUsecStart = GetTimeMicros();
+            pto->PushMessage("ping", nonce);
         }
 
         TRY_LOCK(cs_main, lockMain); // Acquire cs_main for IsInitialBlockDownload() and CNodeState()
