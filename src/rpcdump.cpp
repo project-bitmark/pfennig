@@ -1,5 +1,5 @@
 // Original Code: Copyright (c) 2009-2014 The Bitcoin Core Developers
-// Modified Code: Copyright (c) 2014 Project Bitmark
+// Modified Code: Copyright (c) 2015 Pfennig Foundation
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -69,10 +69,10 @@ Value importprivkey(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() < 1 || params.size() > 3)
         throw runtime_error(
-            "importprivkey \"bitmarkprivkey\" ( \"label\" rescan )\n"
+            "importprivkey \"pfennigprivkey\" ( \"label\" rescan )\n"
             "\nAdds a private key (as returned by dumpprivkey) to your wallet.\n"
             "\nArguments:\n"
-            "1. \"bitmarkprivkey\"   (string, required) The private key (see dumpprivkey)\n"
+            "1. \"pfennigprivkey\"   (string, required) The private key (see dumpprivkey)\n"
             "2. \"label\"            (string, optional) an optional label\n"
             "3. rescan               (boolean, optional, default=true) Rescan the wallet for transactions\n"
             "\nExamples:\n"
@@ -236,11 +236,11 @@ Value dumpprivkey(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() != 1)
         throw runtime_error(
-            "dumpprivkey \"bitmarkaddress\"\n"
-            "\nReveals the private key corresponding to 'bitmarkaddress'.\n"
+            "dumpprivkey \"pfennigaddress\"\n"
+            "\nReveals the private key corresponding to 'pfennigaddress'.\n"
             "Then the importprivkey can be used with this output\n"
             "\nArguments:\n"
-            "1. \"bitmarkaddress\"   (string, required) The bitmark address for the private key\n"
+            "1. \"pfennigaddress\"   (string, required) The pfennig address for the private key\n"
             "\nResult:\n"
             "\"key\"                (string) The private key\n"
             "\nExamples:\n"
@@ -254,7 +254,7 @@ Value dumpprivkey(const Array& params, bool fHelp)
     string strAddress = params[0].get_str();
     CBitmarkAddress address;
     if (!address.SetString(strAddress))
-        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid Pfennig address");
+        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid pfennig address");
     CKeyID keyID;
     if (!address.GetKeyID(keyID))
         throw JSONRPCError(RPC_TYPE_ERROR, "Address does not refer to a key");

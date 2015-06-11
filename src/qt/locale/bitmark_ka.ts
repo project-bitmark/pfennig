@@ -2,12 +2,12 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Pfennig Core</source>
-        <translation>Pfennig Core-ს შესახებ</translation>
+        <source>About pfennig Core</source>
+        <translation>pfennig Core-ს შესახებ</translation>
     </message>
     <message>
-        <source>&lt;b&gt;Pfennig Core&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Pfennig Core&lt;/b&gt;-ს ვერსია</translation>
+        <source>&lt;b&gt;pfennig Core&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;pfennig Core&lt;/b&gt;-ს ვერსია</translation>
     </message>
     <message>
         <source>
@@ -29,7 +29,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>The Bitcoin Core Developers</source>
-        <translation>Pfennig Core-ს ავტორები</translation>
+        <translation>pfennig Core-ს ავტორები</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -103,12 +103,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>მიღების მისამართი</translation>
     </message>
     <message>
-        <source>These are your Pfennig addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>ეს არის თქვენი Pfennig-მისამართები გადახდების შესასრულებლად. მონეტების გაგზავნამდე ყოველთვის შეამოწმეთ თანხა და მიმღების მისამართი.</translation>
+        <source>These are your pfennig addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>ეს არის თქვენი pfennig-მისამართები გადახდების შესასრულებლად. მონეტების გაგზავნამდე ყოველთვის შეამოწმეთ თანხა და მიმღების მისამართი.</translation>
     </message>
     <message>
-        <source>These are your Pfennig addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>ეს არის თქვენი Pfennig-მისამართები გადახდების მისაღებად. რეკომენდებულია ყოველი ტრანსაქციისათვის ახალი მიღების მისამართის გამოყენება.</translation>
+        <source>These are your pfennig addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>ეს არის თქვენი pfennig-მისამართები გადახდების მისაღებად. რეკომენდებულია ყოველი ტრანსაქციისათვის ახალი მიღების მისამართის გამოყენება.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -205,7 +205,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>დაადასტურეთ საფულის დაშიფრვა</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PfennigS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR pfennigS&lt;/b&gt;!</source>
         <translation>ყურადღება: საფულის დაშიფრვის შემდეგ თუ თქვენ დაკარგავთ ფრაზა-პაროლს,  &lt;b&gt;ყველა ბიტქოინი დაგეკარგებათ&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -225,8 +225,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>საფულე დაშიფრულია</translation>
     </message>
     <message>
-        <source>Pfennig will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your pfennigs from being stolen by malware infecting your computer.</source>
-        <translation>ახლა Pfennig დაიხურება დაშიფრვის პროცესის დასასრულებლად. გაითვალისწინეთ, რომ დაშიფრვა სრულად ვერ დაიცავს თქვენს ბითქოინებს თქვენს კომპიუტერში შემოპარული მავნე პროგრამების საშუალებით დატაცებისაგან.</translation>
+        <source>pfennig will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your pfennigs from being stolen by malware infecting your computer.</source>
+        <translation>ახლა pfennig დაიხურება დაშიფრვის პროცესის დასასრულებლად. გაითვალისწინეთ, რომ დაშიფრვა სრულად ვერ დაიცავს თქვენს ბითქოინებს თქვენს კომპიუტერში შემოპარული მავნე პროგრამების საშუალებით დატაცებისაგან.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -258,7 +258,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
 </context>
 <context>
-    <name>PfennigGUI</name>
+    <name>pfennigGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>ხელ&amp;მოწერა</translation>
@@ -296,8 +296,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>გასვლა</translation>
     </message>
     <message>
-        <source>Show information about Pfennig</source>
-        <translation>ინფორმაცია Pfennig-ის შესახებ</translation>
+        <source>Show information about pfennig</source>
+        <translation>ინფორმაცია pfennig-ის შესახებ</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -344,12 +344,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>დისკზე ბლოკების რეინდექსაცია...</translation>
     </message>
     <message>
-        <source>Send coins to a Pfennig address</source>
-        <translation>მონეტების გაგზავნა Pfennig-მისამართზე</translation>
+        <source>Send coins to a pfennig address</source>
+        <translation>მონეტების გაგზავნა pfennig-მისამართზე</translation>
     </message>
     <message>
-        <source>Modify configuration options for Pfennig</source>
-        <translation>Pfennig-ის საკონფიგურაციო პარამეტრების ცვლილება</translation>
+        <source>Modify configuration options for pfennig</source>
+        <translation>pfennig-ის საკონფიგურაციო პარამეტრების ცვლილება</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -372,8 +372,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;ვერიფიკაცია</translation>
     </message>
     <message>
-        <source>Pfennig</source>
-        <translation>Pfennig</translation>
+        <source>pfennig</source>
+        <translation>pfennig</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -400,12 +400,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>თქვენი საფულის პირადი გასაღებების დაშიფრვა</translation>
     </message>
     <message>
-        <source>Sign messages with your Pfennig addresses to prove you own them</source>
-        <translation>მესიჯებზე ხელმოწერა თქვენი Pfennig-მისამართებით იმის დასტურად, რომ ის თქვენია</translation>
+        <source>Sign messages with your pfennig addresses to prove you own them</source>
+        <translation>მესიჯებზე ხელმოწერა თქვენი pfennig-მისამართებით იმის დასტურად, რომ ის თქვენია</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Pfennig addresses</source>
-        <translation>შეამოწმეთ, რომ მესიჯები ხელმოწერილია მითითებული Pfennig-მისამართით</translation>
+        <source>Verify messages to ensure they were signed with specified pfennig addresses</source>
+        <translation>შეამოწმეთ, რომ მესიჯები ხელმოწერილია მითითებული pfennig-მისამართით</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -428,16 +428,16 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>[testnet]</translation>
     </message>
     <message>
-        <source>Pfennig Core</source>
-        <translation>Pfennig Core</translation>
+        <source>pfennig Core</source>
+        <translation>pfennig Core</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and pfennig: URIs)</source>
         <translation>გადახდის მოთხოვნა (შეიქმნება QR-კოდები და pfennig: ბმულები)</translation>
     </message>
     <message>
-        <source>&amp;About Pfennig Core</source>
-        <translation>Pfennig Core-ს შეს&amp;ახებ</translation>
+        <source>&amp;About pfennig Core</source>
+        <translation>pfennig Core-ს შეს&amp;ახებ</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -456,15 +456,15 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>საკომანდო სტრიქონის ოპ&amp;ციები</translation>
     </message>
     <message>
-        <source>Show the Pfennig Core help message to get a list with possible Pfennig command-line options</source>
-        <translation>Pfennig Core-ს დახმარების ჩვენება Pfennig-ის საკომანდო სტრიქონის დასაშვები ოპციების სანახავად</translation>
+        <source>Show the pfennig Core help message to get a list with possible pfennig command-line options</source>
+        <translation>pfennig Core-ს დახმარების ჩვენება pfennig-ის საკომანდო სტრიქონის დასაშვები ოპციების სანახავად</translation>
     </message>
     <message>
-        <source>Pfennig client</source>
-        <translation>Pfennig-კლიენტი</translation>
+        <source>pfennig client</source>
+        <translation>pfennig-კლიენტი</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Pfennig network</source>
+        <source>%n active connection(s) to pfennig network</source>
         <translation><numerusform>აქტიური მიერთებები ბითქოინის ქსელთან: %n</numerusform></translation>
     </message>
     <message>
@@ -560,8 +560,8 @@ Address: %4
         <translation>საფულე &lt;b&gt;დაშიფრულია&lt;/b&gt; და ამჟამად &lt;b&gt;დაბლოკილია&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Pfennig can no longer continue safely and will quit.</source>
-        <translation>ფატალური შეცდომა. Pfennig ვერ უზრუნველყოფს უსაფრთხო გაგრძელებას, ამიტომ იხურება.</translation>
+        <source>A fatal error occurred. pfennig can no longer continue safely and will quit.</source>
+        <translation>ფატალური შეცდომა. pfennig ვერ უზრუნველყოფს უსაფრთხო გაგრძელებას, ამიტომ იხურება.</translation>
     </message>
 </context>
 <context>
@@ -845,8 +845,8 @@ Address: %4
         <translation>მისამართი &quot;%1&quot; უკვე არის მისამართების წიგნში.</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid Pfennig address.</source>
-        <translation>შეყვანილი მისამართი &quot;%1&quot; არ არის ვალიდური Pfennig-მისამართი.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid pfennig address.</source>
+        <translation>შეყვანილი მისამართი &quot;%1&quot; არ არის ვალიდური pfennig-მისამართი.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -883,12 +883,12 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Pfennig Core - Command-line options</source>
-        <translation>Pfennig Core - საკომანდო სტრიქონის ოპციები</translation>
+        <source>pfennig Core - Command-line options</source>
+        <translation>pfennig Core - საკომანდო სტრიქონის ოპციები</translation>
     </message>
     <message>
-        <source>Pfennig Core</source>
-        <translation>Pfennig Core</translation>
+        <source>pfennig Core</source>
+        <translation>pfennig Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -934,16 +934,16 @@ Address: %4
         <translation>მოგესალმებით</translation>
     </message>
     <message>
-        <source>Welcome to Pfennig Core.</source>
-        <translation>მოგესალმებათ Pfennig Core.</translation>
+        <source>Welcome to pfennig Core.</source>
+        <translation>მოგესალმებათ pfennig Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Pfennig Core will store its data.</source>
-        <translation>ეს პროგრამის პირველი გაშვებაა; შეგიძლიათ მიუთითოთ, სად შეინახოს მონაცემები Pfennig Core-მ.</translation>
+        <source>As this is the first time the program is launched, you can choose where pfennig Core will store its data.</source>
+        <translation>ეს პროგრამის პირველი გაშვებაა; შეგიძლიათ მიუთითოთ, სად შეინახოს მონაცემები pfennig Core-მ.</translation>
     </message>
     <message>
-        <source>Pfennig Core will download and store a copy of the Pfennig block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Pfennig Core გადმოტვირთავს და შეინახავს Pfennig-ის ბლოკთა ჯაჭვს. მითითებულ კატალოგში დაგროვდება სულ ცოტა 1 გბ მონაცემები, და მომავალში უფრო გაიზრდება. საფულეც ამავე კატალოგში შეინახება.</translation>
+        <source>pfennig Core will download and store a copy of the pfennig block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>pfennig Core გადმოტვირთავს და შეინახავს pfennig-ის ბლოკთა ჯაჭვს. მითითებულ კატალოგში დაგროვდება სულ ცოტა 1 გბ მონაცემები, და მომავალში უფრო გაიზრდება. საფულეც ამავე კატალოგში შეინახება.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -954,8 +954,8 @@ Address: %4
         <translation>მითითებული კატალოგის გამოყენება:</translation>
     </message>
     <message>
-        <source>Pfennig</source>
-        <translation>Pfennig</translation>
+        <source>pfennig</source>
+        <translation>pfennig</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; can not be created.</source>
@@ -1016,11 +1016,11 @@ Address: %4
         <translation>ტრანსაქციის სა&amp;ფასურის გადახდა</translation>
     </message>
     <message>
-        <source>Automatically start Pfennig after logging in to the system.</source>
-        <translation>სისტემაში შესვლის შემდეგ Pfennig-ის ავტომატური გაშვება.</translation>
+        <source>Automatically start pfennig after logging in to the system.</source>
+        <translation>სისტემაში შესვლის შემდეგ pfennig-ის ავტომატური გაშვება.</translation>
     </message>
     <message>
-        <source>&amp;Start Pfennig on system login</source>
+        <source>&amp;Start pfennig on system login</source>
         <translation>&amp;სისტემაში შესვლისას გაშვება</translation>
     </message>
     <message>
@@ -1036,8 +1036,8 @@ Address: %4
         <translation>სკრიპტის &amp;ვერიფიცირების ნაკადების რაოდენობა</translation>
     </message>
     <message>
-        <source>Connect to the Pfennig network through a SOCKS proxy.</source>
-        <translation>Pfennig-ქსელზე მიერთება SOCKS-პროქსით.</translation>
+        <source>Connect to the pfennig network through a SOCKS proxy.</source>
+        <translation>pfennig-ქსელზე მიერთება SOCKS-პროქსით.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS proxy (default proxy):</source>
@@ -1096,8 +1096,8 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Automatically open the Pfennig client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>როუტერში Pfennig-კლიენტის პორტის ავტომატური გახსნა. მუშაობს, თუ თქვენს როუტერს ჩართული აქვს UPnP.</translation>
+        <source>Automatically open the pfennig client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>როუტერში pfennig-კლიენტის პორტის ავტომატური გახსნა. მუშაობს, თუ თქვენს როუტერს ჩართული აქვს UPnP.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1152,8 +1152,8 @@ Address: %4
         <translation>სამომხმარებ&amp;ლო ენა:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Pfennig.</source>
-        <translation>აქ შეგიძლიათ აირჩიოთ სამომხმარებლო ენა. ძალაში შევა Pfennig-ის რესტარტის შემდეგ.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting pfennig.</source>
+        <translation>აქ შეგიძლიათ აირჩიოთ სამომხმარებლო ენა. ძალაში შევა pfennig-ის რესტარტის შემდეგ.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1164,8 +1164,8 @@ Address: %4
         <translation>აირჩიეთ გასაგზავნი თანხის ნაგულისხმევი ერთეული.</translation>
     </message>
     <message>
-        <source>Whether to show Pfennig addresses in the transaction list or not.</source>
-        <translation>ტრანსაქციების სიაში იყოს თუ არა ნაჩვენები Pfennig-მისამართები.</translation>
+        <source>Whether to show pfennig addresses in the transaction list or not.</source>
+        <translation>ტრანსაქციების სიაში იყოს თუ არა ნაჩვენები pfennig-მისამართები.</translation>
     </message>
     <message>
         <source>&amp;Display addresses in transaction list</source>
@@ -1219,8 +1219,8 @@ Address: %4
         <translation>ფორმა</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Pfennig network after a connection is established, but this process has not completed yet.</source>
-        <translation>ნაჩვენები ინფორმაცია შეიძლება მოძველებული იყოს. თქვენი საფულე ავტომატურად სინქრონიზდება Pfennig-ის ქსელთან კავშირის დამყარების შემდეგ, ეს პროცესი ჯერ არ არის დასრულებული.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the pfennig network after a connection is established, but this process has not completed yet.</source>
+        <translation>ნაჩვენები ინფორმაცია შეიძლება მოძველებული იყოს. თქვენი საფულე ავტომატურად სინქრონიზდება pfennig-ის ქსელთან კავშირის დამყარების შემდეგ, ეს პროცესი ჯერ არ არის დასრულებული.</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -1274,8 +1274,8 @@ Address: %4
         <translation>URI-ების დამუშავება</translation>
     </message>
     <message>
-        <source>URI can not be parsed! This can be caused by an invalid Pfennig address or malformed URI parameters.</source>
-        <translation>URI-ის დამუშავება ვერ მოხერხდა. შესაძლოა არასწორია Pfennig-მისამართი ან  URI-ის პარამეტრები.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid pfennig address or malformed URI parameters.</source>
+        <translation>URI-ის დამუშავება ვერ მოხერხდა. შესაძლოა არასწორია pfennig-მისამართი ან  URI-ის პარამეტრები.</translation>
     </message>
     <message>
         <source>Requested payment amount of %1 is too small (considered dust).</source>
@@ -1341,8 +1341,8 @@ Address: %4
 <context>
     <name>QObject</name>
     <message>
-        <source>Pfennig</source>
-        <translation>Pfennig</translation>
+        <source>pfennig</source>
+        <translation>pfennig</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
@@ -1357,11 +1357,11 @@ Address: %4
         <translation>შეცდომა: -regtest-ისა და -testnet-ის დაუშვებელი კომბინაცია.</translation>
     </message>
     <message>
-        <source>Pfennig Core didn&apos;t yet exit safely...</source>
+        <source>pfennig Core didn&apos;t yet exit safely...</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Enter a Pfennig address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
+        <source>Enter a pfennig address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
         <translation>შეიყვანეთ ბიტკოინ-მისამართი (მაგ. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
     </message>
 </context>
@@ -1483,16 +1483,16 @@ Address: %4
         <translation>დახვეწის ლოგ-ფაილი</translation>
     </message>
     <message>
-        <source>Open the Pfennig debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>გახსენით Pfennig-ის დახვეწის ლოგ-ფაილი მიმდინარე კატალოგიდან. დიდი ლოგ-ფაილის შემთხვევაში ამას შეიძლება რამდენიმე წამი მოუნდეს.</translation>
+        <source>Open the pfennig debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>გახსენით pfennig-ის დახვეწის ლოგ-ფაილი მიმდინარე კატალოგიდან. დიდი ლოგ-ფაილის შემთხვევაში ამას შეიძლება რამდენიმე წამი მოუნდეს.</translation>
     </message>
     <message>
         <source>Clear console</source>
         <translation>კონსოლის გასუფთავება</translation>
     </message>
     <message>
-        <source>Welcome to the Pfennig RPC console.</source>
-        <translation>მოგესალმებათ Pfennig-ის RPC კონსოლი.</translation>
+        <source>Welcome to the pfennig RPC console.</source>
+        <translation>მოგესალმებათ pfennig-ის RPC კონსოლი.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1554,7 +1554,7 @@ Address: %4
         <translation>ად&amp;რე გამოყენებული მიღების მისამართის გამოყენება (არ არის რეკომენდებული)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Pfennig network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the pfennig network.</source>
         <translation>არააუცილებელი მესიჯი, რომელიც ერთვის გადახდის მოთხოვნას და ნაჩვენები იქნება მოთხოვნის გახსნისას. შენიშვნა: მესიჯი არ გაყვება გადახდას ბითქოინის ქსელში.</translation>
     </message>
     <message>
@@ -1867,8 +1867,8 @@ Address: %4
         <translation>ტრანსაქცია უარყოფილია! შესაძლოა მონეტების ნაწილი თქვენი საფულიდან უკვე გამოყენებულია, რაც შეიძლება მოხდეს wallet.dat-ის ასლის გამოყენებისას, როცა მონეტები გაიგზავნა სხვა ასლიდან, აქ კი არ არის გაგზავნილად მონიშნული.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Pfennig address</source>
-        <translation>ყურადღება: არასწორია Pfennig-მისამართი</translation>
+        <source>Warning: Invalid pfennig address</source>
+        <translation>ყურადღება: არასწორია pfennig-მისამართი</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1954,7 +1954,7 @@ Address: %4
         <translation>შეიყვანეთ ამ მისამართის ნიშნული გამოყენებული მისამართების სიაში დასამატებლად</translation>
     </message>
     <message>
-        <source>A message that was attached to the pfennig: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Pfennig network.</source>
+        <source>A message that was attached to the pfennig: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the pfennig network.</source>
         <translation>მესიჯი, რომელიც თან ერთვის მონეტებს:  URI, რომელიც შეინახება ტრანსაქციასთან ერთად თქვენთვის. შენიშვნა: მესიჯი არ გაყვება გადახდას ბითქოინის ქსელში.</translation>
     </message>
     <message>
@@ -1973,8 +1973,8 @@ Address: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Pfennig Core is shutting down...</source>
-        <translation>Pfennig Core იხურება...</translation>
+        <source>pfennig Core is shutting down...</source>
+        <translation>pfennig Core იხურება...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2028,7 +2028,7 @@ Address: %4
         <translation>მიმდინარე ხელმოწერის კოპირება კლიპბორდში</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Pfennig address</source>
+        <source>Sign the message to prove you own this pfennig address</source>
         <translation>მოაწერეთ ხელი იმის დასადასტურებლად, რომ ეს მისამართი თქვენია</translation>
     </message>
     <message>
@@ -2056,8 +2056,8 @@ Address: %4
         <translation>მისამართი, რომლითაც ხელმოწერილია მესიჯი (მაგ.: bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Pfennig address</source>
-        <translation>შეამოწმეთ, რომ მესიჯი ხელმოწერილია მითითებული Pfennig-მისამართით</translation>
+        <source>Verify the message to ensure it was signed with the specified pfennig address</source>
+        <translation>შეამოწმეთ, რომ მესიჯი ხელმოწერილია მითითებული pfennig-მისამართით</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2068,7 +2068,7 @@ Address: %4
         <translation>ვერიფიკაციის ყველა ველის წაშლა</translation>
     </message>
     <message>
-        <source>Enter a Pfennig address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
+        <source>Enter a pfennig address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
         <translation>შეიყვანეთ ბიტკოინ-მისამართი (მაგ. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
     </message>
     <message>
@@ -2127,12 +2127,12 @@ Address: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Pfennig Core</source>
-        <translation>Pfennig Core</translation>
+        <source>pfennig Core</source>
+        <translation>pfennig Core</translation>
     </message>
     <message>
         <source>The Bitcoin Core Developers</source>
-        <translation>Pfennig Core-ს ავტორები</translation>
+        <translation>pfennig Core-ს ავტორები</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2622,8 +2622,8 @@ Address: %4
         <translation>მიუთითეთ მონაცემთა კატალოგი</translation>
     </message>
     <message>
-        <source>Listen for connections on &lt;port&gt; (default: P2PPORT or testnet: 1P2PPORT)</source>
-        <translation>მიყურადება პორტზე &lt;port&gt; (ნაგულისხმევი: P2PPORT ან სატესტო ქსელში: 1P2PPORT)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 40002 or testnet: 50001)</source>
+        <translation>მიყურადება პორტზე &lt;port&gt; (ნაგულისხმევი: 40002 ან სატესტო ქსელში: 50001)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
@@ -2650,15 +2650,15 @@ Address: %4
         <translation>შეცდომა %u RPC-პორტის მიყურადების ჩართვისას IPv4 მისამართზე: %s</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: RPCPORT or testnet: 1RPCPORT)</source>
-        <translation> JSON-RPC-შეერთებების მიყურადება პორტზე &lt;port&gt; (ნაგულისხმევი: RPCPORT ან სატესტო ქსელში: 1RPCPORT)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 40001 or testnet: 50000)</source>
+        <translation> JSON-RPC-შეერთებების მიყურადება პორტზე &lt;port&gt; (ნაგულისხმევი: 40001 ან სატესტო ქსელში: 50000)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
         <translation>საკომანდო სტრიქონისა და JSON-RPC-კომამდების ნებართვა</translation>
     </message>
     <message>
-        <source>Pfennig Core RPC client version</source>
+        <source>pfennig Core RPC client version</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2683,7 +2683,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;pfennig Alert&quot; admin@foo.com
 </source>
         <translation>%s, მიუთითეთ rpcpassword საკონფიგურაციო ფაილში:
 %s
@@ -2694,7 +2694,7 @@ rpcpassword=%s
 სახელი და პაროლი ერთმანეთს არ უნდა ემთხვეოდეს.
 თუ ფაილი არ არსებობს, შექმენით იგი უფლებებით owner-readable-only.
 ასევე რეკომენდებულია დააყენოთ alertnotify რათა მიიღოთ შეტყობინებები პრობლემების შესახებ;
-მაგალითად: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.com
+მაგალითად: alertnotify=echo %%s | mail -s &quot;pfennig Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2766,7 +2766,7 @@ rpcpassword=%s
         <translation>ეს არის წინასწარი სატესტო ვერსია - გამოიყენეთ საკუთარი რისკით - არ გამოიყენოთ მოპოვებისა ან კომერციული მიზნებისათვის</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Pfennig Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. pfennig Core is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2778,8 +2778,8 @@ rpcpassword=%s
         <translation>ყურადღება:  ძალიან მაღალია -paytxfee - საკომისო, რომელსაც თქვენ გადაიხდით ამ ტრანსაქციის გაგზავნის საფასურად.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Pfennig will not work properly.</source>
-        <translation>ყურადღება: შეამოწმეთ თქვენი კომპიუტერის სისტემური თარიღი და დრო! თუ ისინი არასწორია, Pfennig ვერ იმუშავებს კორექტულად.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong pfennig will not work properly.</source>
+        <translation>ყურადღება: შეამოწმეთ თქვენი კომპიუტერის სისტემური თარიღი და დრო! თუ ისინი არასწორია, pfennig ვერ იმუშავებს კორექტულად.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -2814,8 +2814,8 @@ rpcpassword=%s
         <translation>პირადი გასაღებების აღდგენის მცდელობა wallet.dat-იდან</translation>
     </message>
     <message>
-        <source>Pfennig Core Daemon</source>
-        <translation>Pfennig Core დემონი</translation>
+        <source>pfennig Core Daemon</source>
+        <translation>pfennig Core დემონი</translation>
     </message>
     <message>
         <source>Block creation options:</source>
@@ -2834,8 +2834,8 @@ rpcpassword=%s
         <translation>შეერთება SOCKS-პროქსით</translation>
     </message>
     <message>
-        <source>Connect to JSON-RPC on &lt;port&gt; (default: RPCPORT or testnet: 1RPCPORT)</source>
-        <translation> JSON-RPC-შეერთება პორტზე &lt;port&gt; (ნაგულისხმევი: RPCPORT ან სატესტო ქსელში: 1RPCPORT)</translation>
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: 40001 or testnet: 50000)</source>
+        <translation> JSON-RPC-შეერთება პორტზე &lt;port&gt; (ნაგულისხმევი: 40001 ან სატესტო ქსელში: 50000)</translation>
     </message>
     <message>
         <source>Connection options:</source>
@@ -3058,7 +3058,7 @@ rpcpassword=%s
         <translation>ბლოკების იმპორტი გარე blk000??.dat ფაილიდან</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Pfennig Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. pfennig Core is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3122,7 +3122,7 @@ rpcpassword=%s
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>RPC SSL options: (see the Pfennig Wiki for SSL setup instructions)</source>
+        <source>RPC SSL options: (see the pfennig Wiki for SSL setup instructions)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3142,11 +3142,11 @@ rpcpassword=%s
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>SSL options: (see the Pfennig Wiki for SSL setup instructions)</source>
-        <translation>SSL ოპციები: (იხილე Pfennig Wiki-ში  SSL-ს მოწყობის ინსტრუქციები)</translation>
+        <source>SSL options: (see the pfennig Wiki for SSL setup instructions)</source>
+        <translation>SSL ოპციები: (იხილე pfennig Wiki-ში  SSL-ს მოწყობის ინსტრუქციები)</translation>
     </message>
     <message>
-        <source>Send command to Pfennig Core</source>
+        <source>Send command to pfennig Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3182,7 +3182,7 @@ rpcpassword=%s
         <translation>მიუთითეთ შეერთების ტაიმაუტი მილიწამებში (ნაგულისხმევი: 5000)</translation>
     </message>
     <message>
-        <source>Start Pfennig Core Daemon</source>
+        <source>Start pfennig Core Daemon</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3298,12 +3298,12 @@ rpcpassword=%s
         <translation>არ იტვირთება wallet.dat: საფულე დაზიანებულია</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Pfennig</source>
-        <translation>არ იტვირთება wallet.dat: საფულეს სჭირდება Pfennig-ის ახალი ვერსია</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of pfennig</source>
+        <translation>არ იტვირთება wallet.dat: საფულეს სჭირდება pfennig-ის ახალი ვერსია</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Pfennig to complete</source>
-        <translation>საჭიროა საფულის აღდგენა: დაარესტარტეთ Pfennig </translation>
+        <source>Wallet needed to be rewritten: restart pfennig to complete</source>
+        <translation>საჭიროა საფულის აღდგენა: დაარესტარტეთ pfennig </translation>
     </message>
     <message>
         <source>Error loading wallet.dat</source>

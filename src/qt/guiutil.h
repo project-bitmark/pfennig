@@ -1,5 +1,5 @@
 // Original Code: Copyright (c) 2011-2014 The Bitcoin Core Developers
-// Modified Code: Copyright (c) 2014 Project Bitmark
+// Modified Code: Copyright (c) 2015 Pfennig Foundation
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -26,7 +26,7 @@ class QUrl;
 class QWidget;
 QT_END_NAMESPACE
 
-/** Utility functions used by the Bitmark Qt UI.
+/** Utility functions used by the Pfennig Qt UI.
  */
 namespace GUIUtil
 {
@@ -34,14 +34,14 @@ namespace GUIUtil
     QString dateTimeStr(const QDateTime &datetime);
     QString dateTimeStr(qint64 nTime);
 
-    // Render Bitmark addresses in monospace font
+    // Render Pfennig addresses in monospace font
     QFont bitmarkAddressFont();
 
     // Set up widgets for address and amounts
     void setupAddressWidget(QValidatedLineEdit *widget, QWidget *parent);
     void setupAmountWidget(QLineEdit *widget, QWidget *parent);
 
-    // Parse "bitmark:" URI into recipient object, return true on successful parsing
+    // Parse "pfennig:" URI into recipient object, return true on successful parsing
     bool parseBitmarkURI(const QUrl &uri, SendCoinsRecipient *out);
     bool parseBitmarkURI(QString uri, SendCoinsRecipient *out);
     QString formatBitmarkURI(const SendCoinsRecipient &info);

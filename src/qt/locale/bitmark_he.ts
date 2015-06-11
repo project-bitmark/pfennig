@@ -2,11 +2,11 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Pfennig Core</source>
+        <source>About pfennig Core</source>
         <translation>על אודות ליבת ביטקוין</translation>
     </message>
     <message>
-        <source>&lt;b&gt;Pfennig Core&lt;/b&gt; version</source>
+        <source>&lt;b&gt;pfennig Core&lt;/b&gt; version</source>
         <translation>&lt;b&gt;קליינט ביטקוין&lt;/b&gt; גירסאת</translation>
     </message>
     <message>
@@ -103,11 +103,11 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>קבל כתובות</translation>
     </message>
     <message>
-        <source>These are your Pfennig addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your pfennig addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>אלה כתובת הביטקוין שלך עבור שליחת תשלומים. תמיד בדוק את מספר ואת כתובות מקבלי התשלומים לפני שליחת מטבעות.</translation>
     </message>
     <message>
-        <source>These are your Pfennig addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your pfennig addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>אלה כתובות הביטקוין שלך עבור קבלת תשלומים. מומלץ להשתמש בכתובת חדשה לכל פעולה.</translation>
     </message>
     <message>
@@ -205,7 +205,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>אשר הצפנת ארנק</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PfennigS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR pfennigS&lt;/b&gt;!</source>
         <translation>אזהרה: אם אתה מצפין את הארנק ומאבד את הסיסמא, אתה &lt;b&gt;תאבד את כל הביטקוינים שלך&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -225,7 +225,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>הארנק הוצפן</translation>
     </message>
     <message>
-        <source>Pfennig will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your pfennigs from being stolen by malware infecting your computer.</source>
+        <source>pfennig will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your pfennigs from being stolen by malware infecting your computer.</source>
         <translation>ביטקוין ייסגר עכשיו כדי להשלים את תהליך ההצפנה. זכור שהצפנת הארנק שלך אינו יכול להגן באופן מלא על הביטקוינים שלך מתוכנות זדוניות המושתלות על המחשב.</translation>
     </message>
     <message>
@@ -258,7 +258,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
 </context>
 <context>
-    <name>PfennigGUI</name>
+    <name>pfennigGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>חתום על הודעה</translation>
@@ -296,7 +296,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>סגור תוכנה</translation>
     </message>
     <message>
-        <source>Show information about Pfennig</source>
+        <source>Show information about pfennig</source>
         <translation>הצג מידע על ביטקוין</translation>
     </message>
     <message>
@@ -344,11 +344,11 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>מחדש את אינדקס הבלוקים בדיסק...</translation>
     </message>
     <message>
-        <source>Send coins to a Pfennig address</source>
+        <source>Send coins to a pfennig address</source>
         <translation>שלח מטבעות לכתובת ביטקוין</translation>
     </message>
     <message>
-        <source>Modify configuration options for Pfennig</source>
+        <source>Modify configuration options for pfennig</source>
         <translation>שנה אפשרויות תצורה עבור ביטקוין</translation>
     </message>
     <message>
@@ -372,7 +372,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>אמת הודעה...</translation>
     </message>
     <message>
-        <source>Pfennig</source>
+        <source>pfennig</source>
         <translation>ביטקוין</translation>
     </message>
     <message>
@@ -400,11 +400,11 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>הצפן את המפתחות הפרטיים ששייכים לארנק שלך</translation>
     </message>
     <message>
-        <source>Sign messages with your Pfennig addresses to prove you own them</source>
+        <source>Sign messages with your pfennig addresses to prove you own them</source>
         <translation>חתום על הודעות עם כתובות הביטקוין שלך כדי להוכיח שהן בבעלותך</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Pfennig addresses</source>
+        <source>Verify messages to ensure they were signed with specified pfennig addresses</source>
         <translation>אמת הודעות כדי להבטיח שהן נחתמו עם כתובת ביטקוין מסוימות</translation>
     </message>
     <message>
@@ -428,7 +428,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>[רשת-בדיקה]</translation>
     </message>
     <message>
-        <source>Pfennig Core</source>
+        <source>pfennig Core</source>
         <translation>ליבת ביטקוין</translation>
     </message>
     <message>
@@ -436,7 +436,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>בקש תשלומים (מייצר קודיי QR וסכימות URI של :pfennig)</translation>
     </message>
     <message>
-        <source>&amp;About Pfennig Core</source>
+        <source>&amp;About pfennig Core</source>
         <translation>&amp;אודות קליינט ביטקוין</translation>
     </message>
     <message>
@@ -456,15 +456,15 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Show the Pfennig Core help message to get a list with possible Pfennig command-line options</source>
+        <source>Show the pfennig Core help message to get a list with possible pfennig command-line options</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Pfennig client</source>
+        <source>pfennig client</source>
         <translation>תוכנת ביטקוין</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Pfennig network</source>
+        <source>%n active connection(s) to pfennig network</source>
         <translation><numerusform>חיבור פעיל אחד לרשת הביטקוין</numerusform><numerusform>%n חיבורים פעילים לרשת הביטקוין</numerusform></translation>
     </message>
     <message>
@@ -559,7 +559,7 @@ Address: %4
         <translation>הארנק &lt;b&gt;מוצפן&lt;/b&gt; וכרגע &lt;b&gt;נעול&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Pfennig can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. pfennig can no longer continue safely and will quit.</source>
         <translation>שגיאה סופנית אירעה. ביטקוין אינו יכול להמשיך לפעול בבטחה ולכן ייסגר.</translation>
     </message>
 </context>
@@ -844,7 +844,7 @@ Address: %4
         <translation>הכתובת שהכנסת &quot;%1&quot; כבר נמצאת בפנקס הכתובות.</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid Pfennig address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid pfennig address.</source>
         <translation>הכתובת שהוכנסה &quot;%1&quot; אינה כתובת ביטקוין תקינה.</translation>
     </message>
     <message>
@@ -882,11 +882,11 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Pfennig Core - Command-line options</source>
+        <source>pfennig Core - Command-line options</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Pfennig Core</source>
+        <source>pfennig Core</source>
         <translation>ליבת ביטקוין</translation>
     </message>
     <message>
@@ -933,15 +933,15 @@ Address: %4
         <translation>ברוך בואך</translation>
     </message>
     <message>
-        <source>Welcome to Pfennig Core.</source>
+        <source>Welcome to pfennig Core.</source>
         <translation>ברוך הבא לקליינט ביטקוין</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Pfennig Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where pfennig Core will store its data.</source>
         <translation>מכיוון שזאת הפעם הראשונה שהתוכנה הופעלה תוכל לבחור איפה ביטקויין קור תאכסן את </translation>
     </message>
     <message>
-        <source>Pfennig Core will download and store a copy of the Pfennig block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>pfennig Core will download and store a copy of the pfennig block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>קליינט ביטקוין יוריד וישמור העתק של שרשרת הבלוקים של ביטקוין. לפחות %1GB מהנתונים יאוכסנו בתיקיה הזו, ויגדל עם הזמן. הארנק גם יאוחסן בתיקיה הזו.</translation>
     </message>
     <message>
@@ -953,7 +953,7 @@ Address: %4
         <translation>השתמש בספריית מידע מותאמת אישית:</translation>
     </message>
     <message>
-        <source>Pfennig</source>
+        <source>pfennig</source>
         <translation>ביטקוין</translation>
     </message>
     <message>
@@ -1015,11 +1015,11 @@ Address: %4
         <translation>שלם &amp;עמלת פעולה</translation>
     </message>
     <message>
-        <source>Automatically start Pfennig after logging in to the system.</source>
+        <source>Automatically start pfennig after logging in to the system.</source>
         <translation>הפעל את ביטקוין באופן עצמאי לאחר התחברות למערכת.</translation>
     </message>
     <message>
-        <source>&amp;Start Pfennig on system login</source>
+        <source>&amp;Start pfennig on system login</source>
         <translation>התחל את ביטקוין בעת התחברות למערכת</translation>
     </message>
     <message>
@@ -1035,7 +1035,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Connect to the Pfennig network through a SOCKS proxy.</source>
+        <source>Connect to the pfennig network through a SOCKS proxy.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1095,7 +1095,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Automatically open the Pfennig client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the pfennig client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>פתח את פורט ביטקוין בנתב באופן אוטומטי. עובד רק אם UPnP מאופשר ונתמך ע&quot;י הנתב.</translation>
     </message>
     <message>
@@ -1151,7 +1151,7 @@ Address: %4
         <translation>שפת ממשק המשתמש:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Pfennig.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting pfennig.</source>
         <translation>ניתן לקבוע כאן את שפת ממשק המשתמש. הגדרה זו תחול לאחר הפעלה מחדש של ביטקוין.</translation>
     </message>
     <message>
@@ -1163,7 +1163,7 @@ Address: %4
         <translation>בחר את ברירת המחדל ליחידת החלוקה אשר תוצג בממשק ובעת שליחת מטבעות.</translation>
     </message>
     <message>
-        <source>Whether to show Pfennig addresses in the transaction list or not.</source>
+        <source>Whether to show pfennig addresses in the transaction list or not.</source>
         <translation>האם להציג כתובות ביטקוין ברשימת הפעולות או לא.</translation>
     </message>
     <message>
@@ -1218,7 +1218,7 @@ Address: %4
         <translation>טופס</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Pfennig network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the pfennig network after a connection is established, but this process has not completed yet.</source>
         <translation>המידע המוצג עשוי להיות מיושן. הארנק שלך מסתנכרן באופן אוטומטי עם רשת הביטקוין לאחר כינון חיבור, אך התהליך טרם הסתיים.</translation>
     </message>
     <message>
@@ -1273,7 +1273,7 @@ Address: %4
         <translation>תפעול URI</translation>
     </message>
     <message>
-        <source>URI can not be parsed! This can be caused by an invalid Pfennig address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid pfennig address or malformed URI parameters.</source>
         <translation>לא ניתן לנתח URI! זה יכול להיגרם כתוצאה מכתובת ביטקוין לא תקינה או פרמטרי URI חסרי צורה תקינה.</translation>
     </message>
     <message>
@@ -1340,7 +1340,7 @@ Address: %4
 <context>
     <name>QObject</name>
     <message>
-        <source>Pfennig</source>
+        <source>pfennig</source>
         <translation>ביטקוין</translation>
     </message>
     <message>
@@ -1356,11 +1356,11 @@ Address: %4
         <translation>שגיאה: שילוב בלתי חוקי של regtest- ו testnet-.</translation>
     </message>
     <message>
-        <source>Pfennig Core didn&apos;t yet exit safely...</source>
+        <source>pfennig Core didn&apos;t yet exit safely...</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Enter a Pfennig address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
+        <source>Enter a pfennig address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
         <translation>הכנס כתובת ביטקוין (למשל bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
     </message>
 </context>
@@ -1482,7 +1482,7 @@ Address: %4
         <translation>קובץ יומן ניפוי</translation>
     </message>
     <message>
-        <source>Open the Pfennig debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the pfennig debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>פתח את קובץ יומן הניפוי מתיקיית הנתונים הנוכחית. זה עשוי לקחת מספר שניות עבור קובצי יומן גדולים.</translation>
     </message>
     <message>
@@ -1490,7 +1490,7 @@ Address: %4
         <translation>נקה לוח בקרה</translation>
     </message>
     <message>
-        <source>Welcome to the Pfennig RPC console.</source>
+        <source>Welcome to the pfennig RPC console.</source>
         <translation>ברוכים הבאים ללוח בקרת RPC של ביטקוין</translation>
     </message>
     <message>
@@ -1553,7 +1553,7 @@ Address: %4
         <translation>ש&amp;ימוש חוזר בכתובת קבלה קיימת(לא מומלץ)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Pfennig network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the pfennig network.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1866,7 +1866,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Warning: Invalid Pfennig address</source>
+        <source>Warning: Invalid pfennig address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1953,7 +1953,7 @@ Address: %4
         <translation>הקלד תווית עבור כתובת זו בכדי להוסיף אותה לרשימת הכתובות בשימוש</translation>
     </message>
     <message>
-        <source>A message that was attached to the pfennig: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Pfennig network.</source>
+        <source>A message that was attached to the pfennig: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the pfennig network.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1972,7 +1972,7 @@ Address: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Pfennig Core is shutting down...</source>
+        <source>pfennig Core is shutting down...</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2027,7 +2027,7 @@ Address: %4
         <translation>העתק את החתימה הנוכחית ללוח המערכת</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Pfennig address</source>
+        <source>Sign the message to prove you own this pfennig address</source>
         <translation>חתום על ההודעה כדי להוכיח שכתובת הביטקוין הזו בבעלותך.</translation>
     </message>
     <message>
@@ -2055,7 +2055,7 @@ Address: %4
         <translation>הכתובת איתה ההודעה נחתמה (למשל bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Pfennig address</source>
+        <source>Verify the message to ensure it was signed with the specified pfennig address</source>
         <translation>אמת את ההודעה כדי להבטיח שהיא נחתמה עם כתובת הביטקוין הנתונה</translation>
     </message>
     <message>
@@ -2067,7 +2067,7 @@ Address: %4
         <translation>אפס את כל שדות אימות הודעה</translation>
     </message>
     <message>
-        <source>Enter a Pfennig address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
+        <source>Enter a pfennig address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
         <translation>הכנס כתובת ביטקוין (למשל bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
     </message>
     <message>
@@ -2126,7 +2126,7 @@ Address: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Pfennig Core</source>
+        <source>pfennig Core</source>
         <translation>ליבת ביטקוין</translation>
     </message>
     <message>
@@ -2621,8 +2621,8 @@ Address: %4
         <translation>ציין תיקיית נתונים</translation>
     </message>
     <message>
-        <source>Listen for connections on &lt;port&gt; (default: P2PPORT or testnet: 1P2PPORT)</source>
-        <translation>האזן לחיבורים ב&lt;פורט&gt; (ברירת מחדל: P2PPORT או ברשת הבדיקה: 1P2PPORT)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 40002 or testnet: 50001)</source>
+        <translation>האזן לחיבורים ב&lt;פורט&gt; (ברירת מחדל: 40002 או ברשת הבדיקה: 50001)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
@@ -2649,15 +2649,15 @@ Address: %4
         <translation>אירעה שגיאה בעת הגדרת פורט RPC %u להאזנה ב-IPv4: %s</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: RPCPORT or testnet: 1RPCPORT)</source>
-        <translation>האזן לחיבורי JSON-RPC ב- &lt;port&gt; (ברירת מחדל: RPCPORT או רשת בדיקה: 1RPCPORT)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 40001 or testnet: 50000)</source>
+        <translation>האזן לחיבורי JSON-RPC ב- &lt;port&gt; (ברירת מחדל: 40001 או רשת בדיקה: 50000)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
         <translation>קבל פקודות משורת הפקודה ו- JSON-RPC</translation>
     </message>
     <message>
-        <source>Pfennig Core RPC client version</source>
+        <source>pfennig Core RPC client version</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2682,7 +2682,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;pfennig Alert&quot; admin@foo.com
 </source>
         <translation>%s, עליך לקבוע סיסמת RPC בקובץ הקונפיגורציה:
  %s
@@ -2693,7 +2693,7 @@ rpcpassword=%s
 אסור ששם המשתמש והסיסמא יהיו זהים.
 אם הקובץ אינו קיים, צור אותו עם הרשאות קריאה לבעלים בלבד.
 זה מומלץ לסמן alertnotify כדי לקבל דיווח על תקלות;
-למשל: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.com 
+למשל: alertnotify=echo %%s | mail -s &quot;pfennig Alert&quot; admin@foo.com 
 </translation>
     </message>
     <message>
@@ -2765,7 +2765,7 @@ rpcpassword=%s
         <translation>זוהי בניית ניסיון טרום-שחרור - השימוש בה על אחריותך - אין להשתמש לצורך כריה או יישומי מסחר</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Pfennig Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. pfennig Core is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2777,7 +2777,7 @@ rpcpassword=%s
         <translation>אזהרה: -paytxfee נקבע לערך מאד גבוה! זוהי עמלת הפעולה שתשלם אם אתה שולח פעולה.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Pfennig will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong pfennig will not work properly.</source>
         <translation>אזהרה: אנא בדוק שהתאריך והשעה של המחשב שלך נכונים! אם השעון שלך אינו נכון ביטקוין לא יעבוד כראוי.</translation>
     </message>
     <message>
@@ -2813,7 +2813,7 @@ rpcpassword=%s
         <translation>נסה לשחזר מפתחות פרטיים מקובץ wallet.dat מושחת.</translation>
     </message>
     <message>
-        <source>Pfennig Core Daemon</source>
+        <source>pfennig Core Daemon</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2833,8 +2833,8 @@ rpcpassword=%s
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Connect to JSON-RPC on &lt;port&gt; (default: RPCPORT or testnet: 1RPCPORT)</source>
-        <translation>התחבר ל JSON-RPC ב &lt;port&gt; (ברירת מחדל: RPCPORT או ברשת בדיקה: 1RPCPORT)</translation>
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: 40001 or testnet: 50000)</source>
+        <translation>התחבר ל JSON-RPC ב &lt;port&gt; (ברירת מחדל: 40001 או ברשת בדיקה: 50000)</translation>
     </message>
     <message>
         <source>Connection options:</source>
@@ -3057,7 +3057,7 @@ rpcpassword=%s
         <translation>מייבא בלוקים מקובצי blk000??.dat חיצוניים</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Pfennig Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. pfennig Core is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3121,7 +3121,7 @@ rpcpassword=%s
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>RPC SSL options: (see the Pfennig Wiki for SSL setup instructions)</source>
+        <source>RPC SSL options: (see the pfennig Wiki for SSL setup instructions)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3141,11 +3141,11 @@ rpcpassword=%s
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>SSL options: (see the Pfennig Wiki for SSL setup instructions)</source>
+        <source>SSL options: (see the pfennig Wiki for SSL setup instructions)</source>
         <translation>אפשרויות SSL: (ראה את הויקי של ביטקוין עבור הוראות הגדרת SSL)</translation>
     </message>
     <message>
-        <source>Send command to Pfennig Core</source>
+        <source>Send command to pfennig Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3181,7 +3181,7 @@ rpcpassword=%s
         <translation>ציין הגבלת זמן לחיבור במילישניות (ברירת מחדל: 5000)</translation>
     </message>
     <message>
-        <source>Start Pfennig Core Daemon</source>
+        <source>Start pfennig Core Daemon</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3297,11 +3297,11 @@ rpcpassword=%s
         <translation>שגיאה בטעינת הקובץ wallet.dat: הארנק מושחת</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Pfennig</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of pfennig</source>
         <translation>שגיאה בטעינת הקובץ wallet.dat: הארנק דורש גרסה חדשה יותר של ביטקוין</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Pfennig to complete</source>
+        <source>Wallet needed to be rewritten: restart pfennig to complete</source>
         <translation>יש לכתוב מחדש את הארנק: אתחל את ביטקוין לסיום</translation>
     </message>
     <message>

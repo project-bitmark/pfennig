@@ -2,12 +2,12 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Pfennig Core</source>
-        <translation>Mengenai Pfennig Core</translation>
+        <source>About pfennig Core</source>
+        <translation>Mengenai pfennig Core</translation>
     </message>
     <message>
-        <source>&lt;b&gt;Pfennig Core&lt;/b&gt; version</source>
-        <translation>versi &lt;b&gt;Pfennig Core&lt;/b&gt;</translation>
+        <source>&lt;b&gt;pfennig Core&lt;/b&gt; version</source>
+        <translation>versi &lt;b&gt;pfennig Core&lt;/b&gt;</translation>
     </message>
     <message>
         <source>
@@ -29,7 +29,7 @@ Produk ini termasuk software yang dibangun oleh Proyek OpenSSL untuk Toolkit Ope
     </message>
     <message>
         <source>The Bitcoin Core Developers</source>
-        <translation>Pembangun Pfennig Core</translation>
+        <translation>Pembangun pfennig Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -103,11 +103,11 @@ Produk ini termasuk software yang dibangun oleh Proyek OpenSSL untuk Toolkit Ope
         <translation>Alamat-alamat menerima</translation>
     </message>
     <message>
-        <source>These are your Pfennig addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Alamat-alamat Anda supaya mengirim pembayaran. Periksalah jumlah dan alamat penerima setiap kali Anda mengirim Pfennig.</translation>
+        <source>These are your pfennig addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Alamat-alamat Anda supaya mengirim pembayaran. Periksalah jumlah dan alamat penerima setiap kali Anda mengirim pfennig.</translation>
     </message>
     <message>
-        <source>These are your Pfennig addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your pfennig addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Alamat-alamat Anda supaya menerima pembayaran. Dianjurkan agar Anda menggunakan alamat menerima yang baru untuk setiap transaksi.</translation>
     </message>
     <message>
@@ -205,8 +205,8 @@ Produk ini termasuk software yang dibangun oleh Proyek OpenSSL untuk Toolkit Ope
         <translation>Konfirmasi enkripsi dompet</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PfennigS&lt;/b&gt;!</source>
-        <translation>Perhatian: Jika anda mengenkripsi dompet anda dan lupa kata kuncinya, anda pasti &lt;b&gt;KEHILANGAN SELURUH Pfennig ANDA&lt;/B&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR pfennigS&lt;/b&gt;!</source>
+        <translation>Perhatian: Jika anda mengenkripsi dompet anda dan lupa kata kuncinya, anda pasti &lt;b&gt;KEHILANGAN SELURUH pfennig ANDA&lt;/B&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -225,8 +225,8 @@ Produk ini termasuk software yang dibangun oleh Proyek OpenSSL untuk Toolkit Ope
         <translation>Dompet terenkripsi</translation>
     </message>
     <message>
-        <source>Pfennig will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your pfennigs from being stolen by malware infecting your computer.</source>
-        <translation>Pfennig akan menutup untuk menyelesaikan proses enkripsi. Ingat bahwa dengan mengenkripsi dompet Anda tidak sepenuhnya melindungi pfennig Anda dari perangkat lunak berbahaya yang menginfeksi komputer Anda.</translation>
+        <source>pfennig will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your pfennigs from being stolen by malware infecting your computer.</source>
+        <translation>pfennig akan menutup untuk menyelesaikan proses enkripsi. Ingat bahwa dengan mengenkripsi dompet Anda tidak sepenuhnya melindungi pfennig Anda dari perangkat lunak berbahaya yang menginfeksi komputer Anda.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -258,7 +258,7 @@ Produk ini termasuk software yang dibangun oleh Proyek OpenSSL untuk Toolkit Ope
     </message>
 </context>
 <context>
-    <name>PfennigGUI</name>
+    <name>pfennigGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Pesan &amp;penanda...</translation>
@@ -296,8 +296,8 @@ Produk ini termasuk software yang dibangun oleh Proyek OpenSSL untuk Toolkit Ope
         <translation>Keluar dari aplikasi</translation>
     </message>
     <message>
-        <source>Show information about Pfennig</source>
-        <translation>Tampilkan informasi mengenai Pfennig</translation>
+        <source>Show information about pfennig</source>
+        <translation>Tampilkan informasi mengenai pfennig</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -344,12 +344,12 @@ Produk ini termasuk software yang dibangun oleh Proyek OpenSSL untuk Toolkit Ope
         <translation>Mengindex ulang block di harddisk...</translation>
     </message>
     <message>
-        <source>Send coins to a Pfennig address</source>
-        <translation>Kirim koin ke alamat Pfennig</translation>
+        <source>Send coins to a pfennig address</source>
+        <translation>Kirim koin ke alamat pfennig</translation>
     </message>
     <message>
-        <source>Modify configuration options for Pfennig</source>
-        <translation>Ubah pilihan konfigurasi untuk Pfennig</translation>
+        <source>Modify configuration options for pfennig</source>
+        <translation>Ubah pilihan konfigurasi untuk pfennig</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -372,8 +372,8 @@ Produk ini termasuk software yang dibangun oleh Proyek OpenSSL untuk Toolkit Ope
         <translation>&amp;Verifikasi pesan...</translation>
     </message>
     <message>
-        <source>Pfennig</source>
-        <translation>Pfennig</translation>
+        <source>pfennig</source>
+        <translation>pfennig</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -400,12 +400,12 @@ Produk ini termasuk software yang dibangun oleh Proyek OpenSSL untuk Toolkit Ope
         <translation>Mengenkripsi kunci-kunci pribadi yang dipunyai dompetmu</translation>
     </message>
     <message>
-        <source>Sign messages with your Pfennig addresses to prove you own them</source>
-        <translation>Tandalah pesanan dengan alamat-alamat Pfennig Anda supaya membuktikan pesanan itu dikirim oleh Anda</translation>
+        <source>Sign messages with your pfennig addresses to prove you own them</source>
+        <translation>Tandalah pesanan dengan alamat-alamat pfennig Anda supaya membuktikan pesanan itu dikirim oleh Anda</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Pfennig addresses</source>
-        <translation>Periksakan pesan-pesan supaya menjaminkan ditandatangani oleh alamat Pfennig yang terperinci</translation>
+        <source>Verify messages to ensure they were signed with specified pfennig addresses</source>
+        <translation>Periksakan pesan-pesan supaya menjaminkan ditandatangani oleh alamat pfennig yang terperinci</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -428,16 +428,16 @@ Produk ini termasuk software yang dibangun oleh Proyek OpenSSL untuk Toolkit Ope
         <translation>[testnet]</translation>
     </message>
     <message>
-        <source>Pfennig Core</source>
-        <translation>Pfennig Core</translation>
+        <source>pfennig Core</source>
+        <translation>pfennig Core</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and pfennig: URIs)</source>
         <translation>Permintaan pembayaran (membangkitkan kode QR dan pfennig: URIs)</translation>
     </message>
     <message>
-        <source>&amp;About Pfennig Core</source>
-        <translation>&amp;Mengenai Pfennig Core</translation>
+        <source>&amp;About pfennig Core</source>
+        <translation>&amp;Mengenai pfennig Core</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -456,16 +456,16 @@ Produk ini termasuk software yang dibangun oleh Proyek OpenSSL untuk Toolkit Ope
         <translation>&amp;pilihan Perintah-baris</translation>
     </message>
     <message>
-        <source>Show the Pfennig Core help message to get a list with possible Pfennig command-line options</source>
-        <translation>Tampilkan pesan bantuan Pfennig Core untuk memberikan daftar pilihan perintah-baris yang memungkinkan dalam aplikasi Pfennig</translation>
+        <source>Show the pfennig Core help message to get a list with possible pfennig command-line options</source>
+        <translation>Tampilkan pesan bantuan pfennig Core untuk memberikan daftar pilihan perintah-baris yang memungkinkan dalam aplikasi pfennig</translation>
     </message>
     <message>
-        <source>Pfennig client</source>
-        <translation>Klien Pfennig</translation>
+        <source>pfennig client</source>
+        <translation>Klien pfennig</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Pfennig network</source>
-        <translation><numerusform>%n hubungan aktif ke jaringan Pfennig</numerusform></translation>
+        <source>%n active connection(s) to pfennig network</source>
+        <translation><numerusform>%n hubungan aktif ke jaringan pfennig</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -560,8 +560,8 @@ Alamat: %4
         <translation>Dompet saat ini &lt;b&gt;terenkripsi&lt;/b&gt; dan &lt;b&gt;terkunci&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Pfennig can no longer continue safely and will quit.</source>
-        <translation>Terjadi kesalahan fatal. Pfennig tidak bisa lagi meneruskan dengan aman dan akan berhenti.</translation>
+        <source>A fatal error occurred. pfennig can no longer continue safely and will quit.</source>
+        <translation>Terjadi kesalahan fatal. pfennig tidak bisa lagi meneruskan dengan aman dan akan berhenti.</translation>
     </message>
 </context>
 <context>
@@ -845,8 +845,8 @@ Alamat: %4
         <translation>Alamat yang dimasukkan &quot;%1&quot; sudah ada di dalam buku alamat.</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid Pfennig address.</source>
-        <translation>Alamat yang dimasukkan &quot;%1&quot; bukan alamat Pfennig yang benar.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid pfennig address.</source>
+        <translation>Alamat yang dimasukkan &quot;%1&quot; bukan alamat pfennig yang benar.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -883,12 +883,12 @@ Alamat: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Pfennig Core - Command-line options</source>
-        <translation>Pfennig Core - pilihan Perintah-baris</translation>
+        <source>pfennig Core - Command-line options</source>
+        <translation>pfennig Core - pilihan Perintah-baris</translation>
     </message>
     <message>
-        <source>Pfennig Core</source>
-        <translation>Pfennig Core</translation>
+        <source>pfennig Core</source>
+        <translation>pfennig Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -934,15 +934,15 @@ Alamat: %4
         <translation>Selamat Datang</translation>
     </message>
     <message>
-        <source>Welcome to Pfennig Core.</source>
-        <translation>Selamat Datang ke Pfennig Core</translation>
+        <source>Welcome to pfennig Core.</source>
+        <translation>Selamat Datang ke pfennig Core</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Pfennig Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where pfennig Core will store its data.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Pfennig Core will download and store a copy of the Pfennig block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>pfennig Core will download and store a copy of the pfennig block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -954,8 +954,8 @@ Alamat: %4
         <translation>Menggunakan direktori data yang dipilih Anda:</translation>
     </message>
     <message>
-        <source>Pfennig</source>
-        <translation>Pfennig</translation>
+        <source>pfennig</source>
+        <translation>pfennig</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; can not be created.</source>
@@ -1016,12 +1016,12 @@ Alamat: %4
         <translation>Bayar &amp;biaya transaksi</translation>
     </message>
     <message>
-        <source>Automatically start Pfennig after logging in to the system.</source>
-        <translation>Menyalakan Pfennig secara otomatis setelah masuk ke dalam sistem.</translation>
+        <source>Automatically start pfennig after logging in to the system.</source>
+        <translation>Menyalakan pfennig secara otomatis setelah masuk ke dalam sistem.</translation>
     </message>
     <message>
-        <source>&amp;Start Pfennig on system login</source>
-        <translation>&amp;Menyalakan Pfennig pada login sistem</translation>
+        <source>&amp;Start pfennig on system login</source>
+        <translation>&amp;Menyalakan pfennig pada login sistem</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1036,8 +1036,8 @@ Alamat: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Connect to the Pfennig network through a SOCKS proxy.</source>
-        <translation>Menghubungkan jaringan Pfennig lewat proxy SOCKS.</translation>
+        <source>Connect to the pfennig network through a SOCKS proxy.</source>
+        <translation>Menghubungkan jaringan pfennig lewat proxy SOCKS.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS proxy (default proxy):</source>
@@ -1096,8 +1096,8 @@ Alamat: %4
         <translation>&amp;Perubahan saldo untuk transaksi yang belum dikonfirmasi</translation>
     </message>
     <message>
-        <source>Automatically open the Pfennig client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Otomatis membuka port client Pfennig di router. Hanya berjalan apabila router anda mendukung UPnP dan di-enable.</translation>
+        <source>Automatically open the pfennig client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Otomatis membuka port client pfennig di router. Hanya berjalan apabila router anda mendukung UPnP dan di-enable.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1152,8 +1152,8 @@ Alamat: %4
         <translation>&amp;Bahasa Antarmuka Pengguna:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Pfennig.</source>
-        <translation>Tampilan bahasa pengguna dapat diatur disini. Pengaturan ini akan berpengaruh setelah memulai kembali aplikasi Pfennig.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting pfennig.</source>
+        <translation>Tampilan bahasa pengguna dapat diatur disini. Pengaturan ini akan berpengaruh setelah memulai kembali aplikasi pfennig.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1164,8 +1164,8 @@ Alamat: %4
         <translation>Pilihan standar unit yang ingin ditampilkan pada layar aplikasi dan saat mengirim koin.</translation>
     </message>
     <message>
-        <source>Whether to show Pfennig addresses in the transaction list or not.</source>
-        <translation>Apakah menampilkan alamat-alamat Pfennig dalam daftar transaksi atau tidak.</translation>
+        <source>Whether to show pfennig addresses in the transaction list or not.</source>
+        <translation>Apakah menampilkan alamat-alamat pfennig dalam daftar transaksi atau tidak.</translation>
     </message>
     <message>
         <source>&amp;Display addresses in transaction list</source>
@@ -1219,8 +1219,8 @@ Alamat: %4
         <translation>Formulir</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Pfennig network after a connection is established, but this process has not completed yet.</source>
-        <translation>Informasi terlampir mungkin sudah kedaluwarsa. Dompet Anda secara otomatis mensinkronisasi dengan jaringan Pfennig ketika sebuah hubungan terbentuk, namun proses ini belum selesai.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the pfennig network after a connection is established, but this process has not completed yet.</source>
+        <translation>Informasi terlampir mungkin sudah kedaluwarsa. Dompet Anda secara otomatis mensinkronisasi dengan jaringan pfennig ketika sebuah hubungan terbentuk, namun proses ini belum selesai.</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -1274,8 +1274,8 @@ Alamat: %4
         <translation>Penanganan URI</translation>
     </message>
     <message>
-        <source>URI can not be parsed! This can be caused by an invalid Pfennig address or malformed URI parameters.</source>
-        <translation>URI tidak bisa dimengerti! Biasanya oleh karena alamat Pfennig yang tidak sah atau persoalan tentang parameter-parameter URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid pfennig address or malformed URI parameters.</source>
+        <translation>URI tidak bisa dimengerti! Biasanya oleh karena alamat pfennig yang tidak sah atau persoalan tentang parameter-parameter URI.</translation>
     </message>
     <message>
         <source>Requested payment amount of %1 is too small (considered dust).</source>
@@ -1341,8 +1341,8 @@ Alamat: %4
 <context>
     <name>QObject</name>
     <message>
-        <source>Pfennig</source>
-        <translation>Pfennig</translation>
+        <source>pfennig</source>
+        <translation>pfennig</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
@@ -1357,12 +1357,12 @@ Alamat: %4
         <translation>Gagal: Gabungan -regtest dan -testnet salah</translation>
     </message>
     <message>
-        <source>Pfennig Core didn&apos;t yet exit safely...</source>
+        <source>pfennig Core didn&apos;t yet exit safely...</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Enter a Pfennig address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
-        <translation>Masukkan alamat Pfennig (cth. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
+        <source>Enter a pfennig address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
+        <translation>Masukkan alamat pfennig (cth. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
     </message>
 </context>
 <context>
@@ -1483,16 +1483,16 @@ Alamat: %4
         <translation>Berkas catatan debug</translation>
     </message>
     <message>
-        <source>Open the Pfennig debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Buka berkas catatan debug Pfennig dari direktori data sekarang. Hal ini dapat memakan waktu beberapa detik untuk berkas catatan yang besar.</translation>
+        <source>Open the pfennig debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Buka berkas catatan debug pfennig dari direktori data sekarang. Hal ini dapat memakan waktu beberapa detik untuk berkas catatan yang besar.</translation>
     </message>
     <message>
         <source>Clear console</source>
         <translation>Bersihkan konsol</translation>
     </message>
     <message>
-        <source>Welcome to the Pfennig RPC console.</source>
-        <translation>Selamat datang ke konsol RPC Pfennig.</translation>
+        <source>Welcome to the pfennig RPC console.</source>
+        <translation>Selamat datang ke konsol RPC pfennig.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1554,7 +1554,7 @@ Alamat: %4
         <translation>Gunakan lagi alamat penerima yang ada (tidak disarankan)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Pfennig network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the pfennig network.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1867,8 +1867,8 @@ Alamat: %4
         <translation>Gagal: Transaksi ditolak. Ini mungkin terjadi jika beberapa dari koin dalam dompet Anda telah digunakan, seperti ketika Anda menggunakan salinan wallet.dat dan beberapa koin telah dibelanjakan dalam salinan tersebut tetapi disini tidak tertandai sebagai terpakai.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Pfennig address</source>
-        <translation>Awas: Alamat Pfennig tidak sah</translation>
+        <source>Warning: Invalid pfennig address</source>
+        <translation>Awas: Alamat pfennig tidak sah</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1954,7 +1954,7 @@ Alamat: %4
         <translation>Masukkan label untuk alamat ini untuk dimasukan dalam daftar alamat yang pernah digunakan</translation>
     </message>
     <message>
-        <source>A message that was attached to the pfennig: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Pfennig network.</source>
+        <source>A message that was attached to the pfennig: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the pfennig network.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1973,8 +1973,8 @@ Alamat: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Pfennig Core is shutting down...</source>
-        <translation>Pfennig Core sementara dimatikan...</translation>
+        <source>pfennig Core is shutting down...</source>
+        <translation>pfennig Core sementara dimatikan...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2028,8 +2028,8 @@ Alamat: %4
         <translation>Salin tanda tangan terpilih ke sistem klipboard</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Pfennig address</source>
-        <translation>Tandai pesan untuk menyetujui kamu pemiliki alamat Pfennig ini</translation>
+        <source>Sign the message to prove you own this pfennig address</source>
+        <translation>Tandai pesan untuk menyetujui kamu pemiliki alamat pfennig ini</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2056,7 +2056,7 @@ Alamat: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Pfennig address</source>
+        <source>Verify the message to ensure it was signed with the specified pfennig address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2068,8 +2068,8 @@ Alamat: %4
         <translation>Hapus semua bidang verifikasi pesan</translation>
     </message>
     <message>
-        <source>Enter a Pfennig address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
-        <translation>Masukkan alamat Pfennig (cth. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
+        <source>Enter a pfennig address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
+        <translation>Masukkan alamat pfennig (cth. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
     </message>
     <message>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
@@ -2127,12 +2127,12 @@ Alamat: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Pfennig Core</source>
-        <translation>Pfennig Core</translation>
+        <source>pfennig Core</source>
+        <translation>pfennig Core</translation>
     </message>
     <message>
         <source>The Bitcoin Core Developers</source>
-        <translation>Pembangun Pfennig Core</translation>
+        <translation>Pembangun pfennig Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2622,8 +2622,8 @@ Alamat: %4
         <translation>Tentukan direktori data</translation>
     </message>
     <message>
-        <source>Listen for connections on &lt;port&gt; (default: P2PPORT or testnet: 1P2PPORT)</source>
-        <translation>Menerima hubungan pada &lt;port&gt; (standar: P2PPORT atau testnet: 1P2PPORT)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 40002 or testnet: 50001)</source>
+        <translation>Menerima hubungan pada &lt;port&gt; (standar: 40002 atau testnet: 50001)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
@@ -2650,7 +2650,7 @@ Alamat: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: RPCPORT or testnet: 1RPCPORT)</source>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 40001 or testnet: 50000)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2658,7 +2658,7 @@ Alamat: %4
         <translation>Menerima perintah baris perintah dan JSON-RPC</translation>
     </message>
     <message>
-        <source>Pfennig Core RPC client version</source>
+        <source>pfennig Core RPC client version</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2683,7 +2683,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;pfennig Alert&quot; admin@foo.com
 </source>
         <translation>
 </translation>
@@ -2757,8 +2757,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Pfennig Core is probably already running.</source>
-        <translation>Tidak bisa mengikat dengan %s di computer ini. Kemungkinan Pfennig Core sudah mulai.</translation>
+        <source>Unable to bind to %s on this computer. pfennig Core is probably already running.</source>
+        <translation>Tidak bisa mengikat dengan %s di computer ini. Kemungkinan pfennig Core sudah mulai.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: -proxy)</source>
@@ -2769,8 +2769,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
         <translation>Peringatan: -paytxfee sangat besar! Ini adalah biaya pengiriman yang akan dibayar oleh Anda jika transaksi terkirim.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Pfennig will not work properly.</source>
-        <translation>Perhatian: Mohon diperiksa pengaturan tanggal dan waktu komputer anda apakah sudah benar! Jika pengaturan waktu salah aplikasi Pfennig tidak akan berjalan dengan tepat.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong pfennig will not work properly.</source>
+        <translation>Perhatian: Mohon diperiksa pengaturan tanggal dan waktu komputer anda apakah sudah benar! Jika pengaturan waktu salah aplikasi pfennig tidak akan berjalan dengan tepat.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -2805,8 +2805,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
         <translation>Coba memulihkan kunci-kunci pribadi dari wallet.dat yang rusak</translation>
     </message>
     <message>
-        <source>Pfennig Core Daemon</source>
-        <translation>Daemon Pfennig Core</translation>
+        <source>pfennig Core Daemon</source>
+        <translation>Daemon pfennig Core</translation>
     </message>
     <message>
         <source>Block creation options:</source>
@@ -2825,7 +2825,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
         <translation>Hubungkan melalui proxy SOCKS</translation>
     </message>
     <message>
-        <source>Connect to JSON-RPC on &lt;port&gt; (default: RPCPORT or testnet: 1RPCPORT)</source>
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: 40001 or testnet: 50000)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3049,8 +3049,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
         <translation>Impor blok dari eksternal berkas blk000???.dat</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Pfennig Core is probably already running.</source>
-        <translation>Tidak bisa mengunci data directory %s. Kemungkinan Pfennig Core sudah mulai.</translation>
+        <source>Cannot obtain a lock on data directory %s. pfennig Core is probably already running.</source>
+        <translation>Tidak bisa mengunci data directory %s. Kemungkinan pfennig Core sudah mulai.</translation>
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
@@ -3113,7 +3113,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>RPC SSL options: (see the Pfennig Wiki for SSL setup instructions)</source>
+        <source>RPC SSL options: (see the pfennig Wiki for SSL setup instructions)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3133,11 +3133,11 @@ for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>SSL options: (see the Pfennig Wiki for SSL setup instructions)</source>
-        <translation>Pilihan SSL: (petunjuk pengaturan SSL lihat dalam Pfennig Wiki)</translation>
+        <source>SSL options: (see the pfennig Wiki for SSL setup instructions)</source>
+        <translation>Pilihan SSL: (petunjuk pengaturan SSL lihat dalam pfennig Wiki)</translation>
     </message>
     <message>
-        <source>Send command to Pfennig Core</source>
+        <source>Send command to pfennig Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3173,8 +3173,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
         <translation>Menetapkan waktu berakhir koneksi di milidetik (biasanya: 5000)</translation>
     </message>
     <message>
-        <source>Start Pfennig Core Daemon</source>
-        <translation>Memulai Pfennig Core Daemon</translation>
+        <source>Start pfennig Core Daemon</source>
+        <translation>Memulai pfennig Core Daemon</translation>
     </message>
     <message>
         <source>System error: </source>
@@ -3289,12 +3289,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
         <translation>Gagal memuat wallet.dat: Dompet rusak</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Pfennig</source>
-        <translation>Gagal memuat wallet.dat: Dompet memerlukan versi Pfennig yang terbaru</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of pfennig</source>
+        <translation>Gagal memuat wallet.dat: Dompet memerlukan versi pfennig yang terbaru</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Pfennig to complete</source>
-        <translation>Dompet diperlukan untuk disimpan-ulang: nyala-ulangkan Pfennig untuk menyelesaikan</translation>
+        <source>Wallet needed to be rewritten: restart pfennig to complete</source>
+        <translation>Dompet diperlukan untuk disimpan-ulang: nyala-ulangkan pfennig untuk menyelesaikan</translation>
     </message>
     <message>
         <source>Error loading wallet.dat</source>

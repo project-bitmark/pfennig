@@ -2,11 +2,11 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Pfennig Core</source>
+        <source>About pfennig Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>&lt;b&gt;Pfennig Core&lt;/b&gt; version</source>
+        <source>&lt;b&gt;pfennig Core&lt;/b&gt; version</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -98,11 +98,11 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>استقبال العناوين</translation>
     </message>
     <message>
-        <source>These are your Pfennig addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your pfennig addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>These are your Pfennig addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your pfennig addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -200,7 +200,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>تأكيد تشفير المحفظة</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PfennigS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR pfennigS&lt;/b&gt;!</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -220,7 +220,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>محفظة مشفرة</translation>
     </message>
     <message>
-        <source>Pfennig will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your pfennigs from being stolen by malware infecting your computer.</source>
+        <source>pfennig will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your pfennigs from being stolen by malware infecting your computer.</source>
         <translation>بتكوين سوف يغلق الآن لإنهاء عملية التشفير. تذكر أن التشفير لا يستطيع حماية محفظتك تمامًا من السرقة من خلال البرمجيات الخبيثة التي تصيب جهازك </translation>
     </message>
     <message>
@@ -253,7 +253,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
 </context>
 <context>
-    <name>PfennigGUI</name>
+    <name>pfennigGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>التوقيع و الرسائل</translation>
@@ -291,7 +291,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>الخروج من التطبيق</translation>
     </message>
     <message>
-        <source>Show information about Pfennig</source>
+        <source>Show information about pfennig</source>
         <translation>  إظهار معلومات حول بت كوين</translation>
     </message>
     <message>
@@ -339,11 +339,11 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Send coins to a Pfennig address</source>
+        <source>Send coins to a pfennig address</source>
         <translation>ارسل عملات الى عنوان بيتكوين</translation>
     </message>
     <message>
-        <source>Modify configuration options for Pfennig</source>
+        <source>Modify configuration options for pfennig</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -367,7 +367,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;التحقق من الرسالة...</translation>
     </message>
     <message>
-        <source>Pfennig</source>
+        <source>pfennig</source>
         <translation>بت كوين</translation>
     </message>
     <message>
@@ -395,11 +395,11 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Sign messages with your Pfennig addresses to prove you own them</source>
+        <source>Sign messages with your pfennig addresses to prove you own them</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Pfennig addresses</source>
+        <source>Verify messages to ensure they were signed with specified pfennig addresses</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -423,7 +423,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>[testnet]</translation>
     </message>
     <message>
-        <source>Pfennig Core</source>
+        <source>pfennig Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -431,7 +431,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>&amp;About Pfennig Core</source>
+        <source>&amp;About pfennig Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -451,15 +451,15 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Show the Pfennig Core help message to get a list with possible Pfennig command-line options</source>
+        <source>Show the pfennig Core help message to get a list with possible pfennig command-line options</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Pfennig client</source>
+        <source>pfennig client</source>
         <translation>عميل بت كوين</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Pfennig network</source>
+        <source>%n active connection(s) to pfennig network</source>
         <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message>
@@ -555,7 +555,7 @@ Address: %4
         <translation>المحفظة &lt;b&gt;مشفرة&lt;/b&gt; و &lt;b&gt;مقفلة&lt;/b&gt; حاليا</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Pfennig can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. pfennig can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -840,7 +840,7 @@ Address: %4
         <translation>هدا العنوان &quot;%1&quot; موجود مسبقا في دفتر العناوين</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid Pfennig address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid pfennig address.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -878,11 +878,11 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Pfennig Core - Command-line options</source>
+        <source>pfennig Core - Command-line options</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Pfennig Core</source>
+        <source>pfennig Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -929,15 +929,15 @@ Address: %4
         <translation>أهلا</translation>
     </message>
     <message>
-        <source>Welcome to Pfennig Core.</source>
+        <source>Welcome to pfennig Core.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Pfennig Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where pfennig Core will store its data.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Pfennig Core will download and store a copy of the Pfennig block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>pfennig Core will download and store a copy of the pfennig block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -949,7 +949,7 @@ Address: %4
         <translation>استخدام دليل بيانات مخصص:</translation>
     </message>
     <message>
-        <source>Pfennig</source>
+        <source>pfennig</source>
         <translation>بت كوين</translation>
     </message>
     <message>
@@ -1011,11 +1011,11 @@ Address: %4
         <translation>ادفع &amp;رسوم المعاملة</translation>
     </message>
     <message>
-        <source>Automatically start Pfennig after logging in to the system.</source>
+        <source>Automatically start pfennig after logging in to the system.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>&amp;Start Pfennig on system login</source>
+        <source>&amp;Start pfennig on system login</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1031,7 +1031,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Connect to the Pfennig network through a SOCKS proxy.</source>
+        <source>Connect to the pfennig network through a SOCKS proxy.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1091,7 +1091,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Automatically open the Pfennig client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the pfennig client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1147,7 +1147,7 @@ Address: %4
         <translation>واجهة المستخدم &amp;اللغة:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Pfennig.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting pfennig.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1159,7 +1159,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Whether to show Pfennig addresses in the transaction list or not.</source>
+        <source>Whether to show pfennig addresses in the transaction list or not.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1214,7 +1214,7 @@ Address: %4
         <translation>نمودج</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Pfennig network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the pfennig network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1269,7 +1269,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>URI can not be parsed! This can be caused by an invalid Pfennig address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid pfennig address or malformed URI parameters.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1336,7 +1336,7 @@ Address: %4
 <context>
     <name>QObject</name>
     <message>
-        <source>Pfennig</source>
+        <source>pfennig</source>
         <translation>بت كوين</translation>
     </message>
     <message>
@@ -1352,12 +1352,12 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Pfennig Core didn&apos;t yet exit safely...</source>
+        <source>pfennig Core didn&apos;t yet exit safely...</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Enter a Pfennig address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
-        <translation>إدخال عنوانPfennig (مثال :bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
+        <source>Enter a pfennig address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
+        <translation>إدخال عنوانpfennig (مثال :bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
     </message>
 </context>
 <context>
@@ -1478,7 +1478,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Open the Pfennig debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the pfennig debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1486,7 +1486,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Welcome to the Pfennig RPC console.</source>
+        <source>Welcome to the pfennig RPC console.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1549,7 +1549,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Pfennig network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the pfennig network.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1862,7 +1862,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Warning: Invalid Pfennig address</source>
+        <source>Warning: Invalid pfennig address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1949,7 +1949,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>A message that was attached to the pfennig: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Pfennig network.</source>
+        <source>A message that was attached to the pfennig: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the pfennig network.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1968,7 +1968,7 @@ Address: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Pfennig Core is shutting down...</source>
+        <source>pfennig Core is shutting down...</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2023,7 +2023,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Sign the message to prove you own this Pfennig address</source>
+        <source>Sign the message to prove you own this pfennig address</source>
         <translation>وقع الرسالة لتثبت انك تمتلك عنوان البت كوين هذا</translation>
     </message>
     <message>
@@ -2051,7 +2051,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Pfennig address</source>
+        <source>Verify the message to ensure it was signed with the specified pfennig address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2063,8 +2063,8 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Enter a Pfennig address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
-        <translation>إدخال عنوانPfennig (مثال :bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
+        <source>Enter a pfennig address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
+        <translation>إدخال عنوانpfennig (مثال :bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
     </message>
     <message>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
@@ -2122,7 +2122,7 @@ Address: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Pfennig Core</source>
+        <source>pfennig Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2617,7 +2617,7 @@ Address: %4
         <translation>حدد مجلد المعلومات</translation>
     </message>
     <message>
-        <source>Listen for connections on &lt;port&gt; (default: P2PPORT or testnet: 1P2PPORT)</source>
+        <source>Listen for connections on &lt;port&gt; (default: 40002 or testnet: 50001)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2645,7 +2645,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: RPCPORT or testnet: 1RPCPORT)</source>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 40001 or testnet: 50000)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2653,7 +2653,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Pfennig Core RPC client version</source>
+        <source>pfennig Core RPC client version</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2678,7 +2678,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;pfennig Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2751,7 +2751,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Pfennig Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. pfennig Core is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2763,7 +2763,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Pfennig will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong pfennig will not work properly.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2799,7 +2799,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Pfennig Core Daemon</source>
+        <source>pfennig Core Daemon</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2819,7 +2819,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Connect to JSON-RPC on &lt;port&gt; (default: RPCPORT or testnet: 1RPCPORT)</source>
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: 40001 or testnet: 50000)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3043,7 +3043,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Pfennig Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. pfennig Core is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3107,7 +3107,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>RPC SSL options: (see the Pfennig Wiki for SSL setup instructions)</source>
+        <source>RPC SSL options: (see the pfennig Wiki for SSL setup instructions)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3127,11 +3127,11 @@ for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>SSL options: (see the Pfennig Wiki for SSL setup instructions)</source>
+        <source>SSL options: (see the pfennig Wiki for SSL setup instructions)</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Send command to Pfennig Core</source>
+        <source>Send command to pfennig Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3167,7 +3167,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Start Pfennig Core Daemon</source>
+        <source>Start pfennig Core Daemon</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3283,11 +3283,11 @@ for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
         <translation>خطأ عند تنزيل wallet.dat: المحفظة تالفة</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Pfennig</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of pfennig</source>
         <translation>خطأ عند تنزيل wallet.dat: المحفظة تتطلب نسخة أحدث من بتكوين</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Pfennig to complete</source>
+        <source>Wallet needed to be rewritten: restart pfennig to complete</source>
         <translation>المحفظة تحتاج لإعادة إنشاء: أعد تشغيل بتكوين للإتمام</translation>
     </message>
     <message>

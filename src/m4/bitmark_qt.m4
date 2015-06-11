@@ -117,7 +117,7 @@ AC_DEFUN([BITMARK_QT_CONFIGURE],[
 
 
   dnl enable qt support
-  AC_MSG_CHECKING(whether to build Pfennig Core GUI)
+  AC_MSG_CHECKING(whether to build pfennig Core GUI)
   BITMARK_QT_CHECK([
     bitmark_enable_qt=yes
     bitmark_enable_qt_test=yes

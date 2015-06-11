@@ -1,5 +1,5 @@
 // Original Code: Copyright (c) 2011-2014 The Bitcoin Core Developers
-// Modified Code: Copyright (c) 2014 Project Bitmark
+// Modified Code: Copyright (c) 2015 Pfennig Foundation
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -98,7 +98,7 @@ void setupAddressWidget(QValidatedLineEdit *widget, QWidget *parent)
 
     widget->setFont(bitmarkAddressFont());
 #if QT_VERSION >= 0x040700
-    widget->setPlaceholderText(QObject::tr("Enter a Pfennig address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)"));
+    widget->setPlaceholderText(QObject::tr("Enter a pfennig address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)"));
 #endif
     widget->setValidator(new BitmarkAddressEntryValidator(parent));
     widget->setCheckValidator(new BitmarkAddressCheckValidator(parent));
@@ -116,7 +116,7 @@ void setupAmountWidget(QLineEdit *widget, QWidget *parent)
 bool parseBitmarkURI(const QUrl &uri, SendCoinsRecipient *out)
 {
     // return if URI is not valid or is no bitmark: URI
-    if(!uri.isValid() || uri.scheme() != QString("bitmark"))
+    if(!uri.isValid() || uri.scheme() != QString("pfennig"))
         return false;
 
     SendCoinsRecipient rv;
@@ -172,13 +172,13 @@ bool parseBitmarkURI(const QUrl &uri, SendCoinsRecipient *out)
 
 bool parseBitmarkURI(QString uri, SendCoinsRecipient *out)
 {
-    // Convert bitmark:// to bitmark:
+    // Convert pfennig:// to pfennig:
     //
-    //    Cannot handle this later, because bitmark:// will cause Qt to see the part after // as host,
+    //    Cannot handle this later, because pfennig:// will cause Qt to see the part after // as host,
     //    which will lower-case it (and thus invalidate the address).
-    if(uri.startsWith("bitmark://", Qt::CaseInsensitive))
+    if(uri.startsWith("pfennig://", Qt::CaseInsensitive))
     {
-        uri.replace(0, 10, "bitmark:");
+        uri.replace(0, 10, "pfennig:");
     }
     QUrl uriInstance(uri);
     return parseBitmarkURI(uriInstance, out);
@@ -186,7 +186,7 @@ bool parseBitmarkURI(QString uri, SendCoinsRecipient *out)
 
 QString formatBitmarkURI(const SendCoinsRecipient &info)
 {
-    QString ret = QString("bitmark:%1").arg(info.address);
+    QString ret = QString("pfennig:%1").arg(info.address);
     int paramCount = 0;
 
     if (info.amount)
@@ -538,12 +538,12 @@ TableViewLastColumnResizingFixer::TableViewLastColumnResizingFixer(QTableView* t
 #ifdef WIN32
 boost::filesystem::path static StartupShortcutPath()
 {
-    return GetSpecialFolderPath(CSIDL_STARTUP) / "Pfennig.lnk";
+    return GetSpecialFolderPath(CSIDL_STARTUP) / "pfennig.lnk";
 }
 
 bool GetStartOnSystemStartup()
 {
-    // check for Pfennig.lnk
+    // check for pfennig.lnk
     return boost::filesystem::exists(StartupShortcutPath());
 }
 
@@ -620,7 +620,7 @@ boost::filesystem::path static GetAutostartDir()
 
 boost::filesystem::path static GetAutostartFilePath()
 {
-    return GetAutostartDir() / "bitmark.desktop";
+    return GetAutostartDir() / "pfennig.desktop";
 }
 
 bool GetStartOnSystemStartup()
@@ -658,10 +658,10 @@ bool SetStartOnSystemStartup(bool fAutoStart)
         boost::filesystem::ofstream optionFile(GetAutostartFilePath(), std::ios_base::out|std::ios_base::trunc);
         if (!optionFile.good())
             return false;
-        // Write a bitmark.desktop file to the autostart directory:
+        // Write a pfennig.desktop file to the autostart directory:
         optionFile << "[Desktop Entry]\n";
         optionFile << "Type=Application\n";
-        optionFile << "Name=Pfennig\n";
+        optionFile << "Name=pfennig\n";
         optionFile << "Exec=" << pszExePath << " -min\n";
         optionFile << "Terminal=false\n";
         optionFile << "Hidden=false\n";
@@ -680,7 +680,7 @@ bool SetStartOnSystemStartup(bool fAutoStart)
 LSSharedFileListItemRef findStartupItemInList(LSSharedFileListRef list, CFURLRef findUrl);
 LSSharedFileListItemRef findStartupItemInList(LSSharedFileListRef list, CFURLRef findUrl)
 {
-    // loop through the list of startup items and try to find the bitmark app
+    // loop through the list of startup items and try to find the pfennig app
     CFArrayRef listSnapshot = LSSharedFileListCopySnapshot(list, NULL);
     for(int i = 0; i < CFArrayGetCount(listSnapshot); i++) {
         LSSharedFileListItemRef item = (LSSharedFileListItemRef)CFArrayGetValueAtIndex(listSnapshot, i);
@@ -714,7 +714,7 @@ bool SetStartOnSystemStartup(bool fAutoStart)
     LSSharedFileListItemRef foundItem = findStartupItemInList(loginItems, bitmarkAppUrl);
 
     if(fAutoStart && !foundItem) {
-        // add bitmark app to startup item list
+        // add pfennig app to startup item list
         LSSharedFileListInsertItemURL(loginItems, kLSSharedFileListItemBeforeFirst, NULL, NULL, bitmarkAppUrl, NULL, NULL);
     }
     else if(!fAutoStart && foundItem) {

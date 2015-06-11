@@ -1,5 +1,5 @@
 // Original Code: Copyright (c) 2011-2014 The Bitcoin Core Developers
-// Modified Code: Copyright (c) 2014 Project Bitmark
+// Modified Code: Copyright (c) 2015 Pfennig Foundation
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -12,7 +12,7 @@ static const int MODEL_UPDATE_DELAY = 250;
 /* AskPassphraseDialog -- Maximum passphrase length */
 static const int MAX_PASSPHRASE_SIZE = 1024;
 
-/* BitmarkGUI -- Size of icons in status bar */
+/* PfennigGUI -- Size of icons in status bar */
 static const int STATUSBAR_ICONSIZE = 16;
 
 /* Invalid field background style */
@@ -42,9 +42,9 @@ static const int MAX_PAYMENT_REQUEST_SIZE = 50000; // bytes
 /* Number of frames in spinner animation */
 #define SPINNER_FRAMES 35
 
-#define QAPP_ORG_NAME "Pfennig"
-#define QAPP_ORG_DOMAIN "bitmark.org"
-#define QAPP_APP_NAME_DEFAULT "Pfennig-Qt"
-#define QAPP_APP_NAME_TESTNET "Pfennig-Qt-testnet"
+#define QAPP_ORG_NAME "pfennig"
+#define QAPP_ORG_DOMAIN "pfennig.org"
+#define QAPP_APP_NAME_DEFAULT "pfennig-Qt"
+#define QAPP_APP_NAME_TESTNET "pfennig-Qt-testnet"
 
 #endif // GUICONSTANTS_H

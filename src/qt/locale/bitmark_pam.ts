@@ -2,11 +2,11 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Pfennig Core</source>
+        <source>About pfennig Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>&lt;b&gt;Pfennig Core&lt;/b&gt; version</source>
+        <source>&lt;b&gt;pfennig Core&lt;/b&gt; version</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -101,11 +101,11 @@ Ing produktung ini atin yang makayabeng software a gewa dareng OpenSSL Project p
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>These are your Pfennig addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Reni reng kekang Pfennig address king pamagpadalang kabayaran. Lawan mulang masalese reng alaga ampo ing address na ning tumanggap bayu ka magpadalang barya.</translation>
+        <source>These are your pfennig addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Reni reng kekang pfennig address king pamagpadalang kabayaran. Lawan mulang masalese reng alaga ampo ing address na ning tumanggap bayu ka magpadalang barya.</translation>
     </message>
     <message>
-        <source>These are your Pfennig addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your pfennig addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -203,8 +203,8 @@ Ing produktung ini atin yang makayabeng software a gewa dareng OpenSSL Project p
         <translation>Kumpirman ya ing wallet encryption</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PfennigS&lt;/b&gt;!</source>
-        <translation>Kapabaluan: Istung in-encrypt me ing kekang wallet at meala ya ing passphrase na, ma-&lt;b&gt;ALA NO NGAN RING KEKANG PfennigS&lt;/b&gt;</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR pfennigS&lt;/b&gt;!</source>
+        <translation>Kapabaluan: Istung in-encrypt me ing kekang wallet at meala ya ing passphrase na, ma-&lt;b&gt;ALA NO NGAN RING KEKANG pfennigS&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -223,8 +223,8 @@ Ing produktung ini atin yang makayabeng software a gewa dareng OpenSSL Project p
         <translation>Me-encrypt ne ing wallet</translation>
     </message>
     <message>
-        <source>Pfennig will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your pfennigs from being stolen by malware infecting your computer.</source>
-        <translation>Ing Pfennig ngeni magsara ya ban ayari ing proseso ning pamag-encrypt. Tandanan yu king pamag-encrypt wallet, ali nala aprotektan king kabuuan reng pfennigs yu kareng malware a kasalunsungan atiu kareng computer yu.</translation>
+        <source>pfennig will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your pfennigs from being stolen by malware infecting your computer.</source>
+        <translation>Ing pfennig ngeni magsara ya ban ayari ing proseso ning pamag-encrypt. Tandanan yu king pamag-encrypt wallet, ali nala aprotektan king kabuuan reng pfennigs yu kareng malware a kasalunsungan atiu kareng computer yu.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -256,7 +256,7 @@ Ing produktung ini atin yang makayabeng software a gewa dareng OpenSSL Project p
     </message>
 </context>
 <context>
-    <name>PfennigGUI</name>
+    <name>pfennigGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>I-sign ing &amp;mensayi</translation>
@@ -294,8 +294,8 @@ Ing produktung ini atin yang makayabeng software a gewa dareng OpenSSL Project p
         <translation>Tuknangan ing aplikasyon</translation>
     </message>
     <message>
-        <source>Show information about Pfennig</source>
-        <translation>Ipakit ing impormasyun tungkul king Pfennig</translation>
+        <source>Show information about pfennig</source>
+        <translation>Ipakit ing impormasyun tungkul king pfennig</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -342,12 +342,12 @@ Ing produktung ini atin yang makayabeng software a gewa dareng OpenSSL Project p
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Send coins to a Pfennig address</source>
-        <translation>Magpadalang barya king Pfennig address</translation>
+        <source>Send coins to a pfennig address</source>
+        <translation>Magpadalang barya king pfennig address</translation>
     </message>
     <message>
-        <source>Modify configuration options for Pfennig</source>
-        <translation>Alilan ing pipamilian konpigurasion para keng Pfennig</translation>
+        <source>Modify configuration options for pfennig</source>
+        <translation>Alilan ing pipamilian konpigurasion para keng pfennig</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -370,8 +370,8 @@ Ing produktung ini atin yang makayabeng software a gewa dareng OpenSSL Project p
         <translation>&amp;Beripikan ing message...</translation>
     </message>
     <message>
-        <source>Pfennig</source>
-        <translation>Pfennig</translation>
+        <source>pfennig</source>
+        <translation>pfennig</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -398,11 +398,11 @@ Ing produktung ini atin yang makayabeng software a gewa dareng OpenSSL Project p
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Sign messages with your Pfennig addresses to prove you own them</source>
+        <source>Sign messages with your pfennig addresses to prove you own them</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Pfennig addresses</source>
+        <source>Verify messages to ensure they were signed with specified pfennig addresses</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -426,15 +426,15 @@ Ing produktung ini atin yang makayabeng software a gewa dareng OpenSSL Project p
         <translation>[testnet]</translation>
     </message>
     <message>
-        <source>Pfennig Core</source>
-        <translation>Kapilubluban ning Pfennig</translation>
+        <source>pfennig Core</source>
+        <translation>Kapilubluban ning pfennig</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and pfennig: URIs)</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>&amp;About Pfennig Core</source>
+        <source>&amp;About pfennig Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -454,16 +454,16 @@ Ing produktung ini atin yang makayabeng software a gewa dareng OpenSSL Project p
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Show the Pfennig Core help message to get a list with possible Pfennig command-line options</source>
+        <source>Show the pfennig Core help message to get a list with possible pfennig command-line options</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Pfennig client</source>
-        <translation>Pfennig client</translation>
+        <source>pfennig client</source>
+        <translation>pfennig client</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Pfennig network</source>
-        <translation><numerusform>%n ya ing aktibong koneksion keng Pfennig network</numerusform><numerusform>%n lareng aktibong koneksion keng Pfennig network</numerusform></translation>
+        <source>%n active connection(s) to pfennig network</source>
+        <translation><numerusform>%n ya ing aktibong koneksion keng pfennig network</numerusform><numerusform>%n lareng aktibong koneksion keng pfennig network</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -558,8 +558,8 @@ Address: %4
         <translation>Maka-&lt;b&gt;encrypt&lt;/b&gt; ya ing wallet at kasalukuyan yang maka-&lt;b&gt;locked&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Pfennig can no longer continue safely and will quit.</source>
-        <translation>Atin kamalian a milyari. Ali ne magsilbing sumulung pa ing Pfennig at kailangan na ng tuknang.</translation>
+        <source>A fatal error occurred. pfennig can no longer continue safely and will quit.</source>
+        <translation>Atin kamalian a milyari. Ali ne magsilbing sumulung pa ing pfennig at kailangan na ng tuknang.</translation>
     </message>
 </context>
 <context>
@@ -843,8 +843,8 @@ Address: %4
         <translation>Ing pepalub yung address &quot;%1&quot; ati na yu king aklat dareng address</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid Pfennig address.</source>
-        <translation>Ing pepalub yung address &quot;%1&quot; ali ya katanggap-tanggap a Pfennig address.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid pfennig address.</source>
+        <translation>Ing pepalub yung address &quot;%1&quot; ali ya katanggap-tanggap a pfennig address.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -881,12 +881,12 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Pfennig Core - Command-line options</source>
+        <source>pfennig Core - Command-line options</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Pfennig Core</source>
-        <translation>Kapilubluban ning Pfennig</translation>
+        <source>pfennig Core</source>
+        <translation>Kapilubluban ning pfennig</translation>
     </message>
     <message>
         <source>version</source>
@@ -932,15 +932,15 @@ Address: %4
         <translation>Malaus ka</translation>
     </message>
     <message>
-        <source>Welcome to Pfennig Core.</source>
+        <source>Welcome to pfennig Core.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Pfennig Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where pfennig Core will store its data.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Pfennig Core will download and store a copy of the Pfennig block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>pfennig Core will download and store a copy of the pfennig block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -952,8 +952,8 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Pfennig</source>
-        <translation>Pfennig</translation>
+        <source>pfennig</source>
+        <translation>pfennig</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; can not be created.</source>
@@ -1014,12 +1014,12 @@ Address: %4
         <translation>Mamayad &amp;bayad para king transaksion </translation>
     </message>
     <message>
-        <source>Automatically start Pfennig after logging in to the system.</source>
-        <translation>Umpisan yang antimu ing Pfennig kaibat mekapag-log in king sistema.</translation>
+        <source>Automatically start pfennig after logging in to the system.</source>
+        <translation>Umpisan yang antimu ing pfennig kaibat mekapag-log in king sistema.</translation>
     </message>
     <message>
-        <source>&amp;Start Pfennig on system login</source>
-        <translation>&amp;Umpisan ya ing Pfennig king pamag-log-in na ning sistema.</translation>
+        <source>&amp;Start pfennig on system login</source>
+        <translation>&amp;Umpisan ya ing pfennig king pamag-log-in na ning sistema.</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1034,7 +1034,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Connect to the Pfennig network through a SOCKS proxy.</source>
+        <source>Connect to the pfennig network through a SOCKS proxy.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1094,8 +1094,8 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Automatically open the Pfennig client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Ibuklat yang antimanu ing Pfennig client port king router. Gagana yamu ini istung ing router mu susuporta yang UPnP at magsilbi ya.</translation>
+        <source>Automatically open the pfennig client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Ibuklat yang antimanu ing pfennig client port king router. Gagana yamu ini istung ing router mu susuporta yang UPnP at magsilbi ya.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1150,8 +1150,8 @@ Address: %4
         <translation>Amanu na ning user interface:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Pfennig.</source>
-        <translation>Ing amanu na ning user interface maliari yang i-ayus o ilage keni. Ing ayus a ini magsilbi yamu istung pesibayuan meng pasibayu ing Pfennig.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting pfennig.</source>
+        <translation>Ing amanu na ning user interface maliari yang i-ayus o ilage keni. Ing ayus a ini magsilbi yamu istung pesibayuan meng pasibayu ing pfennig.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1162,8 +1162,8 @@ Address: %4
         <translation>Pilinan ing default subdivision unit a ipalto o ipakit king interface at istung magpadala kang barya.</translation>
     </message>
     <message>
-        <source>Whether to show Pfennig addresses in the transaction list or not.</source>
-        <translation>Ipakit man ing Pfennig address king listahan naning transaksion o ali.</translation>
+        <source>Whether to show pfennig addresses in the transaction list or not.</source>
+        <translation>Ipakit man ing pfennig address king listahan naning transaksion o ali.</translation>
     </message>
     <message>
         <source>&amp;Display addresses in transaction list</source>
@@ -1217,8 +1217,8 @@ Address: %4
         <translation>Form</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Pfennig network after a connection is established, but this process has not completed yet.</source>
-        <translation>Ing makaltong impormasion mapalyaring luma ne. Ing kekang wallet otomatiku yang mag-synchronize keng Pfennig network istung mekakonekta ne king network, oneng ing prosesung ini ali ya pa kumpletu.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the pfennig network after a connection is established, but this process has not completed yet.</source>
+        <translation>Ing makaltong impormasion mapalyaring luma ne. Ing kekang wallet otomatiku yang mag-synchronize keng pfennig network istung mekakonekta ne king network, oneng ing prosesung ini ali ya pa kumpletu.</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -1272,7 +1272,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>URI can not be parsed! This can be caused by an invalid Pfennig address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid pfennig address or malformed URI parameters.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1339,8 +1339,8 @@ Address: %4
 <context>
     <name>QObject</name>
     <message>
-        <source>Pfennig</source>
-        <translation>Pfennig</translation>
+        <source>pfennig</source>
+        <translation>pfennig</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
@@ -1355,12 +1355,12 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Pfennig Core didn&apos;t yet exit safely...</source>
+        <source>pfennig Core didn&apos;t yet exit safely...</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Enter a Pfennig address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
-        <translation>Magpalub kang Pfennig address(e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
+        <source>Enter a pfennig address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
+        <translation>Magpalub kang pfennig address(e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
     </message>
 </context>
 <context>
@@ -1481,16 +1481,16 @@ Address: %4
         <translation>Debug log file</translation>
     </message>
     <message>
-        <source>Open the Pfennig debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Ibuklat ing Pfennig debug log file menibat king kasalungsungan data directory. Magluat ya ining pilan segundu para kareng mamaragul a log files.</translation>
+        <source>Open the pfennig debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Ibuklat ing pfennig debug log file menibat king kasalungsungan data directory. Magluat ya ining pilan segundu para kareng mamaragul a log files.</translation>
     </message>
     <message>
         <source>Clear console</source>
         <translation>I-Clear ing console</translation>
     </message>
     <message>
-        <source>Welcome to the Pfennig RPC console.</source>
-        <translation>Malaus kayu king Pfennig RPC console.</translation>
+        <source>Welcome to the pfennig RPC console.</source>
+        <translation>Malaus kayu king pfennig RPC console.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1552,7 +1552,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Pfennig network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the pfennig network.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1865,7 +1865,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Warning: Invalid Pfennig address</source>
+        <source>Warning: Invalid pfennig address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1952,7 +1952,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>A message that was attached to the pfennig: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Pfennig network.</source>
+        <source>A message that was attached to the pfennig: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the pfennig network.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1971,7 +1971,7 @@ Address: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Pfennig Core is shutting down...</source>
+        <source>pfennig Core is shutting down...</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2026,8 +2026,8 @@ Address: %4
         <translation>Kopyan ing kasalungsungan pirma king system clipboard</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Pfennig address</source>
-        <translation>Pirman ing mensayi ban patune na keka ya ining Pfennig address</translation>
+        <source>Sign the message to prove you own this pfennig address</source>
+        <translation>Pirman ing mensayi ban patune na keka ya ining pfennig address</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2054,8 +2054,8 @@ Address: %4
         <translation>Ing address na ning mensayi nung nokarin me pirma ya ini (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Pfennig address</source>
-        <translation>Beripikan ing mensayi ban asiguradu a me pirma ya ini gamit ing mepiling Pfennig address</translation>
+        <source>Verify the message to ensure it was signed with the specified pfennig address</source>
+        <translation>Beripikan ing mensayi ban asiguradu a me pirma ya ini gamit ing mepiling pfennig address</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2066,8 +2066,8 @@ Address: %4
         <translation>Ibalik king dati reng ngan fields na ning pamag beripikang mensayi</translation>
     </message>
     <message>
-        <source>Enter a Pfennig address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
-        <translation>Magpalub kang Pfennig address(e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
+        <source>Enter a pfennig address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
+        <translation>Magpalub kang pfennig address(e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
     </message>
     <message>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
@@ -2125,8 +2125,8 @@ Address: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Pfennig Core</source>
-        <translation>Kapilubluban ning Pfennig</translation>
+        <source>pfennig Core</source>
+        <translation>Kapilubluban ning pfennig</translation>
     </message>
     <message>
         <source>The Bitcoin Core Developers</source>
@@ -2620,8 +2620,8 @@ Address: %4
         <translation>Pilinan ing data directory</translation>
     </message>
     <message>
-        <source>Listen for connections on &lt;port&gt; (default: P2PPORT or testnet: 1P2PPORT)</source>
-        <translation>Makiramdam king koneksion king &lt;port&gt;(default: P2PPORT o testnet: 1P2PPORT)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 40002 or testnet: 50001)</source>
+        <translation>Makiramdam king koneksion king &lt;port&gt;(default: 40002 o testnet: 50001)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
@@ -2648,7 +2648,7 @@ Address: %4
         <translation>Atin kamalian a milyari kabang ayusan ya ing RPC port %u para keng pamakiramdam king IPv4: %s</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: RPCPORT or testnet: 1RPCPORT)</source>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 40001 or testnet: 50000)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2656,7 +2656,7 @@ Address: %4
         <translation>Tumanggap command line at JSON-RPC commands</translation>
     </message>
     <message>
-        <source>Pfennig Core RPC client version</source>
+        <source>pfennig Core RPC client version</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2681,7 +2681,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;pfennig Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2754,7 +2754,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Pfennig Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. pfennig Core is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2766,8 +2766,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
         <translation>Kapabaluan: Sobra ya katas ing makalage king -paytxfee. Ini ing maging bayad mu para king bayad na ning transaksion istung pepadala me ing transaksion a ini.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Pfennig will not work properly.</source>
-        <translation>Kapabaluan: Maliaring pakilawe ing oras at aldo a makalage king kekayung kompyuter nung istu la! Istung ing oras yu mali ya ali ya gumanang masalese ing Pfennig.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong pfennig will not work properly.</source>
+        <translation>Kapabaluan: Maliaring pakilawe ing oras at aldo a makalage king kekayung kompyuter nung istu la! Istung ing oras yu mali ya ali ya gumanang masalese ing pfennig.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -2802,7 +2802,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Pfennig Core Daemon</source>
+        <source>pfennig Core Daemon</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2822,7 +2822,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Connect to JSON-RPC on &lt;port&gt; (default: RPCPORT or testnet: 1RPCPORT)</source>
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: 40001 or testnet: 50000)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3046,7 +3046,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Pfennig Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. pfennig Core is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3110,7 +3110,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>RPC SSL options: (see the Pfennig Wiki for SSL setup instructions)</source>
+        <source>RPC SSL options: (see the pfennig Wiki for SSL setup instructions)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3130,11 +3130,11 @@ for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>SSL options: (see the Pfennig Wiki for SSL setup instructions)</source>
-        <translation>Pipamilian ning SSL: (lawen ye ing Pfennig Wiki para king SSL setup instructions)</translation>
+        <source>SSL options: (see the pfennig Wiki for SSL setup instructions)</source>
+        <translation>Pipamilian ning SSL: (lawen ye ing pfennig Wiki para king SSL setup instructions)</translation>
     </message>
     <message>
-        <source>Send command to Pfennig Core</source>
+        <source>Send command to pfennig Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3170,7 +3170,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Start Pfennig Core Daemon</source>
+        <source>Start pfennig Core Daemon</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3286,12 +3286,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
         <translation>Me-mali ya ing pamag-load king wallet.dat: Me-corrupt ya ing wallet</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Pfennig</source>
-        <translation>Me-mali ya ing pamag-load na ning wallet.dat: Ing wallet mangailangan yang bayung bersion na ning Pfennig</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of pfennig</source>
+        <translation>Me-mali ya ing pamag-load na ning wallet.dat: Ing wallet mangailangan yang bayung bersion na ning pfennig</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Pfennig to complete</source>
-        <translation>Ing wallet mangailangan yang misulat pasibayu: Umpisan yang pasibayu ing Pfennig ban ma-kumpleto ya</translation>
+        <source>Wallet needed to be rewritten: restart pfennig to complete</source>
+        <translation>Ing wallet mangailangan yang misulat pasibayu: Umpisan yang pasibayu ing pfennig ban ma-kumpleto ya</translation>
     </message>
     <message>
         <source>Error loading wallet.dat</source>
