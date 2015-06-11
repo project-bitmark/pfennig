@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Original Code: Copyright (c) 2009-2014 The Bitcoin Core Developers
-// Modified Code: Copyright (c) 2015 Gamecredits Foundation
+// Modified Code: Copyright (c) 2015 Pfennig Foundation
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -1393,7 +1393,7 @@ unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHead
 {
 	unsigned int nHeight = pindexLast->nHeight + 1;
 
-	// Settings for GMC KGW
+	// Settings for PFG KGW
     unsigned int TimeDaySeconds = 60 * 60 * 24;
     int64_t PastSecondsMin = TimeDaySeconds * 0.01;
     int64_t PastSecondsMax = TimeDaySeconds * 0.14;
@@ -3171,7 +3171,7 @@ bool InitBlockIndex() {
     // Only add the genesis block if not reindexing (in which case we reuse the one already on disk)
     if (!fReindex) {
         // Generate a new Genesis block
-        if (false)
+        if (true)
         {
             CBlock &block = const_cast<CBlock&>(Params().GenesisBlock());
             GenesisBitmark(block);

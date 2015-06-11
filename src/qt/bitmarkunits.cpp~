@@ -1,5 +1,5 @@
 // Original Code: Copyright (c) 2011-2014 The Bitcoin Core Developers
-// Modified Code: Copyright (c) 2015 Gamecredits Foundation
+// Modified Code: Copyright (c) 2015 Pfennig Foundation
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -16,9 +16,9 @@ BitmarkUnits::BitmarkUnits(QObject *parent):
 QList<BitmarkUnits::Unit> BitmarkUnits::availableUnits()
 {
     QList<BitmarkUnits::Unit> unitlist;
-    unitlist.append(GMC);
-    unitlist.append(mGMC);
-    unitlist.append(uGMC);
+    unitlist.append(PFG);
+    unitlist.append(mPFG);
+    unitlist.append(uPFG);
     return unitlist;
 }
 
@@ -26,9 +26,9 @@ bool BitmarkUnits::valid(int unit)
 {
     switch(unit)
     {
-    case GMC:
-    case mGMC:
-    case uGMC:
+    case PFG:
+    case mPFG:
+    case uPFG:
         return true;
     default:
         return false;
@@ -39,9 +39,9 @@ QString BitmarkUnits::name(int unit)
 {
     switch(unit)
     {
-    case GMC: return QString("GMC");
-    case mGMC: return QString("uGMC");
-    case uGMC: return QString::fromUtf8("uGMC");
+    case PFG: return QString("PFG");
+    case mPFG: return QString("uPFG");
+    case uPFG: return QString::fromUtf8("uPFG");
     default: return QString("???");
     }
 }
@@ -50,9 +50,9 @@ QString BitmarkUnits::description(int unit)
 {
     switch(unit)
     {
-    case GMC: return QString("GameCreditss");
-    case mGMC: return QString("mGameCreditss (1 / 1,000)");
-    case uGMC: return QString("uGameCreditss (1 / 1,000,000)");
+    case PFG: return QString("pfennigs");
+    case mPFG: return QString("mpfennigs (1 / 1,000)");
+    case uPFG: return QString("upfennigs (1 / 1,000,000)");
     default: return QString("???");
     }
 }
@@ -61,9 +61,9 @@ qint64 BitmarkUnits::factor(int unit)
 {
     switch(unit)
     {
-    case GMC:  return 100000000;
-    case mGMC: return 100000;
-    case uGMC: return 100;
+    case PFG:  return 100000000;
+    case mPFG: return 100000;
+    case uPFG: return 100;
     default:   return 100000000;
     }
 }
@@ -72,9 +72,9 @@ qint64 BitmarkUnits::maxAmount(int unit)
 {
     switch(unit)
     {
-    case GMC:  return Q_INT64_C(21000000);
-    case mGMC: return Q_INT64_C(21000000000);
-    case uGMC: return Q_INT64_C(21000000000000);
+    case PFG:  return Q_INT64_C(21000000);
+    case mPFG: return Q_INT64_C(21000000000);
+    case uPFG: return Q_INT64_C(21000000000000);
     default:   return 0;
     }
 }
@@ -83,9 +83,9 @@ int BitmarkUnits::amountDigits(int unit)
 {
     switch(unit)
     {
-    case GMC: return 8; // 21,000,000 (# digits, without commas)
-    case mGMC: return 11; // 21,000,000,000
-    case uGMC: return 14; // 21,000,000,000,000
+    case PFG: return 8; // 21,000,000 (# digits, without commas)
+    case mPFG: return 11; // 21,000,000,000
+    case uPFG: return 14; // 21,000,000,000,000
     default: return 0;
     }
 }
@@ -94,9 +94,9 @@ int BitmarkUnits::decimals(int unit)
 {
     switch(unit)
     {
-    case GMC: return 8;
-    case mGMC: return 5;
-    case uGMC: return 2;
+    case PFG: return 8;
+    case mPFG: return 5;
+    case uPFG: return 2;
     default: return 0;
     }
 }
