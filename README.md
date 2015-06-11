@@ -1,11 +1,10 @@
 # Pfennig
 
-TESTING
+Pfennig is the Cloneable Reference Implementation of [Bitmark](https://github.com/project-bitmark/bitmark/), a new tested implementation using Scrypt PoW.
 
-This repo contains Pfennig ported to Bitcoin 0.9.4 adapted for Scrypt and KGW using Pfennig as a based.
+Pfennig benefits from being based on both the latest release of Bitmark, and the latest release of Bitcoin, with all BIPs unconditionally supported, all tests passing, and a clean code base.
 
-The code is currently being tested, and SHOULD NOT be used in a live environment.
+For configuration details see the [wiki](https://github.com/project-bitmark/pfennig/wiki)
 
-Notably, wallet import and upgrading has NOT been tested yet.
 
-3174  genesis
+Genesis switch line 3174 of src/main.cpp
