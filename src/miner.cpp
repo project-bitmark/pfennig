@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Original Code: Copyright (c) 2009-2014 The Bitcoin Core Developers
-// Modified Code: Copyright (c) 2014 Project Bitmark
+// Modified Code: Copyright (c) 2015 Gamecredits Foundation
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -14,7 +14,7 @@
 #endif
 //////////////////////////////////////////////////////////////////////////////
 //
-// BitmarkMiner
+// PfennigMiner
 //
 
 int static FormatHashBlocks(void* pbuffer, unsigned int len)
@@ -435,7 +435,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
         return false;
 
     //// debug print
-    LogPrintf("BitmarkMiner:\n");
+    LogPrintf("PfennigMiner:\n");
     LogPrintf("proof-of-work found  \n  hash: %s  \ntarget: %s\n", hash.GetHex(), hashTarget.GetHex());
     pblock->print();
     LogPrintf("generated %s\n", FormatMoney(pblock->vtx[0].vout[0].nValue));
@@ -444,7 +444,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     {
         LOCK(cs_main);
         if (pblock->hashPrevBlock != chainActive.Tip()->GetBlockHash())
-            return error("BitmarkMiner : generated block is stale");
+            return error("PfennigMiner : generated block is stale");
 
         // Remove key from key pool
         reservekey.KeepKey();
@@ -458,7 +458,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
         // Process this block the same as if we had received it from another node
         CValidationState state;
         if (!ProcessBlock(state, NULL, pblock))
-            return error("BitmarkMiner : ProcessBlock, block not accepted");
+            return error("PfennigMiner : ProcessBlock, block not accepted");
     }
 
     return true;
@@ -466,7 +466,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
 
 void static BitmarkMiner(CWallet *pwallet)
 {
-    LogPrintf("BitmarkMiner started\n");
+    LogPrintf("PfennigMiner started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
     RenameThread("bitmark-miner");
 
@@ -494,7 +494,7 @@ void static BitmarkMiner(CWallet *pwallet)
         CBlock *pblock = &pblocktemplate->block;
         IncrementExtraNonce(pblock, pindexPrev, nExtraNonce);
 
-        LogPrintf("Running BitmarkMiner with %u transactions in block (%u bytes)\n", pblock->vtx.size(),
+        LogPrintf("Running PfennigMiner with %u transactions in block (%u bytes)\n", pblock->vtx.size(),
                ::GetSerializeSize(*pblock, SER_NETWORK, PROTOCOL_VERSION));
 
         //
@@ -594,7 +594,7 @@ void static BitmarkMiner(CWallet *pwallet)
     } }
     catch (boost::thread_interrupted)
     {
-        LogPrintf("BitmarkMiner terminated\n");
+        LogPrintf("PfennigMiner terminated\n");
         throw;
     }
 }

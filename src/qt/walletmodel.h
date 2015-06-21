@@ -1,5 +1,5 @@
 // Original Code: Copyright (c) 2011-2014 The Bitcoin Core Developers
-// Modified Code: Copyright (c) 2014 Project Bitmark
+// Modified Code: Copyright (c) 2015 Gamecredits Foundation
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -93,7 +93,7 @@ public:
     )
 };
 
-/** Interface to Pfennig wallet from Qt view code. */
+/** Interface to pfennig wallet from Qt view code. */
 class WalletModel : public QObject
 {
     Q_OBJECT

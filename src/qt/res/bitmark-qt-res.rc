@@ -20,14 +20,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Pfennig"
-            VALUE "FileDescription",    "Pfennig Core (OSS GUI client for Pfennig)"
+            VALUE "CompanyName",        "pfennig"
+            VALUE "FileDescription",    "pfennig Core (OSS GUI client for pfennig)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "pfennig-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
             VALUE "OriginalFilename",   "pfennig-qt.exe"
-            VALUE "ProductName",        "Pfennig Core"
+            VALUE "ProductName",        "pfennig Core"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

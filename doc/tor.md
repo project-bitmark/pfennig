@@ -47,11 +47,11 @@ reachable from the Tor network. Add these lines to your /etc/tor/torrc (or equiv
 config file):
 
 	HiddenServiceDir /var/lib/tor/bitmark-service/
-	HiddenServicePort P2PPORT 127.0.0.1:P2PPORT
-	HiddenServicePort 1P2PPORT 127.0.0.1:1P2PPORT
+	HiddenServicePort 40002 127.0.0.1:40002
+	HiddenServicePort 50001 127.0.0.1:50001
 
 The directory can be different of course, but (both) port numbers should be equal to
-your pfennigd's P2P listen port (P2PPORT by default).
+your pfennigd's P2P listen port (40002 by default).
 
 	-externalip=X   You can tell bitmark about its publicly reachable address using
 	                this option, and this can be a .onion address. Given the above
@@ -81,7 +81,7 @@ specify:
 
 	./pfennigd ... -discover
 
-and open port P2PPORT on your firewall (or use -upnp).
+and open port 40002 on your firewall (or use -upnp).
 
 If you only want to use Tor to reach onion addresses, but not use it as a proxy
 for normal IPv4/IPv6 communication, use:

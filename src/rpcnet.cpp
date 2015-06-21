@@ -1,5 +1,5 @@
 // Original Code: Copyright (c) 2009-2014 The Bitcoin Core Developers
-// Modified Code: Copyright (c) 2014 Project Bitmark
+// Modified Code: Copyright (c) 2015 Gamecredits Foundation
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -158,8 +158,8 @@ Value addnode(const Array& params, bool fHelp)
             "1. \"node\"     (string, required) The node (see getpeerinfo for nodes)\n"
             "2. \"command\"  (string, required) 'add' to add a node to the list, 'remove' to remove a node from the list, 'onetry' to try a connection to the node once\n"
             "\nExamples:\n"
-            + HelpExampleCli("addnode", "\"192.168.0.6:P2PPORT\" \"onetry\"")
-            + HelpExampleRpc("addnode", "\"192.168.0.6:P2PPORT\", \"onetry\"")
+            + HelpExampleCli("addnode", "\"192.168.0.6:40002\" \"onetry\"")
+            + HelpExampleRpc("addnode", "\"192.168.0.6:40002\", \"onetry\"")
         );
 
     string strNode = params[0].get_str();
@@ -212,7 +212,7 @@ Value getaddednodeinfo(const Array& params, bool fHelp)
             "    \"connected\" : true|false,          (boolean) If connected\n"
             "    \"addresses\" : [\n"
             "       {\n"
-            "         \"address\" : \"192.168.0.201:P2PPORT\",  (string) The bitmark server host and port\n"
+            "         \"address\" : \"192.168.0.201:40002\",  (string) The pfennig server host and port\n"
             "         \"connected\" : \"outbound\"           (string) connection, inbound or outbound\n"
             "       }\n"
             "       ,...\n"

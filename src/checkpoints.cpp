@@ -1,5 +1,5 @@
 // Original Code: Copyright (c) 2009-2014 The Bitcoin Core Developers
-// Modified Code: Copyright (c) 2014 Project Bitmark
+// Modified Code: Copyright (c) 2015 Gamecredits Foundation
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -40,14 +40,21 @@ namespace Checkpoints
     // + Contains no strange transactions
     static MapCheckpoints mapCheckpoints =
         boost::assign::map_list_of
-        ( 0, uint256("d2fb746e87e89ae75bdec2ef0639a1f6786744639ce3d0ece1dcf979b79137cb"))
+        ( 0, uint256("91ec5f25ee9a0ffa1af7d4da4db9a552228dd2dc77cdb15b738be4e1f55f30ee"))
+    	( 200000, uint256("de74a3c66dc0787700c0e1fdfc8f9e41e5046fe3845cb2c2d2ac668bd6636942"))
+    	( 400000, uint256("fef151d04ff68b9c004407d1481d446d9bab2d4d6ef2e0f59fc35b4922359d77"))
+    	( 600000, uint256("f5e62257c7320aad29804ff540feda6968e0b5ea554ef717c90b891a0620c184"))
+    	( 800000, uint256("a419226ddf647352adc2b4ff769d98b11eda8438dbb7e8a88fbed4ab763f9908"))
+    	( 1000000, uint256("b3d2c4dcd5fb752fc552659b69986512836d3b9ea8876e2b412330b27a404c53"))
+    	( 1050000, uint256("6fc07beba9589eb986584f69f8574bc4bbf27b97570511ff984b639d7de2ce70")) // POST FORK
+		( 1096772, uint256("3dd493ea7be808f7fb60af5ea90d6ce4a56c34dc92affefea267d082af8b24d8")) // POST KGW
         ;
     static const CCheckpointData data = {
         &mapCheckpoints,
-        1400000000, // * UNIX timestamp of last checkpoint block
-        2000,   	// * total number of transactions between genesis and last checkpoint
+        1433172793, // * UNIX timestamp of last checkpoint block
+        1348692,   	// * total number of transactions between genesis and last checkpoint
                     //   (the tx=... number in the SetBestChain debug.log lines)
-        200.0      // * estimated number of transactions per day after checkpoint
+        1000.0      // * estimated number of transactions per day after checkpoint
     };
 
     static MapCheckpoints mapCheckpointsTestnet =

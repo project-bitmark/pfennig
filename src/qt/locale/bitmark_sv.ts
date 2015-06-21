@@ -2,12 +2,12 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Pfennig Core</source>
-        <translation>Om Pfennig Core</translation>
+        <source>About pfennig Core</source>
+        <translation>Om pfennig Core</translation>
     </message>
     <message>
-        <source>&lt;b&gt;Pfennig Core&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Pfennig Core&lt;/b&gt;-version</translation>
+        <source>&lt;b&gt;pfennig Core&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;pfennig Core&lt;/b&gt;-version</translation>
     </message>
     <message>
         <source>
@@ -30,7 +30,7 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <source>The Bitcoin Core Developers</source>
-        <translation>Pfennig Core-utvecklarna</translation>
+        <translation>pfennig Core-utvecklarna</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -104,12 +104,12 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
         <translation>Mottagaradresser</translation>
     </message>
     <message>
-        <source>These are your Pfennig addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Detta är dina Pfennig adresser för att skicka betalningar. Kolla alltid summan och den mottagande adressen innan du skickar Pfennigs.</translation>
+        <source>These are your pfennig addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Detta är dina pfennig adresser för att skicka betalningar. Kolla alltid summan och den mottagande adressen innan du skickar pfennigs.</translation>
     </message>
     <message>
-        <source>These are your Pfennig addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Detta är dina Pfennig adresser för att ta emot betalningar. Det rekommenderas att använda en ny mottagningsadress för varje transaktion.</translation>
+        <source>These are your pfennig addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Detta är dina pfennig adresser för att ta emot betalningar. Det rekommenderas att använda en ny mottagningsadress för varje transaktion.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -206,7 +206,7 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
         <translation>Bekräfta kryptering av plånbok</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PfennigS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR pfennigS&lt;/b&gt;!</source>
         <translation>VARNING: Om du krypterar din plånbok och glömmer ditt lösenord, kommer du att &lt;b&gt;FÖRLORA ALLA DINA TILLGÅNGAR&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -226,7 +226,7 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
         <translation>Plånboken är krypterad</translation>
     </message>
     <message>
-        <source>Pfennig will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your pfennigs from being stolen by malware infecting your computer.</source>
+        <source>pfennig will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your pfennigs from being stolen by malware infecting your computer.</source>
         <translation>Programmet kommer nu att stänga ner för att färdigställa krypteringen. Tänk på att en krypterad plånbok inte skyddar mot stöld om din dator är infekterad med en keylogger.</translation>
     </message>
     <message>
@@ -259,7 +259,7 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
 </context>
 <context>
-    <name>PfennigGUI</name>
+    <name>pfennigGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Signera &amp;meddelande...</translation>
@@ -297,8 +297,8 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
         <translation>Avsluta programmet</translation>
     </message>
     <message>
-        <source>Show information about Pfennig</source>
-        <translation>Visa information om Pfennig</translation>
+        <source>Show information about pfennig</source>
+        <translation>Visa information om pfennig</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -345,12 +345,12 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
         <translation>Återindexerar block på disken...</translation>
     </message>
     <message>
-        <source>Send coins to a Pfennig address</source>
-        <translation>Skicka mynt till en Pfennig-adress</translation>
+        <source>Send coins to a pfennig address</source>
+        <translation>Skicka mynt till en pfennig-adress</translation>
     </message>
     <message>
-        <source>Modify configuration options for Pfennig</source>
-        <translation>Ändra konfigurationsalternativ för Pfennig</translation>
+        <source>Modify configuration options for pfennig</source>
+        <translation>Ändra konfigurationsalternativ för pfennig</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -373,8 +373,8 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
         <translation>&amp;Verifiera meddelande...</translation>
     </message>
     <message>
-        <source>Pfennig</source>
-        <translation>Pfennig</translation>
+        <source>pfennig</source>
+        <translation>pfennig</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -401,12 +401,12 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
         <translation>Kryptera de privata nycklar som tillhör din plånbok</translation>
     </message>
     <message>
-        <source>Sign messages with your Pfennig addresses to prove you own them</source>
-        <translation>Signera meddelanden med din Pfennigadress för att bevisa att du äger dem</translation>
+        <source>Sign messages with your pfennig addresses to prove you own them</source>
+        <translation>Signera meddelanden med din pfennigadress för att bevisa att du äger dem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Pfennig addresses</source>
-        <translation>Verifiera meddelanden för att vara säker på att de var signerade med den specificerade Pfennig-adressen</translation>
+        <source>Verify messages to ensure they were signed with specified pfennig addresses</source>
+        <translation>Verifiera meddelanden för att vara säker på att de var signerade med den specificerade pfennig-adressen</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -429,16 +429,16 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
         <translation>[testnet]</translation>
     </message>
     <message>
-        <source>Pfennig Core</source>
-        <translation>Pfennig Kärna</translation>
+        <source>pfennig Core</source>
+        <translation>pfennig Kärna</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and pfennig: URIs)</source>
         <translation>Begär betalning (genererar QR-koder och pfennig-URI)</translation>
     </message>
     <message>
-        <source>&amp;About Pfennig Core</source>
-        <translation>&amp;Om Pfennig Core</translation>
+        <source>&amp;About pfennig Core</source>
+        <translation>&amp;Om pfennig Core</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -457,16 +457,16 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
         <translation>&amp;Kommandoradsalternativ</translation>
     </message>
     <message>
-        <source>Show the Pfennig Core help message to get a list with possible Pfennig command-line options</source>
-        <translation>Visa Pfennig Core hjälpmeddelande för att få en lista med möjliga Pfennig kommandoradsalternativ.</translation>
+        <source>Show the pfennig Core help message to get a list with possible pfennig command-line options</source>
+        <translation>Visa pfennig Core hjälpmeddelande för att få en lista med möjliga pfennig kommandoradsalternativ.</translation>
     </message>
     <message>
-        <source>Pfennig client</source>
-        <translation>Pfennig-klient</translation>
+        <source>pfennig client</source>
+        <translation>pfennig-klient</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Pfennig network</source>
-        <translation><numerusform>%n aktiv anslutning till Pfennig-nätverket</numerusform><numerusform>%n aktiva anslutningar till Pfennig-nätverket</numerusform></translation>
+        <source>%n active connection(s) to pfennig network</source>
+        <translation><numerusform>%n aktiv anslutning till pfennig-nätverket</numerusform><numerusform>%n aktiva anslutningar till pfennig-nätverket</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -561,8 +561,8 @@ Adress: %4
         <translation>Denna plånbok är &lt;b&gt;krypterad&lt;/b&gt; och för närvarande &lt;b&gt;låst&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Pfennig can no longer continue safely and will quit.</source>
-        <translation>Ett allvarligt fel har uppstått. Pfennig kan inte längre köras säkert och kommer att avslutas.</translation>
+        <source>A fatal error occurred. pfennig can no longer continue safely and will quit.</source>
+        <translation>Ett allvarligt fel har uppstått. pfennig kan inte längre köras säkert och kommer att avslutas.</translation>
     </message>
 </context>
 <context>
@@ -846,8 +846,8 @@ Adress: %4
         <translation>Den angivna adressen &quot;%1&quot; finns redan i adressboken.</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid Pfennig address.</source>
-        <translation>Den angivna adressen &quot;%1&quot; är inte en giltig Pfennig-adress.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid pfennig address.</source>
+        <translation>Den angivna adressen &quot;%1&quot; är inte en giltig pfennig-adress.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -884,12 +884,12 @@ Adress: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Pfennig Core - Command-line options</source>
-        <translation>Pfennig Core - Kommandoradsalternativ</translation>
+        <source>pfennig Core - Command-line options</source>
+        <translation>pfennig Core - Kommandoradsalternativ</translation>
     </message>
     <message>
-        <source>Pfennig Core</source>
-        <translation>Pfennig Kärna</translation>
+        <source>pfennig Core</source>
+        <translation>pfennig Kärna</translation>
     </message>
     <message>
         <source>version</source>
@@ -935,16 +935,16 @@ Adress: %4
         <translation>Välkommen</translation>
     </message>
     <message>
-        <source>Welcome to Pfennig Core.</source>
-        <translation>Välkommen till Pfennig Core.</translation>
+        <source>Welcome to pfennig Core.</source>
+        <translation>Välkommen till pfennig Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Pfennig Core will store its data.</source>
-        <translation>Eftersom detta är första gången programmet startas får du välja var Pfennig Core skall lagra sitt data.</translation>
+        <source>As this is the first time the program is launched, you can choose where pfennig Core will store its data.</source>
+        <translation>Eftersom detta är första gången programmet startas får du välja var pfennig Core skall lagra sitt data.</translation>
     </message>
     <message>
-        <source>Pfennig Core will download and store a copy of the Pfennig block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Pfennig Core kommer att ladda ner och spara en kopia av Pfennig blockkedjan. Åtminstone %1GB av data kommer att sparas i denna katalog, och den kommer att växa över tiden. Plånboken kommer också att sparas i denna katalog.</translation>
+        <source>pfennig Core will download and store a copy of the pfennig block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>pfennig Core kommer att ladda ner och spara en kopia av pfennig blockkedjan. Åtminstone %1GB av data kommer att sparas i denna katalog, och den kommer att växa över tiden. Plånboken kommer också att sparas i denna katalog.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -955,8 +955,8 @@ Adress: %4
         <translation>Använd en anpassad datakatalog:</translation>
     </message>
     <message>
-        <source>Pfennig</source>
-        <translation>Pfennig</translation>
+        <source>pfennig</source>
+        <translation>pfennig</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; can not be created.</source>
@@ -1017,12 +1017,12 @@ Adress: %4
         <translation>Betala överförings&amp;avgift</translation>
     </message>
     <message>
-        <source>Automatically start Pfennig after logging in to the system.</source>
-        <translation>Starta Pfennig automatiskt efter inloggning.</translation>
+        <source>Automatically start pfennig after logging in to the system.</source>
+        <translation>Starta pfennig automatiskt efter inloggning.</translation>
     </message>
     <message>
-        <source>&amp;Start Pfennig on system login</source>
-        <translation>&amp;Starta Pfennig vid systemstart</translation>
+        <source>&amp;Start pfennig on system login</source>
+        <translation>&amp;Starta pfennig vid systemstart</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1037,8 +1037,8 @@ Adress: %4
         <translation>Antalet skript &amp; verifikationstrådar</translation>
     </message>
     <message>
-        <source>Connect to the Pfennig network through a SOCKS proxy.</source>
-        <translation>Anslut till Pfennig-nätverket genom en SOCKS-proxy.</translation>
+        <source>Connect to the pfennig network through a SOCKS proxy.</source>
+        <translation>Anslut till pfennig-nätverket genom en SOCKS-proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS proxy (default proxy):</source>
@@ -1097,8 +1097,8 @@ Adress: %4
         <translation>&amp;Spendera okonfirmerad växel</translation>
     </message>
     <message>
-        <source>Automatically open the Pfennig client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Öppna automatiskt Pfennig-klientens port på routern. Detta fungerar endast om din router har UPnP aktiverat.</translation>
+        <source>Automatically open the pfennig client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Öppna automatiskt pfennig-klientens port på routern. Detta fungerar endast om din router har UPnP aktiverat.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1153,8 +1153,8 @@ Adress: %4
         <translation>Användargränssnittets &amp;språk: </translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Pfennig.</source>
-        <translation>Användargränssnittets språk kan ställas in här. Denna inställning träder i kraft efter en omstart av Pfennig.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting pfennig.</source>
+        <translation>Användargränssnittets språk kan ställas in här. Denna inställning träder i kraft efter en omstart av pfennig.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1165,8 +1165,8 @@ Adress: %4
         <translation>Välj en måttenhet att visa när du skickar mynt.</translation>
     </message>
     <message>
-        <source>Whether to show Pfennig addresses in the transaction list or not.</source>
-        <translation>Anger om Pfennig-adresser skall visas i transaktionslistan.</translation>
+        <source>Whether to show pfennig addresses in the transaction list or not.</source>
+        <translation>Anger om pfennig-adresser skall visas i transaktionslistan.</translation>
     </message>
     <message>
         <source>&amp;Display addresses in transaction list</source>
@@ -1220,8 +1220,8 @@ Adress: %4
         <translation>Formulär</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Pfennig network after a connection is established, but this process has not completed yet.</source>
-        <translation>Den visade informationen kan vara inaktuell. Plånboken synkroniseras automatiskt med Pfennig-nätverket efter att anslutningen är upprättad, men denna process har inte slutförts ännu.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the pfennig network after a connection is established, but this process has not completed yet.</source>
+        <translation>Den visade informationen kan vara inaktuell. Plånboken synkroniseras automatiskt med pfennig-nätverket efter att anslutningen är upprättad, men denna process har inte slutförts ännu.</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -1275,8 +1275,8 @@ Adress: %4
         <translation>URI hantering</translation>
     </message>
     <message>
-        <source>URI can not be parsed! This can be caused by an invalid Pfennig address or malformed URI parameters.</source>
-        <translation>URI går inte att tolkas! Detta kan orsakas av en ogiltig Pfennig-adress eller felaktiga URI parametrar.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid pfennig address or malformed URI parameters.</source>
+        <translation>URI går inte att tolkas! Detta kan orsakas av en ogiltig pfennig-adress eller felaktiga URI parametrar.</translation>
     </message>
     <message>
         <source>Requested payment amount of %1 is too small (considered dust).</source>
@@ -1342,8 +1342,8 @@ Adress: %4
 <context>
     <name>QObject</name>
     <message>
-        <source>Pfennig</source>
-        <translation>Pfennig</translation>
+        <source>pfennig</source>
+        <translation>pfennig</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
@@ -1358,12 +1358,12 @@ Adress: %4
         <translation>Fel: Felaktig kombination av -regtest och -testnet.</translation>
     </message>
     <message>
-        <source>Pfennig Core didn&apos;t yet exit safely...</source>
-        <translation>Pfennig Core avslutades inte ännu säkert...</translation>
+        <source>pfennig Core didn&apos;t yet exit safely...</source>
+        <translation>pfennig Core avslutades inte ännu säkert...</translation>
     </message>
     <message>
-        <source>Enter a Pfennig address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
-        <translation>Ange en Pfennig-adress (t.ex. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
+        <source>Enter a pfennig address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
+        <translation>Ange en pfennig-adress (t.ex. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
     </message>
 </context>
 <context>
@@ -1484,16 +1484,16 @@ Adress: %4
         <translation>Debugloggfil</translation>
     </message>
     <message>
-        <source>Open the Pfennig debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Öppna Pfennig debug-loggfilen som finns i datakatalogen. Detta kan ta några sekunder för stora loggfiler.</translation>
+        <source>Open the pfennig debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Öppna pfennig debug-loggfilen som finns i datakatalogen. Detta kan ta några sekunder för stora loggfiler.</translation>
     </message>
     <message>
         <source>Clear console</source>
         <translation>Rensa konsollen</translation>
     </message>
     <message>
-        <source>Welcome to the Pfennig RPC console.</source>
-        <translation>Välkommen till Pfennig RPC-konsollen.</translation>
+        <source>Welcome to the pfennig RPC console.</source>
+        <translation>Välkommen till pfennig RPC-konsollen.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1555,8 +1555,8 @@ Adress: %4
         <translation>Åt&amp;eranvänd en existerande mottagningsadress (rekommenderas inte)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Pfennig network.</source>
-        <translation>Ett frivilligt meddelande att bifoga betalningsbegäran, vilket visas när begäran öppnas. NB: Meddelandet kommer inte att sändas med betalningen över Pfennignätverket.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the pfennig network.</source>
+        <translation>Ett frivilligt meddelande att bifoga betalningsbegäran, vilket visas när begäran öppnas. NB: Meddelandet kommer inte att sändas med betalningen över pfennignätverket.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1868,8 +1868,8 @@ Adress: %4
         <translation>Transaktionen avslogs! Detta kan hända om några av mynten i plånboken redan spenderats, t.ex om du använt en kopia av wallet.dat och mynt spenderades i kopian men inte markerats som spenderade här.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Pfennig address</source>
-        <translation>Varning: Felaktig Pfennigadress</translation>
+        <source>Warning: Invalid pfennig address</source>
+        <translation>Varning: Felaktig pfennigadress</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1955,8 +1955,8 @@ Adress: %4
         <translation>Ange en etikett för denna adress att adderas till listan över använda adresser</translation>
     </message>
     <message>
-        <source>A message that was attached to the pfennig: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Pfennig network.</source>
-        <translation>Ett meddelande som bifogades pfennig-URI, vilket lagras med transaktionen som referens. NB: Meddelandet kommer inte att sändas över Pfennignätverket.</translation>
+        <source>A message that was attached to the pfennig: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the pfennig network.</source>
+        <translation>Ett meddelande som bifogades pfennig-URI, vilket lagras med transaktionen som referens. NB: Meddelandet kommer inte att sändas över pfennignätverket.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -1974,8 +1974,8 @@ Adress: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Pfennig Core is shutting down...</source>
-        <translation>Pfennig Core stängs av...</translation>
+        <source>pfennig Core is shutting down...</source>
+        <translation>pfennig Core stängs av...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2029,7 +2029,7 @@ Adress: %4
         <translation>Kopiera signaturen till systemets Urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Pfennig address</source>
+        <source>Sign the message to prove you own this pfennig address</source>
         <translation>Signera meddelandet för att bevisa att du äger denna adress</translation>
     </message>
     <message>
@@ -2057,8 +2057,8 @@ Adress: %4
         <translation>Adressen som meddelandet var signerat med  (t.ex. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Pfennig address</source>
-        <translation>Verifiera meddelandet för att vara säker på att den var signerad med den angivna Pfennig-adressen</translation>
+        <source>Verify the message to ensure it was signed with the specified pfennig address</source>
+        <translation>Verifiera meddelandet för att vara säker på att den var signerad med den angivna pfennig-adressen</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2069,8 +2069,8 @@ Adress: %4
         <translation>Rensa alla fält</translation>
     </message>
     <message>
-        <source>Enter a Pfennig address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
-        <translation>Ange en Pfennig-adress (t.ex. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
+        <source>Enter a pfennig address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
+        <translation>Ange en pfennig-adress (t.ex. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
     </message>
     <message>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
@@ -2128,12 +2128,12 @@ Adress: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Pfennig Core</source>
-        <translation>Pfennig Kärna</translation>
+        <source>pfennig Core</source>
+        <translation>pfennig Kärna</translation>
     </message>
     <message>
         <source>The Bitcoin Core Developers</source>
-        <translation>Pfennig Core-utvecklarna</translation>
+        <translation>pfennig Core-utvecklarna</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2623,8 +2623,8 @@ Adress: %4
         <translation>Ange katalog för data</translation>
     </message>
     <message>
-        <source>Listen for connections on &lt;port&gt; (default: P2PPORT or testnet: 1P2PPORT)</source>
-        <translation>Lyssna efter anslutningar på &lt;port&gt; (förvalt: P2PPORT eller testnet: 1P2PPORT)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 40002 or testnet: 50001)</source>
+        <translation>Lyssna efter anslutningar på &lt;port&gt; (förvalt: 40002 eller testnet: 50001)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
@@ -2651,16 +2651,16 @@ Adress: %4
         <translation>Ett fel uppstod vid upprättandet av RPC port %u för att lyssna på IPv4: %s</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: RPCPORT or testnet: 1RPCPORT)</source>
-        <translation>Lyssna på JSON-RPC-anslutningar på &lt;port&gt; (förvalt: RPCPORT eller testnet: 1RPCPORT)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 40001 or testnet: 50000)</source>
+        <translation>Lyssna på JSON-RPC-anslutningar på &lt;port&gt; (förvalt: 40001 eller testnet: 50000)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
         <translation>Tillåt kommandon från kommandotolken och JSON-RPC-kommandon</translation>
     </message>
     <message>
-        <source>Pfennig Core RPC client version</source>
-        <translation>Pfennig Core RPC-klient version</translation>
+        <source>pfennig Core RPC client version</source>
+        <translation>pfennig Core RPC-klient version</translation>
     </message>
     <message>
         <source>Run in the background as a daemon and accept commands</source>
@@ -2684,7 +2684,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;pfennig Alert&quot; admin@foo.com
 </source>
         <translation>%s, du behöver sätta ett rpclösensord i konfigurationsfilen:
 %s
@@ -2695,7 +2695,7 @@ rpcpassword=%s
 Användarnamnet och lösenordet FÅR INTE bara detsamma.
 Om filen inte existerar, skapa den med enbart ägarläsbara filrättigheter.
 Det är också rekommenderat att sätta alertnotify så du meddelas om problem;
-till exempel: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.com
+till exempel: alertnotify=echo %%s | mail -s &quot;pfennig Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2767,8 +2767,8 @@ till exempel: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo
         <translation>Detta är ett förhands testbygge - använd på egen risk - använd inte för mining eller handels applikationer</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Pfennig Core is probably already running.</source>
-        <translation>Det går inte att binda till %s på den här datorn. Pfennig Core är förmodligen redan igång.</translation>
+        <source>Unable to bind to %s on this computer. pfennig Core is probably already running.</source>
+        <translation>Det går inte att binda till %s på den här datorn. pfennig Core är förmodligen redan igång.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: -proxy)</source>
@@ -2779,8 +2779,8 @@ till exempel: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo
         <translation>Varning: -paytxfee är satt väldigt hög! Detta är avgiften du kommer betala för varje transaktion.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Pfennig will not work properly.</source>
-        <translation>Varning: Vänligen kolla så att din dators datum och tid är korrekt! Om din klocka går fel kommer Pfennig inte fungera korrekt.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong pfennig will not work properly.</source>
+        <translation>Varning: Vänligen kolla så att din dators datum och tid är korrekt! Om din klocka går fel kommer pfennig inte fungera korrekt.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -2815,8 +2815,8 @@ till exempel: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo
         <translation>Försök att rädda de privata nycklarna från en korrupt wallet.dat</translation>
     </message>
     <message>
-        <source>Pfennig Core Daemon</source>
-        <translation>Pfennig Core tjänsten</translation>
+        <source>pfennig Core Daemon</source>
+        <translation>pfennig Core tjänsten</translation>
     </message>
     <message>
         <source>Block creation options:</source>
@@ -2835,8 +2835,8 @@ till exempel: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo
         <translation>Anslut genom SOCKS-proxy</translation>
     </message>
     <message>
-        <source>Connect to JSON-RPC on &lt;port&gt; (default: RPCPORT or testnet: 1RPCPORT)</source>
-        <translation>Anslut till JSON-RPC på &lt;port&gt; (förval: RPCPORT eller testnet: 1RPCPORT)</translation>
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: 40001 or testnet: 50000)</source>
+        <translation>Anslut till JSON-RPC på &lt;port&gt; (förval: 40001 eller testnet: 50000)</translation>
     </message>
     <message>
         <source>Connection options:</source>
@@ -3059,8 +3059,8 @@ till exempel: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo
         <translation>Importerar block från extern blk000??.dat fil</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Pfennig Core is probably already running.</source>
-        <translation>Kan inte låsa data-mappen %s. Pfennig Core körs förmodligen redan.</translation>
+        <source>Cannot obtain a lock on data directory %s. pfennig Core is probably already running.</source>
+        <translation>Kan inte låsa data-mappen %s. pfennig Core körs förmodligen redan.</translation>
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
@@ -3123,8 +3123,8 @@ till exempel: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo
         <translation>Skriv ut blockträdet vid uppstart (förvalt: 0)</translation>
     </message>
     <message>
-        <source>RPC SSL options: (see the Pfennig Wiki for SSL setup instructions)</source>
-        <translation>RPC SSL optioner: (se Pfennig Wiki för SSL inställningsinstruktioner)</translation>
+        <source>RPC SSL options: (see the pfennig Wiki for SSL setup instructions)</source>
+        <translation>RPC SSL optioner: (se pfennig Wiki för SSL inställningsinstruktioner)</translation>
     </message>
     <message>
         <source>RPC server options:</source>
@@ -3143,12 +3143,12 @@ till exempel: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo
         <translation>Kör en tråd för att tömma plånboken periodiskt (förvalt: 1)</translation>
     </message>
     <message>
-        <source>SSL options: (see the Pfennig Wiki for SSL setup instructions)</source>
-        <translation>SSL-inställningar: (se Pfennig-wikin för SSL-setup instruktioner)</translation>
+        <source>SSL options: (see the pfennig Wiki for SSL setup instructions)</source>
+        <translation>SSL-inställningar: (se pfennig-wikin för SSL-setup instruktioner)</translation>
     </message>
     <message>
-        <source>Send command to Pfennig Core</source>
-        <translation>Sänd kommando till Pfennig Core</translation>
+        <source>Send command to pfennig Core</source>
+        <translation>Sänd kommando till pfennig Core</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
@@ -3183,8 +3183,8 @@ till exempel: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo
         <translation>Ange timeout för uppkoppling i millisekunder (förvalt: 5000)</translation>
     </message>
     <message>
-        <source>Start Pfennig Core Daemon</source>
-        <translation>Starta Pfennig Core tjänsten</translation>
+        <source>Start pfennig Core Daemon</source>
+        <translation>Starta pfennig Core tjänsten</translation>
     </message>
     <message>
         <source>System error: </source>
@@ -3299,12 +3299,12 @@ till exempel: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo
         <translation>Fel vid inläsningen av wallet.dat: Plånboken är skadad</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Pfennig</source>
-        <translation>Fel vid inläsningen av wallet.dat: Plånboken kräver en senare version av Pfennig</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of pfennig</source>
+        <translation>Fel vid inläsningen av wallet.dat: Plånboken kräver en senare version av pfennig</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Pfennig to complete</source>
-        <translation>Plånboken behöver skrivas om: Starta om Pfennig för att färdigställa</translation>
+        <source>Wallet needed to be rewritten: restart pfennig to complete</source>
+        <translation>Plånboken behöver skrivas om: Starta om pfennig för att färdigställa</translation>
     </message>
     <message>
         <source>Error loading wallet.dat</source>

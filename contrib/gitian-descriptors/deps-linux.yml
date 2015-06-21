@@ -1,5 +1,5 @@
 ---
-name: "bitmark"
+name: "pfennig"
 suites:
 - "precise"
 architectures:
@@ -95,4 +95,4 @@ script: |
   done
   #
   cd $STAGING
-  find include lib bin host | sort | zip -X@ $OUTDIR/bitmark-deps-linux${GBUILD_BITS}-gitian-r9.zip
+  find include lib bin host | sort | zip -X@ $OUTDIR/pfennig-deps-linux${GBUILD_BITS}-gitian-r9.zip

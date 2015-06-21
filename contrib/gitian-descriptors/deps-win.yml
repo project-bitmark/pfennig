@@ -1,5 +1,5 @@
 ---
-name: "bitmark-deps"
+name: "pfennig-deps"
 suites:
 - "precise"
 architectures:
@@ -124,5 +124,5 @@ script: |
     done
     #
     cd $INSTALLPREFIX
-    find include lib | sort | zip -X@ $OUTDIR/bitmark-deps-win$BITS-gitian-r16.zip
+    find include lib | sort | zip -X@ $OUTDIR/pfennig-deps-win$BITS-gitian-r16.zip
   done # for BITS in

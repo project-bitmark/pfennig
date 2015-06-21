@@ -6,7 +6,7 @@ SetCompressor /SOLID lzma
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
 !define VERSION @CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@
-!define COMPANY "Project Bitmark"
+!define COMPANY "Gamecredits Foundation"
 !define URL http://github.com/project-bitmark/bitmark/
 
 # MUI Symbol Definitions
@@ -48,18 +48,18 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile @abs_top_srcdir@/bitmark-${VERSION}-win@WINDOWS_BITS@-setup.exe
+OutFile @abs_top_srcdir@/pfennig-${VERSION}-win@WINDOWS_BITS@-setup.exe
 !if "@WINDOWS_BITS@" == "64"
-InstallDir $PROGRAMFILES64\Bitmark
+InstallDir $PROGRAMFILES64\Gamecredits
 !else
-InstallDir $PROGRAMFILES\Bitmark
+InstallDir $PROGRAMFILES\Gamecredits
 !endif
 CRCCheck on
 XPStyle on
 BrandingText " "
 ShowInstDetails show
 VIProductVersion ${VERSION}.@CLIENT_VERSION_BUILD@
-VIAddVersionKey ProductName "Bitmark Core"
+VIAddVersionKey ProductName "Gamecredits Core"
 VIAddVersionKey ProductVersion "${VERSION}"
 VIAddVersionKey CompanyName "${COMPANY}"
 VIAddVersionKey CompanyWebsite "${URL}"
@@ -84,8 +84,8 @@ Section -Main SEC0000
     SetOutPath $INSTDIR
     WriteRegStr HKCU "${REGKEY}\Components" Main 1
 
-    # Remove old wxwidgets-based-bitmark executable and locales:
-    Delete /REBOOTOK $INSTDIR\bitmark.exe
+    # Remove old wxwidgets-based-pfennig executable and locales:
+    Delete /REBOOTOK $INSTDIR\pfennig.exe
     RMDir /r /REBOOTOK $INSTDIR\locale
 SectionEnd
 
@@ -106,10 +106,10 @@ Section -post SEC0001
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" UninstallString $INSTDIR\uninstall.exe
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoModify 1
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoRepair 1
-    WriteRegStr HKCR "bitmark" "URL Protocol" ""
-    WriteRegStr HKCR "bitmark" "" "URL:Bitmark"
-    WriteRegStr HKCR "bitmark\DefaultIcon" "" $INSTDIR\pfennig-qt.exe
-    WriteRegStr HKCR "bitmark\shell\open\command" "" '"$INSTDIR\pfennig-qt.exe" "%1"'
+    WriteRegStr HKCR "pfennig" "URL Protocol" ""
+    WriteRegStr HKCR "pfennig" "" "URL:Gamecredits"
+    WriteRegStr HKCR "pfennig\DefaultIcon" "" $INSTDIR\pfennig-qt.exe
+    WriteRegStr HKCR "pfennig\shell\open\command" "" '"$INSTDIR\pfennig-qt.exe" "%1"'
 SectionEnd
 
 # Macro for selecting uninstaller sections
@@ -139,7 +139,7 @@ Section -un.post UNSEC0001
     DeleteRegKey HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)"
     Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Uninstall $(^Name).lnk"
     Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\$(^Name).lnk"
-    Delete /REBOOTOK "$SMSTARTUP\Bitmark.lnk"
+    Delete /REBOOTOK "$SMSTARTUP\Gamecredits.lnk"
     Delete /REBOOTOK $INSTDIR\uninstall.exe
     Delete /REBOOTOK $INSTDIR\debug.log
     Delete /REBOOTOK $INSTDIR\db.log
@@ -147,7 +147,7 @@ Section -un.post UNSEC0001
     DeleteRegValue HKCU "${REGKEY}" Path
     DeleteRegKey /IfEmpty HKCU "${REGKEY}\Components"
     DeleteRegKey /IfEmpty HKCU "${REGKEY}"
-    DeleteRegKey HKCR "bitmark"
+    DeleteRegKey HKCR "pfennig"
     RmDir /REBOOTOK $SMPROGRAMS\$StartMenuGroup
     RmDir /REBOOTOK $INSTDIR
     Push $R0

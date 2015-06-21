@@ -1,5 +1,5 @@
 // Original Code: Copyright (c) 2011-2014 The Bitcoin Core Developers
-// Modified Code: Copyright (c) 2014 Project Bitmark
+// Modified Code: Copyright (c) 2015 Gamecredits Foundation
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -50,9 +50,9 @@ QString BitmarkUnits::description(int unit)
 {
     switch(unit)
     {
-    case PFG: return QString("Pfennigs");
-    case mPFG: return QString("mPfennigs (1 / 1,000)");
-    case uPFG: return QString("uPfennigs (1 / 1,000,000)");
+    case PFG: return QString("pfennigs");
+    case mPFG: return QString("mpfennigs (1 / 1,000)");
+    case uPFG: return QString("upfennigs (1 / 1,000,000)");
     default: return QString("???");
     }
 }
