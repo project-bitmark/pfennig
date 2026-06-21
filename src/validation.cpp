@@ -39,6 +39,7 @@
 #include <policy/truc_policy.h>
 #include <pow.h>
 #include <primitives/block.h>
+#include <primitives/pureheader.h>
 #include <primitives/transaction.h>
 #include <random.h>
 #include <script/script.h>
@@ -3955,8 +3956,10 @@ void ChainstateManager::ReceivedBlockTransactions(const CBlock& block, CBlockInd
 
 static bool CheckBlockHeader(const CBlockHeader& block, BlockValidationState& state, const Consensus::Params& consensusParams, bool fCheckPOW = true)
 {
-    // Check proof of work matches claimed amount
-    if (fCheckPOW && !CheckProofOfWork(block.GetHash(), block.nBits, consensusParams))
+    // Check proof of work matches claimed amount.
+    // PFENNIG: check the algorithm-specific PoW hash (GetBlockPoWHash), not the
+    // sha256d identity hash. Default policy keeps this == GetHash() (sha256d).
+    if (fCheckPOW && !CheckProofOfWork(GetBlockPoWHash(block), block.nBits, consensusParams))
         return state.Invalid(BlockValidationResult::BLOCK_INVALID_HEADER, "high-hash", "proof of work failed");
 
     return true;
@@ -4150,7 +4153,7 @@ std::vector<unsigned char> ChainstateManager::GenerateCoinbaseCommitment(CBlock&
 bool HasValidProofOfWork(const std::vector<CBlockHeader>& headers, const Consensus::Params& consensusParams)
 {
     return std::all_of(headers.cbegin(), headers.cend(),
-            [&](const auto& header) { return CheckProofOfWork(header.GetHash(), header.nBits, consensusParams);});
+            [&](const auto& header) { return CheckProofOfWork(GetBlockPoWHash(header), header.nBits, consensusParams);}); // PFENNIG: algo-aware PoW hash
 }
 
 bool IsBlockMutated(const CBlock& block, bool check_witness_root)

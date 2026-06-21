@@ -10,10 +10,22 @@
 
 #include <stdint.h>
 
+#include <functional>
+#include <optional>
+
 class CBlockHeader;
 class CBlockIndex;
 class uint256;
 class arith_uint256;
+
+/**
+ * Difficulty seam (Bitmark mPoW, BIP-101). A hook that returns a value overrides
+ * the default Bitcoin retarget in GetNextWorkRequired(); nullopt = fall through
+ * to the default. Bitmark injects per-algo DarkGravityWave v3 here (Phase 3).
+ * Unset by default, so stock difficulty behaviour is unchanged.
+ */
+using DifficultyHook = std::function<std::optional<unsigned int>(const CBlockIndex* pindexLast, const CBlockHeader* pblock, const Consensus::Params&)>;
+void SetDifficultyHook(DifficultyHook hook);
 
 /**
  * Convert nBits value to target.

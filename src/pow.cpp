@@ -11,9 +11,28 @@
 #include <uint256.h>
 #include <util/check.h>
 
+namespace {
+//! Injected difficulty policy (Bitmark DGWv3, Phase 3). Unset => default Bitcoin retarget.
+DifficultyHook g_difficulty_hook;
+} // namespace
+
+void SetDifficultyHook(DifficultyHook hook)
+{
+    g_difficulty_hook = std::move(hook);
+}
+
 unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHeader *pblock, const Consensus::Params& params)
 {
     assert(pindexLast != nullptr);
+
+    // Bitmark difficulty seam: if a policy is injected and it handles this block,
+    // use its result; otherwise fall through to the default Bitcoin retarget.
+    if (g_difficulty_hook) {
+        if (const std::optional<unsigned int> nbits = g_difficulty_hook(pindexLast, pblock, params)) {
+            return *nbits;
+        }
+    }
+
     unsigned int nProofOfWorkLimit = UintToArith256(params.powLimit).GetCompact();
 
     // Only change once per difficulty adjustment interval
